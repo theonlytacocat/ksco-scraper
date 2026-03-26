@@ -158,12 +158,18 @@ app.get('/api/run', async (req, res) => {
 });
 
 // Serve frontend
-const frontendDist =process.env.NODE_ENV === 'production' 
+const frontendDist = process.env.NODE_ENV === 'production' && process.env.STORAGE_DIR
   ? path.join(process.env.STORAGE_DIR, 'frontend', 'dist')
   : path.join(__dirname, 'frontend', 'dist');
-app.use(express.static(frontendDist));
+
+// Fallback to local dist if STORAGE_DIR doesn't have the files
+const fsExists = fs.existsSync(path.join(frontendDist, 'index.html'));
+const actualFrontendDist = fsExists ? frontendDist : path.join(__dirname, 'frontend', 'dist');
+
+console.log(`[${nowPST()}] Serving frontend from: ${actualFrontendDist}`);
+app.use(express.static(actualFrontendDist));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendDist, 'index.html'));
+  res.sendFile(path.join(actualFrontendDist, 'index.html'));
 });
 
 app.listen(PORT, () => {

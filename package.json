@@ -1,15 +1,11 @@
 {
   "name": "kitsap-jail-roster",
   "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "if [ \\$NODE_ENV == 'production' ]; then cp -r frontend/dist \\$STORAGE_DIR/frontend; fi"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0",
-    "express": "^4.18.2",
-    "node-cron": "^3.0.3"
+    "express": "^4.18.2"
   }
 }

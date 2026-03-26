@@ -135,7 +135,6 @@ app.get('/api/status', (req, res) => {
   const inCustody = Object.values(roster).filter(i => i.status === 'in_custody').length;
   res.json({
     inCustody,
-    totalTracked: inCustody,
     lastUpdated: nowPST(),
     views: metrics.views
   });

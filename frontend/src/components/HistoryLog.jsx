@@ -45,23 +45,22 @@ function getReleaseReason(entry) {
 }
 
 export default function HistoryLog({ entries }) {
-  // Group by date
+  // Group by date - each person appears only once
   const grouped = {}
-  
+
   entries.forEach(entry => {
-    // Group booked entries by booking date
     const bookedDate = formatDate(entry.bookingDate || entry.firstSeen)
     if (!grouped[bookedDate]) grouped[bookedDate] = { booked: [], released: [] }
-    
-    if (entry.status === 'in_custody' || !entry.releasedAt) {
-      grouped[bookedDate].booked.push({ ...entry, type: 'BOOKED' })
-    }
-    
-    // Group released entries by release date
+
+    // Released people only show in RELEASED section on their release date
+    // In-custody people show in BOOKED section on their booking date
     if (entry.releasedAt) {
       const releasedDate = formatDate(entry.releasedAt)
       if (!grouped[releasedDate]) grouped[releasedDate] = { booked: [], released: [] }
       grouped[releasedDate].released.push(entry)
+    } else {
+      // Only show in-custody under BOOKED
+      grouped[bookedDate].booked.push({ ...entry, type: 'BOOKED' })
     }
   })
 

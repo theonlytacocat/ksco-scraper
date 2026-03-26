@@ -157,6 +157,43 @@ app.get('/api/run', async (req, res) => {
   await runScrape();
 });
 
+// Temporary endpoint to upload data (remove after migration)
+app.post('/api/upload-data', express.json({ limit: '10mb' }), (req, res) => {
+  const { roster, log } = req.body;
+  
+  if (!roster || !log) {
+    return res.status(400).json({ error: 'Missing roster or log data' });
+  }
+  
+  const currentRoster = readJSON(ROSTER_FILE, {});
+  const currentLog = readJSON(LOG_FILE, []);
+  
+  // Merge roster - incoming data takes precedence
+  const mergedRoster = { ...currentRoster, ...roster };
+  
+  // Merge logs - combine and dedupe by bookingNumber + firstSeen
+  const logMap = new Map();
+  [...currentLog, ...log].forEach(entry => {
+    const key = `${entry.bookingNumber}-${entry.firstSeen}`;
+    if (!logMap.has(key)) {
+      logMap.set(key, entry);
+    }
+  });
+  const mergedLog = Array.from(logMap.values()).sort((a, b) => 
+    new Date(b.firstSeen) - new Date(a.firstSeen)
+  );
+  
+  writeJSON(ROSTER_FILE, mergedRoster);
+  writeJSON(LOG_FILE, mergedLog);
+  
+  console.log(`[${nowPST()}] Data uploaded: ${Object.keys(roster).length} roster entries, ${log.length} log entries`);
+  res.json({ 
+    message: 'Data uploaded successfully',
+    rosterCount: Object.keys(mergedRoster).length,
+    logCount: mergedLog.length
+  });
+});
+
 // Serve frontend
 const frontendDist = process.env.NODE_ENV === 'production' && process.env.STORAGE_DIR
   ? path.join(process.env.STORAGE_DIR, 'frontend', 'dist')

@@ -125,7 +125,7 @@ async function runScrape() {
   }
 }
 
-cron.schedule('0 * * * *', runScrape);
+cron.schedule('*/30 * * * *', runScrape);
 
 app.get('/api/status', (req, res) => {
   const roster = readJSON(ROSTER_FILE, {});

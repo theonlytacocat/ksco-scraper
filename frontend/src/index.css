@@ -1,111 +1,158 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  background: #f2ede4;
+  color: #2c1f14;
+  min-height: 100vh;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
+.app {
+  max-width: 860px;
   margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  padding: 0 1rem 3rem;
+}
+
+.header {
+  background: #3d2b1a;
+  margin: 0 -1rem;
+  padding: 1.5rem 2rem;
+  border-bottom: 4px solid #8b4a1e;
+  margin-bottom: 0;
+}
+.header-inner { display: flex; align-items: baseline; justify-content: space-between; }
+.header-county { color: #a08060; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 0.25rem; }
+.header h1 { color: #e8d9c4; font-size: 1.4rem; font-weight: 400; letter-spacing: 0.05em; }
+.header-sub { color: #a08060; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.statbar {
+  background: #c1440e;
+  margin: 0 -1rem 2rem;
+  padding: 0.6rem 2rem;
   display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  gap: 2rem;
+}
+.stat-num { color: #f5e8dc; font-size: 1.1rem; font-weight: 400; }
+.stat-label { color: #f5e8dc; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.8; }
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  background: #e8ddd0;
+  border: 1px solid #c9b89e;
+  padding: 0.5rem 0.75rem;
+  font-family: Georgia, serif;
+  font-size: 0.85rem;
+  color: #2c1f14;
+  outline: none;
+}
+.search-input:focus { border-color: #8b4a1e; }
+.filter-tabs { display: flex; gap: 0.5rem; }
+.filter-tabs button {
+  background: #e8ddd0;
+  border: 1px solid #c9b89e;
+  padding: 0.4rem 0.9rem;
+  font-family: Georgia, serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7a5c3e;
+  cursor: pointer;
+}
+.filter-tabs button.active {
+  background: #3d2b1a;
+  color: #e8d9c4;
+  border-color: #3d2b1a;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+.log-count {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a5c3e;
+  margin-bottom: 0.75rem;
+}
+.empty, .loading {
+  text-align: center;
+  color: #7a5c3e;
+  font-size: 0.85rem;
+  padding: 3rem;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
+.card {
+  border: 1px solid #c9b89e;
+  margin-bottom: 0.5rem;
+  background: #ede6da;
 }
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
+.card-released { opacity: 0.75; }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  gap: 1rem;
 }
-p {
-  margin: 0;
+.card-header:hover { background: #e4d9cc; }
+.card-name { font-size: 0.95rem; color: #1a0f07; margin-bottom: 0.2rem; }
+.card-meta { font-size: 0.65rem; color: #7a5c3e; text-transform: uppercase; letter-spacing: 0.07em; }
+.card-right { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
+.card-toggle { color: #7a5c3e; font-size: 0.7rem; }
+
+.badge {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid;
+}
+.badge-custody { background: #f0e4d4; border-color: #8b4a1e; color: #5a2a08; }
+.badge-released { background: #e4ddd4; border-color: #9a7a5a; color: #5a4a38; }
+
+.card-body { padding: 0 1rem 1rem; border-top: 1px solid #d8cbb8; }
+.card-release-row {
+  font-size: 0.75rem;
+  color: #5a3e28;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d8cbb8;
+  margin-bottom: 0.75rem;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.card-description {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.25rem 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
 }
+.desc-row { display: flex; flex-direction: column; }
+.desc-row span:first-child { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7a5c3e; }
+.desc-row span:last-child { font-size: 0.8rem; color: #2c1f14; }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.charges-title {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a5c3e;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid #d8cbb8;
+  padding-top: 0.75rem;
+}
+.charge-row {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e4ddd4;
+}
+.charge-row:last-child { border-bottom: none; }
+.charge-violation { font-size: 0.8rem; color: #2c1f14; margin-bottom: 0.2rem; }
+.charge-bail, .charge-court, .charge-agency {
+  font-size: 0.68rem;
+  color: #7a5c3e;
+  margin-top: 0.15rem;
 }

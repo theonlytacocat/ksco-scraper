@@ -314,7 +314,11 @@ export function getRecidivism(log) {
   });
 
   const repeats = Object.entries(byName)
-    .filter(([, bookings]) => bookings.length > 1)
+    .filter(([, bookings]) => {
+      // Only count as recidivism if there are multiple distinct booking numbers
+      const uniqueBns = new Set(bookings.map(b => b.bookingNumber));
+      return uniqueBns.size > 1;
+    })
     .sort((a, b) => b[1].length - a[1].length)
     .map(([name, bookings]) => ({ name, count: bookings.length, bookings }));
 
@@ -350,6 +354,16 @@ export function getBookingsByMonth(log) {
  * @param {Array} log - the full change_log array
  */
 export function buildStats(log) {
+  // Dedupe by bookingNumber — keep the latest entry (first in the array,
+  // since log is ordered newest-first). This prevents double-counting when
+  // the scraper re-adds existing bookings after a server restart.
+  const seen = new Set();
+  log = log.filter(e => {
+    if (!e.bookingNumber || seen.has(e.bookingNumber)) return false;
+    seen.add(e.bookingNumber);
+    return true;
+  });
+
   return {
     generatedAt: new Date().toISOString(),
     bookingCounts: getBookingCounts(log),

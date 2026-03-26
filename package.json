@@ -3,8 +3,8 @@
   "name": "kitsap-jail-roster",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "node -e \"if(process.env.NODE_ENV==='production'){const fs=require('fs');const path=require('path');const src=path.join(process.cwd(),'frontend','dist');const dest=path.join(process.env.STORAGE_DIR||'./data','frontend','dist');fs.mkdirSync(dest,{recursive:true});fs.cpSync(src,dest,{recursive:true});}\""
+    "build": "cd frontend && npm install && npm run build && node -e \"const fs=require('fs');const path=require('path');const src=path.join(process.cwd(),'..','frontend','dist');const dest=path.join(process.env.STORAGE_DIR||'./data','frontend','dist');fs.mkdirSync(dest,{recursive:true});fs.cpSync(src,dest,{recursive:true});console.log('Copied frontend to', dest);\"",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.13.6",

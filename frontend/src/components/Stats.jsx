@@ -18,16 +18,6 @@ const C = {
 
 const RACE_COLORS = ['#8b4a1e', '#c1440e', '#5a8a4a', '#4a6a8a', '#8a4a7a', '#6a8a4a']
 
-function StatBox({ label, value, sub }) {
-  return (
-    <div className="stat-box">
-      <div className="stat-box-num">{value ?? '—'}</div>
-      <div className="stat-box-label">{label}</div>
-      {sub && <div className="stat-box-sub">{sub}</div>}
-    </div>
-  )
-}
-
 function SectionTitle({ children }) {
   return <h3 className="stats-section-title">{children}</h3>
 }
@@ -105,11 +95,6 @@ function VBar({ data, dataKey = 'count', nameKey = 'label', colors, color = C.ru
   )
 }
 
-function pct(count, total) {
-  if (!total) return ''
-  return ` (${((count / total) * 100).toFixed(1)}%)`
-}
-
 export default function Stats() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -142,8 +127,7 @@ export default function Stats() {
     </div>
   )
 
-  const { bookingCounts, gender, race, age, topCharges, topAgencies,
-          bail, stay, releaseReasons, recidivism, bookingsByMonth } = data
+  const { bookingCounts, gender, race, age, topCharges, stay, bookingsByMonth } = data
 
   const total = bookingCounts.total
 
@@ -153,37 +137,11 @@ export default function Stats() {
         <Link to="/" className="back-link">← Main Page</Link>
         <h2>Jail Statistics</h2>
         <p className="stats-subtitle">
-          Aggregated from {total.toLocaleString()} booking records.
+          {total.toLocaleString()} bookings &middot; {bookingCounts.inCustody.toLocaleString()} in custody &middot; {bookingCounts.released.toLocaleString()} released
           {data.generatedAt && (
-            <> Updated {new Date(data.generatedAt).toLocaleString('en-US', { timeZone: 'America/Los_Angeles' })} PT.</>
+            <> &middot; {new Date(data.generatedAt).toLocaleString('en-US', { timeZone: 'America/Los_Angeles' })} PT</>
           )}
         </p>
-      </div>
-
-      {/* ── Overview ─────────────────────────────────────────────────────── */}
-      <div className="stats-card">
-        <SectionTitle>Overview</SectionTitle>
-        <div className="stat-boxes">
-          <StatBox label="Total Bookings" value={total.toLocaleString()} />
-          <StatBox
-            label="In Custody"
-            value={bookingCounts.inCustody.toLocaleString()}
-            sub={pct(bookingCounts.inCustody, total)}
-          />
-          <StatBox
-            label="Released"
-            value={bookingCounts.released.toLocaleString()}
-            sub={pct(bookingCounts.released, total)}
-          />
-          {age && <StatBox label="Median Age" value={age.median} sub={`mean ${age.mean}`} />}
-          {recidivism && (
-            <StatBox
-              label="Repeat Bookers"
-              value={`${recidivism.repeatBookerCount}`}
-              sub={`${recidivism.rate}% recidivism rate`}
-            />
-          )}
-        </div>
       </div>
 
       {/* ── Top Charges ──────────────────────────────────────────────────── */}
@@ -252,91 +210,20 @@ export default function Stats() {
         </div>
       )}
 
-      {/* ── Release Reasons ──────────────────────────────────────────────── */}
-      {releaseReasons?.length > 0 && (
+      {/* ── Length of Stay (released bookings only) ──────────────────────── */}
+      {stay && (
         <div className="stats-card">
-          <SectionTitle>Release Reasons</SectionTitle>
-          <p className="stats-card-note">Inferred from charge types for {bookingCounts.released} released bookings.</p>
-          <HBar data={releaseReasons} height={Math.max(180, releaseReasons.length * 36)} color={C.red} />
+          <SectionTitle>Length of Stay</SectionTitle>
+          <p className="stats-card-note">Based on {stay.count} completed release{stay.count !== 1 ? 's' : ''}.</p>
+          <div className="stats-age-meta">
+            <span>Min {stay.min}d</span>
+            <span>Median {stay.median}d</span>
+            <span>Mean {stay.mean}d</span>
+            <span>Max {stay.max}d</span>
+          </div>
+          <VBar data={stay.histogram} color={C.muted} />
         </div>
       )}
-
-      {/* ── Length of Stay ───────────────────────────────────────────────── */}
-      <div className="stats-card">
-        <SectionTitle>Length of Stay</SectionTitle>
-        {stay ? (
-          <>
-            <div className="stat-boxes">
-              <StatBox label="Mean Stay" value={`${stay.mean}d`} />
-              <StatBox label="Median Stay" value={`${stay.median}d`} />
-              <StatBox label="Min Stay" value={`${stay.min}d`} />
-              <StatBox label="Max Stay" value={`${stay.max}d`} />
-              <StatBox label="Sample Size" value={stay.count} />
-            </div>
-            <VBar data={stay.histogram} color={C.muted} />
-          </>
-        ) : (
-          <NoData msg="No completed stays in the dataset yet." />
-        )}
-      </div>
-
-      {/* ── Bail Stats ───────────────────────────────────────────────────── */}
-      <div className="stats-card">
-        <SectionTitle>Bail / Bond Amounts</SectionTitle>
-        {bail ? (
-          <div className="stat-boxes">
-            <StatBox label="Median Bail" value={`$${bail.median.toLocaleString()}`} />
-            <StatBox label="Mean Bail" value={`$${bail.mean.toLocaleString()}`} />
-            <StatBox label="Min" value={`$${bail.min.toLocaleString()}`} />
-            <StatBox label="Max" value={`$${bail.max.toLocaleString()}`} />
-            <StatBox label="Sample" value={bail.count} />
-          </div>
-        ) : (
-          <NoData msg="No bail/bond data available from the source — the jail roster does not publish bond amounts." />
-        )}
-      </div>
-
-      {/* ── Arresting Agencies ───────────────────────────────────────────── */}
-      <div className="stats-card">
-        <SectionTitle>Top Arresting Agencies</SectionTitle>
-        {topAgencies?.length > 0 ? (
-          <HBar data={topAgencies} color={C.rust} />
-        ) : (
-          <NoData msg="Arresting agency data not available from the source." />
-        )}
-      </div>
-
-      {/* ── Recidivism ───────────────────────────────────────────────────── */}
-      <div className="stats-card">
-        <SectionTitle>Recidivism</SectionTitle>
-        {recidivism?.repeatBookerCount > 0 ? (
-          <>
-            <div className="stat-boxes">
-              <StatBox label="Repeat Bookers" value={recidivism.repeatBookerCount} />
-              <StatBox label="Total Individuals" value={recidivism.totalIndividuals} />
-              <StatBox label="Recidivism Rate" value={`${recidivism.rate}%`} />
-            </div>
-            <table className="stats-table stats-recidivism-table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th className="stats-table-num">Bookings</th>
-                </tr>
-              </thead>
-              <tbody>
-                {recidivism.repeatBookers.map(r => (
-                  <tr key={r.name}>
-                    <td>{r.name}</td>
-                    <td className="stats-table-num">{r.count}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </>
-        ) : (
-          <NoData msg="No repeat bookings detected yet." />
-        )}
-      </div>
     </div>
   )
 }

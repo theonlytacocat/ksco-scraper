@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
+import { BrowserRouter, Routes, Route, Link, useSearchParams } from 'react-router-dom'
 import Header from './components/Header'
 import StatBar from './components/StatBar'
 import BookingLog from './components/BookingLog'
 
-export default function App() {
+function InCustodyPage() {
   const [log, setLog] = useState([])
   const [status, setStatus] = useState(null)
   const [search, setSearch] = useState('')
-  const [filter, setFilter] = useState('all')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -15,20 +15,15 @@ export default function App() {
       fetch('/api/log').then(r => r.json()),
       fetch('/api/status').then(r => r.json())
     ]).then(([logData, statusData]) => {
-      setLog(logData)
+      setLog(logData.filter(e => e.status === 'in_custody'))
       setStatus(statusData)
       setLoading(false)
     })
   }, [])
 
-  const filtered = log.filter(entry => {
-    const matchSearch = entry.name.toLowerCase().includes(search.toLowerCase())
-    const matchFilter =
-      filter === 'all' ||
-      (filter === 'in_custody' && entry.status === 'in_custody') ||
-      (filter === 'released' && entry.status === 'released')
-    return matchSearch && matchFilter
-  })
+  const filtered = log.filter(entry =>
+    entry.name.toLowerCase().includes(search.toLowerCase())
+  )
 
   return (
     <div className="app">
@@ -43,16 +38,67 @@ export default function App() {
           className="search-input"
         />
         <div className="filter-tabs">
-          <button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>All</button>
-          <button className={filter === 'in_custody' ? 'active' : ''} onClick={() => setFilter('in_custody')}>In Custody</button>
-          <button className={filter === 'released' ? 'active' : ''} onClick={() => setFilter('released')}>Released</button>
+          <Link to="/" className="active">In Custody</Link>
+          <Link to="/released">Released</Link>
         </div>
       </div>
       {loading ? (
-        <div className="loading">Loadi0ng records...</div>
+        <div className="loading">Loading records...</div>
       ) : (
         <BookingLog entries={filtered} />
       )}
     </div>
+  )
+}
+
+function ReleasedPage() {
+  const [log, setLog] = useState([])
+  const [search, setSearch] = useState('')
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetch('/api/log').then(r => r.json()).then(logData => {
+      setLog(logData.filter(e => e.status === 'released'))
+      setLoading(false)
+    })
+  }, [])
+
+  const filtered = log.filter(entry =>
+    entry.name.toLowerCase().includes(search.toLowerCase())
+  )
+
+  return (
+    <div className="app">
+      <Header />
+      <div className="controls">
+        <input
+          type="text"
+          placeholder="Search by name..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          className="search-input"
+        />
+        <div className="filter-tabs">
+          <Link to="/">In Custody</Link>
+          <Link to="/released" className="active">Released</Link>
+        </div>
+      </div>
+      {loading ? (
+        <div className="loading">Loading records...</div>
+      ) : (
+        <BookingLog entries={filtered} />
+      )}
+    </div>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<InCustodyPage />} />
+        <Route path="/released" element={<ReleasedPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

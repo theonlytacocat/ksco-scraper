@@ -157,6 +157,15 @@ app.get('/api/run', async (req, res) => {
   await runScrape();
 });
 
+// Serve frontend
+const frontendDist =process.env.NODE_ENV === 'production' 
+  ? path.join(process.env.STORAGE_DIR, 'frontend', 'dist')
+  : path.join(__dirname, 'frontend', 'dist');
+app.use(express.static(frontendDist));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(frontendDist, 'index.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`[${nowPST()}] Kitsap Jail Roster running on port ${PORT}`);
   runScrape();

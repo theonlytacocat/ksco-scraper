@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "postinstall": "if [ \"$NODE_ENV\" = \"production\" ]; then mkdir -p $STORAGE_DIR/frontend/dist && cp -r frontend/dist/* $STORAGE_DIR/frontend/dist; fi"
+    "postinstall": "node -e \"if(process.env.NODE_ENV==='production'){const fs=require('fs');const path=require('path');const src=path.join(process.cwd(),'frontend','dist');const dest=path.join(process.env.STORAGE_DIR||'./data','frontend','dist');fs.mkdirSync(dest,{recursive:true});fs.cpSync(src,dest,{recursive:true});}\""
   },
   "dependencies": {
     "axios": "^1.13.6",

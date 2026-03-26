@@ -4,6 +4,7 @@ import Header from './components/Header'
 import StatBar from './components/StatBar'
 import BookingCard from './components/BookingCard'
 import HistoryLog from './components/HistoryLog'
+import Stats from './components/Stats'
 
 function InCustodyPage() {
   const [log, setLog] = useState([])
@@ -46,6 +47,7 @@ function InCustodyPage() {
           <Link to="/" className="active">In Custody</Link>
           <Link to="/released">Released</Link>
           <Link to="/history">History</Link>
+          <Link to="/stats">Stats</Link>
         </div>
       </div>
       {loading ? (
@@ -92,6 +94,7 @@ function ReleasedPage() {
           <Link to="/">In Custody</Link>
           <Link to="/released" className="active">Released</Link>
           <Link to="/history">History</Link>
+          <Link to="/stats">Stats</Link>
         </div>
       </div>
       {loading ? (
@@ -122,6 +125,7 @@ function HistoryPage() {
           <Link to="/">In Custody</Link>
           <Link to="/released">Released</Link>
           <Link to="/history" className="active">History</Link>
+          <Link to="/stats">Stats</Link>
         </div>
       </div>
       {loading ? (
@@ -129,6 +133,23 @@ function HistoryPage() {
       ) : (
         <HistoryLog entries={log} />
       )}
+    </div>
+  )
+}
+
+function StatsPage() {
+  return (
+    <div className="app">
+      <Header />
+      <div className="controls">
+        <div className="filter-tabs">
+          <Link to="/">In Custody</Link>
+          <Link to="/released">Released</Link>
+          <Link to="/history">History</Link>
+          <Link to="/stats" className="active">Stats</Link>
+        </div>
+      </div>
+      <Stats />
     </div>
   )
 }
@@ -154,6 +175,7 @@ export default function App() {
         <Route path="/" element={<InCustodyPage />} />
         <Route path="/released" element={<ReleasedPage />} />
         <Route path="/history" element={<HistoryPage />} />
+        <Route path="/stats" element={<StatsPage />} />
       </Routes>
     </BrowserRouter>
   )

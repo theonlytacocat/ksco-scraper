@@ -6,6 +6,7 @@ import { dirname } from 'path';
 import cron from 'node-cron';
 import { fetchRoster, fetchDetail } from './scrapers/kitsap.js';
 import { nowPST } from './utils.js';
+import { buildStats } from './stats.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -161,6 +162,11 @@ app.get('/api/inmate/:bookingNumber', (req, res) => {
   const inmate = roster[req.params.bookingNumber];
   if (!inmate) return res.status(404).json({ error: 'Not found' });
   res.json(inmate);
+});
+
+app.get('/api/stats', (req, res) => {
+  const log = readJSON(LOG_FILE, []);
+  res.json(buildStats(log));
 });
 
 app.get('/api/run', async (req, res) => {

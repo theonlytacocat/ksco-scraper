@@ -258,3 +258,165 @@ body {
   color: #3d2b1a;
   font-style: italic;
 }
+
+/* ── Stats Page ──────────────────────────────────────────────────────────── */
+.stats-page {
+  padding-bottom: 4rem;
+}
+
+.stats-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #c9b89e;
+}
+.stats-header h2 {
+  font-size: 1.3rem;
+  color: #1a0f07;
+  margin: 0.5rem 0;
+}
+.stats-subtitle {
+  font-size: 0.72rem;
+  color: #7a5c3e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stats-card {
+  background: #ede6da;
+  border: 1px solid #c9b89e;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stats-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  .stats-grid-2 { grid-template-columns: 1fr; }
+}
+
+.stats-section-title {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #c1440e;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #d8cbb8;
+}
+
+.stats-card-note {
+  font-size: 0.7rem;
+  color: #7a5c3e;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.stats-nodata {
+  font-size: 0.8rem;
+  color: #7a5c3e;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+/* Overview boxes */
+.stat-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.stat-box {
+  flex: 1;
+  min-width: 100px;
+  background: #e4d9cc;
+  border: 1px solid #c9b89e;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.stat-box-num {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #3d2b1a;
+  line-height: 1.1;
+}
+.stat-box-label {
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #7a5c3e;
+  margin-top: 0.2rem;
+}
+.stat-box-sub {
+  font-size: 0.65rem;
+  color: #8b4a1e;
+  margin-top: 0.15rem;
+}
+
+/* Age meta row */
+.stats-age-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.72rem;
+  color: #7a5c3e;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.75rem;
+}
+
+/* Tables */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+}
+.stats-table th {
+  text-align: left;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7a5c3e;
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid #c9b89e;
+}
+.stats-table td {
+  padding: 0.35rem 0.5rem;
+  color: #2c1f14;
+  border-bottom: 1px solid #e4ddd4;
+}
+.stats-table tr:last-child td { border-bottom: none; }
+.stats-table-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.stats-table-pct {
+  text-align: right;
+  color: #7a5c3e;
+  font-size: 0.72rem;
+}
+
+.stats-recidivism-table { margin-top: 1rem; }
+
+/* Recharts tooltip */
+.stats-tooltip {
+  background: #3d2b1a;
+  border: none;
+  padding: 0.4rem 0.75rem;
+  font-family: Georgia, serif;
+}
+.stats-tooltip-label {
+  font-size: 0.7rem;
+  color: #a08060;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.stats-tooltip-val {
+  font-size: 1rem;
+  color: #e8d9c4;
+}

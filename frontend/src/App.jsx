@@ -16,7 +16,11 @@ function InCustodyPage() {
       fetch('/api/log').then(r => r.json()),
       fetch('/api/status').then(r => r.json())
     ]).then(([logData, statusData]) => {
-      setLog(logData.filter(e => e.status === 'in_custody'))
+      // Filter in-custody and sort by firstSeen descending (newest first)
+      const inCustody = logData
+        .filter(e => e.status === 'in_custody')
+        .sort((a, b) => new Date(b.firstSeen) - new Date(a.firstSeen))
+      setLog(inCustody)
       setStatus(statusData)
       setLoading(false)
     })
@@ -60,7 +64,11 @@ function ReleasedPage() {
 
   useEffect(() => {
     fetch('/api/log').then(r => r.json()).then(logData => {
-      setLog(logData.filter(e => e.status === 'released'))
+      // Filter released and sort by releasedAt descending (newest first)
+      const released = logData
+        .filter(e => e.status === 'released')
+        .sort((a, b) => new Date(b.releasedAt) - new Date(a.releasedAt))
+      setLog(released)
       setLoading(false)
     })
   }, [])

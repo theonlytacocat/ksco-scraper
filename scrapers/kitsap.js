@@ -71,23 +71,29 @@ export async function fetchDetail(detailUrl) {
     const $ = cheerio.load(response.data);
 
     const charges = [];
-    $('.charge-block, table tr').each((i, el) => {
+    
+    // Try multiple selectors for charge blocks
+    $('.charge-block, .charge-info, table tr, .detail-row').each((i, el) => {
       const text = $(el).text().trim();
-      if (text.includes('Violation:')) {
-        const violationMatch =    text.match(/Violation:\s*([^\n]+)/);
-        const bondMatch =         text.match(/Req\.\s*Bond\s*Amt:\s*\$\s*([\d,]+\.?\d*)/);
-        const cashMatch =         text.match(/Req\.\s*Cash\s*Amt:\s*\$\s*([\d,]+\.?\d*)/);
-        const courtCaseMatch =    text.match(/Court\s*Case\s*#:\s*(\S+)/);
-        const nextCourtMatch =    text.match(/Next\s*Court\s*Date\s+([\d\/]+)/);
-        const arrestAgencyMatch = text.match(/Arrest\s*Agency:\s*(.+?)(?=\s*Case\s*#:)/s);
-        const arrestDateMatch =   text.match(/Arrest\s*Date:\s*([\d\/]+)/);
-        const courtTypeMatch =    text.match(/Court\s*Type:\s*(\S+)/);
+      
+      // Look for violation/charge text
+      if (text.includes('Violation:') || text.includes('Charge:') || text.includes('Statute:')) {
+        const violationMatch = text.match(/(?:Violation|Charge):\s*([^\n]+)/i);
+        
+        // Try multiple patterns for bond/bail
+        const bondMatch = text.match(/(?:Req\.?\s*)?(?:Bond|Bail)\s*(?:Amt|Amount)?[:\s]*\$?\s*([\d,]+\.?\d*)/i);
+        const cashMatch = text.match(/(?:Req\.?\s*)?Cash\s*(?:Amt|Amount)?[:\s]*\$?\s*([\d,]+\.?\d*)/i);
+        const courtCaseMatch = text.match(/(?:Court\s*Case|#)\s*#?\s*:\s*(\S+)/i);
+        const nextCourtMatch = text.match(/(?:Next\s*Court\s*Date)\s*[:\s]*([\d\/]+)/i);
+        const arrestAgencyMatch = text.match(/(?:Arrest\s*Agency)\s*[:\s]*(.+?)(?=\s*(?:Case|Court|$))/is);
+        const arrestDateMatch = text.match(/(?:Arrest\s*Date)\s*[:\s]*([\d\/]+)/i);
+        const courtTypeMatch = text.match(/(?:Court\s*Type)\s*[:\s]*(\S+)/i);
 
         if (violationMatch) {
           charges.push({
             violation:     violationMatch[1].trim(),
-            bondAmount:    bondMatch ? `$${bondMatch[1]}` : null,
-            cashAmount:    cashMatch ? `$${cashMatch[1]}` : null,
+            bondAmount:    bondMatch ? `$${bondMatch[1].replace(/,/g, '')}` : null,
+            cashAmount:    cashMatch ? `$${cashMatch[1].replace(/,/g, '')}` : null,
             courtCase:     courtCaseMatch ? courtCaseMatch[1].trim() : null,
             nextCourtDate: nextCourtMatch ? nextCourtMatch[1].trim() : null,
             arrestAgency:  arrestAgencyMatch ? arrestAgencyMatch[1].trim() : null,
@@ -98,21 +104,41 @@ export async function fetchDetail(detailUrl) {
       }
     });
 
+    // Also try to find bail info in a separate section
+    const bailInfo = {};
+    $('div:contains("Bond"), div:contains("Bail"), span:contains("Bond"), span:contains("Bail")').each((i, el) => {
+      const text = $(el).text().trim();
+      const totalBondMatch = text.match(/\$?\s*([\d,]+\.?\d*)/i);
+      if (totalBondMatch && !bailInfo.totalBond) {
+        bailInfo.totalBond = `$${totalBondMatch[1].replace(/,/g, '')}`;
+      }
+    });
+
     const bodyText = $('body').text();
 
     const age =      bodyText.match(/Age:\s*(\d+)/)?.[1] || null;
     const height =   bodyText.match(/Height:\s*(\d+)/)?.[1] || null;
     const weight =   bodyText.match(/Weight:\s*(\d+)/)?.[1] || null;
-    const hair =     bodyText.match(/Hair:\s*([A-Z]+)/)?.[1] || null;
-    const eyes =     bodyText.match(/Eyes:\s*([A-Z]+)/)?.[1] || null;
+    const hair =     bodyText.match(/Hair:\s*([A-Z]+)/i)?.[1] || null;
+    const eyes =     bodyText.match(/Eyes:\s*([A-Z]+)/i)?.[1] || null;
     const inmateId = bodyText.match(/Inmate ID:\s*(\d+)/)?.[1] || null;
 
     const schedRelease = (() => {
-      const match = bodyText.match(/Sched\.\s*Release:\s*([\d\/]+)/);
+      const match = bodyText.match(/Sched\.\s*Release:\s*([\d\/]+)/i);
       return match ? match[1].trim() : null;
     })();
 
-    return { inmateId, schedRelease, age, height, weight, hair, eyes, charges };
+    return { 
+      inmateId, 
+      schedRelease, 
+      age, 
+      height, 
+      weight, 
+      hair, 
+      eyes, 
+      charges,
+      totalBond: bailInfo.totalBond || null
+    };
 
   } catch (err) {
     console.error(`Failed to fetch detail for ${detailUrl}:`, err.message);

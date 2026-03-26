@@ -156,10 +156,9 @@ export function getBailStats(log) {
   const amounts = [];
   log.forEach(entry => {
     (entry.charges || []).forEach(c => {
-      const b = parseFloat(c.bondAmount);
-      if (!isNaN(b) && b > 0) amounts.push(b);
-      const cash = parseFloat(c.cashAmount);
-      if (!isNaN(cash) && cash > 0) amounts.push(cash);
+      // bondAmount/cashAmount stored as numbers by the scraper
+      if (c.bondAmount > 0) amounts.push(c.bondAmount);
+      if (c.cashAmount > 0) amounts.push(c.cashAmount);
     });
   });
 
@@ -226,8 +225,8 @@ export function getBailByCharge(log) {
   log.forEach(entry => {
     (entry.charges || []).forEach(c => {
       const cat = normalizeCharge(c.violation);
-      const b = parseFloat(c.bondAmount) || parseFloat(c.cashAmount);
-      if (!isNaN(b) && b > 0) {
+      const b = (c.bondAmount > 0 ? c.bondAmount : null) || (c.cashAmount > 0 ? c.cashAmount : null);
+      if (b) {
         if (!byCategory[cat]) byCategory[cat] = [];
         byCategory[cat].push(b);
       }

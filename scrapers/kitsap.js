@@ -70,74 +70,122 @@ export async function fetchDetail(detailUrl) {
     const response = await axios.get(detailUrl, { headers: HEADERS });
     const $ = cheerio.load(response.data);
 
-    const charges = [];
-    
-    // Try multiple selectors for charge blocks
-    $('.charge-block, .charge-info, table tr, .detail-row').each((i, el) => {
-      const text = $(el).text().trim();
-      
-      // Look for violation/charge text
-      if (text.includes('Violation:') || text.includes('Charge:') || text.includes('Statute:')) {
-        const violationMatch = text.match(/(?:Violation|Charge):\s*([^\n]+)/i);
-        
-        // Try multiple patterns for bond/bail
-        const bondMatch = text.match(/(?:Req\.?\s*)?(?:Bond|Bail)\s*(?:Amt|Amount)?[:\s]*\$?\s*([\d,]+\.?\d*)/i);
-        const cashMatch = text.match(/(?:Req\.?\s*)?Cash\s*(?:Amt|Amount)?[:\s]*\$?\s*([\d,]+\.?\d*)/i);
-        const courtCaseMatch = text.match(/(?:Court\s*Case|#)\s*#?\s*:\s*(\S+)/i);
-        const nextCourtMatch = text.match(/(?:Next\s*Court\s*Date)\s*[:\s]*([\d\/]+)/i);
-        const arrestAgencyMatch = text.match(/(?:Arrest\s*Agency)\s*[:\s]*(.+?)(?=\s*(?:Case|Court|$))/is);
-        const arrestDateMatch = text.match(/(?:Arrest\s*Date)\s*[:\s]*([\d\/]+)/i);
-        const courtTypeMatch = text.match(/(?:Court\s*Type)\s*[:\s]*(\S+)/i);
-
-        if (violationMatch) {
-          charges.push({
-            violation:     violationMatch[1].trim(),
-            bondAmount:    bondMatch ? `$${bondMatch[1].replace(/,/g, '')}` : null,
-            cashAmount:    cashMatch ? `$${cashMatch[1].replace(/,/g, '')}` : null,
-            courtCase:     courtCaseMatch ? courtCaseMatch[1].trim() : null,
-            nextCourtDate: nextCourtMatch ? nextCourtMatch[1].trim() : null,
-            arrestAgency:  arrestAgencyMatch ? arrestAgencyMatch[1].trim() : null,
-            arrestDate:    arrestDateMatch ? arrestDateMatch[1].trim() : null,
-            courtType:     courtTypeMatch ? courtTypeMatch[1].trim() : null
-          });
-        }
-      }
-    });
-
-    // Also try to find bail info in a separate section
-    const bailInfo = {};
-    $('div:contains("Bond"), div:contains("Bail"), span:contains("Bond"), span:contains("Bail")').each((i, el) => {
-      const text = $(el).text().trim();
-      const totalBondMatch = text.match(/\$?\s*([\d,]+\.?\d*)/i);
-      if (totalBondMatch && !bailInfo.totalBond) {
-        bailInfo.totalBond = `$${totalBondMatch[1].replace(/,/g, '')}`;
-      }
-    });
-
+    // Physical description — pull from full body text
     const bodyText = $('body').text();
-
     const age =      bodyText.match(/Age:\s*(\d+)/)?.[1] || null;
     const height =   bodyText.match(/Height:\s*(\d+)/)?.[1] || null;
     const weight =   bodyText.match(/Weight:\s*(\d+)/)?.[1] || null;
     const hair =     bodyText.match(/Hair:\s*([A-Z]+)/i)?.[1] || null;
     const eyes =     bodyText.match(/Eyes:\s*([A-Z]+)/i)?.[1] || null;
-    const inmateId = bodyText.match(/Inmate ID:\s*(\d+)/)?.[1] || null;
+    const inmateId = bodyText.match(/Inmate\s*ID:\s*(\d+)/)?.[1] || null;
+    const schedRelease = bodyText.match(/Sched\.?\s*Release:\s*([\d\/]+)/i)?.[1]?.trim() || null;
 
-    const schedRelease = (() => {
-      const match = bodyText.match(/Sched\.\s*Release:\s*([\d\/]+)/i);
-      return match ? match[1].trim() : null;
-    })();
+    // Parse charges by walking all table rows in document order.
+    //
+    // Page structure (repeats for each charge):
+    //   [N]                                      ← charge number row (single td, digits only)
+    //   [Violation: TEXT]  [Level: X]
+    //   [Add. Desc.: ...]  [OBTS #: ...]
+    //   [War.#: ...]       [End Of Sentence Date: ...]  [Clearance: ...]
+    //   [Arrest Information]                     ← section header
+    //   [Arrest Agency: ...]  [Case #: ...]  [Arrest Date: MM/DD/YYYY]
+    //   []                                       ← empty spacer
+    //   [Court & Bail/Bond Information]          ← section header
+    //   [Court Type: X]  [Court Case #: ...]  [Next Court Date MM/DD/YYYY]
+    //   [Req. Bond/Bail: ...]  [Bond Group #: ...]  []
+    //   [Req. Bond Amt: $X]  [Req. Cash Amt: $X]  [Bond Co. #: ...]
 
-    return { 
-      inmateId, 
-      schedRelease, 
-      age, 
-      height, 
-      weight, 
-      hair, 
-      eyes, 
+    const rows = $('table tr').toArray();
+    const charges = [];
+    let cur = null;
+
+    function parseDollars(text) {
+      const m = text.match(/\$\s*([\d,]+\.?\d*)/);
+      if (!m) return null;
+      const v = parseFloat(m[1].replace(/,/g, ''));
+      return v > 0 ? v : null;
+    }
+
+    for (const row of rows) {
+      const tds = $(row).find('td').map((_, td) => $(td).text().trim()).get();
+      if (!tds.length) continue;
+      const first = tds[0];
+
+      // Charge number boundary: single td containing only digits
+      if (tds.length === 1 && /^\d+$/.test(first)) {
+        if (cur) charges.push(cur);
+        cur = null;
+        continue;
+      }
+
+      // Violation row — starts a new charge block
+      if (/^Violation:/i.test(first)) {
+        if (cur) charges.push(cur);
+        cur = {
+          violation:     first.replace(/^Violation:\s*/i, '').trim(),
+          bondAmount:    null,
+          cashAmount:    null,
+          courtCase:     null,
+          nextCourtDate: null,
+          arrestAgency:  null,
+          arrestDate:    null,
+          courtType:     null,
+        };
+        continue;
+      }
+
+      if (!cur) continue;
+
+      // Arrest info row
+      if (/^Arrest Agency:/i.test(first)) {
+        for (const td of tds) {
+          if (/^Arrest Agency:/i.test(td))
+            cur.arrestAgency = td.replace(/^Arrest Agency:\s*/i, '').trim() || null;
+          else if (/^Arrest Date:/i.test(td))
+            cur.arrestDate = td.replace(/^Arrest Date:\s*/i, '').trim() || null;
+        }
+        continue;
+      }
+
+      // Court type / court case / next court date row
+      if (/^Court Type:/i.test(first)) {
+        for (const td of tds) {
+          if (/^Court Type:/i.test(td))
+            cur.courtType = td.replace(/^Court Type:\s*/i, '').trim() || null;
+          else if (/^Court Case\s*#:/i.test(td))
+            cur.courtCase = td.replace(/^Court Case\s*#:\s*/i, '').trim() || null;
+          else if (/^Next Court Date/i.test(td)) {
+            const m = td.match(/Next Court Date\s*([\d\/]+)/i);
+            if (m) cur.nextCourtDate = m[1].trim();
+          }
+        }
+        continue;
+      }
+
+      // Bond amounts row
+      if (/^Req\.?\s*Bond\s*Amt/i.test(first)) {
+        for (const td of tds) {
+          if (/^Req\.?\s*Bond\s*Amt/i.test(td))  cur.bondAmount = parseDollars(td);
+          if (/^Req\.?\s*Cash\s*Amt/i.test(td))  cur.cashAmount = parseDollars(td);
+        }
+        continue;
+      }
+    }
+
+    if (cur) charges.push(cur);
+
+    const totalBond = charges.reduce((s, c) => s + (c.bondAmount || 0) + (c.cashAmount || 0), 0);
+
+    return {
+      inmateId,
+      schedRelease,
+      age,
+      height,
+      weight,
+      hair,
+      eyes,
       charges,
-      totalBond: bailInfo.totalBond || null
+      totalBond: totalBond > 0 ? totalBond : null,
     };
 
   } catch (err) {

@@ -135,7 +135,7 @@ app.get('/api/status', (req, res) => {
   const inCustody = Object.values(roster).filter(i => i.status === 'in_custody').length;
   res.json({
     inCustody,
-    totalTracked: readJSON(LOG_FILE, []).length,
+    totalTracked: inCustody,
     lastUpdated: nowPST(),
     views: metrics.views
   });
@@ -148,7 +148,13 @@ app.get('/api/log', (req, res) => {
     ...entry,
     status: entry.status || (entry.releasedAt ? 'released' : 'in_custody')
   }));
-  res.json(normalized);
+  // Sort: in_custody first, then released (by firstSeen desc within each group)
+  const sorted = normalized.sort((a, b) => {
+    if (a.status === 'in_custody' && b.status === 'released') return -1;
+    if (a.status === 'released' && b.status === 'in_custody') return 1;
+    return new Date(b.firstSeen) - new Date(a.firstSeen);
+  });
+  res.json(sorted);
 });
 
 app.get('/api/inmate/:bookingNumber', (req, res) => {

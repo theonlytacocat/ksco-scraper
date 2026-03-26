@@ -142,7 +142,13 @@ app.get('/api/status', (req, res) => {
 });
 
 app.get('/api/log', (req, res) => {
-  res.json(readJSON(LOG_FILE, []));
+  const log = readJSON(LOG_FILE, []);
+  // Normalize status field - ensure all entries have proper status
+  const normalized = log.map(entry => ({
+    ...entry,
+    status: entry.status || (entry.releasedAt ? 'released' : 'in_custody')
+  }));
+  res.json(normalized);
 });
 
 app.get('/api/inmate/:bookingNumber', (req, res) => {

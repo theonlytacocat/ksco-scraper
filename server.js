@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import cron from 'node-cron';
-import { fetchRoster, fetchDetail } from './scrapers/kitsap.js';
+import { fetchRoster, fetchDetail, fetchRecentReleases } from './scrapers/kitsap.js';
 import { nowPST } from './utils.js';
 import { buildStats } from './stats.js';
 
@@ -112,10 +112,17 @@ async function runScrape() {
     }
 
     const released = [...previousIds].filter(id => !currentIds.has(id) && roster[id]?.status === 'in_custody');
+
+    // Fetch exact release times from the sheriff's 24-hour XML feed
+    let recentReleases = {};
+    if (released.length > 0) {
+      recentReleases = await fetchRecentReleases();
+    }
+
     for (const id of released) {
       const inmate = roster[id];
       console.log(`  RELEASED: ${inmate.lastName}, ${inmate.firstName}`);
-      const releasedAt = nowPST();
+      const releasedAt = recentReleases[id] || nowPST();
       roster[id].status = 'released';
       roster[id].releasedAt = releasedAt;
       const logEntry = log.find(e => e.bookingNumber === id);

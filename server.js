@@ -176,6 +176,20 @@ app.get('/api/stats', (req, res) => {
   res.json(buildStats(log));
 });
 
+app.get('/api/dedupe', (req, res) => {
+  const log = readJSON(LOG_FILE, []);
+  const before = log.length;
+  const seen = new Set();
+  const deduped = log.filter(e => {
+    const bn = e.bookingNumber;
+    if (!bn || seen.has(bn)) return false;
+    seen.add(bn);
+    return true;
+  });
+  writeJSON(LOG_FILE, deduped);
+  res.json({ before, after: deduped.length, removed: before - deduped.length });
+});
+
 app.get('/api/run', async (req, res) => {
   res.json({ message: 'Scrape started' });
   await runScrape();

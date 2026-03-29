@@ -5,6 +5,7 @@ import StatBar from './components/StatBar'
 import BookingCard from './components/BookingCard'
 import HistoryLog from './components/HistoryLog'
 import Stats from './components/Stats'
+import DeepStats from './components/DeepStats'
 
 function InCustodyPage() {
   const [log, setLog] = useState([])
@@ -176,6 +177,7 @@ export default function App() {
         <Route path="/released" element={<ReleasedPage />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/stats" element={<StatsPage />} />
+        <Route path="/deepstats" element={<div className="app"><Header /><DeepStats /></div>} />
       </Routes>
     </BrowserRouter>
   )

@@ -61,10 +61,17 @@ async function runScrape() {
       return;
     }
 
-    const currentIds = new Set(inmates.map(i => i.bookingNumber));
+    // Deduplicate by bookingNumber — the source can return the same person on
+    // multiple pages if the list shifts during pagination.
+    const seenBns = new Set();
+    const uniqueInmates = inmates.filter(i =>
+      i.bookingNumber && !seenBns.has(i.bookingNumber) && seenBns.add(i.bookingNumber)
+    );
+
+    const currentIds = new Set(uniqueInmates.map(i => i.bookingNumber));
     const previousIds = new Set(Object.keys(roster));
 
-    const newBookings = inmates.filter(i => !previousIds.has(i.bookingNumber));
+    const newBookings = uniqueInmates.filter(i => !previousIds.has(i.bookingNumber));
     for (const inmate of newBookings) {
       console.log(`  NEW: ${inmate.lastName}, ${inmate.firstName}`);
 

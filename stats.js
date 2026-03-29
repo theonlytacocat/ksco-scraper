@@ -2,7 +2,7 @@
 // All aggregation functions. Take the raw log array (change_log.json entries)
 // and return structured stat objects ready to serve as JSON.
 
-import { normalizeCharge, normalizeRace, normalizeSex } from './chargeMap.js';
+import { normalizeCharge, normalizeRace, normalizeSex, getChargeSeverity, getCrimeType } from './chargeMap.js';
 import { normalizeReleaseReason } from './releaseReasonMap.js';
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -346,6 +346,224 @@ export function getBookingsByMonth(log) {
     .map(([month, count]) => ({ month, count }));
 }
 
+// ─── Deep Stats ++ ─────────────────────────────────────────────────────────────
+
+/** Normalize raw arrest agency strings to known department names. */
+function normalizeAgency(raw) {
+  if (!raw) return 'Unknown';
+  const r = raw.toUpperCase().replace(/[.,]/g, '').trim();
+  if (/SUQUAMISH/.test(r)) return 'Suquamish Tribal Police';
+  if (/POULSBO/.test(r)) return 'Poulsbo PD';
+  if (/GIG HARBOR/.test(r)) return 'Gig Harbor PD';
+  if (/PORT ORCHARD/.test(r)) return 'Port Orchard PD';
+  if (/BREMERTON/.test(r)) return 'Bremerton PD';
+  if (/KITSAP/.test(r)) return 'Kitsap County Sheriff';
+  if (/DEPARTMENT OF CORRECTIONS|^DOC$/.test(r)) return 'DOC';
+  return raw.trim();
+}
+
+/**
+ * Broad crime-type breakdown (Violent, Property, Drug, etc.) with percentages.
+ * Deduped per booking so a DV+Assault booking counts once under Violent.
+ */
+export function getCrimeTypeBreakdown(log) {
+  const counts = {};
+  let total = 0;
+  log.forEach(entry => {
+    const seen = new Set();
+    (entry.charges || []).forEach(c => {
+      const type = getCrimeType(normalizeCharge(c.violation));
+      if (!seen.has(type)) { counts[type] = (counts[type] || 0) + 1; seen.add(type); total++; }
+    });
+  });
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([label, count]) => ({ label, count, pct: total > 0 ? +((count / total) * 100).toFixed(1) : 0 }));
+}
+
+/**
+ * Charge severity breakdown (Felony / Gross Misdemeanor / Misdemeanor / Unknown).
+ * Counts individual charge instances, not bookings.
+ */
+export function getChargeSeverityBreakdown(log) {
+  const counts = {};
+  let total = 0;
+  log.forEach(entry => {
+    (entry.charges || []).forEach(c => {
+      const sev = getChargeSeverity(c.violation);
+      counts[sev] = (counts[sev] || 0) + 1;
+      total++;
+    });
+  });
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([label, count]) => ({ label, count, pct: total > 0 ? +((count / total) * 100).toFixed(1) : 0 }));
+}
+
+/**
+ * Average and median number of charges per booking.
+ */
+export function getAvgChargesPerInmate(log) {
+  const counts = log.map(e => (e.charges || []).length).filter(n => n > 0);
+  if (!counts.length) return null;
+  return { mean: +mean(counts).toFixed(1), median: median(counts), max: Math.max(...counts) };
+}
+
+/**
+ * Average length of stay (days) broken down by charge category.
+ * Only includes released bookings with ≥3 data points per category.
+ */
+export function getAvgStayByChargeType(log) {
+  const stays = {};
+  log.filter(e => e.status === 'released').forEach(entry => {
+    const days = stayDays(entry);
+    if (days === null) return;
+    const seen = new Set();
+    (entry.charges || []).forEach(c => {
+      const cat = normalizeCharge(c.violation);
+      if (seen.has(cat)) return;
+      seen.add(cat);
+      if (!stays[cat]) stays[cat] = [];
+      stays[cat].push(days);
+    });
+  });
+  return Object.entries(stays)
+    .filter(([, arr]) => arr.length >= 3)
+    .map(([category, arr]) => ({
+      category,
+      avgDays: +mean(arr).toFixed(1),
+      medianDays: +median(arr).toFixed(1),
+      count: arr.length,
+    }))
+    .sort((a, b) => b.avgDays - a.avgDays)
+    .slice(0, 15);
+}
+
+/**
+ * Per-agency breakdown: charge count, top charge, top-5 charge distribution.
+ */
+export function getAgencyBreakdown(log) {
+  const agencies = {};
+  log.forEach(entry => {
+    (entry.charges || []).forEach(c => {
+      if (!c.arrestAgency) return;
+      const name = normalizeAgency(c.arrestAgency);
+      if (!agencies[name]) agencies[name] = { name, count: 0, charges: {} };
+      agencies[name].count++;
+      const cat = normalizeCharge(c.violation);
+      agencies[name].charges[cat] = (agencies[name].charges[cat] || 0) + 1;
+    });
+  });
+  return Object.values(agencies)
+    .map(a => ({
+      name: a.name,
+      count: a.count,
+      topCharge: Object.entries(a.charges).sort((x, y) => y[1] - x[1])[0]?.[0] || 'Unknown',
+      chargeBreakdown: Object.entries(a.charges)
+        .sort((x, y) => y[1] - x[1])
+        .slice(0, 5)
+        .map(([label, count]) => ({ label, count })),
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+/**
+ * How many released bookings had any bail amount set.
+ */
+export function getBailOnReleaseStats(log) {
+  const released = log.filter(e => e.status === 'released');
+  const withBail = released.filter(e => (e.charges || []).some(c => c.bondAmount > 0 || c.cashAmount > 0));
+  return {
+    total: released.length,
+    withBail: withBail.length,
+    pct: released.length > 0 ? +((withBail.length / released.length) * 100).toFixed(1) : 0,
+  };
+}
+
+/**
+ * Top 5 charge categories per age group.
+ */
+export function getChargesByAgeGroup(log) {
+  const groups = { '18–25': {}, '26–35': {}, '36–45': {}, '46–55': {}, '56–65': {}, '65+': {} };
+  log.forEach(entry => {
+    const age = parseInt(entry.age);
+    if (isNaN(age) || age < 1 || age > 120) return;
+    const bucket = age <= 25 ? '18–25' : age <= 35 ? '26–35' : age <= 45 ? '36–45'
+                 : age <= 55 ? '46–55' : age <= 65 ? '56–65' : '65+';
+    const seen = new Set();
+    (entry.charges || []).forEach(c => {
+      const cat = normalizeCharge(c.violation);
+      if (!seen.has(cat)) { groups[bucket][cat] = (groups[bucket][cat] || 0) + 1; seen.add(cat); }
+    });
+  });
+  return Object.entries(groups).map(([group, charges]) => ({
+    group,
+    topCharges: Object.entries(charges).sort((a, b) => b[1] - a[1]).slice(0, 5)
+      .map(([label, count]) => ({ label, count })),
+  }));
+}
+
+/**
+ * Average weight, height, and most common race per charge category, split by sex.
+ * Entries with fewer than 3 data points are omitted.
+ */
+export function getPhysicalProfileByCharge(log) {
+  const data = {};
+  log.forEach(entry => {
+    const sex = normalizeSex(entry.sex);
+    if (!sex || sex === 'Unknown') return;
+    const weight = parseFloat(entry.weight);
+    const height = parseInt(entry.height);
+    const race   = normalizeRace(entry.race);
+    const seen   = new Set();
+    (entry.charges || []).forEach(c => {
+      const cat = normalizeCharge(c.violation);
+      if (seen.has(cat)) return;
+      seen.add(cat);
+      const key = `${sex}|||${cat}`;
+      if (!data[key]) data[key] = { sex, charge: cat, weights: [], heights: [], races: {} };
+      if (!isNaN(weight) && weight > 50 && weight < 500) data[key].weights.push(weight);
+      if (!isNaN(height) && height > 400 && height < 800) data[key].heights.push(height);
+      if (race && race !== 'Unknown') data[key].races[race] = (data[key].races[race] || 0) + 1;
+    });
+  });
+  const bySex = {};
+  Object.values(data).forEach(d => {
+    const n = Math.max(
+      d.weights.length, d.heights.length,
+      Object.values(d.races).reduce((s, v) => s + v, 0)
+    );
+    if (n < 3) return;
+    if (!bySex[d.sex]) bySex[d.sex] = [];
+    const topRace    = Object.entries(d.races).sort((a, b) => b[1] - a[1])[0]?.[0] || null;
+    const avgWeight  = d.weights.length ? Math.round(mean(d.weights)) : null;
+    const rawH       = d.heights.length ? Math.round(mean(d.heights)) : null;
+    let   avgHeight  = null;
+    if (rawH) {
+      const s = String(rawH);
+      avgHeight = s.length === 3 ? `${s[0]}'${s.slice(1)}"` : s.length === 4 ? `${s.slice(0,2)}'${s.slice(2)}"` : null;
+    }
+    bySex[d.sex].push({ charge: d.charge, avgWeight, avgHeight, topRace, n });
+  });
+  Object.keys(bySex).forEach(sex => bySex[sex].sort((a, b) => b.n - a.n));
+  return bySex;
+}
+
+/**
+ * Bookings grouped by year.
+ */
+export function getBookingsByYear(log) {
+  const counts = {};
+  log.forEach(entry => {
+    if (!entry.firstSeen) return;
+    const d = new Date(entry.firstSeen);
+    if (isNaN(d)) return;
+    const year = String(d.getFullYear());
+    counts[year] = (counts[year] || 0) + 1;
+  });
+  return Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])).map(([year, count]) => ({ year, count }));
+}
+
 // ─── Master aggregation ───────────────────────────────────────────────────────
 
 /**
@@ -380,5 +598,15 @@ export function buildStats(log) {
     releaseReasons: getReleaseReasonBreakdown(log),
     recidivism: getRecidivism(log),
     bookingsByMonth: getBookingsByMonth(log),
+    // deep ++
+    crimeTypes: getCrimeTypeBreakdown(log),
+    severity: getChargeSeverityBreakdown(log),
+    avgCharges: getAvgChargesPerInmate(log),
+    stayByCharge: getAvgStayByChargeType(log),
+    agencyBreakdown: getAgencyBreakdown(log),
+    bailOnRelease: getBailOnReleaseStats(log),
+    chargesByAgeGroup: getChargesByAgeGroup(log),
+    physicalProfile: getPhysicalProfileByCharge(log),
+    bookingsByYear: getBookingsByYear(log),
   };
 }

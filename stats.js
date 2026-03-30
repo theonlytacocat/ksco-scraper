@@ -440,14 +440,18 @@ export function getAvgStayByChargeType(log) {
   log.filter(e => e.status === 'released').forEach(entry => {
     const days = stayDays(entry);
     if (days === null) return;
-    const seen = new Set();
-    (entry.charges || []).forEach(c => {
-      const cat = normalizeCharge(c.violation);
-      if (seen.has(cat)) return;
-      seen.add(cat);
-      if (!stays[cat]) stays[cat] = [];
-      stays[cat].push(days);
-    });
+
+    // Dedupe charge categories for this booking
+    const cats = [...new Set((entry.charges || []).map(c => normalizeCharge(c.violation)))];
+
+    // Only attribute stay to a charge if it's the sole category on the booking.
+    // Multi-charge bookings can't be cleanly attributed — e.g. a DOC Warrant +
+    // Stalking booking would falsely inflate DOC Warrant average stay.
+    if (cats.length !== 1) return;
+
+    const cat = cats[0];
+    if (!stays[cat]) stays[cat] = [];
+    stays[cat].push(days);
   });
   return Object.entries(stays)
     .filter(([, arr]) => arr.length >= 3)

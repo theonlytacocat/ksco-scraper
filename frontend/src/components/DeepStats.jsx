@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell,
@@ -124,6 +125,12 @@ export default function DeepStats() {
 
       {/* ── Header ── */}
       <div className="stats-header">
+        <div className="back-links">
+          <Link to="/" className="back-link">← Main Page</Link>
+          <Link to="/stats" className="back-link">Stats</Link>
+          <Link to="/released" className="back-link">Released</Link>
+          <Link to="/" className="back-link">In Custody</Link>
+        </div>
         <h2>Deep Stats</h2>
         <p className="stats-subtitle">
           {bookingCounts?.total?.toLocaleString()} total bookings tracked

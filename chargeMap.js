@@ -167,3 +167,110 @@ export function normalizeSex(code) {
   if (!code) return 'Unknown';
   return SEX_LABELS[code.toUpperCase()] || code;
 }
+
+// ── Charge Severity ────────────────────────────────────────────────────────────
+// Best-effort classification for WA state charges. Patterns checked in order;
+// charges that don't match any tier are returned as 'Unknown'.
+
+const SEV_FELONY = [
+  /MURDER|HOMICIDE|MANSLAUGHTER/,
+  /RAPE OF A CHILD|CHILD MOLESTATION|CHILD MOLEST/,
+  /RAPE-?[12]|RAPE [12]/,
+  /TRAFFICKING.*PERSON|HUMAN TRAFFICKING/,
+  /ROBBERY-?[12]|ROBBERY [12]/,
+  /ASSAULT-?[123]|ASSAULT [123]|VEHICULAR ASSAULT/,
+  /BURGLARY-?[12]|BURGLARY [12]|RESIDENTIAL BURGLARY/,
+  /THEFT-?[12]|THEFT [12]/,
+  /MOTOR VEHICLE THEFT|VEHICLE THEFT|POSSESSION OF A STOLEN VEHICLE|STOLEN VEHICLE/,
+  /KIDNAPPING|UNLAWFUL IMPRISONMENT/,
+  /ARSON/,
+  /STALKING/,
+  /IDENTITY THEFT|FORGERY/,
+  /POSSESS.*FIREARM|FIREARM.*UNLAWFUL|THEFT OF A FIREARM|POSSESSION STOLEN FIREARM/,
+  /DELIVER.*CONTROLLED|MFG.*DRUG|DEL.*DRUG/,
+  /TRAFFICKING STOLEN PROPERTY/,
+  /COMMUNITY CUSTODY|PROBATION VIOLATION/,
+  /DEPARTMENT OF CORRECTIONS WARRANT|DOCWT/,
+  /CHILD EXPLOITATION|SEXUALLY EXPLICIT CONDUCT|DEPICTIONS OF A MINOR/,
+  /INDECENT LIBERTIES|COMMERCIAL SEX ABUSE/,
+];
+
+const SEV_GROSS_MISDEMEANOR = [
+  /ASSAULT-?4|ASSAULT 4/,
+  /DRIVING UNDER THE INFLUENCE|DUI/,
+  /DWLS [12]/,
+  /HARASSMENT/,
+  /CRIMINAL TRESPASS-?1|TRESPASS-? 1/,
+  /HIT.?AND.?RUN|HIT\/RUN/,
+  /RECKLESS DRIVING/,
+  /RESISTING ARREST|OBSTRUCT/,
+  /FAILURE TO APPEAR|CONTEMPT OF COURT/,
+  /PROTECTION ORDER VIOLATION|RESTRICTING CONTACT ORDER/,
+  /MALICIOUS MISCHIEF/,
+  /INDECENT EXPOSURE/,
+  /VEHICLE PROWLING/,
+  /CRIMINAL IMPERSONATION/,
+  /ATTEMPT TO ELUDE|ELUDE/,
+  /POSSESS BURGLARY TOOLS|VEHICLE THEFT TOOL/,
+];
+
+const SEV_MISDEMEANOR = [
+  /DWLS [3]/,
+  /THEFT-?3|THEFT 3/,
+  /CRIMINAL TRESPASS-?2|TRESPASS-? 2/,
+  /IGNITION INTERLOCK/,
+  /TRAFFIC VIOLATION|VEHICLE TRIP PERMITS|COMMERCIAL DRIVERS LICENSE|DRIVERS LICENSE/,
+];
+
+export function getChargeSeverity(rawViolation) {
+  if (!rawViolation) return 'Unknown';
+  const v = rawViolation.replace(/\s*\(Cleared\)\s*$/i, '').toUpperCase().trim();
+  for (const p of SEV_FELONY) if (p.test(v)) return 'Felony';
+  for (const p of SEV_GROSS_MISDEMEANOR) if (p.test(v)) return 'Gross Misdemeanor';
+  for (const p of SEV_MISDEMEANOR) if (p.test(v)) return 'Misdemeanor';
+  return 'Unknown';
+}
+
+// ── Crime Type ─────────────────────────────────────────────────────────────────
+// Maps normalized charge category → broad crime type.
+
+const CRIME_TYPE_MAP = {
+  'Homicide': 'Violent', 'Assault': 'Violent', 'Assault (Child)': 'Violent',
+  'Robbery': 'Violent', 'Kidnapping / Unlawful Imprisonment': 'Violent',
+  'Domestic Violence': 'Violent',
+  'Sex Offense': 'Sex Offense', 'Child Sex Offense': 'Sex Offense',
+  'Child Exploitation / CSAM': 'Sex Offense',
+  'Failure to Register (Sex Offender)': 'Sex Offense',
+  'Indecent Exposure': 'Sex Offense', 'Human Trafficking': 'Sex Offense',
+  'Incest': 'Sex Offense',
+  'Burglary (1st Degree)': 'Property', 'Residential Burglary': 'Property',
+  'Burglary (2nd Degree)': 'Property', 'Burglary Tools': 'Property',
+  'Vehicle Prowling': 'Property', 'Theft (1st Degree)': 'Property',
+  'Theft (2nd Degree)': 'Property', 'Theft (3rd Degree)': 'Property',
+  'Motor Vehicle Theft': 'Property', 'Possession of Stolen Vehicle': 'Property',
+  'Possession of Stolen Property': 'Property', 'Trafficking Stolen Property': 'Property',
+  'Arson': 'Property', 'Malicious Mischief': 'Property', 'Criminal Trespass': 'Property',
+  'Drug Offense': 'Drug',
+  'DUI': 'Traffic / DUI', 'Driving While License Suspended': 'Traffic / DUI',
+  'Attempt to Elude': 'Traffic / DUI', 'Hit and Run': 'Traffic / DUI',
+  'Reckless Driving': 'Traffic / DUI', 'Ignition Interlock Violation': 'Traffic / DUI',
+  'Traffic Violation': 'Traffic / DUI', 'Traffic / Obstruction': 'Traffic / DUI',
+  'Weapons': 'Weapons',
+  'Failure to Appear': 'Court / Supervision', 'Probation Violation': 'Court / Supervision',
+  'Community Custody Violation': 'Court / Supervision',
+  'Failure to Comply (Sentence)': 'Court / Supervision',
+  'PR / Bail Revocation': 'Court / Supervision', 'DOC Warrant': 'Court / Supervision',
+  'Fugitive from Justice': 'Court / Supervision', 'Court Hold': 'Court / Supervision',
+  'Identity Theft': 'Fraud / Identity', 'Forgery': 'Fraud / Identity',
+  'Criminal Impersonation': 'Fraud / Identity',
+  'Making False Statements': 'Fraud / Identity', 'Bribery': 'Fraud / Identity',
+  'Protection Order Violation': 'Order Violations', 'Stalking': 'Order Violations',
+  'Harassment': 'Order Violations', 'Interference with DV Reporting': 'Order Violations',
+  'Obstruction': 'Other', 'Resisting Arrest': 'Other', 'Public Order': 'Other',
+  'Local / Tribal Code': 'Other', 'Witness Tampering': 'Other',
+  'Tampering with Evidence': 'Other',
+};
+
+export function getCrimeType(normalizedCategory) {
+  return CRIME_TYPE_MAP[normalizedCategory] || 'Other';
+}

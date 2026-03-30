@@ -3,6 +3,7 @@ import * as cheerio from 'cheerio';
 
 const BASE_URL = 'https://incustody.kitsap.gov';
 const ROSTER_URL = `${BASE_URL}/Home/BookingSearchResult`;
+const RELEASES_XML_URL = 'https://www.kitsap.gov/sheriff/InCustody/ReleasedLast24Hours.xml';
 const HEADERS = {
   'Referer': 'https://incustody.kitsap.gov/Home/BookingSearchQuery?Length=4',
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0',
@@ -191,5 +192,43 @@ export async function fetchDetail(detailUrl) {
   } catch (err) {
     console.error(`Failed to fetch detail for ${detailUrl}:`, err.message);
     return null;
+  }
+}
+
+// Returns a map of bookingNumber -> formatted release datetime string
+// sourced from the sheriff's released-last-24-hours XML feed.
+export async function fetchRecentReleases() {
+  try {
+    const response = await axios.get(RELEASES_XML_URL, { headers: HEADERS });
+    const $ = cheerio.load(response.data, { xmlMode: true });
+    const releases = {};
+
+    $('RELEASE').each((_, el) => {
+      const bookNum = $(el).find('BOOK_NUM').text().trim();
+      const raw     = $(el).find('RELEASEDATE').text().trim();
+      if (!bookNum || !raw) return;
+
+      // Parse "03/19/2026  3:40PM" → JS Date
+      const m = raw.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{1,2}):(\d{2})(AM|PM)$/i);
+      if (!m) return;
+      const [, month, day, year, hourStr, min, ampm] = m;
+      let hour = parseInt(hourStr, 10);
+      if (ampm.toUpperCase() === 'PM' && hour !== 12) hour += 12;
+      if (ampm.toUpperCase() === 'AM' && hour === 12) hour = 0;
+      const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day), hour, parseInt(min), 0);
+
+      // Format consistently with nowPST()
+      releases[bookNum] = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/Los_Angeles',
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false
+      }).format(date);
+    });
+
+    return releases;
+  } catch (err) {
+    console.error('Failed to fetch releases XML:', err.message);
+    return {};
   }
 }

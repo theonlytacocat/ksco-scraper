@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import cron from 'node-cron';
-import { fetchRoster, fetchDetail } from './scrapers/kitsap.js';
+import { fetchRoster, fetchDetail, fetchRecentReleases } from './scrapers/kitsap.js';
 import { nowPST } from './utils.js';
 import { buildStats } from './stats.js';
 
@@ -61,10 +61,17 @@ async function runScrape() {
       return;
     }
 
-    const currentIds = new Set(inmates.map(i => i.bookingNumber));
+    // Deduplicate by bookingNumber — the source can return the same person on
+    // multiple pages if the list shifts during pagination.
+    const seenBns = new Set();
+    const uniqueInmates = inmates.filter(i =>
+      i.bookingNumber && !seenBns.has(i.bookingNumber) && seenBns.add(i.bookingNumber)
+    );
+
+    const currentIds = new Set(uniqueInmates.map(i => i.bookingNumber));
     const previousIds = new Set(Object.keys(roster));
 
-    const newBookings = inmates.filter(i => !previousIds.has(i.bookingNumber));
+    const newBookings = uniqueInmates.filter(i => !previousIds.has(i.bookingNumber));
     for (const inmate of newBookings) {
       console.log(`  NEW: ${inmate.lastName}, ${inmate.firstName}`);
 
@@ -105,10 +112,17 @@ async function runScrape() {
     }
 
     const released = [...previousIds].filter(id => !currentIds.has(id) && roster[id]?.status === 'in_custody');
+
+    // Fetch exact release times from the sheriff's 24-hour XML feed
+    let recentReleases = {};
+    if (released.length > 0) {
+      recentReleases = await fetchRecentReleases();
+    }
+
     for (const id of released) {
       const inmate = roster[id];
       console.log(`  RELEASED: ${inmate.lastName}, ${inmate.firstName}`);
-      const releasedAt = nowPST();
+      const releasedAt = recentReleases[id] || nowPST();
       roster[id].status = 'released';
       roster[id].releasedAt = releasedAt;
       const logEntry = log.find(e => e.bookingNumber === id);
@@ -168,6 +182,7 @@ app.get('/api/stats', (req, res) => {
   const log = readJSON(LOG_FILE, []);
   res.json(buildStats(log));
 });
+
 
 app.get('/api/run', async (req, res) => {
   res.json({ message: 'Scrape started' });

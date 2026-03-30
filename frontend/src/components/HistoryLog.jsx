@@ -100,7 +100,7 @@ export default function HistoryLog({ entries }) {
                       <span className="history-meta">
                         Booked: {formatTime(entry.bookingDate || entry.firstSeen)}
                         {entry.charges && entry.charges.length > 0 && (
-                          <span className="history-charges"> | Charges: {entry.charges[0].violation}</span>
+                          <span className="history-charges"> | Charges: {entry.charges.map(c => c.violation).join(', ')}</span>
                         )}
                       </span>
                     </li>
@@ -108,7 +108,7 @@ export default function HistoryLog({ entries }) {
                 </ul>
               </div>
             )}
-            
+
             {releasedCount > 0 && (
               <div className="history-section">
                 <div className="history-section-title">RELEASED ({releasedCount})</div>
@@ -125,7 +125,7 @@ export default function HistoryLog({ entries }) {
                             <span className="history-time-served"> | Time served: {timeServed} ({reason})</span>
                           )}
                           {entry.charges && entry.charges.length > 0 && (
-                            <span className="history-charges"> | Charges: {entry.charges[0].violation}</span>
+                            <span className="history-charges"> | Charges: {entry.charges.map(c => c.violation).join(', ')}</span>
                           )}
                         </span>
                       </li>

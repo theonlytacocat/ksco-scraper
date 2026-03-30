@@ -429,3 +429,125 @@ body {
   font-size: 1rem;
   color: #e8d9c4;
 }
+
+/* ── Deep Stats ──────────────────────────────────────────────────────────── */
+.ds-anchor { position: relative; top: -60px; visibility: hidden; }
+
+.deep-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+  padding: 0.6rem 0.75rem;
+  background: #e4d9cc;
+  border: 1px solid #c9b89e;
+}
+.deep-nav-link {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #7a5c3e;
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid transparent;
+}
+.deep-nav-link:hover { border-color: #c9b89e; color: #3d2b1a; }
+
+.deep-tabs {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+.deep-tabs button {
+  background: #e4d9cc;
+  border: 1px solid #c9b89e;
+  padding: 0.3rem 0.75rem;
+  font-family: Georgia, serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #7a5c3e;
+  cursor: pointer;
+}
+.deep-tabs button.active {
+  background: #3d2b1a;
+  color: #e8d9c4;
+  border-color: #3d2b1a;
+}
+
+.deep-show-more {
+  display: block;
+  margin: 0.75rem auto 0;
+  background: none;
+  border: 1px solid #c9b89e;
+  padding: 0.3rem 1rem;
+  font-family: Georgia, serif;
+  font-size: 0.72rem;
+  color: #7a5c3e;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.deep-show-more:hover { border-color: #8b4a1e; color: #3d2b1a; }
+
+/* Agency cards */
+.agency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.agency-card {
+  background: #e4d9cc;
+  border: 1px solid #c9b89e;
+  padding: 0.75rem;
+}
+.agency-card-known { border-left: 3px solid #8b4a1e; }
+.agency-name { font-family: Georgia, serif; font-size: 0.85rem; color: #1a0f07; font-weight: 600; margin-bottom: 0.2rem; }
+.agency-count { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #c1440e; margin-bottom: 0.2rem; }
+.agency-top { font-size: 0.7rem; color: #5a3e28; font-style: italic; margin-bottom: 0.5rem; }
+.agency-charges { list-style: none; padding: 0; margin: 0; }
+.agency-charges li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #2c1f14;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid #d8cbb8;
+}
+.agency-charges li:last-child { border-bottom: none; }
+
+/* Age group grid */
+.age-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+.age-group-card {
+  background: #e4d9cc;
+  border: 1px solid #c9b89e;
+  padding: 0.75rem;
+}
+.age-group-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #c1440e;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #c9b89e;
+}
+.age-group-list {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+.age-group-list li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: #2c1f14;
+  padding: 0.2rem 0;
+  padding-left: 0;
+  list-style-position: outside;
+}
+.age-group-list li span:last-child { color: #7a5c3e; margin-left: 0.5rem; flex-shrink: 0; }

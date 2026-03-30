@@ -38,10 +38,15 @@ function countBy(arr, keyFn) {
 }
 
 function stayDays(entry) {
-  if (!entry.firstSeen || !entry.releasedAt) return null;
-  const ms = new Date(entry.releasedAt) - new Date(entry.firstSeen);
-  if (isNaN(ms) || ms < 0) return null;
-  return ms / (1000 * 60 * 60 * 24);
+  if (!entry.releasedAt) return null;
+  // Use the actual booking date from the roster, not firstSeen (scraper arrival time).
+  // bookingDate is MM/DD/YYYY; releasedAt is the scraper-observed release timestamp.
+  const start = entry.bookingDate
+    ? new Date(entry.bookingDate)   // "08/13/2025" — JS parses MM/DD/YYYY fine
+    : new Date(entry.firstSeen);
+  const end = new Date(entry.releasedAt);
+  if (isNaN(start) || isNaN(end) || end < start) return null;
+  return (end - start) / (1000 * 60 * 60 * 24);
 }
 
 // Height stored as FII integer (510 = 5'10", 603 = 6'3").

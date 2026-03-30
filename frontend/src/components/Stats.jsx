@@ -127,7 +127,7 @@ export default function Stats() {
     </div>
   )
 
-  const { bookingCounts, gender, race, age, topCharges, stay, bookingsByMonth } = data
+  const { bookingCounts, gender, race, age, topCharges, stay, bookingsByMonth, avgBuildByCharge } = data
 
   const total = bookingCounts.total
 
@@ -207,6 +207,48 @@ export default function Stats() {
         <div className="stats-card">
           <SectionTitle>Bookings by Month</SectionTitle>
           <VBar data={bookingsByMonth} nameKey="month" color={C.rust} />
+        </div>
+      )}
+
+      {/* ── Average Build by Charge ──────────────────────────────────────── */}
+      {avgBuildByCharge && Object.keys(avgBuildByCharge).length > 0 && (
+        <div className="stats-card">
+          <SectionTitle>Average Physical Profile by Charge</SectionTitle>
+          <p className="stats-card-note">
+            Mean height and weight for individuals booked on each charge category, grouped by sex.
+            Only includes bookings with recorded physical description.
+          </p>
+          {['Male', 'Female'].map(sex => {
+            const rows = avgBuildByCharge[sex];
+            if (!rows?.length) return null;
+            return (
+              <div key={sex} style={{ marginBottom: '1.5rem' }}>
+                <div className="stats-section-subtitle">{sex}</div>
+                <table className="stats-table stats-build-table">
+                  <thead>
+                    <tr>
+                      <th>Charge</th>
+                      <th className="stats-table-num">Avg Weight</th>
+                      <th className="stats-table-num">Avg Height</th>
+                      <th>Top Race</th>
+                      <th className="stats-table-num">n</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rows.map(r => (
+                      <tr key={r.charge}>
+                        <td>{r.charge}</td>
+                        <td className="stats-table-num">{r.avgWeight} lbs</td>
+                        <td className="stats-table-num">{r.avgHeight}</td>
+                        <td>{r.topRace}</td>
+                        <td className="stats-table-num stats-table-pct">{r.count}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          })}
         </div>
       )}
 

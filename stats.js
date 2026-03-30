@@ -44,6 +44,23 @@ function stayDays(entry) {
   return ms / (1000 * 60 * 60 * 24);
 }
 
+// Height is stored as FII (e.g. 510 = 5'10", 603 = 6'3").
+// Convert to total inches for arithmetic, then back for display.
+function heightToInches(h) {
+  const n = parseInt(h, 10);
+  if (!n || isNaN(n)) return null;
+  const feet = Math.floor(n / 100);
+  const inches = n % 100;
+  if (feet < 4 || feet > 7 || inches > 11) return null; // sanity check
+  return feet * 12 + inches;
+}
+
+function inchesToDisplay(totalInches) {
+  const f = Math.floor(totalInches / 12);
+  const i = Math.round(totalInches % 12);
+  return `${f}'${i}"`
+}
+
 // ─── Basic Stats ──────────────────────────────────────────────────────────────
 
 /**
@@ -346,6 +363,59 @@ export function getBookingsByMonth(log) {
     .map(([month, count]) => ({ month, count }));
 }
 
+/**
+ * Average height, weight, and most common race for the top charges,
+ * broken down by sex. Only includes entries that have height AND weight.
+ *
+ * Returns { Male: [...], Female: [...] }
+ * Each item: { charge, avgHeight, avgWeight, topRace, count }
+ */
+export function getAvgBuildByCharge(log, topN = 10) {
+  // bucket: sex → charge → { heights, weights, races }
+  const buckets = {};
+
+  log.forEach(entry => {
+    const h = heightToInches(entry.height);
+    const w = parseInt(entry.weight, 10);
+    if (!h || !w || isNaN(w)) return;
+
+    const sex = normalizeSex(entry.sex);
+    const race = normalizeRace(entry.race);
+    const seen = new Set();
+
+    (entry.charges || []).forEach(c => {
+      const charge = normalizeCharge(c.violation);
+      const key = `${sex}|${charge}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+
+      if (!buckets[sex]) buckets[sex] = {};
+      if (!buckets[sex][charge]) buckets[sex][charge] = { heights: [], weights: [], races: {} };
+      buckets[sex][charge].heights.push(h);
+      buckets[sex][charge].weights.push(w);
+      buckets[sex][charge].races[race] = (buckets[sex][charge].races[race] || 0) + 1;
+    });
+  });
+
+  const result = {};
+  for (const [sex, charges] of Object.entries(buckets)) {
+    result[sex] = Object.entries(charges)
+      .map(([charge, { heights, weights, races }]) => {
+        const topRace = Object.entries(races).sort((a, b) => b[1] - a[1])[0]?.[0] || 'Unknown';
+        return {
+          charge,
+          avgHeight: inchesToDisplay(mean(heights)),
+          avgWeight: Math.round(mean(weights)),
+          topRace,
+          count: heights.length,
+        };
+      })
+      .sort((a, b) => b.count - a.count)
+      .slice(0, topN);
+  }
+  return result;
+}
+
 // ─── Master aggregation ───────────────────────────────────────────────────────
 
 /**
@@ -380,5 +450,6 @@ export function buildStats(log) {
     releaseReasons: getReleaseReasonBreakdown(log),
     recidivism: getRecidivism(log),
     bookingsByMonth: getBookingsByMonth(log),
+    avgBuildByCharge: getAvgBuildByCharge(log, 10),
   };
 }

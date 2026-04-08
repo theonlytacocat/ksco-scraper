@@ -114,7 +114,7 @@ export default function HistoryLog({ entries }) {
                 <div className="history-section-title">RELEASED ({releasedCount})</div>
                 <ul className="history-list">
                   {dayData.released.map(entry => {
-                    const timeServed = calculateTimeServed(entry.firstSeen, entry.releasedAt)
+                    const timeServed = calculateTimeServed(entry.bookingDate || entry.firstSeen, entry.releasedAt)
                     const reason = getReleaseReason(entry)
                     return (
                       <li key={entry.bookingNumber} className="history-item">

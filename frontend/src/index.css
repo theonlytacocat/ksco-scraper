@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&family=UnifrakturMaguntia&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: Georgia, 'Times New Roman', serif;
-  background: #f2ede4;
-  color: #2c1f14;
+  font-family: 'Inter', sans-serif;
+  background: #E0E1DD;
+  color: #0D1B2A;
   min-height: 100vh;
 }
 
@@ -16,26 +16,26 @@ body {
 }
 
 .header {
-  background: #3d2b1a;
+  background: #1B263B;
   margin: 0 -1rem;
   padding: 1.5rem 2rem;
-  border-bottom: 4px solid #8b4a1e;
+  border-bottom: 4px solid #415A77;
   margin-bottom: 0;
 }
 .header-inner { display: flex; align-items: baseline; justify-content: space-between; }
-.header-county { color: #a08060; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 0.25rem; }
-.header h1 { color: #e8d9c4; font-size: 1.4rem; font-weight: 400; letter-spacing: 0.05em; font-family: 'Bebas Neue', sans-serif; }
-.header-sub { color: #a08060; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.header-county { font-family: 'Inter', sans-serif; color: #778DA9; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; display: block; margin-bottom: 0.25rem; }
+.header h1 { font-family: 'Playfair Display', serif; color: #E0E1DD; font-size: 2.5rem; font-weight: 700; letter-spacing: 0.02em; line-height: 1; }
+.header-sub { font-family: 'Inter', sans-serif; color: #778DA9; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .statbar {
-  background: #c1440e;
+  background: #415A77;
   margin: 0 -1rem 2rem;
   padding: 0.6rem 2rem;
   display: flex;
   gap: 2rem;
 }
-.stat-num { color: #f5e8dc; font-size: 1.1rem; font-weight: 400; }
-.stat-label { color: #f5e8dc; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.8; }
+.stat-num { color: #E0E1DD; font-size: 1.1rem; font-weight: 400; }
+.stat-label { color: #E0E1DD; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.8; }
 
 .controls {
   display: flex;
@@ -47,51 +47,49 @@ body {
 .search-input {
   flex: 1;
   min-width: 200px;
-  background: #e8ddd0;
-  border: 1px solid #c9b89e;
+  background: #D0D1CE;
+  border: 1px solid #B3AF8F;
   padding: 0.5rem 0.75rem;
-  font-family: Georgia, serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.85rem;
-  color: #2c1f14;
+  color: #0D1B2A;
   outline: none;
 }
-.search-input:focus { border-color: #8b4a1e; }
+.search-input:focus { border-color: #415A77; }
 .filter-tabs { display: flex; gap: 0.5rem; }
 .filter-tabs button {
-  background: #e8ddd0;
-  border: 1px solid #c9b89e;
+  background: #D0D1CE;
+  border: 1px solid #B3AF8F;
   padding: 0.4rem 0.9rem;
-  font-family: Georgia, serif;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #7a5c3e;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 0.95rem;
+  color: #415A77;
   cursor: pointer;
 }
 .filter-tabs button.active {
-  background: #3d2b1a;
-  color: #e8d9c4;
-  border-color: #3d2b1a;
+  background: #1B263B;
+  color: #E0E1DD;
+  border-color: #1B263B;
 }
 
 .log-count {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #7a5c3e;
+  color: #415A77;
   margin-bottom: 0.75rem;
 }
 .empty, .loading {
   text-align: center;
-  color: #7a5c3e;
+  color: #415A77;
   font-size: 0.85rem;
   padding: 3rem;
 }
 
 .card {
-  border: 1px solid #c9b89e;
+  border: 1px solid #B3AF8F;
   margin-bottom: 0.5rem;
-  background: #ede6da;
+  background: #E0E1DD;
 }
 .card-released { opacity: 0.75; }
 .card-header {
@@ -102,11 +100,11 @@ body {
   cursor: pointer;
   gap: 1rem;
 }
-.card-header:hover { background: #e4d9cc; }
-.card-name { font-size: 0.95rem; color: #1a0f07; margin-bottom: 0.2rem; }
-.card-meta { font-size: 0.65rem; color: #7a5c3e; text-transform: uppercase; letter-spacing: 0.07em; }
+.card-header:hover { background: #D5D6D2; }
+.card-name { font-family: 'UnifrakturMaguntia', cursive; font-size: 1.15rem; color: #0D1B2A; margin-bottom: 0.2rem; }
+.card-meta { font-size: 0.65rem; color: #415A77; text-transform: uppercase; letter-spacing: 0.07em; }
 .card-right { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
-.card-toggle { color: #7a5c3e; font-size: 0.7rem; }
+.card-toggle { color: #415A77; font-size: 0.7rem; }
 
 .badge {
   font-size: 0.55rem;
@@ -115,15 +113,15 @@ body {
   padding: 0.2rem 0.5rem;
   border: 1px solid;
 }
-.badge-custody { background: #f0e4d4; border-color: #8b4a1e; color: #5a2a08; }
-.badge-released { background: #e4ddd4; border-color: #9a7a5a; color: #5a4a38; }
+.badge-custody { background: #D0D8E8; border-color: #415A77; color: #1B263B; }
+.badge-released { background: #D5D6D2; border-color: #B3AF8F; color: #415A77; }
 
-.card-body { padding: 0 1rem 1rem; border-top: 1px solid #d8cbb8; }
+.card-body { padding: 0 1rem 1rem; border-top: 1px solid #B3AF8F; }
 .card-release-row {
   font-size: 0.75rem;
-  color: #5a3e28;
+  color: #415A77;
   padding: 0.5rem 0;
-  border-bottom: 1px solid #d8cbb8;
+  border-bottom: 1px solid #C5C2A8;
   margin-bottom: 0.75rem;
 }
 
@@ -135,67 +133,67 @@ body {
   padding-top: 0.5rem;
 }
 .desc-row { display: flex; flex-direction: column; }
-.desc-row span:first-child { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: #7a5c3e; }
-.desc-row span:last-child { font-size: 0.8rem; color: #2c1f14; }
+.desc-row span:first-child { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: #415A77; }
+.desc-row span:last-child { font-size: 0.8rem; color: #0D1B2A; }
 
 .charges-title {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #7a5c3e;
+  color: #415A77;
   margin-bottom: 0.5rem;
-  border-top: 1px solid #d8cbb8;
+  border-top: 1px solid #C5C2A8;
   padding-top: 0.75rem;
 }
 .charge-row {
   padding: 0.5rem 0;
-  border-bottom: 1px solid #e4ddd4;
+  border-bottom: 1px solid #D5D6D2;
 }
 .charge-row:last-child { border-bottom: none; }
-.charge-violation { font-size: 0.8rem; color: #2c1f14; margin-bottom: 0.2rem; }
+.charge-violation { font-size: 0.8rem; color: #0D1B2A; margin-bottom: 0.2rem; }
 .charge-bail, .charge-court, .charge-agency {
   font-size: 0.68rem;
-  color: #7a5c3e;
+  color: #415A77;
   margin-top: 0.15rem;
 }
 
 /* History Log Styles */
 .history-log {
-  background: #ede6da;
-  border: 1px solid #c9b89e;
+  background: #E0E1DD;
+  border: 1px solid #B3AF8F;
   padding: 1.5rem;
 }
 .history-header {
   text-align: center;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #c9b89e;
+  border-bottom: 2px solid #B3AF8F;
 }
 .history-header h2 {
   font-size: 1.3rem;
-  color: #1a0f07;
+  color: #0D1B2A;
   margin: 0.5rem 0;
 }
 .history-subtitle {
   font-size: 0.75rem;
-  color: #7a5c3e;
+  color: #415A77;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 .back-link {
   display: inline-block;
   font-size: 0.8rem;
-  color: #7a5c3e;
+  color: #415A77;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
-.back-link:hover { color: #3d2b1a; }
+.back-link:hover { color: #1B263B; }
 .back-links { display: flex; gap: 1.25rem; margin-bottom: 0.5rem; }
 
 .history-day {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid #d8cbb8;
+  border-bottom: 1px solid #C5C2A8;
 }
 .history-day:last-child {
   border-bottom: none;
@@ -203,10 +201,10 @@ body {
 .history-date {
   font-size: 0.9rem;
   font-weight: bold;
-  color: #3d2b1a;
+  color: #1B263B;
   margin-bottom: 1rem;
   padding: 0.3rem 0.75rem;
-  background: #d4c4b0;
+  background: #C5C2A8;
   display: inline-block;
 }
 .history-section {
@@ -218,12 +216,12 @@ body {
 .history-section-title {
   font-size: 0.7rem;
   font-weight: bold;
-  color: #c1440e;
+  color: #415A77;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.75rem;
   padding-left: 0.5rem;
-  border-left: 3px solid #c1440e;
+  border-left: 3px solid #415A77;
 }
 .history-list {
   list-style: none;
@@ -233,32 +231,32 @@ body {
 .history-item {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.5rem;
-  background: #e8ddd0;
-  border-left: 2px solid #c9b89e;
+  background: #D5D6D2;
+  border-left: 2px solid #B3AF8F;
 }
 .history-item:hover {
-  background: #e0d4c4;
+  background: #CBCCC8;
 }
 .history-name {
   display: block;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #1a0f07;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 1.1rem;
+  color: #0D1B2A;
   margin-bottom: 0.25rem;
 }
 .history-meta {
   display: block;
   font-size: 0.72rem;
-  color: #5a4a38;
+  color: #415A77;
 }
 .history-time-served {
-  color: #8b4a1e;
+  color: #1B263B;
   font-weight: 500;
 }
 .history-charges {
   display: block;
   margin-top: 0.25rem;
-  color: #3d2b1a;
+  color: #1B263B;
   font-style: italic;
 }
 
@@ -271,23 +269,23 @@ body {
   text-align: center;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #c9b89e;
+  border-bottom: 2px solid #B3AF8F;
 }
 .stats-header h2 {
   font-size: 1.3rem;
-  color: #1a0f07;
+  color: #0D1B2A;
   margin: 0.5rem 0;
 }
 .stats-subtitle {
   font-size: 0.72rem;
-  color: #7a5c3e;
+  color: #415A77;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .stats-card {
-  background: #ede6da;
-  border: 1px solid #c9b89e;
+  background: #E0E1DD;
+  border: 1px solid #B3AF8F;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
 }
@@ -305,12 +303,12 @@ body {
 .stats-section-title {
   font-size: 0.7rem;
   font-weight: bold;
-  color: #c1440e;
+  color: #415A77;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-bottom: 0.75rem;
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid #d8cbb8;
+  border-bottom: 1px solid #C5C2A8;
 }
 
 .stats-section-subtitle {
@@ -318,20 +316,20 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #7a5c3e;
+  color: #415A77;
   margin-bottom: 0.5rem;
 }
 
 .stats-card-note {
   font-size: 0.7rem;
-  color: #7a5c3e;
+  color: #415A77;
   font-style: italic;
   margin-bottom: 0.75rem;
 }
 
 .stats-nodata {
   font-size: 0.8rem;
-  color: #7a5c3e;
+  color: #415A77;
   font-style: italic;
   padding: 1rem 0;
 }
@@ -346,27 +344,27 @@ body {
 .stat-box {
   flex: 1;
   min-width: 100px;
-  background: #e4d9cc;
-  border: 1px solid #c9b89e;
+  background: #D5D6D2;
+  border: 1px solid #B3AF8F;
   padding: 0.75rem 1rem;
   text-align: center;
 }
 .stat-box-num {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #3d2b1a;
+  color: #1B263B;
   line-height: 1.1;
 }
 .stat-box-label {
   font-size: 0.58rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #7a5c3e;
+  color: #415A77;
   margin-top: 0.2rem;
 }
 .stat-box-sub {
   font-size: 0.65rem;
-  color: #8b4a1e;
+  color: #415A77;
   margin-top: 0.15rem;
 }
 
@@ -375,7 +373,7 @@ body {
   display: flex;
   gap: 1.5rem;
   font-size: 0.72rem;
-  color: #7a5c3e;
+  color: #415A77;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   margin-bottom: 0.75rem;
@@ -393,14 +391,14 @@ body {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #7a5c3e;
+  color: #415A77;
   padding: 0.3rem 0.5rem;
-  border-bottom: 1px solid #c9b89e;
+  border-bottom: 1px solid #B3AF8F;
 }
 .stats-table td {
   padding: 0.35rem 0.5rem;
-  color: #2c1f14;
-  border-bottom: 1px solid #e4ddd4;
+  color: #0D1B2A;
+  border-bottom: 1px solid #D5D6D2;
 }
 .stats-table tr:last-child td { border-bottom: none; }
 .stats-table-num {
@@ -409,7 +407,7 @@ body {
 }
 .stats-table-pct {
   text-align: right;
-  color: #7a5c3e;
+  color: #415A77;
   font-size: 0.72rem;
 }
 
@@ -417,20 +415,20 @@ body {
 
 /* Recharts tooltip */
 .stats-tooltip {
-  background: #3d2b1a;
+  background: #1B263B;
   border: none;
   padding: 0.4rem 0.75rem;
-  font-family: Georgia, serif;
+  font-family: 'Inter', sans-serif;
 }
 .stats-tooltip-label {
   font-size: 0.7rem;
-  color: #a08060;
+  color: #778DA9;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .stats-tooltip-val {
   font-size: 1rem;
-  color: #e8d9c4;
+  color: #E0E1DD;
 }
 
 /* ── Deep Stats ──────────────────────────────────────────────────────────── */
@@ -442,19 +440,19 @@ body {
   gap: 0.35rem;
   margin-bottom: 1.25rem;
   padding: 0.6rem 0.75rem;
-  background: #e4d9cc;
-  border: 1px solid #c9b89e;
+  background: #D5D6D2;
+  border: 1px solid #B3AF8F;
 }
 .deep-nav-link {
   font-size: 0.62rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #7a5c3e;
+  color: #415A77;
   text-decoration: none;
   padding: 0.2rem 0.5rem;
   border: 1px solid transparent;
 }
-.deep-nav-link:hover { border-color: #c9b89e; color: #3d2b1a; }
+.deep-nav-link:hover { border-color: #B3AF8F; color: #1B263B; }
 
 .deep-tabs {
   display: flex;
@@ -462,35 +460,33 @@ body {
   margin-bottom: 0.75rem;
 }
 .deep-tabs button {
-  background: #e4d9cc;
-  border: 1px solid #c9b89e;
+  background: #D5D6D2;
+  border: 1px solid #B3AF8F;
   padding: 0.3rem 0.75rem;
-  font-family: Georgia, serif;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: #7a5c3e;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 0.95rem;
+  color: #415A77;
   cursor: pointer;
 }
 .deep-tabs button.active {
-  background: #3d2b1a;
-  color: #e8d9c4;
-  border-color: #3d2b1a;
+  background: #1B263B;
+  color: #E0E1DD;
+  border-color: #1B263B;
 }
 
 .deep-show-more {
   display: block;
   margin: 0.75rem auto 0;
   background: none;
-  border: 1px solid #c9b89e;
+  border: 1px solid #B3AF8F;
   padding: 0.3rem 1rem;
-  font-family: Georgia, serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.72rem;
-  color: #7a5c3e;
+  color: #415A77;
   cursor: pointer;
   letter-spacing: 0.06em;
 }
-.deep-show-more:hover { border-color: #8b4a1e; color: #3d2b1a; }
+.deep-show-more:hover { border-color: #415A77; color: #1B263B; }
 
 /* Agency cards */
 .agency-grid {
@@ -500,22 +496,22 @@ body {
   margin-top: 1rem;
 }
 .agency-card {
-  background: #e4d9cc;
-  border: 1px solid #c9b89e;
+  background: #D5D6D2;
+  border: 1px solid #B3AF8F;
   padding: 0.75rem;
 }
-.agency-card-known { border-left: 3px solid #8b4a1e; }
-.agency-name { font-family: Georgia, serif; font-size: 0.85rem; color: #1a0f07; font-weight: 600; margin-bottom: 0.2rem; }
-.agency-count { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #c1440e; margin-bottom: 0.2rem; }
-.agency-top { font-size: 0.7rem; color: #5a3e28; font-style: italic; margin-bottom: 0.5rem; }
+.agency-card-known { border-left: 3px solid #415A77; }
+.agency-name { font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #0D1B2A; font-weight: 600; margin-bottom: 0.2rem; }
+.agency-count { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: #415A77; margin-bottom: 0.2rem; }
+.agency-top { font-size: 0.7rem; color: #1B263B; font-style: italic; margin-bottom: 0.5rem; }
 .agency-charges { list-style: none; padding: 0; margin: 0; }
 .agency-charges li {
   display: flex;
   justify-content: space-between;
   font-size: 0.7rem;
-  color: #2c1f14;
+  color: #0D1B2A;
   padding: 0.15rem 0;
-  border-bottom: 1px solid #d8cbb8;
+  border-bottom: 1px solid #C5C2A8;
 }
 .agency-charges li:last-child { border-bottom: none; }
 
@@ -526,8 +522,8 @@ body {
   gap: 0.75rem;
 }
 .age-group-card {
-  background: #e4d9cc;
-  border: 1px solid #c9b89e;
+  background: #D5D6D2;
+  border: 1px solid #B3AF8F;
   padding: 0.75rem;
 }
 .age-group-label {
@@ -535,10 +531,10 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #c1440e;
+  color: #415A77;
   margin-bottom: 0.5rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #c9b89e;
+  border-bottom: 1px solid #B3AF8F;
 }
 .age-group-list {
   padding-left: 1.1rem;
@@ -548,9 +544,9 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 0.72rem;
-  color: #2c1f14;
+  color: #0D1B2A;
   padding: 0.2rem 0;
   padding-left: 0;
   list-style-position: outside;
 }
-.age-group-list li span:last-child { color: #7a5c3e; margin-left: 0.5rem; flex-shrink: 0; }
+.age-group-list li span:last-child { color: #415A77; margin-left: 0.5rem; flex-shrink: 0; }

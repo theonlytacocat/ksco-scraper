@@ -7,16 +7,28 @@ import {
 
 // ── Palette ──────────────────────────────────────────────────────────────────
 const C = {
-  rust: '#8b4a1e', red: '#c1440e', dark: '#3d2b1a',
-  muted: '#7a5c3e', text: '#2c1f14', grid: '#d8cbb8', green: '#4a7a4a',
+  primary:   '#5B7FA6',
+  secondary: '#415A77',
+  accent:    '#7AA8C4',
+  muted:     '#7A8A96',
+  text:      '#D8D9D5',
+  grid:      '#404850',
+  green:     '#4A8A6A',
 }
 const TYPE_COLORS = {
-  'Violent': '#c1440e', 'Property': '#8b4a1e', 'Drug': '#5a8a4a',
-  'Traffic / DUI': '#4a6a8a', 'Court / Supervision': '#8a4a7a',
-  'Sex Offense': '#6a2a5a', 'Weapons': '#9a6a1a', 'Fraud / Identity': '#2a6a6a',
-  'Order Violations': '#6a8a2a', 'Other': '#7a7a7a', 'Unknown': '#aaa',
+  'Violent':             '#C0535A',
+  'Property':            '#7AA8C4',
+  'Drug':                '#4A8A6A',
+  'Traffic / DUI':       '#5B7FA6',
+  'Court / Supervision': '#8A6AA8',
+  'Sex Offense':         '#A06878',
+  'Weapons':             '#C08A45',
+  'Fraud / Identity':    '#4A8A8A',
+  'Order Violations':    '#6A8A5A',
+  'Other':               '#5A6A72',
+  'Unknown':             '#484E54',
 }
-const SEV_COLORS = { 'Felony': '#c1440e', 'Gross Misdemeanor': '#8b4a1e', 'Misdemeanor': '#c9b89e', 'Unknown': '#aaa' }
+const SEV_COLORS = { 'Felony': '#C0535A', 'Gross Misdemeanor': '#C08A45', 'Misdemeanor': '#5B7FA6', 'Unknown': '#484E54' }
 const KNOWN_AGENCIES = ['Kitsap County Sheriff', 'Bremerton PD', 'Poulsbo PD', 'Port Orchard PD', 'Gig Harbor PD', 'Suquamish Tribal Police', 'DOC']
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -52,9 +64,9 @@ function HBar({ data, dataKey = 'count', nameKey = 'label', colorFn, color = C.r
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} horizontal={false} />
         <XAxis type="number" tick={{ fill: C.muted, fontSize: 11 }} axisLine={false} tickLine={false} />
         <YAxis type="category" dataKey={nameKey} width={210}
-          tick={{ fill: C.text, fontSize: 11, fontFamily: 'Georgia, serif' }}
+          tick={{ fill: C.text, fontSize: 11, fontFamily: 'Inter, sans-serif' }}
           axisLine={false} tickLine={false} />
-        <Tooltip content={<DarkTip />} cursor={{ fill: 'rgba(0,0,0,0.04)' }} />
+        <Tooltip content={<DarkTip />} cursor={{ fill: 'rgba(255,255,255,0.04)' }} />
         <Bar dataKey={dataKey} fill={color} radius={[0, 2, 2, 0]} maxBarSize={18}>
           {colorFn && data.map((d, i) => <Cell key={i} fill={colorFn(d)} />)}
         </Bar>
@@ -70,10 +82,10 @@ function VBar({ data, dataKey = 'count', nameKey = 'label', color = C.rust, colo
       <BarChart data={data} margin={{ top: 8, right: 8, left: 0, bottom: 28 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} vertical={false} />
         <XAxis dataKey={nameKey}
-          tick={{ fill: C.text, fontSize: 10, fontFamily: 'Georgia, serif' }}
+          tick={{ fill: C.text, fontSize: 10, fontFamily: 'Inter, sans-serif' }}
           axisLine={false} tickLine={false} angle={-28} textAnchor="end" interval={0} />
         <YAxis tick={{ fill: C.muted, fontSize: 11 }} axisLine={false} tickLine={false} />
-        <Tooltip content={<DarkTip />} cursor={{ fill: 'rgba(0,0,0,0.04)' }} />
+        <Tooltip content={<DarkTip />} cursor={{ fill: 'rgba(255,255,255,0.04)' }} />
         <Bar dataKey={dataKey} fill={color} radius={[2, 2, 0, 0]} maxBarSize={44}>
           {colorFn && data.map((d, i) => <Cell key={i} fill={colorFn(d)} />)}
         </Bar>
@@ -193,8 +205,8 @@ export default function DeepStats() {
           <button className={trendTab === 'year' ? 'active' : ''} onClick={() => setTrendTab('year')}>Yearly</button>
         </div>
         {trendTab === 'month'
-          ? <VBar data={bookingsByMonth} nameKey="month" color={C.rust} />
-          : <VBar data={bookingsByYear} nameKey="year" color={C.dark} />
+          ? <VBar data={bookingsByMonth} nameKey="month" color={C.primary} />
+          : <VBar data={bookingsByYear} nameKey="year" color={C.secondary} />
         }
       </div>
 
@@ -241,7 +253,7 @@ export default function DeepStats() {
       {/* Most common offenses */}
       <div className="stats-card">
         <SectionTitle>Most Common Offenses</SectionTitle>
-        <HBar data={topCharges} color={C.rust} />
+        <HBar data={topCharges} color={C.primary} />
       </div>
 
       {/* ════════════════════════════════════════════════════════════════ */}
@@ -293,7 +305,7 @@ export default function DeepStats() {
       <div className="stats-card">
         <SectionTitle>Release Reasons</SectionTitle>
         <p className="stats-card-note">Inferred from charge patterns for released bookings.</p>
-        <VBar data={releaseReasons} color={C.muted} />
+        <VBar data={releaseReasons} color={C.accent} />
         <table className="stats-table" style={{ marginTop: '0.5rem' }}>
           <tbody>
             {releaseReasons?.map(r => (
@@ -313,7 +325,7 @@ export default function DeepStats() {
         {agencyBreakdown?.length
           ? <>
               <HBar data={agencyBreakdown.map(a => ({ label: a.name, count: a.count }))}
-                color={C.dark} height={Math.max(180, agencyBreakdown.length * 30)} />
+                color={C.secondary} height={Math.max(180, agencyBreakdown.length * 30)} />
               <div className="agency-grid">
                 {agencyBreakdown.map(a => (
                   <div key={a.name} className={`agency-card ${KNOWN_AGENCIES.includes(a.name) ? 'agency-card-known' : ''}`}>
@@ -343,7 +355,7 @@ export default function DeepStats() {
         {stayByCharge?.length
           ? <>
               <HBar data={stayByCharge.map(r => ({ label: r.category, count: r.avgDays }))}
-                dataKey="count" nameKey="label" color={C.muted}
+                dataKey="count" nameKey="label" color={C.accent}
                 height={Math.max(200, stayByCharge.length * 30)} />
               <table className="stats-table" style={{ marginTop: '0.75rem' }}>
                 <thead><tr>
@@ -397,7 +409,7 @@ export default function DeepStats() {
           <SectionTitle>Top Charges by Sex</SectionTitle>
           {Object.entries(chargesBySex || {}).map(([sex, charges]) => (
             <div key={sex} style={{ marginBottom: '1rem' }}>
-              <div style={{ fontFamily: 'Georgia, serif', fontWeight: 600, color: C.rust, marginBottom: '0.3rem', fontSize: '0.85rem' }}>{sex}</div>
+              <div style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, color: C.accent, marginBottom: '0.3rem', fontSize: '0.85rem' }}>{sex}</div>
               <table className="stats-table">
                 <tbody>
                   {Object.entries(charges).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([charge, count]) => (
@@ -412,7 +424,7 @@ export default function DeepStats() {
           <SectionTitle>Top Charges by Race</SectionTitle>
           {Object.entries(chargesByRace || {}).map(([race, charges]) => (
             <div key={race} style={{ marginBottom: '1rem' }}>
-              <div style={{ fontFamily: 'Georgia, serif', fontWeight: 600, color: C.rust, marginBottom: '0.3rem', fontSize: '0.85rem' }}>{race}</div>
+              <div style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600, color: C.accent, marginBottom: '0.3rem', fontSize: '0.85rem' }}>{race}</div>
               <table className="stats-table">
                 <tbody>
                   {Object.entries(charges).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([charge, count]) => (

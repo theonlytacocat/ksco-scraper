@@ -4,19 +4,18 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell,
 } from 'recharts'
 
-// ── Color palette pulled from the site's existing CSS vars ──────────────────
+// ── Color palette ────────────────────────────────────────────────────────────
 const C = {
-  rust:    '#8b4a1e',
-  red:     '#c1440e',
-  dark:    '#3d2b1a',
-  tan:     '#c9b89e',
-  muted:   '#7a5c3e',
-  bg:      '#ede6da',
-  text:    '#2c1f14',
-  grid:    '#d8cbb8',
+  primary:   '#5B7FA6',
+  secondary: '#415A77',
+  accent:    '#7AA8C4',
+  muted:     '#7A8A96',
+  text:      '#D8D9D5',
+  grid:      '#404850',
+  green:     '#4A8A6A',
 }
 
-const RACE_COLORS = ['#8b4a1e', '#c1440e', '#5a8a4a', '#4a6a8a', '#8a4a7a', '#6a8a4a']
+const RACE_COLORS = ['#5B7FA6', '#7AA8C4', '#4A8A6A', '#8A6AA8', '#C08A45', '#4A8A8A']
 
 function SectionTitle({ children }) {
   return <h3 className="stats-section-title">{children}</h3>
@@ -56,11 +55,11 @@ function HBar({ data, dataKey = 'count', nameKey = 'label', color = C.rust, heig
           type="category"
           dataKey={nameKey}
           width={200}
-          tick={{ fill: C.text, fontSize: 12, fontFamily: 'Georgia, serif' }}
+          tick={{ fill: C.text, fontSize: 12, fontFamily: 'Inter, sans-serif' }}
           axisLine={false}
           tickLine={false}
         />
-        <Tooltip content={<DarkTooltip />} cursor={{ fill: 'rgba(0,0,0,0.04)' }} />
+        <Tooltip content={<DarkTooltip />} cursor={{ fill: 'rgba(255,255,255,0.04)' }} />
         <Bar dataKey={dataKey} fill={color} radius={[0, 2, 2, 0]} maxBarSize={20} />
       </BarChart>
     </ResponsiveContainer>
@@ -76,7 +75,7 @@ function VBar({ data, dataKey = 'count', nameKey = 'label', colors, color = C.ru
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} vertical={false} />
         <XAxis
           dataKey={nameKey}
-          tick={{ fill: C.text, fontSize: 11, fontFamily: 'Georgia, serif' }}
+          tick={{ fill: C.text, fontSize: 11, fontFamily: 'Inter, sans-serif' }}
           axisLine={false}
           tickLine={false}
           angle={-30}
@@ -84,7 +83,7 @@ function VBar({ data, dataKey = 'count', nameKey = 'label', colors, color = C.ru
           interval={0}
         />
         <YAxis tick={{ fill: C.muted, fontSize: 11 }} axisLine={false} tickLine={false} />
-        <Tooltip content={<DarkTooltip />} cursor={{ fill: 'rgba(0,0,0,0.04)' }} />
+        <Tooltip content={<DarkTooltip />} cursor={{ fill: 'rgba(255,255,255,0.04)' }} />
         <Bar dataKey={dataKey} fill={color} radius={[2, 2, 0, 0]} maxBarSize={50}>
           {colors && data.map((_, i) => (
             <Cell key={i} fill={colors[i % colors.length]} />
@@ -150,7 +149,7 @@ export default function Stats() {
         <p className="stats-card-note">
           Bookings by primary charge category. A single booking may carry multiple charge types.
         </p>
-        <HBar data={topCharges} color={C.rust} />
+        <HBar data={topCharges} color={C.primary} />
       </div>
 
       {/* ── Demographics ─────────────────────────────────────────────────── */}
@@ -173,7 +172,7 @@ export default function Stats() {
 
         <div className="stats-card">
           <SectionTitle>Sex</SectionTitle>
-          <VBar data={gender} color={C.red} />
+          <VBar data={gender} color={C.accent} />
           <table className="stats-table">
             <tbody>
               {gender.map(g => (
@@ -198,7 +197,7 @@ export default function Stats() {
             <span>Mean {age.mean}</span>
             <span>Max {age.max}</span>
           </div>
-          <VBar data={age.histogram} color={C.dark} />
+          <VBar data={age.histogram} color={C.secondary} />
         </div>
       )}
 
@@ -206,7 +205,7 @@ export default function Stats() {
       {bookingsByMonth?.length > 1 && (
         <div className="stats-card">
           <SectionTitle>Bookings by Month</SectionTitle>
-          <VBar data={bookingsByMonth} nameKey="month" color={C.rust} />
+          <VBar data={bookingsByMonth} nameKey="month" color={C.primary} />
         </div>
       )}
 
@@ -263,7 +262,7 @@ export default function Stats() {
             <span>Mean {stay.mean}d</span>
             <span>Max {stay.max}d</span>
           </div>
-          <VBar data={stay.histogram} color={C.muted} />
+          <VBar data={stay.histogram} color={C.accent} />
         </div>
       )}
     </div>

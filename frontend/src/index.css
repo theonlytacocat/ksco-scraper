@@ -65,16 +65,18 @@ body {
 .search-input::placeholder { color: #7A8A96; }
 .search-input:focus { border-color: #5B7FA6; }
 .filter-tabs { display: flex; gap: 0.5rem; }
-.filter-tabs button {
+.filter-tabs a, .filter-tabs button {
   background: #3A4045;
   border: 1px solid #484E54;
   padding: 0.4rem 0.9rem;
-  font-family: 'Fake Receipt', monospace;
-  font-size: 0.95rem;
-  color: #7A8A96;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  color: #A8B8C4;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
-.filter-tabs button.active {
+.filter-tabs a.active, .filter-tabs button.active {
   background: #415A77;
   color: #D8D9D5;
   border-color: #415A77;

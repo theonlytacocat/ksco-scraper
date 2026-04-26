@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #30363a;
+  background: #131618;
   color: #D8D9D5;
   min-height: 100vh;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  background: #22282C;
+  background: #0D1012;
   margin: 0 -1rem;
   padding: 1.5rem 2rem;
   border-bottom: 4px solid #415A77;
@@ -51,10 +51,27 @@ body {
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .search-input {
+    width: 100%;
+    min-width: unset;
+  }
+  .filter-tabs {
+    flex-wrap: wrap;
+  }
+  .filter-tabs a, .filter-tabs button {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
 .search-input {
   flex: 1;
   min-width: 200px;
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.5rem 0.75rem;
   font-family: 'Inter', sans-serif;
@@ -66,7 +83,7 @@ body {
 .search-input:focus { border-color: #5B7FA6; }
 .filter-tabs { display: flex; gap: 0.5rem; }
 .filter-tabs a, .filter-tabs button {
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.4rem 0.9rem;
   font-family: 'Playfair Display', serif;
@@ -99,7 +116,7 @@ body {
 .card {
   border: 1px solid #484E54;
   margin-bottom: 0.5rem;
-  background: #383E42;
+  background: #1C2024;
 }
 .card-released { opacity: 0.6; }
 .card-header {
@@ -110,7 +127,7 @@ body {
   cursor: pointer;
   gap: 1rem;
 }
-.card-header:hover { background: #3E454A; }
+.card-header:hover { background: #252A2E; }
 .card-name { font-family: 'Fake Receipt', monospace; font-size: 1.15rem; color: #D8D9D5; margin-bottom: 0.2rem; }
 .card-meta { font-size: 0.65rem; color: #7A8A96; text-transform: uppercase; letter-spacing: 0.07em; }
 .card-right { display: flex; align-items: center; gap: 0.75rem; flex-shrink: 0; }
@@ -124,7 +141,7 @@ body {
   border: 1px solid;
 }
 .badge-custody { background: #2A3A4E; border-color: #5B7FA6; color: #A8C0D8; }
-.badge-released { background: #3A3E42; border-color: #484E54; color: #7A8A96; }
+.badge-released { background: #1E2226; border-color: #484E54; color: #7A8A96; }
 
 .card-body { padding: 0 1rem 1rem; border-top: 1px solid #484E54; }
 .card-release-row {
@@ -169,7 +186,7 @@ body {
 
 /* History Log Styles */
 .history-log {
-  background: #383E42;
+  background: #1C2024;
   border: 1px solid #484E54;
   padding: 1.5rem;
 }
@@ -215,7 +232,7 @@ body {
   color: #D8D9D5;
   margin-bottom: 1rem;
   padding: 0.3rem 0.75rem;
-  background: #2C3236;
+  background: #181C20;
   display: inline-block;
 }
 .history-section {
@@ -242,11 +259,11 @@ body {
 .history-item {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.5rem;
-  background: #3A4045;
+  background: #1E2226;
   border-left: 2px solid #484E54;
 }
 .history-item:hover {
-  background: #3E454A;
+  background: #252A2E;
 }
 .history-name {
   display: block;
@@ -295,7 +312,7 @@ body {
 }
 
 .stats-card {
-  background: #383E42;
+  background: #1C2024;
   border: 1px solid #484E54;
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
@@ -355,7 +372,7 @@ body {
 .stat-box {
   flex: 1;
   min-width: 100px;
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.75rem 1rem;
   text-align: center;
@@ -426,7 +443,7 @@ body {
 
 /* Recharts tooltip */
 .stats-tooltip {
-  background: #22282C;
+  background: #0D1012;
   border: none;
   padding: 0.4rem 0.75rem;
   font-family: 'Inter', sans-serif;
@@ -451,7 +468,7 @@ body {
   gap: 0.35rem;
   margin-bottom: 1.25rem;
   padding: 0.6rem 0.75rem;
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
 }
 .deep-nav-link {
@@ -472,7 +489,7 @@ body {
   margin-bottom: 0.75rem;
 }
 .deep-tabs button {
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.3rem 0.75rem;
   font-family: 'Fake Receipt', monospace;
@@ -508,7 +525,7 @@ body {
   margin-top: 1rem;
 }
 .agency-card {
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.75rem;
 }
@@ -534,7 +551,7 @@ body {
   gap: 0.75rem;
 }
 .age-group-card {
-  background: #3A4045;
+  background: #1E2226;
   border: 1px solid #484E54;
   padding: 0.75rem;
 }

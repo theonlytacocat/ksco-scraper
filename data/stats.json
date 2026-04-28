@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-04-28T10:32:18.826Z",
+  "generatedAt": "2026-04-28T12:25:25.157Z",
   "bookingCounts": {
-    "total": 874,
-    "inCustody": 308,
-    "released": 566
+    "total": 875,
+    "inCustody": 306,
+    "released": 569
   },
   "gender": [
     {
       "label": "Male",
       "count": 605,
-      "pct": 69.2
+      "pct": 69.1
     },
     {
       "label": "Female",
@@ -18,20 +18,20 @@
     },
     {
       "label": "Unknown",
-      "count": 74,
-      "pct": 8.5
+      "count": 75,
+      "pct": 8.6
     }
   ],
   "race": [
     {
       "label": "White",
       "count": 623,
-      "pct": 71.3
+      "pct": 71.2
     },
     {
       "label": "Unknown",
-      "count": 97,
-      "pct": 11.1
+      "count": 98,
+      "pct": 11.2
     },
     {
       "label": "Black",
@@ -92,7 +92,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 109
+      "count": 110
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 396
+      "count": 397
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -193,15 +193,15 @@
     "count": 597
   },
   "stay": {
-    "mean": 22.5,
-    "median": 2.1,
+    "mean": 22.4,
+    "median": 2,
     "min": 0,
     "max": 627.4,
-    "count": 566,
+    "count": 569,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 214
+        "count": 217
       },
       {
         "label": "1–3 days",
@@ -503,6 +503,7 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "Domestic Violence": 10,
       "DUI": 27,
       "Hit and Run": 3,
       "Burglary (2nd Degree)": 2,
@@ -521,7 +522,6 @@
       "Making False Statements": 2,
       "Indecent Exposure": 1,
       "Harassment": 2,
-      "Domestic Violence": 9,
       "Reckless Driving": 2,
       "Theft (2nd Degree)": 2,
       "Failure to Comply (Sentence)": 1,
@@ -700,6 +700,7 @@
   },
   "chargesBySex": {
     "Unknown": {
+      "Domestic Violence": 7,
       "DUI": 21,
       "Hit and Run": 2,
       "Burglary (2nd Degree)": 2,
@@ -718,7 +719,6 @@
       "Theft (2nd Degree)": 2,
       "Local / Tribal Code": 1,
       "DOC Warrant": 1,
-      "Domestic Violence": 6,
       "Motor Vehicle Theft": 1,
       "Child Exploitation / CSAM": 1,
       "Protection Order Violation": 3,
@@ -846,7 +846,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 167
+      "count": 170
     },
     {
       "label": "Released",
@@ -884,7 +884,7 @@
   "recidivism": {
     "rate": 2.6,
     "repeatBookerCount": 22,
-    "totalIndividuals": 851,
+    "totalIndividuals": 852,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1220,7 +1220,7 @@
     },
     {
       "month": "2026-04",
-      "count": 472
+      "count": 473
     }
   ],
   "crimeTypes": [
@@ -1231,13 +1231,13 @@
     },
     {
       "label": "Violent",
-      "count": 188,
+      "count": 189,
       "pct": 14.4
     },
     {
       "label": "Traffic / DUI",
       "count": 185,
-      "pct": 14.2
+      "pct": 14.1
     },
     {
       "label": "Property",
@@ -1247,12 +1247,12 @@
     {
       "label": "Other",
       "count": 100,
-      "pct": 7.7
+      "pct": 7.6
     },
     {
       "label": "Order Violations",
       "count": 100,
-      "pct": 7.7
+      "pct": 7.6
     },
     {
       "label": "Drug",
@@ -1278,7 +1278,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1166,
+      "count": 1167,
       "pct": 58
     },
     {
@@ -1397,7 +1397,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 396,
+      "count": 397,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1410,7 +1410,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 38
+          "count": 39
         },
         {
           "label": "Assault",
@@ -1688,9 +1688,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 566,
-    "withBail": 270,
-    "pct": 47.7
+    "total": 569,
+    "withBail": 273,
+    "pct": 48
   },
   "chargesByAgeGroup": [
     {
@@ -2329,7 +2329,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 874
+      "count": 875
     }
   ]
 }

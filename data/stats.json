@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-28T15:05:02.528Z",
+  "generatedAt": "2026-04-28T17:12:55.532Z",
   "bookingCounts": {
-    "total": 876,
-    "inCustody": 306,
-    "released": 570
+    "total": 877,
+    "inCustody": 305,
+    "released": 572
   },
   "gender": [
     {
       "label": "Male",
-      "count": 606,
+      "count": 607,
       "pct": 69.2
     },
     {
       "label": "Female",
       "count": 195,
-      "pct": 22.3
+      "pct": 22.2
     },
     {
       "label": "Unknown",
@@ -26,17 +26,17 @@
     {
       "label": "White",
       "count": 623,
-      "pct": 71.1
+      "pct": 71
+    },
+    {
+      "label": "Black",
+      "count": 98,
+      "pct": 11.2
     },
     {
       "label": "Unknown",
       "count": 98,
       "pct": 11.2
-    },
-    {
-      "label": "Black",
-      "count": 97,
-      "pct": 11.1
     },
     {
       "label": "Native American",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 124
+        "count": 125
       },
       {
         "label": "56–65",
@@ -127,12 +127,12 @@
       "count": 32
     },
     {
-      "label": "Burglary (2nd Degree)",
+      "label": "Harassment",
       "count": 30
     },
     {
-      "label": "Harassment",
-      "count": 29
+      "label": "Burglary (2nd Degree)",
+      "count": 30
     },
     {
       "label": "Theft (3rd Degree)",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 397
+      "count": 398
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -197,11 +197,11 @@
     "median": 2,
     "min": 0,
     "max": 627.4,
-    "count": 570,
+    "count": 571,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 217
+        "count": 218
       },
       {
         "label": "1–3 days",
@@ -503,6 +503,7 @@
   ],
   "chargesByRace": {
     "Black": {
+      "Harassment": 12,
       "Driving While License Suspended": 8,
       "Domestic Violence": 17,
       "Assault": 15,
@@ -516,7 +517,6 @@
       "Resisting Arrest": 3,
       "Homicide": 5,
       "Community Custody Violation": 3,
-      "Harassment": 11,
       "PR / Bail Revocation": 5,
       "Other": 2,
       "Drug Offense": 6,
@@ -700,11 +700,11 @@
   },
   "chargesBySex": {
     "Male": {
+      "Harassment": 23,
       "Driving While License Suspended": 62,
       "Domestic Violence": 79,
       "Other": 17,
       "Failure to Appear": 228,
-      "Harassment": 22,
       "Theft (3rd Degree)": 22,
       "Attempt to Elude": 8,
       "Possession of Stolen Vehicle": 11,
@@ -846,11 +846,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 170
+      "count": 171
     },
     {
       "label": "Released",
-      "count": 139
+      "count": 140
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -884,7 +884,7 @@
   "recidivism": {
     "rate": 2.6,
     "repeatBookerCount": 22,
-    "totalIndividuals": 853,
+    "totalIndividuals": 854,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1220,14 +1220,14 @@
     },
     {
       "month": "2026-04",
-      "count": 474
+      "count": 475
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 404,
-      "pct": 30.9
+      "pct": 30.8
     },
     {
       "label": "Violent",
@@ -1245,12 +1245,12 @@
       "pct": 13
     },
     {
-      "label": "Other",
-      "count": 100,
-      "pct": 7.6
+      "label": "Order Violations",
+      "count": 101,
+      "pct": 7.7
     },
     {
-      "label": "Order Violations",
+      "label": "Other",
       "count": 100,
       "pct": 7.6
     },
@@ -1278,7 +1278,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1168,
+      "count": 1169,
       "pct": 58
     },
     {
@@ -1371,9 +1371,9 @@
     },
     {
       "category": "Domestic Violence",
-      "avgDays": 4.8,
-      "medianDays": 1.6,
-      "count": 39
+      "avgDays": 4.7,
+      "medianDays": 1.5,
+      "count": 40
     },
     {
       "category": "Theft (2nd Degree)",
@@ -1397,7 +1397,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 397,
+      "count": 398,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1688,8 +1688,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 570,
-    "withBail": 273,
+    "total": 572,
+    "withBail": 274,
     "pct": 47.9
   },
   "chargesByAgeGroup": [
@@ -1917,6 +1917,13 @@
         "n": 29
       },
       {
+        "charge": "Harassment",
+        "avgWeight": 178,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 22
+      },
+      {
         "charge": "Theft (3rd Degree)",
         "avgWeight": 173,
         "avgHeight": "5'10\"",
@@ -1936,13 +1943,6 @@
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 22
-      },
-      {
-        "charge": "Harassment",
-        "avgWeight": 176,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 21
       },
       {
         "charge": "Making False Statements",
@@ -2329,7 +2329,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 876
+      "count": 877
     }
   ]
 }

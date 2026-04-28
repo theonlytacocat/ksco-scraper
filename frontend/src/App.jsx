@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import Header from './components/Header'
 import StatBar from './components/StatBar'
 import BookingCard from './components/BookingCard'
@@ -15,8 +15,8 @@ function InCustodyPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/log').then(r => r.json()),
-      fetch('/api/status').then(r => r.json())
+      fetch('./data/change_log.json').then(r => r.json()),
+      fetch('./data/status.json').then(r => r.json())
     ]).then(([logData, statusData]) => {
       // Filter in-custody and sort by firstSeen descending (newest first)
       const inCustody = logData
@@ -66,7 +66,7 @@ function ReleasedPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/api/log').then(r => r.json()).then(logData => {
+    fetch('./data/change_log.json').then(r => r.json()).then(logData => {
       // Filter released and sort by releasedAt descending (newest first)
       const released = logData
         .filter(e => e.status === 'released')
@@ -112,7 +112,7 @@ function HistoryPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/api/log').then(r => r.json()).then(logData => {
+    fetch('./data/change_log.json').then(r => r.json()).then(logData => {
       setLog(logData)
       setLoading(false)
     })
@@ -171,7 +171,7 @@ function BookingLog({ entries }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<InCustodyPage />} />
         <Route path="/released" element={<ReleasedPage />} />
@@ -179,6 +179,6 @@ export default function App() {
         <Route path="/stats" element={<StatsPage />} />
         <Route path="/deepstats" element={<div className="app"><Header /><DeepStats /></div>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

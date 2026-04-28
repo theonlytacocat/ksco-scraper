@@ -100,7 +100,7 @@ export default function Stats() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/api/stats')
+    fetch('./data/stats.json')
       .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json() })
       .then(d => { setData(d); setLoading(false) })
       .catch(e => { setError(e.message); setLoading(false) })

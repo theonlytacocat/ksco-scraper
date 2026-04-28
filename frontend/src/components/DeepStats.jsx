@@ -104,7 +104,7 @@ export default function DeepStats() {
   const [showAllProfile, setShowAllProfile] = useState(false)
 
   useEffect(() => {
-    fetch('/api/stats')
+    fetch('./data/stats.json')
       .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json() })
       .then(d => {
         setData(d)

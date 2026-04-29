@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-29T07:26:00.817Z",
+  "generatedAt": "2026-04-29T09:35:26.355Z",
   "bookingCounts": {
-    "total": 886,
-    "inCustody": 302,
+    "total": 887,
+    "inCustody": 303,
     "released": 584
   },
   "gender": [
     {
       "label": "Male",
-      "count": 612,
+      "count": 613,
       "pct": 69.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 627,
+      "count": 628,
       "pct": 70.8
     },
     {
@@ -36,12 +36,12 @@
     {
       "label": "Black",
       "count": 98,
-      "pct": 11.1
+      "pct": 11
     },
     {
       "label": "Native American",
       "count": 35,
-      "pct": 4
+      "pct": 3.9
     },
     {
       "label": "Asian / Pacific Islander",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 256
+        "count": 257
       },
       {
         "label": "46–55",
@@ -111,12 +111,12 @@
       "count": 62
     },
     {
-      "label": "Criminal Trespass",
+      "label": "DOC Warrant",
       "count": 54
     },
     {
-      "label": "DOC Warrant",
-      "count": 53
+      "label": "Criminal Trespass",
+      "count": 54
     },
     {
       "label": "Obstruction",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 347
+      "count": 348
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -503,11 +503,11 @@
   ],
   "chargesByRace": {
     "White": {
+      "DOC Warrant": 45,
       "Driving While License Suspended": 60,
       "Ignition Interlock Violation": 18,
       "Failure to Appear": 249,
       "DUI": 76,
-      "DOC Warrant": 44,
       "Domestic Violence": 78,
       "Other": 16,
       "Harassment": 15,
@@ -701,6 +701,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 46,
       "Driving While License Suspended": 63,
       "Ignition Interlock Violation": 22,
       "Failure to Appear": 229,
@@ -708,7 +709,6 @@
       "Theft (3rd Degree)": 23,
       "Other": 18,
       "DUI": 74,
-      "DOC Warrant": 45,
       "Domestic Violence": 80,
       "Harassment": 23,
       "Attempt to Elude": 8,
@@ -884,8 +884,8 @@
     }
   ],
   "recidivism": {
-    "rate": 2.8,
-    "repeatBookerCount": 24,
+    "rate": 2.9,
+    "repeatBookerCount": 25,
     "totalIndividuals": 861,
     "repeatBookers": [
       {
@@ -905,6 +905,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "DAVIS, JOHN PETERSON",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026001985",
+            "firstSeen": "04/29/2026, 02:35:26",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026000948",
+            "firstSeen": "03/25/2026, 18:51:35",
             "status": "released"
           }
         ]
@@ -1196,22 +1212,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "WALLACE, COOPER LANCE",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026001851",
-            "firstSeen": "04/21/2026, 14:30:22",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001440",
-            "firstSeen": "03/27/2026, 18:00:24",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1222,13 +1222,13 @@
     },
     {
       "month": "2026-04",
-      "count": 484
+      "count": 485
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 407,
+      "count": 408,
       "pct": 30.8
     },
     {
@@ -1285,8 +1285,8 @@
     },
     {
       "label": "Felony",
-      "count": 370,
-      "pct": 18.2
+      "count": 371,
+      "pct": 18.3
     },
     {
       "label": "Unknown",
@@ -1426,7 +1426,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 347,
+      "count": 348,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1891,18 +1891,18 @@
         "n": 48
       },
       {
+        "charge": "DOC Warrant",
+        "avgWeight": 179,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 46
+      },
+      {
         "charge": "Protection Order Violation",
         "avgWeight": 181,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 46
-      },
-      {
-        "charge": "DOC Warrant",
-        "avgWeight": 178,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 45
       },
       {
         "charge": "Criminal Trespass",
@@ -2331,7 +2331,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 886
+      "count": 887
     }
   ]
 }

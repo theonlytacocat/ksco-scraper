@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-04-29T21:10:09.967Z",
+  "generatedAt": "2026-04-29T23:09:15.134Z",
   "bookingCounts": {
-    "total": 900,
-    "inCustody": 307,
+    "total": 903,
+    "inCustody": 310,
     "released": 593
   },
   "gender": [
     {
       "label": "Male",
-      "count": 623,
+      "count": 625,
       "pct": 69.2
     },
     {
       "label": "Female",
       "count": 198,
-      "pct": 22
+      "pct": 21.9
     },
     {
       "label": "Unknown",
-      "count": 79,
-      "pct": 8.8
+      "count": 80,
+      "pct": 8.9
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 638,
+      "count": 640,
       "pct": 70.9
     },
     {
       "label": "Unknown",
-      "count": 102,
-      "pct": 11.3
+      "count": 103,
+      "pct": 11.4
     },
     {
       "label": "Black",
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 246
+        "count": 247
       },
       {
         "label": "36–45",
-        "count": 260
+        "count": 261
       },
       {
         "label": "46–55",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 338
+      "count": 339
     },
     {
       "label": "Domestic Violence",
@@ -104,11 +104,11 @@
     },
     {
       "label": "Assault",
-      "count": 74
+      "count": 76
     },
     {
       "label": "Protection Order Violation",
-      "count": 62
+      "count": 63
     },
     {
       "label": "DOC Warrant",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 419
+      "count": 424
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 29488.84,
+    "mean": 30193.97,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 627
+    "count": 629
   },
   "stay": {
     "mean": 22.5,
@@ -341,8 +341,8 @@
     {
       "category": "Assault",
       "medianBail": 10000,
-      "meanBail": 127153.85,
-      "count": 26
+      "meanBail": 140962.96,
+      "count": 27
     },
     {
       "category": "Attempt to Elude",
@@ -455,8 +455,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7785,
-      "count": 243
+      "meanBail": 7763.34,
+      "count": 244
     },
     {
       "category": "Driving While License Suspended",
@@ -503,9 +503,11 @@
   ],
   "chargesByRace": {
     "White": {
+      "Assault": 45,
+      "Failure to Appear": 255,
+      "Protection Order Violation": 46,
+      "Vehicle Prowling": 5,
       "Driving While License Suspended": 62,
-      "Failure to Appear": 254,
-      "Assault": 44,
       "Drug Offense": 54,
       "PR / Bail Revocation": 10,
       "Theft (2nd Degree)": 12,
@@ -520,14 +522,12 @@
       "Obstruction": 28,
       "Attempt to Elude": 6,
       "Possession of Stolen Vehicle": 12,
-      "Protection Order Violation": 45,
       "Hit and Run": 8,
       "Burglary (2nd Degree)": 22,
       "Robbery": 5,
       "Motor Vehicle Theft": 5,
       "Stalking": 5,
       "Criminal Trespass": 42,
-      "Vehicle Prowling": 4,
       "Burglary Tools": 3,
       "Making False Statements": 18,
       "Failure to Register (Sex Offender)": 6,
@@ -568,9 +568,9 @@
       "Bribery": 1
     },
     "Unknown": {
+      "Assault": 10,
       "Failure to Appear": 14,
       "Driving While License Suspended": 7,
-      "Assault": 9,
       "Attempt to Elude": 3,
       "Ignition Interlock Violation": 4,
       "Child Sex Offense": 1,
@@ -701,9 +701,11 @@
   },
   "chargesBySex": {
     "Male": {
+      "Assault": 52,
+      "Failure to Appear": 236,
+      "Protection Order Violation": 47,
+      "Vehicle Prowling": 6,
       "Driving While License Suspended": 65,
-      "Failure to Appear": 235,
-      "Assault": 51,
       "Drug Offense": 49,
       "PR / Bail Revocation": 13,
       "DOC Warrant": 46,
@@ -717,7 +719,6 @@
       "Attempt to Elude": 8,
       "Possession of Stolen Vehicle": 11,
       "Obstruction": 29,
-      "Protection Order Violation": 46,
       "Hit and Run": 8,
       "Burglary (2nd Degree)": 22,
       "Robbery": 6,
@@ -726,7 +727,6 @@
       "Reckless Driving": 7,
       "Resisting Arrest": 13,
       "Criminal Trespass": 38,
-      "Vehicle Prowling": 5,
       "Burglary Tools": 3,
       "Human Trafficking": 2,
       "Making False Statements": 21,
@@ -765,9 +765,9 @@
       "Public Order": 1
     },
     "Unknown": {
+      "Assault": 8,
       "Failure to Appear": 10,
       "Driving While License Suspended": 5,
-      "Assault": 7,
       "Attempt to Elude": 3,
       "Ignition Interlock Violation": 2,
       "Child Sex Offense": 1,
@@ -884,9 +884,9 @@
     }
   ],
   "recidivism": {
-    "rate": 3,
-    "repeatBookerCount": 26,
-    "totalIndividuals": 873,
+    "rate": 3.1,
+    "repeatBookerCount": 27,
+    "totalIndividuals": 875,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -905,6 +905,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "MENDOZA, GEORGE JR",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026001999",
+            "firstSeen": "04/29/2026, 16:09:12",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001448",
+            "firstSeen": "03/28/2026, 00:30:19",
             "status": "released"
           }
         ]
@@ -1196,22 +1212,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "DEAN, MCKENZIE NOELLE",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026001885",
-            "firstSeen": "04/23/2026, 11:45:04",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001270",
-            "firstSeen": "03/25/2026, 18:49:30",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1222,19 +1222,19 @@
     },
     {
       "month": "2026-04",
-      "count": 498
+      "count": 501
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 416,
-      "pct": 31.1
+      "count": 417,
+      "pct": 31
     },
     {
       "label": "Violent",
-      "count": 194,
-      "pct": 14.5
+      "count": 196,
+      "pct": 14.6
     },
     {
       "label": "Traffic / DUI",
@@ -1243,8 +1243,13 @@
     },
     {
       "label": "Property",
-      "count": 172,
-      "pct": 12.8
+      "count": 173,
+      "pct": 12.9
+    },
+    {
+      "label": "Order Violations",
+      "count": 102,
+      "pct": 7.6
     },
     {
       "label": "Other",
@@ -1252,14 +1257,9 @@
       "pct": 7.5
     },
     {
-      "label": "Order Violations",
-      "count": 101,
-      "pct": 7.5
-    },
-    {
       "label": "Drug",
       "count": 77,
-      "pct": 5.8
+      "pct": 5.7
     },
     {
       "label": "Sex Offense",
@@ -1280,18 +1280,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1192,
+      "count": 1195,
       "pct": 58.1
     },
     {
       "label": "Felony",
-      "count": 373,
+      "count": 375,
       "pct": 18.2
     },
     {
       "label": "Unknown",
       "count": 342,
-      "pct": 16.7
+      "pct": 16.6
     },
     {
       "label": "Misdemeanor",
@@ -1399,12 +1399,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 419,
+      "count": 424,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 109
+          "count": 110
         },
         {
           "label": "DUI",
@@ -1416,7 +1416,7 @@
         },
         {
           "label": "Assault",
-          "count": 23
+          "count": 25
         },
         {
           "label": "Drug Offense",
@@ -1725,7 +1725,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 108
+          "count": 109
         },
         {
           "label": "Domestic Violence",
@@ -1733,7 +1733,7 @@
         },
         {
           "label": "Assault",
-          "count": 26
+          "count": 27
         },
         {
           "label": "DUI",
@@ -1765,7 +1765,7 @@
           "count": 27
         },
         {
-          "label": "DUI",
+          "label": "Protection Order Violation",
           "count": 19
         }
       ]
@@ -1853,7 +1853,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 233
+        "n": 234
       },
       {
         "charge": "Domestic Violence",
@@ -1881,7 +1881,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 49
+        "n": 50
       },
       {
         "charge": "Drug Offense",
@@ -1891,16 +1891,16 @@
         "n": 49
       },
       {
-        "charge": "DOC Warrant",
-        "avgWeight": 179,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 46
-      },
-      {
         "charge": "Protection Order Violation",
         "avgWeight": 181,
         "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 47
+      },
+      {
+        "charge": "DOC Warrant",
+        "avgWeight": 179,
+        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 46
       },
@@ -2094,6 +2094,13 @@
         "n": 7
       },
       {
+        "charge": "Vehicle Prowling",
+        "avgWeight": 174,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 6
+      },
+      {
         "charge": "Robbery",
         "avgWeight": 179,
         "avgHeight": "5'11\"",
@@ -2113,13 +2120,6 @@
         "avgHeight": "5'9\"",
         "topRace": "Native American",
         "n": 6
-      },
-      {
-        "charge": "Vehicle Prowling",
-        "avgWeight": 172,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 5
       },
       {
         "charge": "Community Custody Violation",
@@ -2331,7 +2331,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 900
+      "count": 903
     }
   ]
 }

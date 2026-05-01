@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-01T19:48:28.470Z",
+  "generatedAt": "2026-05-01T20:57:23.127Z",
   "bookingCounts": {
-    "total": 927,
+    "total": 928,
     "inCustody": 306,
-    "released": 621
+    "released": 622
   },
   "gender": [
     {
       "label": "Male",
-      "count": 644,
+      "count": 645,
       "pct": 69.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 659,
+      "count": 660,
       "pct": 71.1
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 109
+        "count": 110
       },
       {
         "label": "26–35",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 31
+      "count": 32
     },
     {
       "label": "Theft (3rd Degree)",
@@ -154,7 +154,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 83
+      "count": 84
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 30767.31,
+    "mean": 30724.28,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 656
+    "count": 657
   },
   "stay": {
-    "mean": 22.1,
+    "mean": 22.3,
     "median": 2,
     "min": 0,
     "max": 627.4,
-    "count": 617,
+    "count": 618,
     "histogram": [
       {
         "label": "< 1 day",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 35
+        "count": 36
       }
     ]
   },
@@ -345,12 +345,6 @@
       "count": 29
     },
     {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 13200,
-      "count": 5
-    },
-    {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
       "meanBail": 17666.67,
@@ -373,6 +367,12 @@
       "medianBail": 10000,
       "meanBail": 10000,
       "count": 1
+    },
+    {
+      "category": "Harassment",
+      "medianBail": 7500,
+      "meanBail": 11416.67,
+      "count": 6
     },
     {
       "category": "Weapons",
@@ -503,6 +503,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Harassment": 17,
       "Ignition Interlock Violation": 20,
       "Obstruction": 30,
       "Failure to Appear": 260,
@@ -510,7 +511,6 @@
       "Fugitive from Justice": 5,
       "Drug Offense": 57,
       "Criminal Trespass": 43,
-      "Harassment": 16,
       "Weapons": 13,
       "Theft (2nd Degree)": 13,
       "Making False Statements": 19,
@@ -701,6 +701,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Harassment": 24,
       "Ignition Interlock Violation": 24,
       "Obstruction": 33,
       "Failure to Appear": 242,
@@ -722,7 +723,6 @@
       "Malicious Mischief": 24,
       "Theft (3rd Degree)": 23,
       "Other": 18,
-      "Harassment": 23,
       "Attempt to Elude": 8,
       "Possession of Stolen Vehicle": 11,
       "Hit and Run": 8,
@@ -844,7 +844,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 200
+      "count": 201
     },
     {
       "label": "Released (Unknown Reason)",
@@ -886,7 +886,7 @@
   "recidivism": {
     "rate": 3.1,
     "repeatBookerCount": 28,
-    "totalIndividuals": 898,
+    "totalIndividuals": 899,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1226,14 +1226,14 @@
     },
     {
       "month": "2026-05",
-      "count": 8
+      "count": 9
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 426,
-      "pct": 30.9
+      "pct": 30.8
     },
     {
       "label": "Violent",
@@ -1257,7 +1257,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 103,
+      "count": 104,
       "pct": 7.5
     },
     {
@@ -1284,7 +1284,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1219,
+      "count": 1220,
       "pct": 58
     },
     {
@@ -1457,7 +1457,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 83,
+      "count": 84,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1714,9 +1714,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 621,
+    "total": 622,
     "withBail": 293,
-    "pct": 47.2
+    "pct": 47.1
   },
   "chargesByAgeGroup": [
     {
@@ -1950,6 +1950,13 @@
         "n": 24
       },
       {
+        "charge": "Harassment",
+        "avgWeight": 176,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 23
+      },
+      {
         "charge": "Malicious Mischief",
         "avgWeight": 184,
         "avgHeight": "5'10\"",
@@ -1967,13 +1974,6 @@
         "charge": "Making False Statements",
         "avgWeight": 172,
         "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 22
-      },
-      {
-        "charge": "Harassment",
-        "avgWeight": 178,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 22
       },
@@ -2355,7 +2355,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 927
+      "count": 928
     }
   ]
 }

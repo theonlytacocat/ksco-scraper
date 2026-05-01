@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-01T20:57:23.127Z",
+  "generatedAt": "2026-05-01T21:59:15.743Z",
   "bookingCounts": {
-    "total": 928,
-    "inCustody": 306,
-    "released": 622
+    "total": 929,
+    "inCustody": 305,
+    "released": 624
   },
   "gender": [
     {
       "label": "Male",
-      "count": 645,
+      "count": 646,
       "pct": 69.5
     },
     {
       "label": "Female",
       "count": 201,
-      "pct": 21.7
+      "pct": 21.6
     },
     {
       "label": "Unknown",
@@ -26,7 +26,7 @@
     {
       "label": "White",
       "count": 660,
-      "pct": 71.1
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -40,8 +40,8 @@
     },
     {
       "label": "Native American",
-      "count": 35,
-      "pct": 3.8
+      "count": 36,
+      "pct": 3.9
     },
     {
       "label": "Asian / Pacific Islander",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 110
+        "count": 111
       },
       {
         "label": "26–35",
@@ -87,12 +87,12 @@
       "count": 345
     },
     {
-      "label": "Domestic Violence",
+      "label": "DUI",
       "count": 116
     },
     {
-      "label": "DUI",
-      "count": 115
+      "label": "Domestic Violence",
+      "count": 116
     },
     {
       "label": "Driving While License Suspended",
@@ -170,7 +170,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 21
+      "count": 22
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 30724.28,
+    "mean": 30685.19,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 657
+    "count": 658
   },
   "stay": {
-    "mean": 22.3,
+    "mean": 22.4,
     "median": 2,
     "min": 0,
     "max": 627.4,
-    "count": 618,
+    "count": 620,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 85
+        "count": 87
       },
       {
         "label": "3+ months",
@@ -375,6 +375,12 @@
       "count": 6
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 12000,
+      "count": 50
+    },
+    {
       "category": "Weapons",
       "medianBail": 5000,
       "meanBail": 24400,
@@ -385,12 +391,6 @@
       "medianBail": 5000,
       "meanBail": 5400,
       "count": 20
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 12142.86,
-      "count": 49
     },
     {
       "category": "Ignition Interlock Violation",
@@ -502,6 +502,34 @@
     }
   ],
   "chargesByRace": {
+    "Native American": {
+      "DUI": 1,
+      "Malicious Mischief": 3,
+      "Theft (3rd Degree)": 2,
+      "Other": 2,
+      "Failure to Appear": 19,
+      "Obstruction": 2,
+      "Driving While License Suspended": 2,
+      "Drug Offense": 4,
+      "Protection Order Violation": 1,
+      "Domestic Violence": 3,
+      "Local / Tribal Code": 4,
+      "DOC Warrant": 1,
+      "Making False Statements": 1,
+      "Assault": 4,
+      "Residential Burglary": 1,
+      "Resisting Arrest": 1,
+      "Theft (1st Degree)": 1,
+      "Theft (2nd Degree)": 1,
+      "PR / Bail Revocation": 2,
+      "Criminal Trespass": 2,
+      "Ignition Interlock Violation": 1,
+      "Homicide": 1,
+      "Community Custody Violation": 1,
+      "Harassment": 1,
+      "Burglary (2nd Degree)": 1,
+      "Failure to Comply (Sentence)": 1
+    },
     "White": {
       "Harassment": 17,
       "Ignition Interlock Violation": 20,
@@ -646,33 +674,6 @@
       "Traffic / Obstruction": 1,
       "Vehicle Prowling": 1
     },
-    "Native American": {
-      "Malicious Mischief": 3,
-      "Theft (3rd Degree)": 2,
-      "Other": 2,
-      "Failure to Appear": 19,
-      "Obstruction": 2,
-      "Driving While License Suspended": 2,
-      "Drug Offense": 4,
-      "Protection Order Violation": 1,
-      "Domestic Violence": 3,
-      "Local / Tribal Code": 4,
-      "DOC Warrant": 1,
-      "Making False Statements": 1,
-      "Assault": 4,
-      "Residential Burglary": 1,
-      "Resisting Arrest": 1,
-      "Theft (1st Degree)": 1,
-      "Theft (2nd Degree)": 1,
-      "PR / Bail Revocation": 2,
-      "Criminal Trespass": 2,
-      "Ignition Interlock Violation": 1,
-      "Homicide": 1,
-      "Community Custody Violation": 1,
-      "Harassment": 1,
-      "Burglary (2nd Degree)": 1,
-      "Failure to Comply (Sentence)": 1
-    },
     "Asian / Pacific Islander": {
       "Domestic Violence": 3,
       "Other": 1,
@@ -701,6 +702,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 78,
       "Harassment": 24,
       "Ignition Interlock Violation": 24,
       "Obstruction": 33,
@@ -713,7 +715,6 @@
       "Driving While License Suspended": 68,
       "Domestic Violence": 83,
       "Failure to Comply (Sentence)": 20,
-      "DUI": 77,
       "Burglary (1st Degree)": 8,
       "Assault": 53,
       "Resisting Arrest": 14,
@@ -844,7 +845,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 201
+      "count": 202
     },
     {
       "label": "Released (Unknown Reason)",
@@ -852,7 +853,7 @@
     },
     {
       "label": "Released",
-      "count": 155
+      "count": 156
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -886,7 +887,7 @@
   "recidivism": {
     "rate": 3.1,
     "repeatBookerCount": 28,
-    "totalIndividuals": 899,
+    "totalIndividuals": 900,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1226,7 +1227,7 @@
     },
     {
       "month": "2026-05",
-      "count": 9
+      "count": 10
     }
   ],
   "crimeTypes": [
@@ -1242,8 +1243,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 199,
-      "pct": 14.4
+      "count": 200,
+      "pct": 14.5
     },
     {
       "label": "Property",
@@ -1268,7 +1269,7 @@
     {
       "label": "Sex Offense",
       "count": 38,
-      "pct": 2.8
+      "pct": 2.7
     },
     {
       "label": "Fraud / Identity",
@@ -1284,7 +1285,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1220,
+      "count": 1221,
       "pct": 58
     },
     {
@@ -1311,9 +1312,9 @@
   "stayByCharge": [
     {
       "category": "Harassment",
-      "avgDays": 62.4,
-      "medianDays": 3,
-      "count": 3
+      "avgDays": 46.8,
+      "medianDays": 2.3,
+      "count": 4
     },
     {
       "category": "PR / Bail Revocation",
@@ -1335,9 +1336,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 18.7,
-      "medianDays": 3.7,
-      "count": 122
+      "avgDays": 18.8,
+      "medianDays": 3.8,
+      "count": 123
     },
     {
       "category": "Protection Order Violation",
@@ -1565,12 +1566,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 21,
+      "count": 22,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 6
+          "count": 7
         },
         {
           "label": "Failure to Appear",
@@ -1714,8 +1715,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 622,
-    "withBail": 293,
+    "total": 624,
+    "withBail": 294,
     "pct": 47.1
   },
   "chargesByAgeGroup": [
@@ -1728,7 +1729,7 @@
         },
         {
           "label": "DUI",
-          "count": 18
+          "count": 19
         },
         {
           "label": "Domestic Violence",
@@ -1891,7 +1892,7 @@
         "avgWeight": 178,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 71
+        "n": 72
       },
       {
         "charge": "Driving While License Suspended",
@@ -2355,7 +2356,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 928
+      "count": 929
     }
   ]
 }

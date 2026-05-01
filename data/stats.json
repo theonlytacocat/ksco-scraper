@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-01T06:39:45.682Z",
+  "generatedAt": "2026-05-01T14:19:29.332Z",
   "bookingCounts": {
-    "total": 919,
-    "inCustody": 309,
+    "total": 920,
+    "inCustody": 310,
     "released": 610
   },
   "gender": [
     {
       "label": "Male",
-      "count": 639,
-      "pct": 69.5
+      "count": 640,
+      "pct": 69.6
     },
     {
       "label": "Female",
       "count": 199,
-      "pct": 21.7
+      "pct": 21.6
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 652,
-      "pct": 70.9
+      "count": 653,
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 249
+        "count": 250
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 342
+      "count": 343
     },
     {
       "label": "Domestic Violence",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 78
+      "count": 79
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 355
+      "count": 360
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30120.74,
+    "mean": 29907.33,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 644
+    "count": 649
   },
   "stay": {
     "mean": 22.3,
@@ -455,20 +455,20 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7654.64,
-      "count": 249
+      "meanBail": 7579.47,
+      "count": 253
+    },
+    {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 5328.95,
+      "count": 38
     },
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 3763.16,
       "count": 38
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 5459.46,
-      "count": 37
     },
     {
       "category": "Resisting Arrest",
@@ -503,15 +503,15 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 258,
+      "Drug Offense": 56,
       "Theft (2nd Degree)": 13,
       "Making False Statements": 19,
       "Obstruction": 29,
       "Ignition Interlock Violation": 19,
       "Driving While License Suspended": 64,
-      "Failure to Appear": 257,
       "Domestic Violence": 81,
       "Failure to Comply (Sentence)": 14,
-      "Drug Offense": 55,
       "DUI": 79,
       "Assault": 45,
       "Protection Order Violation": 46,
@@ -701,15 +701,15 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 240,
+      "Drug Offense": 51,
       "Theft (2nd Degree)": 12,
       "Making False Statements": 22,
       "Obstruction": 32,
       "Ignition Interlock Violation": 23,
       "Driving While License Suspended": 68,
-      "Failure to Appear": 239,
       "Domestic Violence": 83,
       "Failure to Comply (Sentence)": 20,
-      "Drug Offense": 50,
       "DUI": 77,
       "Burglary (1st Degree)": 8,
       "Assault": 53,
@@ -886,7 +886,7 @@
   "recidivism": {
     "rate": 3,
     "repeatBookerCount": 27,
-    "totalIndividuals": 891,
+    "totalIndividuals": 892,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1223,13 +1223,17 @@
     {
       "month": "2026-04",
       "count": 517
+    },
+    {
+      "month": "2026-05",
+      "count": 1
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 422,
-      "pct": 30.8
+      "count": 423,
+      "pct": 30.9
     },
     {
       "label": "Violent",
@@ -1244,7 +1248,7 @@
     {
       "label": "Property",
       "count": 176,
-      "pct": 12.9
+      "pct": 12.8
     },
     {
       "label": "Other",
@@ -1254,12 +1258,12 @@
     {
       "label": "Order Violations",
       "count": 102,
-      "pct": 7.5
+      "pct": 7.4
     },
     {
       "label": "Drug",
-      "count": 78,
-      "pct": 5.7
+      "count": 79,
+      "pct": 5.8
     },
     {
       "label": "Sex Offense",
@@ -1280,7 +1284,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1211,
+      "count": 1215,
       "pct": 58.1
     },
     {
@@ -1290,7 +1294,7 @@
     },
     {
       "label": "Unknown",
-      "count": 346,
+      "count": 347,
       "pct": 16.6
     },
     {
@@ -1426,12 +1430,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 355,
+      "count": 360,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 107
+          "count": 111
         },
         {
           "label": "Driving While License Suspended",
@@ -1447,7 +1451,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 19
+          "count": 20
         }
       ]
     },
@@ -1741,7 +1745,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 109
+          "count": 110
         },
         {
           "label": "Domestic Violence",
@@ -1869,7 +1873,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 237
+        "n": 238
       },
       {
         "charge": "Domestic Violence",
@@ -1893,18 +1897,18 @@
         "n": 66
       },
       {
-        "charge": "Assault",
-        "avgWeight": 188,
+        "charge": "Drug Offense",
+        "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 51
       },
       {
-        "charge": "Drug Offense",
-        "avgWeight": 187,
+        "charge": "Assault",
+        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 50
+        "n": 51
       },
       {
         "charge": "Protection Order Violation",
@@ -2347,7 +2351,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 919
+      "count": 920
     }
   ]
 }

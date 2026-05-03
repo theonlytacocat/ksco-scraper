@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-03T09:04:59.291Z",
+  "generatedAt": "2026-05-03T10:32:02.434Z",
   "bookingCounts": {
-    "total": 949,
-    "inCustody": 312,
+    "total": 951,
+    "inCustody": 314,
     "released": 637
   },
   "gender": [
     {
       "label": "Male",
-      "count": 659,
-      "pct": 69.4
+      "count": 661,
+      "pct": 69.5
     },
     {
       "label": "Female",
@@ -25,18 +25,18 @@
   "race": [
     {
       "label": "White",
-      "count": 676,
-      "pct": 71.2
+      "count": 678,
+      "pct": 71.3
     },
     {
       "label": "Unknown",
       "count": 106,
-      "pct": 11.2
+      "pct": 11.1
     },
     {
       "label": "Black",
       "count": 103,
-      "pct": 10.9
+      "pct": 10.8
     },
     {
       "label": "Native American",
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 269
+        "count": 270
       },
       {
         "label": "46–55",
-        "count": 138
+        "count": 139
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 352
+      "count": 354
     },
     {
       "label": "DUI",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Other",
-      "count": 35
+      "count": 36
     },
     {
       "label": "Harassment",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 443
+      "count": 447
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30102.94,
+    "mean": 30012.93,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 681
+    "count": 685
   },
   "stay": {
     "mean": 22,
@@ -339,6 +339,12 @@
       "count": 7
     },
     {
+      "category": "Weapons",
+      "medianBail": 10000,
+      "meanBail": 28666.67,
+      "count": 6
+    },
+    {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
       "meanBail": 23714.29,
@@ -369,16 +375,16 @@
       "count": 1
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 13250,
+      "count": 26
+    },
+    {
       "category": "Harassment",
       "medianBail": 5000,
       "meanBail": 10285.71,
       "count": 7
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 13740,
-      "count": 25
     },
     {
       "category": "DUI",
@@ -397,12 +403,6 @@
       "medianBail": 5000,
       "meanBail": 3769.23,
       "count": 13
-    },
-    {
-      "category": "Weapons",
-      "medianBail": 5000,
-      "meanBail": 24400,
-      "count": 5
     },
     {
       "category": "Ignition Interlock Violation",
@@ -453,16 +453,16 @@
       "count": 1
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 7341.81,
+      "count": 268
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 5109.76,
       "count": 41
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 7367.88,
-      "count": 266
     },
     {
       "category": "Driving While License Suspended",
@@ -503,12 +503,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 267,
+      "Weapons": 14,
+      "Other": 19,
       "Drug Offense": 59,
-      "Failure to Appear": 265,
       "DUI": 83,
       "Domestic Violence": 85,
       "Theft (2nd Degree)": 14,
-      "Other": 18,
       "Protection Order Violation": 47,
       "Harassment": 18,
       "Obstruction": 31,
@@ -519,7 +520,6 @@
       "DOC Warrant": 46,
       "Fugitive from Justice": 5,
       "Criminal Trespass": 43,
-      "Weapons": 13,
       "Making False Statements": 19,
       "Driving While License Suspended": 64,
       "Failure to Comply (Sentence)": 14,
@@ -703,11 +703,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 250,
+      "Weapons": 21,
+      "Other": 21,
       "Drug Offense": 53,
-      "Failure to Appear": 248,
       "DUI": 81,
       "Theft (2nd Degree)": 13,
-      "Other": 20,
       "Harassment": 26,
       "Protection Order Violation": 48,
       "Domestic Violence": 85,
@@ -716,7 +717,6 @@
       "Assault": 54,
       "Ignition Interlock Violation": 24,
       "DOC Warrant": 47,
-      "Weapons": 20,
       "Making False Statements": 22,
       "Driving While License Suspended": 68,
       "Failure to Comply (Sentence)": 20,
@@ -888,7 +888,7 @@
   "recidivism": {
     "rate": 3.4,
     "repeatBookerCount": 31,
-    "totalIndividuals": 917,
+    "totalIndividuals": 919,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1228,19 +1228,19 @@
     },
     {
       "month": "2026-05",
-      "count": 30
+      "count": 32
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 433,
-      "pct": 30.7
+      "count": 435,
+      "pct": 30.8
     },
     {
       "label": "Violent",
       "count": 207,
-      "pct": 14.7
+      "pct": 14.6
     },
     {
       "label": "Traffic / DUI",
@@ -1250,11 +1250,11 @@
     {
       "label": "Property",
       "count": 180,
-      "pct": 12.8
+      "pct": 12.7
     },
     {
       "label": "Other",
-      "count": 108,
+      "count": 109,
       "pct": 7.7
     },
     {
@@ -1279,25 +1279,25 @@
     },
     {
       "label": "Weapons",
-      "count": 21,
-      "pct": 1.5
+      "count": 22,
+      "pct": 1.6
     }
   ],
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1246,
-      "pct": 58.3
+      "count": 1248,
+      "pct": 58.2
     },
     {
       "label": "Felony",
-      "count": 383,
+      "count": 384,
       "pct": 17.9
     },
     {
       "label": "Unknown",
-      "count": 356,
-      "pct": 16.6
+      "count": 357,
+      "pct": 16.7
     },
     {
       "label": "Misdemeanor",
@@ -1405,12 +1405,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 443,
+      "count": 447,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 115
+          "count": 117
         },
         {
           "label": "DUI",
@@ -1425,7 +1425,7 @@
           "count": 25
         },
         {
-          "label": "Drug Offense",
+          "label": "Other",
           "count": 20
         }
       ]
@@ -1776,7 +1776,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 114
+          "count": 115
         },
         {
           "label": "Drug Offense",
@@ -1801,7 +1801,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 57
+          "count": 58
         },
         {
           "label": "Drug Offense",
@@ -1879,7 +1879,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 246
+        "n": 248
       },
       {
         "charge": "Domestic Violence",
@@ -1987,8 +1987,8 @@
         "n": 22
       },
       {
-        "charge": "Failure to Comply (Sentence)",
-        "avgWeight": 188,
+        "charge": "Weapons",
+        "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 20
@@ -1998,14 +1998,14 @@
         "avgWeight": 187,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 19
+        "n": 20
       },
       {
-        "charge": "Weapons",
-        "avgWeight": 181,
+        "charge": "Failure to Comply (Sentence)",
+        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 19
+        "n": 20
       },
       {
         "charge": "Homicide",
@@ -2357,7 +2357,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 949
+      "count": 951
     }
   ]
 }

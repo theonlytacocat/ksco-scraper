@@ -54,7 +54,7 @@ function InCustodyPage() {
       {loading ? (
         <div className="loading">Loading records...</div>
       ) : (
-        <BookingLog entries={filtered} />
+        <BookingLog entries={filtered} grouped />
       )}
     </div>
   )
@@ -155,15 +155,49 @@ function StatsPage() {
   )
 }
 
-function BookingLog({ entries }) {
+function getDateLabel(entry) {
+  const raw = entry.firstSeen || entry.bookingDate || ''
+  return raw.split(',')[0].trim()
+}
+
+function BookingLog({ entries, grouped = false }) {
   if (entries.length === 0) {
     return <div className="empty">No records match your search.</div>
   }
+
+  if (!grouped) {
+    return (
+      <div className="log">
+        <div className="log-count">{entries.length} record{entries.length !== 1 ? 's' : ''}</div>
+        {entries.map(entry => (
+          <BookingCard key={entry.bookingNumber} entry={entry} />
+        ))}
+      </div>
+    )
+  }
+
+  // Group entries by date
+  const groups = []
+  const seen = {}
+  for (const entry of entries) {
+    const date = getDateLabel(entry)
+    if (!seen[date]) {
+      seen[date] = []
+      groups.push({ date, entries: seen[date] })
+    }
+    seen[date].push(entry)
+  }
+
   return (
     <div className="log">
       <div className="log-count">{entries.length} record{entries.length !== 1 ? 's' : ''}</div>
-      {entries.map(entry => (
-        <BookingCard key={entry.bookingNumber} entry={entry} />
+      {groups.map(({ date, entries: group }) => (
+        <div key={date}>
+          <div className="date-separator">{date}</div>
+          {group.map(entry => (
+            <BookingCard key={entry.bookingNumber} entry={entry} />
+          ))}
+        </div>
       ))}
     </div>
   )

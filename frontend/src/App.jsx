@@ -101,7 +101,7 @@ function ReleasedPage() {
       {loading ? (
         <div className="loading">Loading records...</div>
       ) : (
-        <BookingLog entries={filtered} />
+        <BookingLog entries={filtered} grouped groupBy="releasedAt" />
       )}
     </div>
   )
@@ -155,12 +155,12 @@ function StatsPage() {
   )
 }
 
-function getDateLabel(entry) {
-  const raw = entry.firstSeen || entry.bookingDate || ''
+function getDateLabel(entry, field = 'firstSeen') {
+  const raw = entry[field] || entry.firstSeen || entry.bookingDate || ''
   return raw.split(',')[0].trim()
 }
 
-function BookingLog({ entries, grouped = false }) {
+function BookingLog({ entries, grouped = false, groupBy = 'firstSeen' }) {
   if (entries.length === 0) {
     return <div className="empty">No records match your search.</div>
   }
@@ -180,7 +180,7 @@ function BookingLog({ entries, grouped = false }) {
   const groups = []
   const seen = {}
   for (const entry of entries) {
-    const date = getDateLabel(entry)
+    const date = getDateLabel(entry, groupBy)
     if (!seen[date]) {
       seen[date] = []
       groups.push({ date, entries: seen[date] })

@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-09T22:08:38.260Z",
+  "generatedAt": "2026-05-09T23:25:45.203Z",
   "bookingCounts": {
-    "total": 1038,
-    "inCustody": 311,
+    "total": 1040,
+    "inCustody": 313,
     "released": 727
   },
   "gender": [
     {
       "label": "Male",
-      "count": 719,
+      "count": 721,
       "pct": 69.3
     },
     {
       "label": "Female",
       "count": 222,
-      "pct": 21.4
+      "pct": 21.3
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 735,
-      "pct": 70.8
+      "count": 737,
+      "pct": 70.9
     },
     {
       "label": "Unknown",
@@ -57,11 +57,11 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 124
+        "count": 125
       },
       {
         "label": "26–35",
-        "count": 283
+        "count": 284
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 382
+      "count": 383
     },
     {
       "label": "Domestic Violence",
@@ -95,12 +95,12 @@
       "count": 131
     },
     {
-      "label": "Drug Offense",
+      "label": "Driving While License Suspended",
       "count": 91
     },
     {
-      "label": "Driving While License Suspended",
-      "count": 90
+      "label": "Drug Offense",
+      "count": 91
     },
     {
       "label": "Assault",
@@ -150,11 +150,11 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 460
+      "count": 461
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 95
+      "count": 97
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 27802.91,
+    "mean": 27770.97,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 791
+    "count": 792
   },
   "stay": {
     "mean": 21.2,
@@ -461,8 +461,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7539.98,
-      "count": 309
+      "meanBail": 7523.73,
+      "count": 310
     },
     {
       "category": "Driving While License Suspended",
@@ -509,6 +509,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Driving While License Suspended": 68,
+      "Community Custody Violation": 3,
+      "Failure to Appear": 287,
       "Residential Burglary": 9,
       "Protection Order Violation": 51,
       "Harassment": 21,
@@ -521,12 +524,10 @@
       "Drug Offense": 64,
       "Burglary Tools": 5,
       "Traffic / Obstruction": 5,
-      "Failure to Appear": 286,
       "Assault": 50,
       "Obstruction": 33,
       "DOC Warrant": 48,
       "Other": 25,
-      "Driving While License Suspended": 67,
       "Ignition Interlock Violation": 22,
       "Possession of Stolen Property": 4,
       "PR / Bail Revocation": 11,
@@ -563,7 +564,6 @@
       "Arson": 2,
       "Incest": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
-      "Community Custody Violation": 2,
       "Tampering with Evidence": 1,
       "Trafficking Stolen Property": 3,
       "Court Hold": 2,
@@ -710,11 +710,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Driving While License Suspended": 73,
+      "Community Custody Violation": 6,
+      "Failure to Appear": 266,
       "Residential Burglary": 11,
       "Protection Order Violation": 54,
       "Harassment": 28,
       "DUI": 88,
-      "Failure to Appear": 265,
       "Reckless Driving": 10,
       "Domestic Violence": 92,
       "Burglary (2nd Degree)": 24,
@@ -725,7 +727,6 @@
       "Obstruction": 36,
       "DOC Warrant": 48,
       "Other": 26,
-      "Driving While License Suspended": 72,
       "Ignition Interlock Violation": 26,
       "Sex Offense": 11,
       "Possession of Stolen Property": 4,
@@ -752,7 +753,6 @@
       "Criminal Impersonation": 3,
       "Local / Tribal Code": 6,
       "Homicide": 16,
-      "Community Custody Violation": 5,
       "Interference with DV Reporting": 7,
       "Fugitive from Justice": 3,
       "Assault (Child)": 1,
@@ -898,7 +898,7 @@
   "recidivism": {
     "rate": 4.5,
     "repeatBookerCount": 45,
-    "totalIndividuals": 992,
+    "totalIndividuals": 994,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1238,24 +1238,24 @@
     },
     {
       "month": "2026-05",
-      "count": 116
+      "count": 118
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 465,
+      "count": 466,
       "pct": 30.5
+    },
+    {
+      "label": "Traffic / DUI",
+      "count": 224,
+      "pct": 14.7
     },
     {
       "label": "Violent",
       "count": 224,
       "pct": 14.7
-    },
-    {
-      "label": "Traffic / DUI",
-      "count": 223,
-      "pct": 14.6
     },
     {
       "label": "Property",
@@ -1296,22 +1296,22 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1344,
+      "count": 1345,
       "pct": 58.5
     },
     {
       "label": "Felony",
-      "count": 408,
+      "count": 409,
       "pct": 17.8
     },
     {
       "label": "Unknown",
       "count": 385,
-      "pct": 16.8
+      "pct": 16.7
     },
     {
       "label": "Misdemeanor",
-      "count": 161,
+      "count": 162,
       "pct": 7
     }
   ],
@@ -1442,7 +1442,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 460,
+      "count": 461,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1451,7 +1451,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 34
+          "count": 35
         },
         {
           "label": "Domestic Violence",
@@ -1469,12 +1469,12 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 95,
+      "count": 97,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 27
+          "count": 28
         },
         {
           "label": "DUI",
@@ -1752,7 +1752,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 14
+          "count": 15
         },
         {
           "label": "Assault",
@@ -1765,7 +1765,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 121
+          "count": 122
         },
         {
           "label": "Domestic Violence",
@@ -1893,7 +1893,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 262
+        "n": 263
       },
       {
         "charge": "Domestic Violence",
@@ -1914,7 +1914,7 @@
         "avgWeight": 178,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 69
+        "n": 70
       },
       {
         "charge": "Drug Offense",
@@ -2141,6 +2141,13 @@
         "n": 7
       },
       {
+        "charge": "Community Custody Violation",
+        "avgWeight": 180,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 6
+      },
+      {
         "charge": "Robbery",
         "avgWeight": 179,
         "avgHeight": "5'11\"",
@@ -2166,13 +2173,6 @@
         "avgWeight": 172,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 5
-      },
-      {
-        "charge": "Community Custody Violation",
-        "avgWeight": 172,
-        "avgHeight": "5'10\"",
-        "topRace": "Black",
         "n": 5
       },
       {
@@ -2371,7 +2371,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1035
+      "count": 1037
     }
   ]
 }

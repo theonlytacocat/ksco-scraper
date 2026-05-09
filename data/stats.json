@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-09T20:09:11.255Z",
+  "generatedAt": "2026-05-09T21:20:14.630Z",
   "bookingCounts": {
-    "total": 1037,
-    "inCustody": 311,
+    "total": 1038,
+    "inCustody": 312,
     "released": 726
   },
   "gender": [
     {
       "label": "Male",
-      "count": 718,
-      "pct": 69.2
+      "count": 719,
+      "pct": 69.3
     },
     {
       "label": "Female",
@@ -19,19 +19,19 @@
     {
       "label": "Unknown",
       "count": 97,
-      "pct": 9.4
+      "pct": 9.3
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 734,
+      "count": 735,
       "pct": 70.8
     },
     {
       "label": "Unknown",
       "count": 123,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Black",
@@ -77,7 +77,7 @@
       },
       {
         "label": "65+",
-        "count": 20
+        "count": 21
       }
     ]
   },
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 459
+      "count": 460
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 27774.82,
+    "mean": 27802.91,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 790
+    "count": 791
   },
   "stay": {
     "mean": 21.2,
@@ -291,16 +291,16 @@
       "count": 2
     },
     {
+      "category": "Residential Burglary",
+      "medianBail": 50000,
+      "meanBail": 91666.67,
+      "count": 6
+    },
+    {
       "category": "Burglary (2nd Degree)",
       "medianBail": 50000,
       "meanBail": 34000,
       "count": 15
-    },
-    {
-      "category": "Residential Burglary",
-      "medianBail": 50000,
-      "meanBail": 100000,
-      "count": 5
     },
     {
       "category": "Possession of Stolen Property",
@@ -509,6 +509,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Residential Burglary": 9,
       "Protection Order Violation": 51,
       "Harassment": 21,
       "DUI": 88,
@@ -522,7 +523,6 @@
       "Traffic / Obstruction": 5,
       "Failure to Appear": 286,
       "Assault": 50,
-      "Residential Burglary": 8,
       "Obstruction": 33,
       "DOC Warrant": 48,
       "Other": 25,
@@ -710,6 +710,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Residential Burglary": 11,
       "Protection Order Violation": 54,
       "Harassment": 28,
       "DUI": 88,
@@ -721,7 +722,6 @@
       "Drug Offense": 59,
       "Burglary Tools": 5,
       "Traffic / Obstruction": 4,
-      "Residential Burglary": 10,
       "Obstruction": 36,
       "DOC Warrant": 48,
       "Other": 26,
@@ -896,8 +896,8 @@
     }
   ],
   "recidivism": {
-    "rate": 4.4,
-    "repeatBookerCount": 44,
+    "rate": 4.5,
+    "repeatBookerCount": 45,
     "totalIndividuals": 992,
     "repeatBookers": [
       {
@@ -917,6 +917,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "HERRING, JOSEPH WILLIAM",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002146",
+            "firstSeen": "05/09/2026, 14:20:14",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2025003993",
+            "firstSeen": "03/25/2026, 18:54:49",
             "status": "released"
           }
         ]
@@ -1208,22 +1224,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "SHREEVE, SCOTTY LEWIS ANTHONY",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026001992",
-            "firstSeen": "04/29/2026, 10:57:56",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026001414",
-            "firstSeen": "03/25/2026, 18:48:21",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1238,7 +1238,7 @@
     },
     {
       "month": "2026-05",
-      "count": 115
+      "count": 116
     }
   ],
   "crimeTypes": [
@@ -1259,8 +1259,8 @@
     },
     {
       "label": "Property",
-      "count": 194,
-      "pct": 12.7
+      "count": 195,
+      "pct": 12.8
     },
     {
       "label": "Other",
@@ -1301,8 +1301,8 @@
     },
     {
       "label": "Felony",
-      "count": 407,
-      "pct": 17.7
+      "count": 408,
+      "pct": 17.8
     },
     {
       "label": "Unknown",
@@ -1442,7 +1442,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 459,
+      "count": 460,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1876,11 +1876,11 @@
           "count": 3
         },
         {
-          "label": "Domestic Violence",
+          "label": "Residential Burglary",
           "count": 2
         },
         {
-          "label": "PR / Bail Revocation",
+          "label": "Domestic Violence",
           "count": 2
         }
       ]
@@ -2057,6 +2057,13 @@
         "n": 12
       },
       {
+        "charge": "Residential Burglary",
+        "avgWeight": 175,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 11
+      },
+      {
         "charge": "Possession of Stolen Vehicle",
         "avgWeight": 160,
         "avgHeight": "5'9\"",
@@ -2067,13 +2074,6 @@
         "charge": "Reckless Driving",
         "avgWeight": 201,
         "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 10
-      },
-      {
-        "charge": "Residential Burglary",
-        "avgWeight": 176,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 10
       },
@@ -2371,7 +2371,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1034
+      "count": 1035
     }
   ]
 }

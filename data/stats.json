@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-10T21:58:59.043Z",
+  "generatedAt": "2026-05-10T22:59:43.185Z",
   "bookingCounts": {
-    "total": 1054,
+    "total": 1055,
     "inCustody": 320,
-    "released": 734
+    "released": 735
   },
   "gender": [
     {
       "label": "Male",
       "count": 730,
-      "pct": 69.3
+      "pct": 69.2
     },
     {
       "label": "Female",
-      "count": 225,
-      "pct": 21.3
+      "count": 226,
+      "pct": 21.4
     },
     {
       "label": "Unknown",
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 746,
+      "count": 747,
       "pct": 70.8
     },
     {
       "label": "Unknown",
       "count": 126,
-      "pct": 12
+      "pct": 11.9
     },
     {
       "label": "Black",
@@ -46,7 +46,7 @@
     {
       "label": "Asian / Pacific Islander",
       "count": 29,
-      "pct": 2.8
+      "pct": 2.7
     }
   ],
   "age": {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 297
+        "count": 298
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 138
+      "count": 139
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 507
+      "count": 508
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -194,14 +194,14 @@
   },
   "stay": {
     "mean": 21,
-    "median": 2,
+    "median": 1.9,
     "min": 0,
     "max": 627.4,
-    "count": 726,
+    "count": 727,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 274
+        "count": 275
       },
       {
         "label": "1–3 days",
@@ -509,10 +509,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 96,
       "Making False Statements": 21,
       "Failure to Appear": 289,
       "Driving While License Suspended": 69,
-      "Domestic Violence": 95,
       "DOC Warrant": 49,
       "DUI": 89,
       "Community Custody Violation": 3,
@@ -711,10 +711,10 @@
   },
   "chargesBySex": {
     "Female": {
+      "Domestic Violence": 32,
       "Making False Statements": 2,
       "Failure to Appear": 103,
       "Malicious Mischief": 3,
-      "Domestic Violence": 31,
       "Assault": 18,
       "Criminal Trespass": 16,
       "Theft (2nd Degree)": 6,
@@ -861,7 +861,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 216
+      "count": 217
     },
     {
       "label": "Released",
@@ -899,7 +899,7 @@
   "recidivism": {
     "rate": 4.6,
     "repeatBookerCount": 46,
-    "totalIndividuals": 1007,
+    "totalIndividuals": 1008,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1239,7 +1239,7 @@
     },
     {
       "month": "2026-05",
-      "count": 132
+      "count": 133
     }
   ],
   "crimeTypes": [
@@ -1249,12 +1249,12 @@
       "pct": 30.4
     },
     {
-      "label": "Traffic / DUI",
-      "count": 228,
+      "label": "Violent",
+      "count": 229,
       "pct": 14.8
     },
     {
-      "label": "Violent",
+      "label": "Traffic / DUI",
       "count": 228,
       "pct": 14.8
     },
@@ -1297,7 +1297,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1362,
+      "count": 1363,
       "pct": 58.5
     },
     {
@@ -1402,9 +1402,9 @@
     },
     {
       "category": "Drug Offense",
-      "avgDays": 6.4,
+      "avgDays": 6,
       "medianDays": 0.2,
-      "count": 17
+      "count": 18
     },
     {
       "category": "Other",
@@ -1416,7 +1416,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 507,
+      "count": 508,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1429,7 +1429,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 51
+          "count": 52
         },
         {
           "label": "Assault",
@@ -1731,9 +1731,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 734,
+    "total": 735,
     "withBail": 358,
-    "pct": 48.8
+    "pct": 48.7
   },
   "chargesByAgeGroup": [
     {
@@ -1794,12 +1794,12 @@
           "count": 124
         },
         {
-          "label": "Drug Offense",
+          "label": "Domestic Violence",
           "count": 40
         },
         {
-          "label": "Domestic Violence",
-          "count": 39
+          "label": "Drug Offense",
+          "count": 40
         },
         {
           "label": "Driving While License Suspended",
@@ -1898,10 +1898,10 @@
       },
       {
         "charge": "Domestic Violence",
-        "avgWeight": 152,
+        "avgWeight": 154,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 29
+        "n": 30
       },
       {
         "charge": "Drug Offense",
@@ -2379,7 +2379,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1051
+      "count": 1052
     }
   ]
 }

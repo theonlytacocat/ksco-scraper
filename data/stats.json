@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-12T07:23:34.950Z",
+  "generatedAt": "2026-05-12T10:05:26.957Z",
   "bookingCounts": {
-    "total": 1076,
+    "total": 1078,
     "inCustody": 321,
-    "released": 755
+    "released": 757
   },
   "gender": [
     {
       "label": "Male",
-      "count": 743,
-      "pct": 69.1
+      "count": 744,
+      "pct": 69
     },
     {
       "label": "Female",
-      "count": 232,
+      "count": 233,
       "pct": 21.6
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 759,
+      "count": 760,
       "pct": 70.5
     },
     {
@@ -45,8 +45,8 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 30,
-      "pct": 2.8
+      "count": 31,
+      "pct": 2.9
     }
   ],
   "age": {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 132
+        "count": 133
       },
       {
         "label": "26–35",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 306
+        "count": 307
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 133
+      "count": 134
     },
     {
       "label": "Driving While License Suspended",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 58
+      "count": 59
     },
     {
       "label": "Obstruction",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 522
+      "count": 523
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 489
+      "count": 490
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 29570.08,
+    "mean": 29535.36,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 822
+    "count": 823
   },
   "stay": {
-    "mean": 20.5,
+    "mean": 20.4,
     "median": 1.9,
     "min": 0,
     "max": 627.4,
-    "count": 747,
+    "count": 749,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 282
+        "count": 284
       },
       {
         "label": "1–3 days",
@@ -497,8 +497,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2216.67,
-      "count": 30
+      "meanBail": 2177.42,
+      "count": 31
     },
     {
       "category": "Making False Statements",
@@ -509,6 +509,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 45,
       "Obstruction": 36,
       "Failure to Appear": 293,
       "Robbery": 6,
@@ -526,7 +527,6 @@
       "Protection Order Violation": 51,
       "Harassment": 21,
       "Reckless Driving": 11,
-      "Criminal Trespass": 44,
       "Burglary (2nd Degree)": 24,
       "Theft (2nd Degree)": 18,
       "Burglary Tools": 5,
@@ -572,6 +572,32 @@
       "Theft": 1,
       "Forgery": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "DUI": 7,
+      "Failure to Appear": 15,
+      "Drug Offense": 3,
+      "Harassment": 1,
+      "Domestic Violence": 3,
+      "Other": 1,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Assault": 2,
+      "Resisting Arrest": 2,
+      "Driving While License Suspended": 4,
+      "Weapons": 2,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Protection Order Violation": 2,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Ignition Interlock Violation": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1,
+      "Criminal Trespass": 2,
+      "Malicious Mischief": 1
     },
     "Native American": {
       "Obstruction": 3,
@@ -682,38 +708,12 @@
       "Theft (3rd Degree)": 2,
       "Traffic / Obstruction": 1,
       "Vehicle Prowling": 1
-    },
-    "Asian / Pacific Islander": {
-      "Failure to Appear": 15,
-      "DUI": 6,
-      "Drug Offense": 3,
-      "Harassment": 1,
-      "Domestic Violence": 3,
-      "Other": 1,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Assault": 2,
-      "Resisting Arrest": 2,
-      "Driving While License Suspended": 4,
-      "Weapons": 2,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Protection Order Violation": 2,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Ignition Interlock Violation": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1,
-      "Criminal Trespass": 2,
-      "Malicious Mischief": 1
     }
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 40,
       "Obstruction": 39,
-      "Criminal Trespass": 39,
       "DOC Warrant": 50,
       "Robbery": 8,
       "Drug Offense": 60,
@@ -776,6 +776,7 @@
       "Theft": 1
     },
     "Female": {
+      "DUI": 20,
       "Obstruction": 7,
       "Failure to Appear": 106,
       "Hit and Run": 4,
@@ -791,7 +792,6 @@
       "Public Order": 2,
       "Other": 6,
       "DOC Warrant": 8,
-      "DUI": 19,
       "Theft (3rd Degree)": 6,
       "Fugitive from Justice": 2,
       "Harassment": 8,
@@ -858,11 +858,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 242
+      "count": 243
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 223
+      "count": 224
     },
     {
       "label": "Released",
@@ -898,9 +898,9 @@
     }
   ],
   "recidivism": {
-    "rate": 4.6,
-    "repeatBookerCount": 47,
-    "totalIndividuals": 1028,
+    "rate": 4.7,
+    "repeatBookerCount": 48,
+    "totalIndividuals": 1029,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -919,6 +919,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "DUNKLE, JEROME M",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002192",
+            "firstSeen": "05/12/2026, 03:05:26",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001203",
+            "firstSeen": "03/25/2026, 18:49:57",
             "status": "released"
           }
         ]
@@ -1210,22 +1226,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "LEWIS, DADDY TERUO",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002042",
-            "firstSeen": "05/02/2026, 12:05:30",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026001592",
-            "firstSeen": "04/06/2026, 08:00:26",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1240,29 +1240,29 @@
     },
     {
       "month": "2026-05",
-      "count": 154
+      "count": 156
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 480,
-      "pct": 30.6
+      "pct": 30.5
     },
     {
       "label": "Violent",
       "count": 235,
-      "pct": 15
+      "pct": 14.9
     },
     {
       "label": "Traffic / DUI",
-      "count": 230,
-      "pct": 14.6
+      "count": 231,
+      "pct": 14.7
     },
     {
       "label": "Property",
-      "count": 198,
-      "pct": 12.6
+      "count": 199,
+      "pct": 12.7
     },
     {
       "label": "Other",
@@ -1298,7 +1298,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1389,
+      "count": 1390,
       "pct": 58.7
     },
     {
@@ -1309,12 +1309,12 @@
     {
       "label": "Unknown",
       "count": 394,
-      "pct": 16.7
+      "pct": 16.6
     },
     {
       "label": "Misdemeanor",
-      "count": 166,
-      "pct": 7
+      "count": 167,
+      "pct": 7.1
     }
   ],
   "avgCharges": {
@@ -1355,9 +1355,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17.5,
+      "avgDays": 17.4,
       "medianDays": 3.1,
-      "count": 152
+      "count": 153
     },
     {
       "category": "Protection Order Violation",
@@ -1417,7 +1417,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 522,
+      "count": 523,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1430,7 +1430,7 @@
         },
         {
           "label": "DUI",
-          "count": 53
+          "count": 54
         },
         {
           "label": "Assault",
@@ -1444,7 +1444,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 489,
+      "count": 490,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1461,7 +1461,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Drug Offense",
@@ -1732,8 +1732,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 755,
-    "withBail": 369,
+    "total": 757,
+    "withBail": 370,
     "pct": 48.9
   },
   "chargesByAgeGroup": [
@@ -1746,7 +1746,7 @@
         },
         {
           "label": "DUI",
-          "count": 26
+          "count": 27
         },
         {
           "label": "Domestic Violence",
@@ -1947,18 +1947,18 @@
         "n": 50
       },
       {
+        "charge": "Criminal Trespass",
+        "avgWeight": 179,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 39
+      },
+      {
         "charge": "Obstruction",
         "avgWeight": 179,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 39
-      },
-      {
-        "charge": "Criminal Trespass",
-        "avgWeight": 177,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 38
       },
       {
         "charge": "Harassment",
@@ -2264,18 +2264,18 @@
         "n": 21
       },
       {
+        "charge": "DUI",
+        "avgWeight": 145,
+        "avgHeight": "5'3\"",
+        "topRace": "White",
+        "n": 18
+      },
+      {
         "charge": "Assault",
         "avgWeight": 160,
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 18
-      },
-      {
-        "charge": "DUI",
-        "avgWeight": 147,
-        "avgHeight": "5'3\"",
-        "topRace": "White",
-        "n": 17
       },
       {
         "charge": "Criminal Trespass",
@@ -2387,7 +2387,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1073
+      "count": 1075
     }
   ]
 }

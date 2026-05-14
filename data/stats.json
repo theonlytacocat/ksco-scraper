@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-14T22:14:03.784Z",
+  "generatedAt": "2026-05-14T23:29:28.329Z",
   "bookingCounts": {
-    "total": 1110,
-    "inCustody": 298,
+    "total": 1111,
+    "inCustody": 299,
     "released": 812
   },
   "gender": [
     {
       "label": "Male",
-      "count": 767,
+      "count": 768,
       "pct": 69.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 782,
+      "count": 783,
       "pct": 70.5
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 312
+        "count": 313
       },
       {
         "label": "46–55",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 70
+      "count": 71
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 554
+      "count": 555
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 32028.61,
+    "mean": 31997.22,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 860
+    "count": 861
   },
   "stay": {
     "mean": 21.4,
@@ -340,9 +340,9 @@
     },
     {
       "category": "Protection Order Violation",
-      "medianBail": 20000,
-      "meanBail": 56400,
-      "count": 5
+      "medianBail": 15000,
+      "meanBail": 47833.33,
+      "count": 6
     },
     {
       "category": "Domestic Violence",
@@ -509,6 +509,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 52,
       "Failure to Appear": 298,
       "Domestic Violence": 102,
       "Criminal Trespass": 48,
@@ -536,7 +537,6 @@
       "Making False Statements": 21,
       "Community Custody Violation": 3,
       "Residential Burglary": 9,
-      "Protection Order Violation": 51,
       "Burglary (2nd Degree)": 24,
       "Burglary Tools": 5,
       "Traffic / Obstruction": 5,
@@ -714,6 +714,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 55,
       "Failure to Appear": 281,
       "Criminal Trespass": 43,
       "Domestic Violence": 98,
@@ -741,7 +742,6 @@
       "Reckless Driving": 11,
       "Community Custody Violation": 6,
       "Residential Burglary": 11,
-      "Protection Order Violation": 54,
       "Burglary (2nd Degree)": 24,
       "Burglary Tools": 5,
       "Traffic / Obstruction": 4,
@@ -902,7 +902,7 @@
   "recidivism": {
     "rate": 5,
     "repeatBookerCount": 53,
-    "totalIndividuals": 1056,
+    "totalIndividuals": 1057,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1242,7 +1242,7 @@
     },
     {
       "month": "2026-05",
-      "count": 188
+      "count": 189
     }
   ],
   "crimeTypes": [
@@ -1264,7 +1264,7 @@
     {
       "label": "Property",
       "count": 206,
-      "pct": 12.8
+      "pct": 12.7
     },
     {
       "label": "Other",
@@ -1273,8 +1273,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 117,
-      "pct": 7.2
+      "count": 118,
+      "pct": 7.3
     },
     {
       "label": "Drug",
@@ -1300,7 +1300,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1425,
+      "count": 1426,
       "pct": 58.6
     },
     {
@@ -1419,7 +1419,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 554,
+      "count": 555,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1810,7 +1810,7 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 24
+          "count": 25
         }
       ]
     },
@@ -1928,18 +1928,18 @@
         "n": 61
       },
       {
+        "charge": "Protection Order Violation",
+        "avgWeight": 182,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 55
+      },
+      {
         "charge": "Assault",
         "avgWeight": 192,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 55
-      },
-      {
-        "charge": "Protection Order Violation",
-        "avgWeight": 181,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 54
       },
       {
         "charge": "DOC Warrant",
@@ -2403,7 +2403,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1107
+      "count": 1108
     }
   ]
 }

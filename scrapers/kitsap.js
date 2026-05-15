@@ -124,6 +124,7 @@ export async function fetchDetail(detailUrl) {
         if (cur) charges.push(cur);
         cur = {
           violation:     first.replace(/^Violation:\s*/i, '').trim(),
+          addDesc:       null,
           bondAmount:    null,
           cashAmount:    null,
           courtCase:     null,
@@ -136,6 +137,13 @@ export async function fetchDetail(detailUrl) {
       }
 
       if (!cur) continue;
+
+      // Add. Desc. row (sits between Violation and Arrest Info)
+      if (/^Add\.?\s*Desc\.?:/i.test(first)) {
+        const val = first.replace(/^Add\.?\s*Desc\.?:\s*/i, '').trim();
+        cur.addDesc = val || null;
+        continue;
+      }
 
       // Arrest info row
       if (/^Arrest Agency:/i.test(first)) {

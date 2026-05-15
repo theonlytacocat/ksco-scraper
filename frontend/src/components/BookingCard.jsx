@@ -77,7 +77,10 @@ export default function BookingCard({ entry }) {
               <div className="charges-title">Charges ({entry.charges.length})</div>
               {entry.charges.map((c, i) => (
                 <div key={i} className="charge-row">
-                  <div className="charge-violation">{c.violation}</div>
+                  <div className="charge-violation">
+                    {c.violation}
+                    {c.addDesc && <span className="charge-add-desc"> — {c.addDesc}</span>}
+                  </div>
                   {(c.bondAmount || c.cashAmount) && (
                     <div className="charge-bail">
                       Bond: {c.bondAmount || 'N/A'} &nbsp;·&nbsp; Cash: {c.cashAmount || 'N/A'}

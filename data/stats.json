@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-15T08:53:17.457Z",
+  "generatedAt": "2026-05-15T11:23:42.521Z",
   "bookingCounts": {
-    "total": 1118,
-    "inCustody": 302,
+    "total": 1119,
+    "inCustody": 303,
     "released": 816
   },
   "gender": [
     {
       "label": "Male",
-      "count": 772,
+      "count": 773,
       "pct": 69.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 789,
+      "count": 790,
       "pct": 70.6
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 303
+        "count": 304
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 404
+      "count": 405
     },
     {
       "label": "Domestic Violence",
@@ -177,20 +177,20 @@
       "count": 19
     },
     {
-      "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+      "label": "PORT GAMBLE POLICE DEPARTMENT",
       "count": 12
     },
     {
-      "label": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 9
+      "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
+      "count": 12
     }
   ],
   "bail": {
-    "mean": 31872.09,
+    "mean": 31793.8,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 867
+    "count": 870
   },
   "stay": {
     "mean": 21.3,
@@ -467,8 +467,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7357.98,
-      "count": 339
+      "meanBail": 7373.85,
+      "count": 342
     },
     {
       "category": "Local / Tribal Code",
@@ -509,6 +509,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 300,
       "Hit and Run": 12,
       "Ignition Interlock Violation": 23,
       "Driving While License Suspended": 73,
@@ -516,7 +517,6 @@
       "Domestic Violence": 104,
       "Possession of Stolen Property": 5,
       "DOC Warrant": 51,
-      "Failure to Appear": 299,
       "Protection Order Violation": 52,
       "Criminal Trespass": 48,
       "Interference with DV Reporting": 8,
@@ -714,6 +714,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 282,
       "Hit and Run": 11,
       "Ignition Interlock Violation": 27,
       "Driving While License Suspended": 81,
@@ -722,7 +723,6 @@
       "DOC Warrant": 51,
       "Obstruction": 40,
       "Protection Order Violation": 55,
-      "Failure to Appear": 281,
       "Criminal Trespass": 43,
       "Domestic Violence": 98,
       "Interference with DV Reporting": 8,
@@ -902,7 +902,7 @@
   "recidivism": {
     "rate": 5,
     "repeatBookerCount": 53,
-    "totalIndividuals": 1064,
+    "totalIndividuals": 1065,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1242,13 +1242,13 @@
     },
     {
       "month": "2026-05",
-      "count": 196
+      "count": 197
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 492,
+      "count": 493,
       "pct": 30.3
     },
     {
@@ -1300,13 +1300,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1434,
+      "count": 1437,
       "pct": 58.7
     },
     {
       "label": "Felony",
       "count": 427,
-      "pct": 17.5
+      "pct": 17.4
     },
     {
       "label": "Unknown",
@@ -1634,6 +1634,29 @@
       ]
     },
     {
+      "name": "PORT GAMBLE POLICE DEPARTMENT",
+      "count": 12,
+      "topCharge": "Failure to Appear",
+      "chargeBreakdown": [
+        {
+          "label": "Failure to Appear",
+          "count": 7
+        },
+        {
+          "label": "Assault",
+          "count": 2
+        },
+        {
+          "label": "Malicious Mischief",
+          "count": 2
+        },
+        {
+          "label": "Local / Tribal Code",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Suquamish Tribal Police",
       "count": 12,
       "topCharge": "Local / Tribal Code",
@@ -1656,29 +1679,6 @@
         },
         {
           "label": "Drug Offense",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "PORT GAMBLE POLICE DEPARTMENT",
-      "count": 9,
-      "topCharge": "Failure to Appear",
-      "chargeBreakdown": [
-        {
-          "label": "Failure to Appear",
-          "count": 4
-        },
-        {
-          "label": "Assault",
-          "count": 2
-        },
-        {
-          "label": "Malicious Mischief",
-          "count": 2
-        },
-        {
-          "label": "Local / Tribal Code",
           "count": 1
         }
       ]
@@ -1769,7 +1769,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 129
+          "count": 130
         },
         {
           "label": "Domestic Violence",
@@ -1894,10 +1894,10 @@
     "Male": [
       {
         "charge": "Failure to Appear",
-        "avgWeight": 183,
+        "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 277
+        "n": 278
       },
       {
         "charge": "Domestic Violence",
@@ -2403,7 +2403,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1115
+      "count": 1116
     }
   ]
 }

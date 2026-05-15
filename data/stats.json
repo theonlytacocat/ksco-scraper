@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-15T22:31:09.725Z",
+  "generatedAt": "2026-05-15T23:56:50.572Z",
   "bookingCounts": {
-    "total": 1127,
+    "total": 1128,
     "inCustody": 307,
-    "released": 820
+    "released": 821
   },
   "gender": [
     {
       "label": "Male",
-      "count": 778,
-      "pct": 69
+      "count": 779,
+      "pct": 69.1
     },
     {
       "label": "Female",
       "count": 243,
-      "pct": 21.6
+      "pct": 21.5
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 795,
-      "pct": 70.5
+      "count": 796,
+      "pct": 70.6
     },
     {
       "label": "Unknown",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 139
+        "count": 140
       },
       {
         "label": "26–35",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 149
+      "count": 150
     },
     {
       "label": "DUI",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 39
+      "count": 40
     },
     {
       "label": "Theft (3rd Degree)",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 569
+      "count": 571
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -197,11 +197,11 @@
     "median": 1.9,
     "min": 0,
     "max": 627.4,
-    "count": 811,
+    "count": 812,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 305
+        "count": 306
       },
       {
         "label": "1–3 days",
@@ -509,6 +509,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 105,
+      "Harassment": 23,
       "DUI": 95,
       "Theft (3rd Degree)": 28,
       "Failure to Appear": 302,
@@ -516,7 +518,6 @@
       "Hit and Run": 12,
       "Ignition Interlock Violation": 23,
       "Driving While License Suspended": 73,
-      "Domestic Violence": 104,
       "Possession of Stolen Property": 5,
       "DOC Warrant": 51,
       "Protection Order Violation": 52,
@@ -524,7 +525,6 @@
       "Interference with DV Reporting": 8,
       "Malicious Mischief": 22,
       "Vehicle Prowling": 9,
-      "Harassment": 22,
       "Assault": 51,
       "Obstruction": 38,
       "Theft (2nd Degree)": 19,
@@ -714,6 +714,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 99,
+      "Harassment": 30,
       "DUI": 94,
       "DOC Warrant": 52,
       "Theft (3rd Degree)": 26,
@@ -725,7 +727,6 @@
       "Obstruction": 40,
       "Protection Order Violation": 55,
       "Criminal Trespass": 43,
-      "Domestic Violence": 98,
       "Interference with DV Reporting": 8,
       "Malicious Mischief": 28,
       "Vehicle Prowling": 10,
@@ -739,7 +740,6 @@
       "PR / Bail Revocation": 14,
       "Resisting Arrest": 17,
       "Burglary (1st Degree)": 9,
-      "Harassment": 29,
       "Local / Tribal Code": 7,
       "Reckless Driving": 11,
       "Community Custody Violation": 6,
@@ -864,7 +864,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 245
+      "count": 246
     },
     {
       "label": "Released",
@@ -902,7 +902,7 @@
   "recidivism": {
     "rate": 5,
     "repeatBookerCount": 54,
-    "totalIndividuals": 1071,
+    "totalIndividuals": 1072,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1247,18 +1247,18 @@
     },
     {
       "month": "2026-05",
-      "count": 205
+      "count": 206
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 496,
-      "pct": 30.4
+      "pct": 30.3
     },
     {
       "label": "Violent",
-      "count": 245,
+      "count": 246,
       "pct": 15
     },
     {
@@ -1278,8 +1278,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 118,
-      "pct": 7.2
+      "count": 119,
+      "pct": 7.3
     },
     {
       "label": "Drug",
@@ -1305,13 +1305,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1442,
+      "count": 1444,
       "pct": 58.7
     },
     {
       "label": "Felony",
       "count": 429,
-      "pct": 17.5
+      "pct": 17.4
     },
     {
       "label": "Unknown",
@@ -1424,7 +1424,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 569,
+      "count": 571,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1433,7 +1433,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 62
+          "count": 63
         },
         {
           "label": "DUI",
@@ -1739,9 +1739,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 820,
-    "withBail": 412,
-    "pct": 50.2
+    "total": 821,
+    "withBail": 413,
+    "pct": 50.3
   },
   "chargesByAgeGroup": [
     {
@@ -1757,7 +1757,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 24
+          "count": 25
         },
         {
           "label": "Driving While License Suspended",
@@ -1906,10 +1906,10 @@
       },
       {
         "charge": "Domestic Violence",
-        "avgWeight": 184,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 96
+        "n": 97
       },
       {
         "charge": "DUI",
@@ -1969,10 +1969,10 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 174,
+        "avgWeight": 172,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 28
+        "n": 29
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2408,7 +2408,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1124
+      "count": 1125
     }
   ]
 }

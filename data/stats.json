@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-05-16T08:23:53.820Z",
+  "generatedAt": "2026-05-16T09:57:30.806Z",
   "bookingCounts": {
-    "total": 1132,
-    "inCustody": 305,
+    "total": 1133,
+    "inCustody": 306,
     "released": 827
   },
   "gender": [
     {
       "label": "Male",
       "count": 781,
-      "pct": 69
+      "pct": 68.9
     },
     {
       "label": "Female",
       "count": 243,
-      "pct": 21.5
+      "pct": 21.4
     },
     {
       "label": "Unknown",
-      "count": 108,
-      "pct": 9.5
+      "count": 109,
+      "pct": 9.6
     }
   ],
   "race": [
     {
       "label": "White",
       "count": 798,
-      "pct": 70.5
+      "pct": 70.4
     },
     {
       "label": "Unknown",
-      "count": 135,
-      "pct": 11.9
+      "count": 136,
+      "pct": 12
     },
     {
       "label": "Black",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 307
+        "count": 308
       },
       {
         "label": "36–45",
@@ -508,6 +508,43 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "Domestic Violence": 18,
+      "DUI": 33,
+      "Other": 13,
+      "Traffic / Obstruction": 3,
+      "Failure to Appear": 23,
+      "Drug Offense": 14,
+      "Attempt to Elude": 4,
+      "Driving While License Suspended": 9,
+      "Ignition Interlock Violation": 5,
+      "Obstruction": 6,
+      "Malicious Mischief": 3,
+      "Assault": 12,
+      "Criminal Trespass": 6,
+      "DOC Warrant": 2,
+      "Theft (2nd Degree)": 4,
+      "Theft (3rd Degree)": 4,
+      "Sex Offense": 2,
+      "Motor Vehicle Theft": 2,
+      "Hit and Run": 4,
+      "Child Sex Offense": 1,
+      "Burglary (2nd Degree)": 2,
+      "Stalking": 1,
+      "Homicide": 1,
+      "Resisting Arrest": 2,
+      "Making False Statements": 2,
+      "Indecent Exposure": 1,
+      "Harassment": 2,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Local / Tribal Code": 1,
+      "Weapons": 1,
+      "Child Exploitation / CSAM": 1,
+      "Protection Order Violation": 4,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Public Order": 1
+    },
     "White": {
       "Criminal Trespass": 49,
       "Failure to Appear": 303,
@@ -572,43 +609,6 @@
       "Theft": 1,
       "Forgery": 1,
       "Bribery": 1
-    },
-    "Unknown": {
-      "Domestic Violence": 18,
-      "DUI": 33,
-      "Other": 13,
-      "Traffic / Obstruction": 3,
-      "Failure to Appear": 23,
-      "Drug Offense": 14,
-      "Attempt to Elude": 4,
-      "Driving While License Suspended": 9,
-      "Ignition Interlock Violation": 5,
-      "Obstruction": 6,
-      "Malicious Mischief": 3,
-      "Assault": 12,
-      "Criminal Trespass": 6,
-      "DOC Warrant": 2,
-      "Theft (2nd Degree)": 4,
-      "Theft (3rd Degree)": 4,
-      "Sex Offense": 2,
-      "Motor Vehicle Theft": 2,
-      "Hit and Run": 4,
-      "Child Sex Offense": 1,
-      "Burglary (2nd Degree)": 2,
-      "Stalking": 1,
-      "Homicide": 1,
-      "Resisting Arrest": 2,
-      "Making False Statements": 2,
-      "Indecent Exposure": 1,
-      "Harassment": 2,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Local / Tribal Code": 1,
-      "Weapons": 1,
-      "Child Exploitation / CSAM": 1,
-      "Protection Order Violation": 4,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Public Order": 1
     },
     "Black": {
       "DOC Warrant": 8,
@@ -713,6 +713,39 @@
     }
   },
   "chargesBySex": {
+    "Unknown": {
+      "Domestic Violence": 16,
+      "DUI": 26,
+      "Other": 11,
+      "DOC Warrant": 3,
+      "Traffic / Obstruction": 3,
+      "Failure to Appear": 16,
+      "Drug Offense": 12,
+      "Attempt to Elude": 4,
+      "Driving While License Suspended": 6,
+      "Ignition Interlock Violation": 3,
+      "Obstruction": 6,
+      "Theft (2nd Degree)": 4,
+      "Theft (3rd Degree)": 4,
+      "Harassment": 1,
+      "Motor Vehicle Theft": 2,
+      "Hit and Run": 3,
+      "Assault": 9,
+      "Child Sex Offense": 1,
+      "Burglary (2nd Degree)": 2,
+      "Criminal Trespass": 3,
+      "Resisting Arrest": 1,
+      "Making False Statements": 1,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 1,
+      "Child Exploitation / CSAM": 1,
+      "Protection Order Violation": 3,
+      "Malicious Mischief": 2,
+      "Sex Offense": 1,
+      "Failure to Comply (Sentence)": 1,
+      "Residential Burglary": 1,
+      "Theft (1st Degree)": 1
+    },
     "Male": {
       "Criminal Trespass": 44,
       "Failure to Appear": 285,
@@ -776,39 +809,6 @@
       "Court Hold": 2,
       "Identity Theft": 1,
       "Theft": 1
-    },
-    "Unknown": {
-      "Domestic Violence": 16,
-      "DUI": 26,
-      "Other": 11,
-      "DOC Warrant": 3,
-      "Traffic / Obstruction": 3,
-      "Failure to Appear": 16,
-      "Drug Offense": 12,
-      "Attempt to Elude": 4,
-      "Driving While License Suspended": 6,
-      "Ignition Interlock Violation": 3,
-      "Obstruction": 6,
-      "Theft (2nd Degree)": 4,
-      "Theft (3rd Degree)": 4,
-      "Harassment": 1,
-      "Motor Vehicle Theft": 2,
-      "Hit and Run": 3,
-      "Assault": 9,
-      "Child Sex Offense": 1,
-      "Burglary (2nd Degree)": 2,
-      "Criminal Trespass": 3,
-      "Resisting Arrest": 1,
-      "Making False Statements": 1,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 1,
-      "Child Exploitation / CSAM": 1,
-      "Protection Order Violation": 3,
-      "Malicious Mischief": 2,
-      "Sex Offense": 1,
-      "Failure to Comply (Sentence)": 1,
-      "Residential Burglary": 1,
-      "Theft (1st Degree)": 1
     },
     "Female": {
       "Burglary (2nd Degree)": 7,
@@ -902,7 +902,7 @@
   "recidivism": {
     "rate": 5,
     "repeatBookerCount": 54,
-    "totalIndividuals": 1076,
+    "totalIndividuals": 1077,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1247,7 +1247,7 @@
     },
     {
       "month": "2026-05",
-      "count": 210
+      "count": 211
     }
   ],
   "crimeTypes": [
@@ -2408,7 +2408,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1129
+      "count": 1130
     }
   ]
 }

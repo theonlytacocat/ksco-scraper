@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-16T18:31:48.949Z",
+  "generatedAt": "2026-05-16T20:02:56.475Z",
   "bookingCounts": {
-    "total": 1133,
-    "inCustody": 304,
+    "total": 1134,
+    "inCustody": 305,
     "released": 829
   },
   "gender": [
     {
       "label": "Male",
-      "count": 781,
-      "pct": 68.9
+      "count": 782,
+      "pct": 69
     },
     {
       "label": "Female",
@@ -30,8 +30,8 @@
     },
     {
       "label": "Unknown",
-      "count": 136,
-      "pct": 12
+      "count": 137,
+      "pct": 12.1
     },
     {
       "label": "Black",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 165
+        "count": 166
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 408
+      "count": 409
     },
     {
       "label": "Domestic Violence",
@@ -158,7 +158,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 75
+      "count": 76
     },
     {
       "label": "OTHER AGENCY",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31542.16,
+    "mean": 31507.5,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 880
+    "count": 881
   },
   "stay": {
     "mean": 21.3,
@@ -467,8 +467,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7374.22,
-      "count": 347
+      "meanBail": 7355.91,
+      "count": 348
     },
     {
       "category": "Local / Tribal Code",
@@ -509,11 +509,11 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "Failure to Appear": 24,
       "Domestic Violence": 18,
       "DUI": 33,
       "Other": 13,
       "Traffic / Obstruction": 3,
-      "Failure to Appear": 23,
       "Drug Offense": 14,
       "Attempt to Elude": 4,
       "Driving While License Suspended": 9,
@@ -713,42 +713,9 @@
     }
   },
   "chargesBySex": {
-    "Unknown": {
-      "Domestic Violence": 16,
-      "DUI": 26,
-      "Other": 11,
-      "DOC Warrant": 3,
-      "Traffic / Obstruction": 3,
-      "Failure to Appear": 16,
-      "Drug Offense": 12,
-      "Attempt to Elude": 4,
-      "Driving While License Suspended": 6,
-      "Ignition Interlock Violation": 3,
-      "Obstruction": 6,
-      "Theft (2nd Degree)": 4,
-      "Theft (3rd Degree)": 4,
-      "Harassment": 1,
-      "Motor Vehicle Theft": 2,
-      "Hit and Run": 3,
-      "Assault": 9,
-      "Child Sex Offense": 1,
-      "Burglary (2nd Degree)": 2,
-      "Criminal Trespass": 3,
-      "Resisting Arrest": 1,
-      "Making False Statements": 1,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 1,
-      "Child Exploitation / CSAM": 1,
-      "Protection Order Violation": 3,
-      "Malicious Mischief": 2,
-      "Sex Offense": 1,
-      "Failure to Comply (Sentence)": 1,
-      "Residential Burglary": 1,
-      "Theft (1st Degree)": 1
-    },
     "Male": {
+      "Failure to Appear": 286,
       "Criminal Trespass": 44,
-      "Failure to Appear": 285,
       "Domestic Violence": 99,
       "Harassment": 30,
       "DUI": 94,
@@ -809,6 +776,39 @@
       "Court Hold": 2,
       "Identity Theft": 1,
       "Theft": 1
+    },
+    "Unknown": {
+      "Domestic Violence": 16,
+      "DUI": 26,
+      "Other": 11,
+      "DOC Warrant": 3,
+      "Traffic / Obstruction": 3,
+      "Failure to Appear": 16,
+      "Drug Offense": 12,
+      "Attempt to Elude": 4,
+      "Driving While License Suspended": 6,
+      "Ignition Interlock Violation": 3,
+      "Obstruction": 6,
+      "Theft (2nd Degree)": 4,
+      "Theft (3rd Degree)": 4,
+      "Harassment": 1,
+      "Motor Vehicle Theft": 2,
+      "Hit and Run": 3,
+      "Assault": 9,
+      "Child Sex Offense": 1,
+      "Burglary (2nd Degree)": 2,
+      "Criminal Trespass": 3,
+      "Resisting Arrest": 1,
+      "Making False Statements": 1,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 1,
+      "Child Exploitation / CSAM": 1,
+      "Protection Order Violation": 3,
+      "Malicious Mischief": 2,
+      "Sex Offense": 1,
+      "Failure to Comply (Sentence)": 1,
+      "Residential Burglary": 1,
+      "Theft (1st Degree)": 1
     },
     "Female": {
       "Burglary (2nd Degree)": 7,
@@ -902,7 +902,7 @@
   "recidivism": {
     "rate": 5,
     "repeatBookerCount": 54,
-    "totalIndividuals": 1077,
+    "totalIndividuals": 1078,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1247,14 +1247,14 @@
     },
     {
       "month": "2026-05",
-      "count": 211
+      "count": 212
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 497,
-      "pct": 30.3
+      "count": 498,
+      "pct": 30.4
     },
     {
       "label": "Violent",
@@ -1305,7 +1305,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1448,
+      "count": 1449,
       "pct": 58.8
     },
     {
@@ -1505,12 +1505,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 75,
+      "count": 76,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 20
+          "count": 21
         },
         {
           "label": "Domestic Violence",
@@ -1824,7 +1824,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 68
+          "count": 69
         },
         {
           "label": "Drug Offense",
@@ -1899,7 +1899,7 @@
     "Male": [
       {
         "charge": "Failure to Appear",
-        "avgWeight": 184,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 281
@@ -2408,7 +2408,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1130
+      "count": 1131
     }
   ]
 }

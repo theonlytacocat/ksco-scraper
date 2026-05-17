@@ -8,6 +8,11 @@ function formatHeight(raw) {
   return raw
 }
 
+function formatMoney(n) {
+  if (n == null) return 'N/A'
+  return '$' + Number(n).toLocaleString('en-US')
+}
+
 function formatRace(code) {
   const map = { W: 'White', B: 'Black', H: 'Hispanic', A: 'Asian', I: 'Native American', U: 'Unknown' }
   return map[code] || code || 'N/A'
@@ -83,7 +88,7 @@ export default function BookingCard({ entry }) {
                   </div>
                   {(c.bondAmount || c.cashAmount) && (
                     <div className="charge-bail">
-                      Bond: {c.bondAmount || 'N/A'} &nbsp;·&nbsp; Cash: {c.cashAmount || 'N/A'}
+                      Bond: {formatMoney(c.bondAmount)} &nbsp;·&nbsp; Cash: {formatMoney(c.cashAmount)}
                     </div>
                   )}
                   {c.nextCourtDate && (

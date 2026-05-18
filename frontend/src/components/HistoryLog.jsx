@@ -44,11 +44,20 @@ function getReleaseReason(entry) {
   return 'Other'
 }
 
-export default function HistoryLog({ entries }) {
+export default function HistoryLog({ entries, search = '' }) {
+  // Filter by name if search is active
+  const filtered = search
+    ? entries.filter(e => e.name.toLowerCase().includes(search.toLowerCase()))
+    : entries
+
+  if (filtered.length === 0 && search) {
+    return <div className="empty">No records match your search.</div>
+  }
+
   // Group by date - each person appears only once
   const grouped = {}
 
-  entries.forEach(entry => {
+  filtered.forEach(entry => {
     const bookedDate = formatDate(entry.bookingDate || entry.firstSeen)
     if (!grouped[bookedDate]) grouped[bookedDate] = { booked: [], released: [] }
 

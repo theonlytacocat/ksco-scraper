@@ -109,6 +109,7 @@ function ReleasedPage() {
 
 function HistoryPage() {
   const [log, setLog] = useState([])
+  const [search, setSearch] = useState('')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -122,6 +123,13 @@ function HistoryPage() {
     <div className="app">
       <Header />
       <div className="controls">
+        <input
+          type="text"
+          placeholder="Search by name..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          className="search-input"
+        />
         <div className="filter-tabs">
           <Link to="/">In Custody</Link>
           <Link to="/released">Released</Link>
@@ -132,7 +140,7 @@ function HistoryPage() {
       {loading ? (
         <div className="loading">Loading records...</div>
       ) : (
-        <HistoryLog entries={log} />
+        <HistoryLog entries={log} search={search} />
       )}
     </div>
   )

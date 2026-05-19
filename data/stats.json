@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-19T18:21:54.245Z",
+  "generatedAt": "2026-05-19T20:14:38.222Z",
   "bookingCounts": {
-    "total": 1172,
-    "inCustody": 308,
-    "released": 864
+    "total": 1173,
+    "inCustody": 305,
+    "released": 868
   },
   "gender": [
     {
       "label": "Male",
-      "count": 809,
-      "pct": 69
+      "count": 810,
+      "pct": 69.1
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 825,
+      "count": 826,
       "pct": 70.4
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 144
+        "count": 145
       },
       {
         "label": "26–35",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 157
+      "count": 158
     },
     {
       "label": "DUI",
@@ -154,7 +154,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 104
+      "count": 105
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -197,11 +197,11 @@
     "median": 2,
     "min": 0,
     "max": 627.4,
-    "count": 855,
+    "count": 859,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 321
+        "count": 323
       },
       {
         "label": "1–3 days",
@@ -213,7 +213,7 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 41
+        "count": 42
       },
       {
         "label": "2–4 weeks",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 119
+        "count": 120
       },
       {
         "label": "3+ months",
@@ -509,6 +509,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 111,
       "Criminal Trespass": 52,
       "Driving While License Suspended": 76,
       "Hit and Run": 13,
@@ -520,7 +521,6 @@
       "Ignition Interlock Violation": 24,
       "Drug Offense": 68,
       "Other": 26,
-      "Domestic Violence": 110,
       "Protection Order Violation": 53,
       "DOC Warrant": 52,
       "Local / Tribal Code": 5,
@@ -715,6 +715,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 106,
       "Criminal Trespass": 48,
       "Local / Tribal Code": 10,
       "Driving While License Suspended": 83,
@@ -724,7 +725,6 @@
       "Burglary (2nd Degree)": 25,
       "Assault": 59,
       "Obstruction": 42,
-      "Domestic Violence": 105,
       "Protection Order Violation": 56,
       "DOC Warrant": 54,
       "Resisting Arrest": 18,
@@ -861,11 +861,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 277
+      "count": 278
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 258
+      "count": 260
     },
     {
       "label": "Released",
@@ -877,7 +877,7 @@
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 36
+      "count": 37
     },
     {
       "label": "Failure to Comply",
@@ -903,7 +903,7 @@
   "recidivism": {
     "rate": 5.1,
     "repeatBookerCount": 57,
-    "totalIndividuals": 1113,
+    "totalIndividuals": 1114,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1248,7 +1248,7 @@
     },
     {
       "month": "2026-05",
-      "count": 250
+      "count": 251
     }
   ],
   "crimeTypes": [
@@ -1259,8 +1259,8 @@
     },
     {
       "label": "Violent",
-      "count": 255,
-      "pct": 15.1
+      "count": 256,
+      "pct": 15.2
     },
     {
       "label": "Traffic / DUI",
@@ -1285,7 +1285,7 @@
     {
       "label": "Drug",
       "count": 97,
-      "pct": 5.8
+      "pct": 5.7
     },
     {
       "label": "Sex Offense",
@@ -1306,7 +1306,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1480,
+      "count": 1481,
       "pct": 58.6
     },
     {
@@ -1363,9 +1363,9 @@
     },
     {
       "category": "DOC Warrant",
-      "avgDays": 20.8,
+      "avgDays": 20.1,
       "medianDays": 21.3,
-      "count": 15
+      "count": 16
     },
     {
       "category": "Failure to Appear",
@@ -1479,7 +1479,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 104,
+      "count": 105,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1496,7 +1496,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 8
+          "count": 9
         },
         {
           "label": "Drug Offense",
@@ -1740,8 +1740,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 864,
-    "withBail": 426,
+    "total": 868,
+    "withBail": 428,
     "pct": 49.3
   },
   "chargesByAgeGroup": [
@@ -1758,7 +1758,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 26
+          "count": 27
         },
         {
           "label": "Driving While License Suspended",
@@ -1910,7 +1910,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 103
+        "n": 104
       },
       {
         "charge": "DUI",
@@ -2416,7 +2416,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1169
+      "count": 1170
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-19T23:06:14.848Z",
+  "generatedAt": "2026-05-20T01:31:43.967Z",
   "bookingCounts": {
-    "total": 1174,
-    "inCustody": 301,
+    "total": 1176,
+    "inCustody": 303,
     "released": 873
   },
   "gender": [
     {
       "label": "Male",
-      "count": 811,
+      "count": 813,
       "pct": 69.1
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 827,
-      "pct": 70.4
+      "count": 829,
+      "pct": 70.5
     },
     {
       "label": "Unknown",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 320
+        "count": 321
       },
       {
         "label": "36–45",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 169
+        "count": 170
       },
       {
         "label": "56–65",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 148
+      "count": 149
     },
     {
       "label": "Driving While License Suspended",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Other",
-      "count": 48
+      "count": 49
     },
     {
       "label": "Harassment",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 602
+      "count": 603
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -154,7 +154,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 105
+      "count": 106
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30680.2,
+    "mean": 30621.4,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 914
+    "count": 916
   },
   "stay": {
     "mean": 21.4,
@@ -387,6 +387,18 @@
       "count": 1
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 12937.5,
+      "count": 32
+    },
+    {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 14600,
+      "count": 65
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 5000,
       "meanBail": 3882.35,
@@ -403,18 +415,6 @@
       "medianBail": 5000,
       "meanBail": 5291.67,
       "count": 12
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 13274.19,
-      "count": 31
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 14750,
-      "count": 64
     },
     {
       "category": "Theft (3rd Degree)",
@@ -509,7 +509,8 @@
   ],
   "chargesByRace": {
     "White": {
-      "DUI": 98,
+      "Other": 27,
+      "DUI": 99,
       "Domestic Violence": 111,
       "Criminal Trespass": 52,
       "Driving While License Suspended": 76,
@@ -520,7 +521,6 @@
       "Obstruction": 39,
       "Ignition Interlock Violation": 24,
       "Drug Offense": 68,
-      "Other": 26,
       "Protection Order Violation": 53,
       "DOC Warrant": 52,
       "Local / Tribal Code": 5,
@@ -715,7 +715,8 @@
   },
   "chargesBySex": {
     "Male": {
-      "DUI": 97,
+      "Other": 30,
+      "DUI": 98,
       "Domestic Violence": 106,
       "Criminal Trespass": 48,
       "Local / Tribal Code": 10,
@@ -729,7 +730,6 @@
       "DOC Warrant": 54,
       "Resisting Arrest": 18,
       "Possession of Stolen Property": 6,
-      "Other": 29,
       "PR / Bail Revocation": 15,
       "Stalking": 8,
       "Making False Statements": 23,
@@ -903,7 +903,7 @@
   "recidivism": {
     "rate": 5.1,
     "repeatBookerCount": 57,
-    "totalIndividuals": 1115,
+    "totalIndividuals": 1117,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1248,23 +1248,23 @@
     },
     {
       "month": "2026-05",
-      "count": 252
+      "count": 254
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 509,
-      "pct": 30.2
+      "pct": 30.1
     },
     {
       "label": "Violent",
       "count": 256,
-      "pct": 15.2
+      "pct": 15.1
     },
     {
       "label": "Traffic / DUI",
-      "count": 251,
+      "count": 252,
       "pct": 14.9
     },
     {
@@ -1274,8 +1274,8 @@
     },
     {
       "label": "Other",
-      "count": 139,
-      "pct": 8.2
+      "count": 140,
+      "pct": 8.3
     },
     {
       "label": "Order Violations",
@@ -1306,7 +1306,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1482,
+      "count": 1483,
       "pct": 58.6
     },
     {
@@ -1316,7 +1316,7 @@
     },
     {
       "label": "Unknown",
-      "count": 425,
+      "count": 426,
       "pct": 16.8
     },
     {
@@ -1425,7 +1425,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 602,
+      "count": 603,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1438,7 +1438,7 @@
         },
         {
           "label": "DUI",
-          "count": 61
+          "count": 62
         },
         {
           "label": "Other",
@@ -1479,7 +1479,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 105,
+      "count": 106,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1836,12 +1836,12 @@
           "count": 17
         },
         {
-          "label": "Domestic Violence",
+          "label": "DUI",
           "count": 16
         },
         {
-          "label": "DUI",
-          "count": 15
+          "label": "Domestic Violence",
+          "count": 16
         }
       ]
     },
@@ -1914,10 +1914,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 180,
+        "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 90
+        "n": 91
       },
       {
         "charge": "Driving While License Suspended",
@@ -1969,18 +1969,18 @@
         "n": 42
       },
       {
-        "charge": "Harassment",
-        "avgWeight": 172,
+        "charge": "Other",
+        "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 29
       },
       {
-        "charge": "Other",
-        "avgWeight": 184,
+        "charge": "Harassment",
+        "avgWeight": 172,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 28
+        "n": 29
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2416,7 +2416,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1171
+      "count": 1173
     }
   ]
 }

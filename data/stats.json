@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-21T21:58:16.992Z",
+  "generatedAt": "2026-05-21T23:11:45.525Z",
   "bookingCounts": {
-    "total": 1199,
-    "inCustody": 300,
-    "released": 899
+    "total": 1200,
+    "inCustody": 298,
+    "released": 902
   },
   "gender": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "label": "Female",
-      "count": 256,
+      "count": 257,
       "pct": 21.4
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 847,
-      "pct": 70.6
+      "count": 848,
+      "pct": 70.7
     },
     {
       "label": "Unknown",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 326
+        "count": 327
       },
       {
         "label": "36–45",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 624
+      "count": 625
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 31100.01,
+    "mean": 31077.51,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 937
+    "count": 938
   },
   "stay": {
-    "mean": 21.7,
+    "mean": 21.6,
     "median": 2.2,
     "min": 0,
     "max": 627.4,
-    "count": 890,
+    "count": 893,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 328
+        "count": 329
       },
       {
         "label": "1–3 days",
-        "count": 170
+        "count": 171
       },
       {
         "label": "4–7 days",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 123
+        "count": 124
       },
       {
         "label": "3+ months",
@@ -355,6 +355,12 @@
       "medianBail": 15000,
       "meanBail": 58500,
       "count": 9
+    },
+    {
+      "category": "Forgery",
+      "medianBail": 10000,
+      "meanBail": 10000,
+      "count": 1
     },
     {
       "category": "Theft (2nd Degree)",
@@ -509,6 +515,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Forgery": 2,
       "Failure to Comply (Sentence)": 15,
       "Failure to Appear": 317,
       "Harassment": 25,
@@ -570,7 +577,6 @@
       "Court Hold": 2,
       "Criminal Impersonation": 2,
       "Theft": 1,
-      "Forgery": 1,
       "Bribery": 1
     },
     "Native American": {
@@ -715,6 +721,7 @@
   },
   "chargesBySex": {
     "Female": {
+      "Forgery": 1,
       "Failure to Comply (Sentence)": 2,
       "Other": 9,
       "Failure to Appear": 110,
@@ -869,11 +876,11 @@
     },
     {
       "label": "Released",
-      "count": 223
+      "count": 225
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 45
+      "count": 46
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -903,7 +910,7 @@
   "recidivism": {
     "rate": 5.2,
     "repeatBookerCount": 59,
-    "totalIndividuals": 1138,
+    "totalIndividuals": 1139,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1248,7 +1255,7 @@
     },
     {
       "month": "2026-05",
-      "count": 277
+      "count": 278
     }
   ],
   "crimeTypes": [
@@ -1265,7 +1272,7 @@
     {
       "label": "Traffic / DUI",
       "count": 255,
-      "pct": 14.9
+      "pct": 14.8
     },
     {
       "label": "Property",
@@ -1294,8 +1301,8 @@
     },
     {
       "label": "Fraud / Identity",
-      "count": 33,
-      "pct": 1.9
+      "count": 34,
+      "pct": 2
     },
     {
       "label": "Weapons",
@@ -1311,7 +1318,7 @@
     },
     {
       "label": "Felony",
-      "count": 444,
+      "count": 445,
       "pct": 17.3
     },
     {
@@ -1425,7 +1432,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 624,
+      "count": 625,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1740,9 +1747,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 899,
+    "total": 902,
     "withBail": 445,
-    "pct": 49.5
+    "pct": 49.3
   },
   "chargesByAgeGroup": [
     {
@@ -2416,7 +2423,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1196
+      "count": 1197
     }
   ]
 }

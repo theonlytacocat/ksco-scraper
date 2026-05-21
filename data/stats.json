@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-21T08:34:25.028Z",
+  "generatedAt": "2026-05-21T12:17:39.437Z",
   "bookingCounts": {
-    "total": 1195,
-    "inCustody": 307,
+    "total": 1196,
+    "inCustody": 308,
     "released": 888
   },
   "gender": [
     {
       "label": "Male",
-      "count": 827,
+      "count": 828,
       "pct": 69.2
     },
     {
@@ -19,7 +19,7 @@
     {
       "label": "Unknown",
       "count": 113,
-      "pct": 9.5
+      "pct": 9.4
     }
   ],
   "race": [
@@ -40,8 +40,8 @@
     },
     {
       "label": "Native American",
-      "count": 44,
-      "pct": 3.7
+      "count": 45,
+      "pct": 3.8
     },
     {
       "label": "Asian / Pacific Islander",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 325
+        "count": 326
       },
       {
         "label": "36–45",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 68
+      "count": 69
     },
     {
       "label": "DOC Warrant",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 546
+      "count": 547
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 31132.16,
+    "mean": 31100.01,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 936
+    "count": 937
   },
   "stay": {
     "mean": 21.3,
@@ -497,8 +497,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1960.53,
-      "count": 38
+      "meanBail": 1935.9,
+      "count": 39
     },
     {
       "category": "Local / Tribal Code",
@@ -508,6 +508,36 @@
     }
   ],
   "chargesByRace": {
+    "Native American": {
+      "Criminal Trespass": 4,
+      "DUI": 2,
+      "Local / Tribal Code": 5,
+      "Attempt to Elude": 1,
+      "Driving While License Suspended": 3,
+      "Hit and Run": 1,
+      "Failure to Appear": 22,
+      "Obstruction": 3,
+      "DOC Warrant": 2,
+      "Domestic Violence": 4,
+      "Malicious Mischief": 3,
+      "Theft (3rd Degree)": 2,
+      "Other": 2,
+      "Drug Offense": 4,
+      "Protection Order Violation": 1,
+      "Making False Statements": 1,
+      "Assault": 4,
+      "Residential Burglary": 1,
+      "Resisting Arrest": 1,
+      "Theft (1st Degree)": 1,
+      "Theft (2nd Degree)": 1,
+      "PR / Bail Revocation": 2,
+      "Ignition Interlock Violation": 1,
+      "Homicide": 1,
+      "Community Custody Violation": 1,
+      "Harassment": 1,
+      "Burglary (2nd Degree)": 1,
+      "Failure to Comply (Sentence)": 1
+    },
     "Black": {
       "Burglary (2nd Degree)": 6,
       "Assault": 17,
@@ -619,36 +649,6 @@
       "Forgery": 1,
       "Bribery": 1
     },
-    "Native American": {
-      "DUI": 2,
-      "Local / Tribal Code": 5,
-      "Attempt to Elude": 1,
-      "Driving While License Suspended": 3,
-      "Hit and Run": 1,
-      "Failure to Appear": 22,
-      "Obstruction": 3,
-      "Criminal Trespass": 3,
-      "DOC Warrant": 2,
-      "Domestic Violence": 4,
-      "Malicious Mischief": 3,
-      "Theft (3rd Degree)": 2,
-      "Other": 2,
-      "Drug Offense": 4,
-      "Protection Order Violation": 1,
-      "Making False Statements": 1,
-      "Assault": 4,
-      "Residential Burglary": 1,
-      "Resisting Arrest": 1,
-      "Theft (1st Degree)": 1,
-      "Theft (2nd Degree)": 1,
-      "PR / Bail Revocation": 2,
-      "Ignition Interlock Violation": 1,
-      "Homicide": 1,
-      "Community Custody Violation": 1,
-      "Harassment": 1,
-      "Burglary (2nd Degree)": 1,
-      "Failure to Comply (Sentence)": 1
-    },
     "Asian / Pacific Islander": {
       "Criminal Trespass": 3,
       "Failure to Appear": 17,
@@ -715,6 +715,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 49,
       "Burglary (2nd Degree)": 26,
       "Harassment": 32,
       "Assault": 62,
@@ -727,7 +728,6 @@
       "Attempt to Elude": 12,
       "DOC Warrant": 55,
       "DUI": 98,
-      "Criminal Trespass": 48,
       "Local / Tribal Code": 10,
       "Driving While License Suspended": 83,
       "Hit and Run": 12,
@@ -903,7 +903,7 @@
   "recidivism": {
     "rate": 5.2,
     "repeatBookerCount": 59,
-    "totalIndividuals": 1134,
+    "totalIndividuals": 1135,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1248,14 +1248,14 @@
     },
     {
       "month": "2026-05",
-      "count": 273
+      "count": 274
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 515,
-      "pct": 30.1
+      "pct": 30
     },
     {
       "label": "Violent",
@@ -1269,8 +1269,8 @@
     },
     {
       "label": "Property",
-      "count": 220,
-      "pct": 12.8
+      "count": 221,
+      "pct": 12.9
     },
     {
       "label": "Other",
@@ -1321,7 +1321,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 181,
+      "count": 182,
       "pct": 7.1
     }
   ],
@@ -1452,7 +1452,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 546,
+      "count": 547,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1465,7 +1465,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 39
+          "count": 40
         },
         {
           "label": "Domestic Violence",
@@ -1959,7 +1959,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 47
+        "n": 48
       },
       {
         "charge": "Obstruction",
@@ -2416,7 +2416,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1192
+      "count": 1193
     }
   ]
 }

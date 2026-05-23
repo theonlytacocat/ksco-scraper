@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-23T00:10:28.397Z",
+  "generatedAt": "2026-05-23T04:26:13.078Z",
   "bookingCounts": {
-    "total": 1221,
-    "inCustody": 304,
-    "released": 917
+    "total": 1222,
+    "inCustody": 299,
+    "released": 923
   },
   "gender": [
     {
       "label": "Male",
-      "count": 843,
-      "pct": 69
+      "count": 844,
+      "pct": 69.1
     },
     {
       "label": "Female",
@@ -19,13 +19,13 @@
     {
       "label": "Unknown",
       "count": 113,
-      "pct": 9.3
+      "pct": 9.2
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 866,
+      "count": 867,
       "pct": 70.9
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 336
+        "count": 337
       },
       {
         "label": "36–45",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 639
+      "count": 640
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 30779.44,
+    "mean": 30757.66,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 953
+    "count": 954
   },
   "stay": {
-    "mean": 21.9,
-    "median": 2.2,
+    "mean": 21.8,
+    "median": 2.1,
     "min": 0,
     "max": 627.4,
-    "count": 908,
+    "count": 914,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 336
+        "count": 339
       },
       {
         "label": "1–3 days",
-        "count": 172
+        "count": 173
       },
       {
         "label": "4–7 days",
@@ -217,11 +217,11 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 97
+        "count": 98
       },
       {
         "label": "1–3 months",
-        "count": 127
+        "count": 128
       },
       {
         "label": "3+ months",
@@ -265,12 +265,6 @@
       "medianBail": 100000,
       "meanBail": 91000,
       "count": 5
-    },
-    {
-      "category": "Indecent Exposure",
-      "medianBail": 95750,
-      "meanBail": 95750,
-      "count": 2
     },
     {
       "category": "PR / Bail Revocation",
@@ -355,6 +349,12 @@
       "medianBail": 15000,
       "meanBail": 58500,
       "count": 9
+    },
+    {
+      "category": "Indecent Exposure",
+      "medianBail": 10000,
+      "meanBail": 67166.67,
+      "count": 3
     },
     {
       "category": "Forgery",
@@ -515,6 +515,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Indecent Exposure": 2,
       "DUI": 104,
       "Driving While License Suspended": 77,
       "DOC Warrant": 54,
@@ -568,7 +569,6 @@
       "Human Trafficking": 2,
       "Sex Offense": 10,
       "Witness Tampering": 2,
-      "Indecent Exposure": 1,
       "Arson": 2,
       "Incest": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
@@ -721,6 +721,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Indecent Exposure": 4,
       "DUI": 100,
       "Driving While License Suspended": 84,
       "DOC Warrant": 56,
@@ -775,7 +776,6 @@
       "Traffic Violation": 4,
       "Forgery": 2,
       "Witness Tampering": 3,
-      "Indecent Exposure": 3,
       "Arson": 2,
       "Incest": 1,
       "Kidnapping / Unlawful Imprisonment": 2,
@@ -868,15 +868,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 294
+      "count": 295
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 274
+      "count": 277
     },
     {
       "label": "Released",
-      "count": 227
+      "count": 229
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -910,7 +910,7 @@
   "recidivism": {
     "rate": 5.3,
     "repeatBookerCount": 61,
-    "totalIndividuals": 1158,
+    "totalIndividuals": 1159,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1255,7 +1255,7 @@
     },
     {
       "month": "2026-05",
-      "count": 299
+      "count": 300
     }
   ],
   "crimeTypes": [
@@ -1296,7 +1296,7 @@
     },
     {
       "label": "Sex Offense",
-      "count": 40,
+      "count": 41,
       "pct": 2.3
     },
     {
@@ -1313,7 +1313,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1533,
+      "count": 1534,
       "pct": 59
     },
     {
@@ -1382,9 +1382,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17.7,
-      "medianDays": 3.4,
-      "count": 182
+      "avgDays": 17.6,
+      "medianDays": 3.2,
+      "count": 183
     },
     {
       "category": "Protection Order Violation",
@@ -1432,7 +1432,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 639,
+      "count": 640,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1751,9 +1751,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 917,
-    "withBail": 454,
-    "pct": 49.5
+    "total": 923,
+    "withBail": 458,
+    "pct": 49.6
   },
   "chargesByAgeGroup": [
     {
@@ -2218,6 +2218,13 @@
         "n": 5
       },
       {
+        "charge": "Indecent Exposure",
+        "avgWeight": 185,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 4
+      },
+      {
         "charge": "Traffic Violation",
         "avgWeight": 179,
         "avgHeight": "5'11\"",
@@ -2243,13 +2250,6 @@
         "avgWeight": 209,
         "avgHeight": "5'8\"",
         "topRace": "White",
-        "n": 3
-      },
-      {
-        "charge": "Indecent Exposure",
-        "avgWeight": 187,
-        "avgHeight": "5'10\"",
-        "topRace": "Black",
         "n": 3
       },
       {
@@ -2427,7 +2427,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1218
+      "count": 1219
     }
   ]
 }

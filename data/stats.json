@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-23T14:09:50.404Z",
+  "generatedAt": "2026-05-23T17:03:55.961Z",
   "bookingCounts": {
-    "total": 1232,
-    "inCustody": 309,
-    "released": 923
+    "total": 1233,
+    "inCustody": 304,
+    "released": 929
   },
   "gender": [
     {
       "label": "Male",
       "count": 850,
-      "pct": 69
+      "pct": 68.9
     },
     {
       "label": "Female",
@@ -18,8 +18,8 @@
     },
     {
       "label": "Unknown",
-      "count": 116,
-      "pct": 9.4
+      "count": 117,
+      "pct": 9.5
     }
   ],
   "race": [
@@ -30,8 +30,8 @@
     },
     {
       "label": "Unknown",
-      "count": 142,
-      "pct": 11.5
+      "count": 143,
+      "pct": 11.6
     },
     {
       "label": "Black",
@@ -197,15 +197,15 @@
     "median": 2.1,
     "min": 0,
     "max": 627.4,
-    "count": 914,
+    "count": 920,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 339
+        "count": 342
       },
       {
         "label": "1–3 days",
-        "count": 173
+        "count": 174
       },
       {
         "label": "4–7 days",
@@ -221,11 +221,11 @@
       },
       {
         "label": "1–3 months",
-        "count": 128
+        "count": 129
       },
       {
         "label": "3+ months",
-        "count": 54
+        "count": 55
       }
     ]
   },
@@ -514,6 +514,43 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "DUI": 34,
+      "Domestic Violence": 19,
+      "Protection Order Violation": 5,
+      "Failure to Appear": 25,
+      "Other": 13,
+      "Traffic / Obstruction": 3,
+      "Drug Offense": 14,
+      "Attempt to Elude": 4,
+      "Driving While License Suspended": 9,
+      "Ignition Interlock Violation": 5,
+      "Obstruction": 6,
+      "Malicious Mischief": 3,
+      "Assault": 12,
+      "Criminal Trespass": 6,
+      "DOC Warrant": 2,
+      "Theft (2nd Degree)": 4,
+      "Theft (3rd Degree)": 4,
+      "Sex Offense": 2,
+      "Motor Vehicle Theft": 2,
+      "Hit and Run": 4,
+      "Child Sex Offense": 1,
+      "Burglary (2nd Degree)": 2,
+      "Stalking": 1,
+      "Homicide": 1,
+      "Resisting Arrest": 2,
+      "Making False Statements": 2,
+      "Indecent Exposure": 1,
+      "Harassment": 2,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Local / Tribal Code": 1,
+      "Weapons": 1,
+      "Child Exploitation / CSAM": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Public Order": 1
+    },
     "White": {
       "Protection Order Violation": 56,
       "Domestic Violence": 117,
@@ -578,43 +615,6 @@
       "Criminal Impersonation": 2,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Unknown": {
-      "DUI": 34,
-      "Domestic Violence": 19,
-      "Protection Order Violation": 5,
-      "Failure to Appear": 25,
-      "Other": 13,
-      "Traffic / Obstruction": 3,
-      "Drug Offense": 14,
-      "Attempt to Elude": 4,
-      "Driving While License Suspended": 9,
-      "Ignition Interlock Violation": 5,
-      "Obstruction": 6,
-      "Malicious Mischief": 3,
-      "Assault": 12,
-      "Criminal Trespass": 6,
-      "DOC Warrant": 2,
-      "Theft (2nd Degree)": 4,
-      "Theft (3rd Degree)": 4,
-      "Sex Offense": 2,
-      "Motor Vehicle Theft": 2,
-      "Hit and Run": 4,
-      "Child Sex Offense": 1,
-      "Burglary (2nd Degree)": 2,
-      "Stalking": 1,
-      "Homicide": 1,
-      "Resisting Arrest": 2,
-      "Making False Statements": 2,
-      "Indecent Exposure": 1,
-      "Harassment": 2,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Local / Tribal Code": 1,
-      "Weapons": 1,
-      "Child Exploitation / CSAM": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Public Order": 1
     },
     "Native American": {
       "Local / Tribal Code": 6,
@@ -868,19 +868,19 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 295
+      "count": 296
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 277
+      "count": 279
     },
     {
       "label": "Released",
-      "count": 229
+      "count": 230
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 47
+      "count": 49
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -910,7 +910,7 @@
   "recidivism": {
     "rate": 5.2,
     "repeatBookerCount": 61,
-    "totalIndividuals": 1169,
+    "totalIndividuals": 1170,
     "repeatBookers": [
       {
         "name": "ANTHONY, MELISSA SUE",
@@ -1255,7 +1255,7 @@
     },
     {
       "month": "2026-05",
-      "count": 310
+      "count": 311
     }
   ],
   "crimeTypes": [
@@ -1751,9 +1751,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 923,
+    "total": 929,
     "withBail": 458,
-    "pct": 49.6
+    "pct": 49.3
   },
   "chargesByAgeGroup": [
     {
@@ -2427,7 +2427,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1229
+      "count": 1230
     }
   ]
 }

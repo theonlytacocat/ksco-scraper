@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-23T21:27:26.185Z",
+  "generatedAt": "2026-05-23T22:27:56.423Z",
   "bookingCounts": {
-    "total": 1235,
-    "inCustody": 304,
+    "total": 1236,
+    "inCustody": 305,
     "released": 931
   },
   "gender": [
@@ -13,8 +13,8 @@
     },
     {
       "label": "Female",
-      "count": 267,
-      "pct": 21.6
+      "count": 268,
+      "pct": 21.7
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 876,
-      "pct": 70.9
+      "count": 877,
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 349
+        "count": 350
       },
       {
         "label": "46–55",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 431
+      "count": 432
     },
     {
       "label": "Domestic Violence",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 555
+      "count": 559
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 30652.72,
+    "mean": 30529.42,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 958
+    "count": 962
   },
   "stay": {
     "mean": 21.8,
@@ -473,8 +473,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7135.67,
-      "count": 380
+      "meanBail": 7071.76,
+      "count": 384
     },
     {
       "category": "Drug Offense",
@@ -515,10 +515,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 324,
       "Assault": 57,
       "Protection Order Violation": 56,
       "Domestic Violence": 117,
-      "Failure to Appear": 323,
       "Child Exploitation / CSAM": 9,
       "Child Sex Offense": 15,
       "Drug Offense": 70,
@@ -720,6 +720,53 @@
     }
   },
   "chargesBySex": {
+    "Female": {
+      "Failure to Appear": 116,
+      "Assault": 20,
+      "DUI": 30,
+      "Domestic Violence": 38,
+      "Interference with DV Reporting": 2,
+      "Protection Order Violation": 14,
+      "Resisting Arrest": 7,
+      "Forgery": 1,
+      "Failure to Comply (Sentence)": 2,
+      "Other": 9,
+      "Driving While License Suspended": 16,
+      "Ignition Interlock Violation": 3,
+      "Drug Offense": 23,
+      "Burglary (2nd Degree)": 8,
+      "Criminal Trespass": 17,
+      "Harassment": 9,
+      "Obstruction": 9,
+      "Possession of Stolen Vehicle": 3,
+      "Hit and Run": 5,
+      "Reckless Driving": 3,
+      "Homicide": 4,
+      "PR / Bail Revocation": 6,
+      "Making False Statements": 2,
+      "Malicious Mischief": 3,
+      "Theft (2nd Degree)": 6,
+      "Court Hold": 1,
+      "Public Order": 2,
+      "DOC Warrant": 8,
+      "Theft (3rd Degree)": 6,
+      "Fugitive from Justice": 2,
+      "Local / Tribal Code": 2,
+      "Human Trafficking": 2,
+      "Assault (Child)": 1,
+      "Child Exploitation / CSAM": 1,
+      "Child Sex Offense": 1,
+      "Sex Offense": 1,
+      "Traffic / Obstruction": 2,
+      "Indecent Exposure": 1,
+      "Residential Burglary": 1,
+      "Motor Vehicle Theft": 2,
+      "Community Custody Violation": 2,
+      "Robbery": 1,
+      "Weapons": 1,
+      "Traffic Violation": 1,
+      "Bribery": 1
+    },
     "Male": {
       "Domestic Violence": 111,
       "Local / Tribal Code": 11,
@@ -783,53 +830,6 @@
       "Trafficking Stolen Property": 3,
       "Court Hold": 2,
       "Theft": 1
-    },
-    "Female": {
-      "Assault": 20,
-      "Failure to Appear": 115,
-      "DUI": 30,
-      "Domestic Violence": 38,
-      "Interference with DV Reporting": 2,
-      "Protection Order Violation": 14,
-      "Resisting Arrest": 7,
-      "Forgery": 1,
-      "Failure to Comply (Sentence)": 2,
-      "Other": 9,
-      "Driving While License Suspended": 16,
-      "Ignition Interlock Violation": 3,
-      "Drug Offense": 23,
-      "Burglary (2nd Degree)": 8,
-      "Criminal Trespass": 17,
-      "Harassment": 9,
-      "Obstruction": 9,
-      "Possession of Stolen Vehicle": 3,
-      "Hit and Run": 5,
-      "Reckless Driving": 3,
-      "Homicide": 4,
-      "PR / Bail Revocation": 6,
-      "Making False Statements": 2,
-      "Malicious Mischief": 3,
-      "Theft (2nd Degree)": 6,
-      "Court Hold": 1,
-      "Public Order": 2,
-      "DOC Warrant": 8,
-      "Theft (3rd Degree)": 6,
-      "Fugitive from Justice": 2,
-      "Local / Tribal Code": 2,
-      "Human Trafficking": 2,
-      "Assault (Child)": 1,
-      "Child Exploitation / CSAM": 1,
-      "Child Sex Offense": 1,
-      "Sex Offense": 1,
-      "Traffic / Obstruction": 2,
-      "Indecent Exposure": 1,
-      "Residential Burglary": 1,
-      "Motor Vehicle Theft": 2,
-      "Community Custody Violation": 2,
-      "Robbery": 1,
-      "Weapons": 1,
-      "Traffic Violation": 1,
-      "Bribery": 1
     },
     "Unknown": {
       "Protection Order Violation": 5,
@@ -908,8 +908,8 @@
     }
   ],
   "recidivism": {
-    "rate": 5.3,
-    "repeatBookerCount": 62,
+    "rate": 5.4,
+    "repeatBookerCount": 63,
     "totalIndividuals": 1171,
     "repeatBookers": [
       {
@@ -950,6 +950,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "GRIFFIN, CASSANDRA MARIE",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002363",
+            "firstSeen": "05/23/2026, 15:27:56",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026000428",
+            "firstSeen": "03/25/2026, 18:52:59",
             "status": "released"
           }
         ]
@@ -1225,22 +1241,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "HERRING, JOSEPH WILLIAM",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002146",
-            "firstSeen": "05/09/2026, 14:20:14",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2025003993",
-            "firstSeen": "03/25/2026, 18:54:49",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1255,13 +1255,13 @@
     },
     {
       "month": "2026-05",
-      "count": 313
+      "count": 314
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 525,
+      "count": 526,
       "pct": 29.9
     },
     {
@@ -1313,18 +1313,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1541,
+      "count": 1545,
       "pct": 59
     },
     {
       "label": "Felony",
       "count": 451,
-      "pct": 17.3
+      "pct": 17.2
     },
     {
       "label": "Unknown",
       "count": 438,
-      "pct": 16.8
+      "pct": 16.7
     },
     {
       "label": "Misdemeanor",
@@ -1459,12 +1459,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 555,
+      "count": 559,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 150
+          "count": 154
         },
         {
           "label": "Driving While License Suspended",
@@ -1811,7 +1811,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 142
+          "count": 143
         },
         {
           "label": "Domestic Violence",
@@ -1911,10 +1911,10 @@
     "Female": [
       {
         "charge": "Failure to Appear",
-        "avgWeight": 154,
+        "avgWeight": 153,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 115
+        "n": 116
       },
       {
         "charge": "Domestic Violence",
@@ -2427,7 +2427,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1232
+      "count": 1233
     }
   ]
 }

@@ -18,10 +18,24 @@ function formatRace(code) {
   return map[code] || code || 'N/A'
 }
 
+function calcTimeHeld(start, end) {
+  if (!start || !end) return null
+  const ms = new Date(end) - new Date(start)
+  if (ms <= 0) return null
+  const totalMins = Math.floor(ms / 60000)
+  const days  = Math.floor(totalMins / 1440)
+  const hours = Math.floor((totalMins % 1440) / 60)
+  const mins  = totalMins % 60
+  if (days > 0)  return `${days}d ${hours}h ${mins}m`
+  if (hours > 0) return `${hours}h ${mins}m`
+  return `${mins}m`
+}
+
 export default function BookingCard({ entry }) {
   const [open, setOpen] = useState(false)
 
   const isReleased = entry.status === 'released'
+  const timeHeld = isReleased ? calcTimeHeld(entry.firstSeen, entry.releasedAt) : null
 
   return (
     <div className={`card ${isReleased ? 'card-released' : 'card-custody'}`}>
@@ -30,6 +44,7 @@ export default function BookingCard({ entry }) {
           <div className="card-name">{entry.name}</div>
           <div className="card-meta">
             Booking #{entry.bookingNumber} &nbsp;·&nbsp; Booked: {entry.bookingDate || entry.firstSeen}
+            {timeHeld && <span className="card-time-held"> &nbsp;·&nbsp; Held: {timeHeld}</span>}
           </div>
         </div>
         <div className="card-right">
@@ -44,7 +59,7 @@ export default function BookingCard({ entry }) {
         <div className="card-body">
           {isReleased && entry.releasedAt && (
             <div className="card-release-row">
-              Released: {entry.releasedAt}
+              Released: {entry.releasedAt}{timeHeld && <span className="card-time-held-detail"> &nbsp;·&nbsp; Time held: {timeHeld}</span>}
             </div>
           )}
           {entry.schedRelease && !isReleased && (

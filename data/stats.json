@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-29T01:33:00.302Z",
+  "generatedAt": "2026-05-29T06:18:06.483Z",
   "bookingCounts": {
-    "total": 1318,
-    "inCustody": 284,
-    "released": 1034
+    "total": 1322,
+    "inCustody": 286,
+    "released": 1036
   },
   "gender": [
     {
       "label": "Male",
-      "count": 898,
-      "pct": 68.1
+      "count": 901,
+      "pct": 68.2
     },
     {
       "label": "Female",
-      "count": 287,
+      "count": 288,
       "pct": 21.8
     },
     {
@@ -25,18 +25,18 @@
   "race": [
     {
       "label": "White",
-      "count": 925,
+      "count": 928,
       "pct": 70.2
     },
     {
       "label": "Unknown",
       "count": 167,
-      "pct": 12.7
+      "pct": 12.6
     },
     {
       "label": "Black",
-      "count": 140,
-      "pct": 10.6
+      "count": 141,
+      "pct": 10.7
     },
     {
       "label": "Native American",
@@ -61,15 +61,15 @@
       },
       {
         "label": "26–35",
-        "count": 365
+        "count": 366
       },
       {
         "label": "36–45",
-        "count": 368
+        "count": 370
       },
       {
         "label": "46–55",
-        "count": 191
+        "count": 192
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 445
+      "count": 446
     },
     {
       "label": "Domestic Violence",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 169
+      "count": 171
     },
     {
       "label": "Driving While License Suspended",
@@ -139,7 +139,7 @@
       "count": 37
     },
     {
-      "label": "Burglary (2nd Degree)",
+      "label": "Malicious Mischief",
       "count": 36
     }
   ],
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 599
+      "count": 603
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -158,11 +158,11 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 90
+      "count": 91
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 45
+      "count": 46
     },
     {
       "label": "OTHER AGENCY",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 29452.61,
+    "mean": 29270.32,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 1017
+    "count": 1024
   },
   "stay": {
     "mean": 20.8,
     "median": 1.9,
     "min": 0,
     "max": 627.4,
-    "count": 1025,
+    "count": 1027,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,11 +205,11 @@
       },
       {
         "label": "1–3 days",
-        "count": 201
+        "count": 202
       },
       {
         "label": "4–7 days",
-        "count": 89
+        "count": 90
       },
       {
         "label": "1–2 weeks",
@@ -399,10 +399,16 @@
       "count": 1
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 13215.19,
+      "count": 79
+    },
+    {
       "category": "Malicious Mischief",
       "medianBail": 5000,
-      "meanBail": 8500,
-      "count": 18
+      "meanBail": 8315.79,
+      "count": 19
     },
     {
       "category": "Ignition Interlock Violation",
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 3583.33,
       "count": 18
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 13422.08,
-      "count": 77
     },
     {
       "category": "Hit and Run",
@@ -473,8 +473,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 7011.44,
-      "count": 398
+      "meanBail": 6951.63,
+      "count": 402
     },
     {
       "category": "Local / Tribal Code",
@@ -515,13 +515,13 @@
   ],
   "chargesByRace": {
     "White": {
-      "Failure to Appear": 335,
+      "DUI": 111,
+      "Failure to Appear": 336,
       "Protection Order Violation": 59,
       "Ignition Interlock Violation": 28,
       "Malicious Mischief": 23,
       "Motor Vehicle Theft": 7,
       "Domestic Violence": 121,
-      "DUI": 109,
       "Assault": 62,
       "Drug Offense": 78,
       "Other": 35,
@@ -580,6 +580,7 @@
       "Bribery": 1
     },
     "Black": {
+      "Malicious Mischief": 5,
       "Harassment": 14,
       "Attempt to Elude": 2,
       "Failure to Appear": 45,
@@ -600,7 +601,6 @@
       "PR / Bail Revocation": 6,
       "Burglary (1st Degree)": 4,
       "Theft (1st Degree)": 1,
-      "Malicious Mischief": 4,
       "Local / Tribal Code": 2,
       "Reckless Driving": 1,
       "Weapons": 6,
@@ -722,14 +722,14 @@
   },
   "chargesBySex": {
     "Male": {
-      "Failure to Appear": 309,
+      "DUI": 107,
+      "Failure to Appear": 310,
+      "Malicious Mischief": 31,
       "Protection Order Violation": 62,
       "Ignition Interlock Violation": 31,
       "Harassment": 36,
       "Attempt to Elude": 14,
-      "Malicious Mischief": 30,
       "Motor Vehicle Theft": 10,
-      "DUI": 106,
       "Assault": 68,
       "Drug Offense": 71,
       "Other": 37,
@@ -786,12 +786,12 @@
       "Theft": 1
     },
     "Female": {
+      "DUI": 33,
       "Domestic Violence": 43,
       "Driving While License Suspended": 17,
       "Failure to Appear": 119,
       "PR / Bail Revocation": 7,
       "Other": 10,
-      "DUI": 32,
       "Drug Offense": 25,
       "Theft (3rd Degree)": 7,
       "Local / Tribal Code": 3,
@@ -869,7 +869,7 @@
   "releaseReasons": [
     {
       "label": "Released (Unknown Reason)",
-      "count": 321
+      "count": 323
     },
     {
       "label": "FTA / Contempt Resolved",
@@ -909,10 +909,31 @@
     }
   ],
   "recidivism": {
-    "rate": 5.7,
-    "repeatBookerCount": 71,
-    "totalIndividuals": 1244,
+    "rate": 5.8,
+    "repeatBookerCount": 72,
+    "totalIndividuals": 1246,
     "repeatBookers": [
+      {
+        "name": "CURTIS, DAVID BRIAN",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026002450",
+            "firstSeen": "05/28/2026, 23:18:05",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002214",
+            "firstSeen": "05/13/2026, 11:24:17",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026000012",
+            "firstSeen": "03/25/2026, 18:53:40",
+            "status": "released"
+          }
+        ]
+      },
       {
         "name": "GRANNELL, DANIEL HOWARD",
         "count": 3,
@@ -972,6 +993,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "BROWNLEE, ALPHONSO CURTIS",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002454",
+            "firstSeen": "05/28/2026, 23:18:03",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001816",
+            "firstSeen": "04/19/2026, 21:30:22",
             "status": "released"
           }
         ]
@@ -1215,38 +1252,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "DIAZ, ANDRES TOMAS",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002274",
-            "firstSeen": "05/18/2026, 11:03:34",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001957",
-            "firstSeen": "04/27/2026, 10:00:25",
-            "status": "released"
-          }
-        ]
-      },
-      {
-        "name": "DECKER, ERIN KATHLEEN",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002256",
-            "firstSeen": "05/16/2026, 16:28:29",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001443",
-            "firstSeen": "03/27/2026, 20:30:19",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1261,29 +1266,29 @@
     },
     {
       "month": "2026-05",
-      "count": 396
+      "count": 400
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 542,
+      "count": 543,
       "pct": 29.3
     },
     {
       "label": "Violent",
       "count": 288,
-      "pct": 15.6
+      "pct": 15.5
     },
     {
       "label": "Traffic / DUI",
-      "count": 283,
-      "pct": 15.3
+      "count": 285,
+      "pct": 15.4
     },
     {
       "label": "Property",
-      "count": 230,
-      "pct": 12.4
+      "count": 231,
+      "pct": 12.5
     },
     {
       "label": "Other",
@@ -1293,7 +1298,7 @@
     {
       "label": "Order Violations",
       "count": 140,
-      "pct": 7.6
+      "pct": 7.5
     },
     {
       "label": "Drug",
@@ -1319,8 +1324,8 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1613,
-      "pct": 59.1
+      "count": 1620,
+      "pct": 59.2
     },
     {
       "label": "Unknown",
@@ -1423,16 +1428,16 @@
       "count": 3
     },
     {
-      "category": "Local / Tribal Code",
-      "avgDays": 12.2,
-      "medianDays": 2.5,
-      "count": 8
-    },
-    {
       "category": "Burglary (2nd Degree)",
       "avgDays": 12,
       "medianDays": 3.5,
       "count": 10
+    },
+    {
+      "category": "Residential Burglary",
+      "avgDays": 11.8,
+      "medianDays": 1.3,
+      "count": 3
     }
   ],
   "agencyBreakdown": [
@@ -1465,12 +1470,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 599,
+      "count": 603,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 159
+          "count": 163
         },
         {
           "label": "Driving While License Suspended",
@@ -1519,7 +1524,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 91,
+      "count": 92,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1546,12 +1551,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 45,
+      "count": 46,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 15
+          "count": 16
         },
         {
           "label": "Failure to Appear",
@@ -1756,6 +1761,17 @@
       ]
     },
     {
+      "name": "BAINBRDIGE ISLAND PD",
+      "count": 1,
+      "topCharge": "DUI",
+      "chargeBreakdown": [
+        {
+          "label": "DUI",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "THURSTON COUNTY",
       "count": 1,
       "topCharge": "Failure to Appear",
@@ -1768,8 +1784,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1034,
-    "withBail": 511,
+    "total": 1036,
+    "withBail": 512,
     "pct": 49.4
   },
   "chargesByAgeGroup": [
@@ -1811,7 +1827,7 @@
         },
         {
           "label": "DUI",
-          "count": 43
+          "count": 44
         },
         {
           "label": "Assault",
@@ -1843,7 +1859,7 @@
           "count": 33
         },
         {
-          "label": "Protection Order Violation",
+          "label": "DUI",
           "count": 29
         }
       ]
@@ -1853,7 +1869,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 71
+          "count": 72
         },
         {
           "label": "Drug Offense",
@@ -1928,10 +1944,10 @@
     "Male": [
       {
         "charge": "Failure to Appear",
-        "avgWeight": 184,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 304
+        "n": 305
       },
       {
         "charge": "Domestic Violence",
@@ -1945,7 +1961,7 @@
         "avgWeight": 180,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 97
+        "n": 98
       },
       {
         "charge": "Driving While License Suspended",
@@ -2011,18 +2027,18 @@
         "n": 35
       },
       {
+        "charge": "Malicious Mischief",
+        "avgWeight": 190,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 30
+      },
+      {
         "charge": "Ignition Interlock Violation",
         "avgWeight": 173,
         "avgHeight": "5'7\"",
         "topRace": "White",
         "n": 30
-      },
-      {
-        "charge": "Malicious Mischief",
-        "avgWeight": 189,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 29
       },
       {
         "charge": "Theft (3rd Degree)",
@@ -2295,9 +2311,9 @@
       {
         "charge": "DUI",
         "avgWeight": 150,
-        "avgHeight": "5'3\"",
+        "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 30
+        "n": 31
       },
       {
         "charge": "Drug Offense",
@@ -2451,7 +2467,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1315
+      "count": 1319
     }
   ]
 }

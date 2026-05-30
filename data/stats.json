@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-05-30T16:33:54.204Z",
+  "generatedAt": "2026-05-30T18:04:06.253Z",
   "bookingCounts": {
-    "total": 1344,
-    "inCustody": 283,
-    "released": 1061
+    "total": 1346,
+    "inCustody": 284,
+    "released": 1062
   },
   "gender": [
     {
       "label": "Male",
-      "count": 918,
+      "count": 919,
       "pct": 68.3
     },
     {
       "label": "Female",
       "count": 291,
-      "pct": 21.7
+      "pct": 21.6
     },
     {
       "label": "Unknown",
-      "count": 135,
-      "pct": 10
+      "count": 136,
+      "pct": 10.1
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 944,
+      "count": 945,
       "pct": 70.2
     },
     {
       "label": "Unknown",
-      "count": 170,
-      "pct": 12.6
+      "count": 171,
+      "pct": 12.7
     },
     {
       "label": "Black",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 374
+        "count": 375
       },
       {
         "label": "36–45",
@@ -193,15 +193,15 @@
     "count": 1043
   },
   "stay": {
-    "mean": 21.6,
+    "mean": 21.5,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1052,
+    "count": 1053,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 396
+        "count": 397
       },
       {
         "label": "1–3 days",
@@ -877,7 +877,7 @@
     },
     {
       "label": "Released",
-      "count": 272
+      "count": 273
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -909,9 +909,9 @@
     }
   ],
   "recidivism": {
-    "rate": 6.1,
-    "repeatBookerCount": 77,
-    "totalIndividuals": 1262,
+    "rate": 6.2,
+    "repeatBookerCount": 78,
+    "totalIndividuals": 1263,
     "repeatBookers": [
       {
         "name": "DIAZ, ANDRES TOMAS",
@@ -920,7 +920,7 @@
           {
             "bookingNumber": "2026002469",
             "firstSeen": "05/30/2026, 00:42:34",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002274",
@@ -1014,6 +1014,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "MYERS, LUKE CHRISTOPHER HARMON",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002482",
+            "firstSeen": "05/30/2026, 11:04:04",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001684",
+            "firstSeen": "04/11/2026, 00:00:18",
             "status": "released"
           }
         ]
@@ -1241,22 +1257,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "GRIFFIN, CASSANDRA MARIE",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002363",
-            "firstSeen": "05/23/2026, 15:27:56",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026000428",
-            "firstSeen": "03/25/2026, 18:52:59",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1271,7 +1271,7 @@
     },
     {
       "month": "2026-05",
-      "count": 422
+      "count": 424
     }
   ],
   "crimeTypes": [
@@ -1789,8 +1789,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1061,
-    "withBail": 525,
+    "total": 1062,
+    "withBail": 526,
     "pct": 49.5
   },
   "chargesByAgeGroup": [
@@ -2472,7 +2472,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1341
+      "count": 1343
     }
   ]
 }

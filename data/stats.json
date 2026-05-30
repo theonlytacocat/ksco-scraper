@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-29T22:38:59.646Z",
+  "generatedAt": "2026-05-30T00:11:12.197Z",
   "bookingCounts": {
-    "total": 1328,
-    "inCustody": 279,
-    "released": 1049
+    "total": 1330,
+    "inCustody": 280,
+    "released": 1050
   },
   "gender": [
     {
       "label": "Male",
-      "count": 907,
+      "count": 908,
       "pct": 68.3
     },
     {
       "label": "Female",
-      "count": 288,
+      "count": 289,
       "pct": 21.7
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 934,
-      "pct": 70.3
+      "count": 936,
+      "pct": 70.4
     },
     {
       "label": "Unknown",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 370
+        "count": 372
       },
       {
         "label": "46–55",
@@ -116,11 +116,11 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 69
+      "count": 70
     },
     {
       "label": "Other",
-      "count": 61
+      "count": 62
     },
     {
       "label": "Obstruction",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 697
+      "count": 698
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 608
+      "count": 609
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 29148.5,
+    "mean": 29125.05,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 1029
+    "count": 1030
   },
   "stay": {
-    "mean": 21.4,
+    "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1040,
+    "count": 1041,
     "histogram": [
       {
         "label": "< 1 day",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 59
+        "count": 60
       }
     ]
   },
@@ -399,6 +399,12 @@
       "count": 1
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 13170.73,
+      "count": 41
+    },
+    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 4700,
@@ -415,12 +421,6 @@
       "medianBail": 5000,
       "meanBail": 8315.79,
       "count": 19
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 13375,
-      "count": 40
     },
     {
       "category": "Theft (3rd Degree)",
@@ -515,6 +515,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "DOC Warrant": 56,
+      "Other": 36,
       "DUI": 113,
       "Failure to Appear": 337,
       "Protection Order Violation": 60,
@@ -526,7 +528,6 @@
       "Domestic Violence": 121,
       "Assault": 62,
       "Drug Offense": 78,
-      "Other": 35,
       "Driving While License Suspended": 81,
       "Theft (3rd Degree)": 30,
       "PR / Bail Revocation": 14,
@@ -535,7 +536,6 @@
       "Hit and Run": 15,
       "Criminal Trespass": 53,
       "Theft (2nd Degree)": 21,
-      "DOC Warrant": 55,
       "Attempt to Elude": 10,
       "Reckless Driving": 13,
       "Child Exploitation / CSAM": 9,
@@ -722,6 +722,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 58,
       "DUI": 109,
       "Failure to Appear": 311,
       "Protection Order Violation": 63,
@@ -742,7 +743,6 @@
       "Hit and Run": 14,
       "Criminal Trespass": 50,
       "Theft (2nd Degree)": 19,
-      "DOC Warrant": 57,
       "Possession of Stolen Vehicle": 13,
       "Reckless Driving": 12,
       "Child Exploitation / CSAM": 8,
@@ -786,12 +786,12 @@
       "Theft": 1
     },
     "Female": {
+      "Other": 11,
       "DUI": 33,
       "Domestic Violence": 43,
       "Driving While License Suspended": 17,
       "Failure to Appear": 119,
       "PR / Bail Revocation": 7,
-      "Other": 10,
       "Drug Offense": 25,
       "Theft (3rd Degree)": 7,
       "Local / Tribal Code": 3,
@@ -873,7 +873,7 @@
     },
     {
       "label": "FTA / Contempt Resolved",
-      "count": 319
+      "count": 320
     },
     {
       "label": "Released",
@@ -909,9 +909,9 @@
     }
   ],
   "recidivism": {
-    "rate": 5.8,
-    "repeatBookerCount": 73,
-    "totalIndividuals": 1251,
+    "rate": 5.9,
+    "repeatBookerCount": 74,
+    "totalIndividuals": 1252,
     "repeatBookers": [
       {
         "name": "CURTIS, DAVID BRIAN",
@@ -993,6 +993,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "DUNLAP, JAMES EMERY",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002462",
+            "firstSeen": "05/29/2026, 17:11:11",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026000201",
+            "firstSeen": "03/25/2026, 18:53:11",
             "status": "released"
           }
         ]
@@ -1236,22 +1252,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "HALL, SHANNON THOMAS",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002309",
-            "firstSeen": "05/20/2026, 11:41:45",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026001943",
-            "firstSeen": "04/26/2026, 21:00:25",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1266,14 +1266,14 @@
     },
     {
       "month": "2026-05",
-      "count": 406
+      "count": 408
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 544,
-      "pct": 29.2
+      "count": 545,
+      "pct": 29.3
     },
     {
       "label": "Violent",
@@ -1292,8 +1292,8 @@
     },
     {
       "label": "Other",
-      "count": 159,
-      "pct": 8.5
+      "count": 160,
+      "pct": 8.6
     },
     {
       "label": "Order Violations",
@@ -1329,12 +1329,12 @@
     },
     {
       "label": "Unknown",
-      "count": 464,
+      "count": 465,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 461,
+      "count": 462,
       "pct": 16.8
     },
     {
@@ -1443,7 +1443,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 697,
+      "count": 698,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1470,7 +1470,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 608,
+      "count": 609,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1784,9 +1784,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1049,
+    "total": 1050,
     "withBail": 518,
-    "pct": 49.4
+    "pct": 49.3
   },
   "chargesByAgeGroup": [
     {
@@ -1996,7 +1996,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 57
+        "n": 58
       },
       {
         "charge": "Criminal Trespass",
@@ -2351,6 +2351,13 @@
         "n": 14
       },
       {
+        "charge": "Other",
+        "avgWeight": 194,
+        "avgHeight": "5'6\"",
+        "topRace": "White",
+        "n": 9
+      },
+      {
         "charge": "Harassment",
         "avgWeight": 166,
         "avgHeight": "5'7\"",
@@ -2363,13 +2370,6 @@
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 9
-      },
-      {
-        "charge": "Other",
-        "avgWeight": 185,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 8
       },
       {
         "charge": "Burglary (2nd Degree)",
@@ -2467,7 +2467,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1325
+      "count": 1327
     }
   ]
 }

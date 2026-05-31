@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-30T22:31:15.030Z",
+  "generatedAt": "2026-05-31T00:03:46.908Z",
   "bookingCounts": {
-    "total": 1349,
-    "inCustody": 287,
+    "total": 1351,
+    "inCustody": 289,
     "released": 1062
   },
   "gender": [
     {
       "label": "Male",
-      "count": 922,
-      "pct": 68.3
+      "count": 924,
+      "pct": 68.4
     },
     {
       "label": "Female",
       "count": 291,
-      "pct": 21.6
+      "pct": 21.5
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 947,
+      "count": 949,
       "pct": 70.2
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 373
+        "count": 375
       },
       {
         "label": "46–55",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 451
+      "count": 453
     },
     {
       "label": "Domestic Violence",
@@ -119,16 +119,20 @@
       "count": 71
     },
     {
+      "label": "Obstruction",
+      "count": 63
+    },
+    {
       "label": "Other",
       "count": 63
     },
     {
-      "label": "Obstruction",
-      "count": 62
-    },
-    {
       "label": "Harassment",
       "count": 49
+    },
+    {
+      "label": "Malicious Mischief",
+      "count": 38
     },
     {
       "label": "Ignition Interlock Violation",
@@ -137,10 +141,6 @@
     {
       "label": "Theft (3rd Degree)",
       "count": 38
-    },
-    {
-      "label": "Malicious Mischief",
-      "count": 37
     }
   ],
   "topAgencies": [
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 621
+      "count": 622
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -158,7 +158,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 97
+      "count": 100
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 28990.25,
+    "mean": 28926.89,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 1046
+    "count": 1049
   },
   "stay": {
     "mean": 21.5,
@@ -399,6 +399,12 @@
       "count": 1
     },
     {
+      "category": "Malicious Mischief",
+      "medianBail": 5000,
+      "meanBail": 8476.19,
+      "count": 21
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 13135.8,
@@ -415,12 +421,6 @@
       "medianBail": 5000,
       "meanBail": 8428.57,
       "count": 14
-    },
-    {
-      "category": "Malicious Mischief",
-      "medianBail": 5000,
-      "meanBail": 8150,
-      "count": 20
     },
     {
       "category": "Obstruction",
@@ -471,16 +471,16 @@
       "count": 1
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 6861.45,
+      "count": 411
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 5949.15,
       "count": 59
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 6881.55,
-      "count": 409
     },
     {
       "category": "Local / Tribal Code",
@@ -515,17 +515,17 @@
   ],
   "chargesByRace": {
     "White": {
+      "Malicious Mischief": 25,
+      "Obstruction": 45,
+      "Failure to Appear": 342,
       "Drug Offense": 79,
-      "Failure to Appear": 340,
       "DOC Warrant": 57,
       "Protection Order Violation": 62,
       "Hit and Run": 17,
       "Other": 37,
       "DUI": 115,
       "Driving While License Suspended": 82,
-      "Obstruction": 44,
       "Criminal Trespass": 54,
-      "Malicious Mischief": 24,
       "Weapons": 15,
       "Ignition Interlock Violation": 29,
       "Harassment": 29,
@@ -722,8 +722,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Malicious Mischief": 33,
+      "Obstruction": 48,
+      "Failure to Appear": 316,
       "Drug Offense": 72,
-      "Failure to Appear": 314,
       "DOC Warrant": 59,
       "Robbery": 12,
       "Burglary (1st Degree)": 10,
@@ -735,9 +737,7 @@
       "Other": 38,
       "DUI": 112,
       "Driving While License Suspended": 90,
-      "Obstruction": 47,
       "Criminal Trespass": 51,
-      "Malicious Mischief": 32,
       "Ignition Interlock Violation": 32,
       "Attempt to Elude": 14,
       "Motor Vehicle Theft": 10,
@@ -909,9 +909,9 @@
     }
   ],
   "recidivism": {
-    "rate": 6.2,
-    "repeatBookerCount": 79,
-    "totalIndividuals": 1265,
+    "rate": 6.3,
+    "repeatBookerCount": 80,
+    "totalIndividuals": 1266,
     "repeatBookers": [
       {
         "name": "DIAZ, ANDRES TOMAS",
@@ -1014,6 +1014,22 @@
           {
             "bookingNumber": "2026001412",
             "firstSeen": "03/25/2026, 18:48:11",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "BOLDUC, JACOB ALLEN",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002487",
+            "firstSeen": "05/30/2026, 17:03:45",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001903",
+            "firstSeen": "04/24/2026, 09:30:23",
             "status": "released"
           }
         ]
@@ -1241,22 +1257,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "PANGILINAN, MICHAEL RAYVEN",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002384",
-            "firstSeen": "05/25/2026, 02:12:47",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026000964",
-            "firstSeen": "03/25/2026, 18:51:29",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1271,13 +1271,13 @@
     },
     {
       "month": "2026-05",
-      "count": 427
+      "count": 429
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 550,
+      "count": 552,
       "pct": 29.2
     },
     {
@@ -1292,13 +1292,13 @@
     },
     {
       "label": "Property",
-      "count": 233,
+      "count": 234,
       "pct": 12.4
     },
     {
       "label": "Other",
-      "count": 163,
-      "pct": 8.6
+      "count": 164,
+      "pct": 8.7
     },
     {
       "label": "Order Violations",
@@ -1329,7 +1329,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1646,
+      "count": 1650,
       "pct": 59.3
     },
     {
@@ -1475,12 +1475,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 621,
+      "count": 622,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 167
+          "count": 168
         },
         {
           "label": "Criminal Trespass",
@@ -1529,12 +1529,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 98,
+      "count": 101,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 29
+          "count": 30
         },
         {
           "label": "Domestic Violence",
@@ -1549,7 +1549,7 @@
           "count": 6
         },
         {
-          "label": "DUI",
+          "label": "Obstruction",
           "count": 5
         }
       ]
@@ -1860,7 +1860,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 150
+          "count": 152
         },
         {
           "label": "Domestic Violence",
@@ -1963,7 +1963,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 309
+        "n": 311
       },
       {
         "charge": "Domestic Violence",
@@ -2026,7 +2026,7 @@
         "avgWeight": 178,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 47
+        "n": 48
       },
       {
         "charge": "Harassment",
@@ -2044,10 +2044,10 @@
       },
       {
         "charge": "Malicious Mischief",
-        "avgWeight": 189,
+        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 31
+        "n": 32
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2483,7 +2483,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1346
+      "count": 1348
     }
   ]
 }

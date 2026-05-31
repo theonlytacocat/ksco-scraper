@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-31T20:13:29.367Z",
+  "generatedAt": "2026-05-31T21:33:07.908Z",
   "bookingCounts": {
     "total": 1358,
-    "inCustody": 295,
-    "released": 1063
+    "inCustody": 294,
+    "released": 1064
   },
   "gender": [
     {
@@ -197,11 +197,11 @@
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1054,
+    "count": 1055,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 397
+        "count": 398
       },
       {
         "label": "1–3 days",
@@ -869,7 +869,7 @@
   "releaseReasons": [
     {
       "label": "Released (Unknown Reason)",
-      "count": 334
+      "count": 335
     },
     {
       "label": "FTA / Contempt Resolved",
@@ -920,7 +920,7 @@
           {
             "bookingNumber": "2026002493",
             "firstSeen": "05/31/2026, 10:10:24",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026001865",
@@ -1426,16 +1426,16 @@
       "count": 3
     },
     {
-      "category": "Malicious Mischief",
-      "avgDays": 15.1,
-      "medianDays": 7.3,
-      "count": 6
-    },
-    {
       "category": "Court Hold",
       "avgDays": 15,
       "medianDays": 5.6,
       "count": 3
+    },
+    {
+      "category": "Malicious Mischief",
+      "avgDays": 12.9,
+      "medianDays": 3.6,
+      "count": 7
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -1805,8 +1805,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1063,
-    "withBail": 526,
+    "total": 1064,
+    "withBail": 527,
     "pct": 49.5
   },
   "chargesByAgeGroup": [

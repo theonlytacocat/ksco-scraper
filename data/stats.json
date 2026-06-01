@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-01T22:21:01.169Z",
+  "generatedAt": "2026-06-01T23:51:30.707Z",
   "bookingCounts": {
-    "total": 1377,
-    "inCustody": 302,
-    "released": 1075
+    "total": 1379,
+    "inCustody": 303,
+    "released": 1076
   },
   "gender": [
     {
       "label": "Male",
-      "count": 939,
+      "count": 941,
       "pct": 68.2
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 968,
+      "count": 970,
       "pct": 70.3
     },
     {
       "label": "Unknown",
       "count": 173,
-      "pct": 12.6
+      "pct": 12.5
     },
     {
       "label": "Black",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 182
+        "count": 183
       },
       {
         "label": "26–35",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 383
+        "count": 384
       },
       {
         "label": "46–55",
@@ -84,11 +84,11 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 462
+      "count": 463
     },
     {
       "label": "Domestic Violence",
-      "count": 188
+      "count": 189
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 710
+      "count": 711
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -158,7 +158,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 110
+      "count": 112
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 29061.34,
+    "mean": 29035.4,
     "median": 5000,
     "min": 5,
     "max": 4000000,
-    "count": 1081
+    "count": 1082
   },
   "stay": {
     "mean": 21.4,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1066,
+    "count": 1067,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 402
+        "count": 403
       },
       {
         "label": "1–3 days",
@@ -471,16 +471,16 @@
       "count": 1
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 7065.86,
+      "count": 426
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 5852.46,
       "count": 61
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 7080.13,
-      "count": 425
     },
     {
       "category": "Local / Tribal Code",
@@ -515,14 +515,15 @@
   ],
   "chargesByRace": {
     "White": {
-      "Domestic Violence": 125,
+      "Failure to Appear": 350,
+      "Domestic Violence": 126,
+      "Kidnapping / Unlawful Imprisonment": 2,
       "Obstruction": 47,
       "Drug Offense": 81,
       "Driving While License Suspended": 84,
       "DUI": 116,
       "Vehicle Prowling": 10,
       "Criminal Trespass": 56,
-      "Failure to Appear": 349,
       "Motor Vehicle Theft": 9,
       "Assault": 66,
       "Robbery": 9,
@@ -571,7 +572,6 @@
       "Witness Tampering": 2,
       "Arson": 2,
       "Incest": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
       "Tampering with Evidence": 1,
       "Trafficking Stolen Property": 3,
       "Court Hold": 2,
@@ -722,11 +722,12 @@
   },
   "chargesBySex": {
     "Male": {
-      "Domestic Violence": 118,
+      "Failure to Appear": 324,
+      "Domestic Violence": 119,
+      "Kidnapping / Unlawful Imprisonment": 3,
       "Obstruction": 49,
       "Drug Offense": 74,
       "Driving While License Suspended": 92,
-      "Failure to Appear": 323,
       "Local / Tribal Code": 13,
       "Criminal Trespass": 52,
       "Motor Vehicle Theft": 11,
@@ -779,7 +780,6 @@
       "Witness Tampering": 3,
       "Arson": 2,
       "Incest": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
       "Tampering with Evidence": 1,
       "Trafficking Stolen Property": 3,
       "Court Hold": 2,
@@ -870,7 +870,7 @@
   "releaseReasons": [
     {
       "label": "Released (Unknown Reason)",
-      "count": 339
+      "count": 340
     },
     {
       "label": "FTA / Contempt Resolved",
@@ -910,9 +910,9 @@
     }
   ],
   "recidivism": {
-    "rate": 6.5,
+    "rate": 6.4,
     "repeatBookerCount": 83,
-    "totalIndividuals": 1286,
+    "totalIndividuals": 1288,
     "repeatBookers": [
       {
         "name": "GRANNELL, DANIEL HOWARD",
@@ -1291,19 +1291,19 @@
     },
     {
       "month": "2026-06",
-      "count": 13
+      "count": 15
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 562,
+      "count": 563,
       "pct": 29.2
     },
     {
       "label": "Violent",
-      "count": 298,
-      "pct": 15.5
+      "count": 300,
+      "pct": 15.6
     },
     {
       "label": "Traffic / DUI",
@@ -1349,16 +1349,16 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1677,
+      "count": 1679,
       "pct": 59.3
     },
     {
-      "label": "Felony",
-      "count": 474,
+      "label": "Unknown",
+      "count": 475,
       "pct": 16.8
     },
     {
-      "label": "Unknown",
+      "label": "Felony",
       "count": 474,
       "pct": 16.8
     },
@@ -1468,7 +1468,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 710,
+      "count": 711,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1549,16 +1549,16 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 111,
+      "count": 113,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 34
+          "count": 35
         },
         {
           "label": "Domestic Violence",
-          "count": 14
+          "count": 15
         },
         {
           "label": "Assault",
@@ -1820,8 +1820,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1075,
-    "withBail": 534,
+    "total": 1076,
+    "withBail": 535,
     "pct": 49.7
   },
   "chargesByAgeGroup": [
@@ -1830,7 +1830,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 45
+          "count": 46
         },
         {
           "label": "DUI",
@@ -1838,7 +1838,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 32
+          "count": 33
         },
         {
           "label": "Driving While License Suspended",
@@ -1983,14 +1983,14 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 318
+        "n": 319
       },
       {
         "charge": "Domestic Violence",
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 115
+        "n": 116
       },
       {
         "charge": "DUI",
@@ -2517,7 +2517,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1374
+      "count": 1376
     }
   ]
 }

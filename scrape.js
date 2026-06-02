@@ -116,6 +116,51 @@ async function run() {
       }
     }
 
+    // ── Detail refresh: re-fetch all existing in-custody inmates ─────────────
+    // Skips inmates just processed as new bookings (already fetched above).
+    // Keeps existing field values if the fresh fetch returns null/empty,
+    // so a flaky page never wipes good data.
+    const newBookingNums = new Set(newBookings.map(i => i.bookingNumber));
+    const toRefresh = uniqueInmates.filter(i => i.detailUrl && !newBookingNums.has(i.bookingNumber));
+    let refreshed = 0, refreshFailed = 0;
+
+    console.log(`[${nowPST()}] Refreshing detail for ${toRefresh.length} in-custody inmates...`);
+    for (const inmate of toRefresh) {
+      const detail = await fetchDetail(inmate.detailUrl);
+      if (!detail) { refreshFailed++; continue; }
+
+      // Update roster entry
+      const rosterEntry = roster[inmate.bookingNumber];
+      if (rosterEntry) {
+        if (detail.age)          rosterEntry.age          = detail.age;
+        if (detail.height)       rosterEntry.height       = detail.height;
+        if (detail.weight)       rosterEntry.weight       = detail.weight;
+        if (detail.hair)         rosterEntry.hair         = detail.hair;
+        if (detail.eyes)         rosterEntry.eyes         = detail.eyes;
+        if (detail.inmateId)     rosterEntry.inmateId     = detail.inmateId;
+        if (detail.schedRelease) rosterEntry.schedRelease = detail.schedRelease;
+        else if (inmate.schReleaseDate) rosterEntry.schedRelease = inmate.schReleaseDate;
+        if (detail.charges?.length) rosterEntry.charges  = detail.charges;
+      }
+
+      // Update log entry
+      const logEntry = log.find(e => e.bookingNumber === inmate.bookingNumber && e.status === 'in_custody');
+      if (logEntry) {
+        if (detail.age)          logEntry.age          = detail.age;
+        if (detail.height)       logEntry.height       = detail.height;
+        if (detail.weight)       logEntry.weight       = detail.weight;
+        if (detail.hair)         logEntry.hair         = detail.hair;
+        if (detail.eyes)         logEntry.eyes         = detail.eyes;
+        if (detail.inmateId)     logEntry.inmateId     = detail.inmateId;
+        if (detail.schedRelease) logEntry.schedRelease = detail.schedRelease;
+        else if (inmate.schReleaseDate) logEntry.schedRelease = inmate.schReleaseDate;
+        if (detail.charges?.length) logEntry.charges   = detail.charges;
+      }
+
+      refreshed++;
+    }
+    console.log(`[${nowPST()}] Detail refresh done. ${refreshed} updated, ${refreshFailed} failed.`);
+
     writeJSON(ROSTER_FILE, roster);
     writeJSON(LOG_FILE, log);
     console.log(`[${nowPST()}] Done. ${newBookings.length} new, ${released.length} released.`);

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-05T13:59:17.528Z",
+  "generatedAt": "2026-06-05T16:36:56.892Z",
   "bookingCounts": {
-    "total": 1429,
-    "inCustody": 276,
+    "total": 1430,
+    "inCustody": 277,
     "released": 1153
   },
   "gender": [
     {
       "label": "Male",
-      "count": 972,
+      "count": 973,
       "pct": 68
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1002,
+      "count": 1003,
       "pct": 70.1
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 409
+        "count": 410
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 200
+      "count": 201
     },
     {
       "label": "DUI",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 834
+      "count": 835
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 28
+      "count": 29
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 46454.91,
+    "mean": 46635.3,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1223
+    "count": 1218
   },
   "stay": {
     "mean": 20.9,
@@ -417,16 +417,10 @@
       "count": 2
     },
     {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 6120,
-      "count": 25
-    },
-    {
       "category": "Failure to Appear",
       "medianBail": 5000,
-      "meanBail": 17376.22,
-      "count": 471
+      "meanBail": 17511.67,
+      "count": 467
     },
     {
       "category": "Other",
@@ -457,6 +451,12 @@
       "medianBail": 5000,
       "meanBail": 27147.73,
       "count": 88
+    },
+    {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 6125,
+      "count": 24
     },
     {
       "category": "Malicious Mischief",
@@ -533,17 +533,82 @@
     {
       "category": "Local / Tribal Code",
       "medianBail": 1000,
-      "meanBail": 4830.77,
-      "count": 13
+      "meanBail": 4500,
+      "count": 14
     },
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1975,
-      "count": 50
+      "meanBail": 2005.1,
+      "count": 49
     }
   ],
   "chargesByRace": {
+    "White": {
+      "Domestic Violence": 133,
+      "Failure to Appear": 400,
+      "Other": 49,
+      "DUI": 114,
+      "Arson": 3,
+      "Resisting Arrest": 20,
+      "Failure to Comply (Sentence)": 17,
+      "Theft (3rd Degree)": 35,
+      "Assault": 69,
+      "Harassment": 35,
+      "DOC Warrant": 65,
+      "Weapons": 17,
+      "Public Order": 4,
+      "Stalking": 8,
+      "Protection Order Violation": 65,
+      "Criminal Trespass": 62,
+      "Interference with DV Reporting": 12,
+      "Drug Offense": 88,
+      "Driving While License Suspended": 86,
+      "Ignition Interlock Violation": 32,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Fugitive from Justice": 8,
+      "Obstruction": 48,
+      "Vehicle Prowling": 10,
+      "Motor Vehicle Theft": 10,
+      "Robbery": 9,
+      "Malicious Mischief": 28,
+      "Hit and Run": 18,
+      "Burglary (2nd Degree)": 28,
+      "PR / Bail Revocation": 15,
+      "Indecent Exposure": 3,
+      "Local / Tribal Code": 7,
+      "Theft (2nd Degree)": 22,
+      "Attempt to Elude": 10,
+      "Reckless Driving": 13,
+      "Child Exploitation / CSAM": 10,
+      "Child Sex Offense": 15,
+      "Traffic / Obstruction": 6,
+      "Residential Burglary": 10,
+      "Forgery": 3,
+      "Making False Statements": 21,
+      "Possession of Stolen Vehicle": 14,
+      "Identity Theft": 3,
+      "Homicide": 14,
+      "Possession of Stolen Property": 5,
+      "Theft (1st Degree)": 5,
+      "Burglary Tools": 5,
+      "Tampering with Evidence": 2,
+      "Criminal Impersonation": 3,
+      "Failure to Register (Sex Offender)": 7,
+      "Trafficking Stolen Property": 4,
+      "Assault (Child)": 2,
+      "Burglary (1st Degree)": 5,
+      "Probation Violation": 1,
+      "Traffic Violation": 4,
+      "Human Trafficking": 2,
+      "Sex Offense": 10,
+      "Witness Tampering": 2,
+      "Incest": 1,
+      "Community Custody Violation": 2,
+      "Court Hold": 2,
+      "Theft": 1,
+      "Bribery": 1
+    },
     "Black": {
       "Domestic Violence": 25,
       "Driving While License Suspended": 16,
@@ -629,71 +694,6 @@
       "Kidnapping / Unlawful Imprisonment": 1,
       "Public Order": 1
     },
-    "White": {
-      "Failure to Appear": 400,
-      "Other": 49,
-      "DUI": 114,
-      "Arson": 3,
-      "Resisting Arrest": 20,
-      "Failure to Comply (Sentence)": 17,
-      "Theft (3rd Degree)": 35,
-      "Assault": 69,
-      "Harassment": 35,
-      "DOC Warrant": 65,
-      "Weapons": 17,
-      "Public Order": 4,
-      "Domestic Violence": 132,
-      "Stalking": 8,
-      "Protection Order Violation": 65,
-      "Criminal Trespass": 62,
-      "Interference with DV Reporting": 12,
-      "Drug Offense": 88,
-      "Driving While License Suspended": 86,
-      "Ignition Interlock Violation": 32,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Fugitive from Justice": 8,
-      "Obstruction": 48,
-      "Vehicle Prowling": 10,
-      "Motor Vehicle Theft": 10,
-      "Robbery": 9,
-      "Malicious Mischief": 28,
-      "Hit and Run": 18,
-      "Burglary (2nd Degree)": 28,
-      "PR / Bail Revocation": 15,
-      "Indecent Exposure": 3,
-      "Local / Tribal Code": 7,
-      "Theft (2nd Degree)": 22,
-      "Attempt to Elude": 10,
-      "Reckless Driving": 13,
-      "Child Exploitation / CSAM": 10,
-      "Child Sex Offense": 15,
-      "Traffic / Obstruction": 6,
-      "Residential Burglary": 10,
-      "Forgery": 3,
-      "Making False Statements": 21,
-      "Possession of Stolen Vehicle": 14,
-      "Identity Theft": 3,
-      "Homicide": 14,
-      "Possession of Stolen Property": 5,
-      "Theft (1st Degree)": 5,
-      "Burglary Tools": 5,
-      "Tampering with Evidence": 2,
-      "Criminal Impersonation": 3,
-      "Failure to Register (Sex Offender)": 7,
-      "Trafficking Stolen Property": 4,
-      "Assault (Child)": 2,
-      "Burglary (1st Degree)": 5,
-      "Probation Violation": 1,
-      "Traffic Violation": 4,
-      "Human Trafficking": 2,
-      "Sex Offense": 10,
-      "Witness Tampering": 2,
-      "Incest": 1,
-      "Community Custody Violation": 2,
-      "Court Hold": 2,
-      "Theft": 1,
-      "Bribery": 1
-    },
     "Native American": {
       "Theft (3rd Degree)": 3,
       "Failure to Appear": 27,
@@ -757,7 +757,7 @@
   },
   "chargesBySex": {
     "Male": {
-      "Domestic Violence": 125,
+      "Domestic Violence": 126,
       "Failure to Appear": 378,
       "Theft (3rd Degree)": 32,
       "DUI": 110,
@@ -949,7 +949,7 @@
   "recidivism": {
     "rate": 6.7,
     "repeatBookerCount": 89,
-    "totalIndividuals": 1332,
+    "totalIndividuals": 1333,
     "repeatBookers": [
       {
         "name": "GRANNELL, DANIEL HOWARD",
@@ -1328,7 +1328,7 @@
     },
     {
       "month": "2026-06",
-      "count": 65
+      "count": 66
     }
   ],
   "crimeTypes": [
@@ -1339,7 +1339,7 @@
     },
     {
       "label": "Violent",
-      "count": 318,
+      "count": 319,
       "pct": 15.4
     },
     {
@@ -1386,12 +1386,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1881,
+      "count": 1882,
       "pct": 59.7
     },
     {
       "label": "Unknown",
-      "count": 530,
+      "count": 531,
       "pct": 16.8
     },
     {
@@ -1532,7 +1532,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 834,
+      "count": 835,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1541,7 +1541,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 65
+          "count": 66
         },
         {
           "label": "Criminal Trespass",
@@ -1694,7 +1694,7 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 28,
+      "count": 29,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1703,7 +1703,7 @@
         },
         {
           "label": "Local / Tribal Code",
-          "count": 9
+          "count": 10
         },
         {
           "label": "DOC Warrant",
@@ -1925,7 +1925,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 51
+          "count": 52
         },
         {
           "label": "Drug Offense",
@@ -2031,7 +2031,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 121
+        "n": 122
       },
       {
         "charge": "DUI",
@@ -2600,7 +2600,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1426
+      "count": 1427
     }
   ]
 }

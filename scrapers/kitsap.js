@@ -3,7 +3,14 @@ import * as cheerio from 'cheerio';
 
 const BASE_URL = 'https://incustody.kitsap.gov';
 const ROSTER_URL = `${BASE_URL}/Home/BookingSearchResult`;
+const DETAIL_BASE_URL = `${BASE_URL}/Home/BookingSearchDetail`;
 const RELEASES_XML_URL = 'https://www.kitsap.gov/sheriff/InCustody/ReleasedLast24Hours.xml';
+
+// Returns the permanent, booking-number-keyed detail URL.
+// Works for both in-custody and recently released inmates.
+export function bookingDetailUrl(bookingNumber) {
+  return `${DETAIL_BASE_URL}?BookingNumber=${bookingNumber}`;
+}
 const HEADERS = {
   'Referer': 'https://incustody.kitsap.gov/Home/BookingSearchQuery?Length=4',
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0',
@@ -122,9 +129,14 @@ export async function fetchDetail(detailUrl) {
       // Violation row — starts a new charge block
       if (/^Violation:/i.test(first)) {
         if (cur) charges.push(cur);
+        const rawViolation = first.replace(/^Violation:\s*/i, '').trim();
+        const cleared = /\(Cleared\)/i.test(rawViolation);
         cur = {
-          violation:     first.replace(/^Violation:\s*/i, '').trim(),
+          violation:     rawViolation.replace(/\s*\(Cleared\)/i, '').trim(),
+          cleared,
           addDesc:       null,
+          clearance:     null,
+          bondBailType:  null,
           bondAmount:    null,
           cashAmount:    null,
           courtCase:     null,
@@ -142,6 +154,24 @@ export async function fetchDetail(detailUrl) {
       if (/^Add\.?\s*Desc\.?:/i.test(first)) {
         const val = first.replace(/^Add\.?\s*Desc\.?:\s*/i, '').trim();
         cur.addDesc = val || null;
+        continue;
+      }
+
+      // War.# / End Of Sentence / Clearance row
+      if (/^War\.?#?:/i.test(first)) {
+        for (const td of tds) {
+          if (/^Clearance:/i.test(td)) {
+            const val = td.replace(/^Clearance:\s*/i, '').trim();
+            cur.clearance = val || null;
+          }
+        }
+        continue;
+      }
+
+      // Req. Bond/Bail type row (e.g. "C/B", "RF", "NOBD", "PR")
+      if (/^Req\.?\s*Bond\/Bail:/i.test(first)) {
+        const val = first.replace(/^Req\.?\s*Bond\/Bail:\s*/i, '').trim();
+        cur.bondBailType = val || null;
         continue;
       }
 

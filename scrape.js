@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { fetchRoster, fetchDetail, fetchRecentReleases } from './scrapers/kitsap.js';
+import { fetchRoster, fetchDetail, fetchRecentReleases, bookingDetailUrl } from './scrapers/kitsap.js';
 import { nowPST } from './utils.js';
 import { buildStats } from './stats.js';
 
@@ -60,10 +60,7 @@ async function run() {
     for (const inmate of newBookings) {
       console.log(`  NEW: ${inmate.lastName}, ${inmate.firstName}`);
 
-      let detail = null;
-      if (inmate.detailUrl) {
-        detail = await fetchDetail(inmate.detailUrl);
-      }
+      const detail = await fetchDetail(bookingDetailUrl(inmate.bookingNumber));
 
       const entry = {
         ...inmate,
@@ -114,6 +111,14 @@ async function run() {
         logEntry.status = 'released';
         logEntry.releasedAt = releasedAt;
       }
+
+      // Final detail fetch to capture clearance codes and cleared charge status
+      const finalDetail = await fetchDetail(bookingDetailUrl(id));
+      if (finalDetail?.charges?.length) {
+        roster[id].charges = finalDetail.charges;
+        if (logEntry) logEntry.charges = finalDetail.charges;
+        console.log(`    Captured clearance for ${id}`);
+      }
     }
 
     // ── Detail refresh: re-fetch all existing in-custody inmates ─────────────
@@ -121,12 +126,12 @@ async function run() {
     // Keeps existing field values if the fresh fetch returns null/empty,
     // so a flaky page never wipes good data.
     const newBookingNums = new Set(newBookings.map(i => i.bookingNumber));
-    const toRefresh = uniqueInmates.filter(i => i.detailUrl && !newBookingNums.has(i.bookingNumber));
+    const toRefresh = uniqueInmates.filter(i => !newBookingNums.has(i.bookingNumber));
     let refreshed = 0, refreshFailed = 0;
 
     console.log(`[${nowPST()}] Refreshing detail for ${toRefresh.length} in-custody inmates...`);
     for (const inmate of toRefresh) {
-      const detail = await fetchDetail(inmate.detailUrl);
+      const detail = await fetchDetail(bookingDetailUrl(inmate.bookingNumber));
       if (!detail) { refreshFailed++; continue; }
 
       // Update roster entry

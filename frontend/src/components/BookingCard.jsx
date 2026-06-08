@@ -13,6 +13,20 @@ function formatMoney(n) {
   return '$' + Number(n).toLocaleString('en-US')
 }
 
+const CLEARANCE_LABELS = {
+  POST: 'Bail Posted',
+  RF:   'Released — No Bail',
+  PR:   'Personal Recognizance',
+  TIME: 'Time Served',
+  TRANS:'Transferred',
+  NOBD: 'No Bond Required',
+}
+
+function formatClearance(code) {
+  if (!code) return null
+  return CLEARANCE_LABELS[code.toUpperCase()] || code
+}
+
 function formatRace(code) {
   const map = { W: 'White', B: 'Black', H: 'Hispanic', A: 'Asian', I: 'Native American', U: 'Unknown' }
   return map[code] || code || 'N/A'
@@ -100,8 +114,12 @@ export default function BookingCard({ entry }) {
                   <div className="charge-violation">
                     {c.violation}
                     {c.addDesc && <span className="charge-add-desc"> — {c.addDesc}</span>}
+                    {c.cleared && <span className="charge-cleared"> ✓ Cleared</span>}
                   </div>
-                  {(c.bondAmount || c.cashAmount) && (
+                  {c.clearance && (
+                    <div className="charge-clearance">Release: {formatClearance(c.clearance)}</div>
+                  )}
+                  {(c.bondAmount > 0 || c.cashAmount > 0) && (
                     <div className="charge-bail">
                       Bond: {formatMoney(c.bondAmount)} &nbsp;·&nbsp; Cash: {formatMoney(c.cashAmount)}
                     </div>

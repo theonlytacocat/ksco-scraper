@@ -42768,7 +42768,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350433519",
-        "nextCourtDate": "06/16/2026",
+        "nextCourtDate": "06/10/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "05/14/2026",
         "courtType": "DS"
@@ -42782,7 +42782,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350433123",
-        "nextCourtDate": "06/16/2026",
+        "nextCourtDate": "06/10/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "05/14/2026",
         "courtType": "DS"
@@ -42796,7 +42796,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350433038",
-        "nextCourtDate": "06/16/2026",
+        "nextCourtDate": "06/10/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "05/14/2026",
         "courtType": "DS"
@@ -46092,9 +46092,9 @@
       }
     ],
     "totalBond": 2500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "05/19/2026, 18:31:43",
-    "releasedAt": null
+    "releasedAt": "06/09/2026, 16:52:37"
   },
   "2026002301": {
     "bookingNumber": "2026002301",
@@ -59947,23 +59947,23 @@
     "charges": [
       {
         "violation": "9.35.020(2) - IDENTITY THEFT-1",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 50000,
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610039418",
-        "nextCourtDate": "06/09/2026",
+        "nextCourtDate": "07/27/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/08/2026",
         "courtType": "SC"
       }
     ],
     "totalBond": 50000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "06/08/2026, 21:46:33",
-    "releasedAt": null
+    "releasedAt": "06/09/2026, 16:52:38"
   },
   "2026002629": {
     "bookingNumber": "2026002629",
@@ -60511,9 +60511,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
     "inmateId": "30025994",
     "schedRelease": null,
-    "age": "49",
+    "age": "52",
     "height": "603",
-    "weight": "240",
+    "weight": "260",
     "hair": "BLK",
     "eyes": "BRO",
     "charges": [
@@ -60566,7 +60566,7 @@
     "schedRelease": null,
     "age": "39",
     "height": "508",
-    "weight": "150",
+    "weight": "138",
     "hair": "RED",
     "eyes": "BLU",
     "charges": [
@@ -60603,9 +60603,9 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
     "inmateId": "40067510",
     "schedRelease": null,
-    "age": "34",
+    "age": "45",
     "height": "503",
-    "weight": "120",
+    "weight": "170",
     "hair": "BLN",
     "eyes": "BLU",
     "charges": [
@@ -60614,8 +60614,8 @@
         "cleared": false,
         "addDesc": "TSP 2",
         "clearance": null,
-        "bondBailType": null,
-        "bondAmount": null,
+        "bondBailType": "C/B",
+        "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "2210024018",
         "nextCourtDate": "06/10/2026",
@@ -60666,6 +60666,45 @@
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "06/09/2026, 15:10:53",
+    "releasedAt": null
+  },
+  "2026002642": {
+    "bookingNumber": "2026002642",
+    "firstName": "JESSICA",
+    "lastName": "BEACH",
+    "middleName": "MAE",
+    "race": "W",
+    "sex": "F",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
+    "inmateId": "50000195",
+    "schedRelease": null,
+    "age": "38",
+    "height": "505",
+    "weight": "190",
+    "hair": "BLK",
+    "eyes": "BLU",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "434057",
+        "nextCourtDate": "06/10/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "06/09/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "06/09/2026, 16:52:37",
     "releasedAt": null
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T08:35:23.530Z",
+  "generatedAt": "2026-06-09T12:10:23.116Z",
   "bookingCounts": {
     "total": 1482,
     "inCustody": 278,
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 543
+      "count": 544
     },
     {
       "label": "Domestic Violence",
@@ -95,12 +95,12 @@
       "count": 186
     },
     {
-      "label": "Driving While License Suspended",
+      "label": "Drug Offense",
       "count": 123
     },
     {
-      "label": "Drug Offense",
-      "count": 122
+      "label": "Driving While License Suspended",
+      "count": 123
     },
     {
       "label": "Assault",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1184
+      "count": 1193
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 45987.14,
+    "mean": 45771.17,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1252
+    "count": 1259
   },
   "stay": {
     "mean": 20.8,
@@ -299,7 +299,7 @@
     {
       "category": "Possession of Stolen Vehicle",
       "medianBail": 52500,
-      "meanBail": 60416.67,
+      "meanBail": 61250,
       "count": 6
     },
     {
@@ -382,9 +382,9 @@
     },
     {
       "category": "Weapons",
-      "medianBail": 10500,
-      "meanBail": 24625,
-      "count": 8
+      "medianBail": 11000,
+      "meanBail": 27428.57,
+      "count": 7
     },
     {
       "category": "Theft (2nd Degree)",
@@ -419,8 +419,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 5000,
-      "meanBail": 18078,
-      "count": 484
+      "meanBail": 17901.73,
+      "count": 491
     },
     {
       "category": "Ignition Interlock Violation",
@@ -515,8 +515,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6750,
-      "count": 62
+      "meanBail": 6801.59,
+      "count": 63
     },
     {
       "category": "Making False Statements",
@@ -551,15 +551,15 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 414,
+      "Drug Offense": 92,
       "DOC Warrant": 68,
-      "Drug Offense": 91,
       "Obstruction": 49,
       "Theft (1st Degree)": 6,
       "Theft (2nd Degree)": 26,
       "DUI": 119,
       "Ignition Interlock Violation": 33,
       "Hit and Run": 19,
-      "Failure to Appear": 413,
       "Local / Tribal Code": 8,
       "Malicious Mischief": 29,
       "Theft (3rd Degree)": 37,
@@ -763,9 +763,10 @@
   },
   "chargesBySex": {
     "Female": {
+      "Failure to Appear": 134,
+      "Drug Offense": 27,
       "DOC Warrant": 10,
       "Theft (1st Degree)": 1,
-      "Failure to Appear": 133,
       "DUI": 35,
       "Domestic Violence": 51,
       "Obstruction": 11,
@@ -774,7 +775,6 @@
       "Assault": 26,
       "Harassment": 11,
       "Interference with DV Reporting": 3,
-      "Drug Offense": 26,
       "Vehicle Prowling": 1,
       "Criminal Trespass": 20,
       "Fugitive from Justice": 4,
@@ -1357,13 +1357,13 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 646,
-      "pct": 30.2
+      "count": 647,
+      "pct": 30.3
     },
     {
       "label": "Violent",
       "count": 328,
-      "pct": 15.4
+      "pct": 15.3
     },
     {
       "label": "Traffic / DUI",
@@ -1387,8 +1387,8 @@
     },
     {
       "label": "Drug",
-      "count": 122,
-      "pct": 5.7
+      "count": 123,
+      "pct": 5.8
     },
     {
       "label": "Sex Offense",
@@ -1409,18 +1409,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 1939,
-      "pct": 59.7
+      "count": 1947,
+      "pct": 59.8
     },
     {
       "label": "Unknown",
-      "count": 547,
+      "count": 548,
       "pct": 16.8
     },
     {
       "label": "Felony",
       "count": 531,
-      "pct": 16.4
+      "pct": 16.3
     },
     {
       "label": "Misdemeanor",
@@ -1429,7 +1429,7 @@
     }
   ],
   "avgCharges": {
-    "mean": 2.2,
+    "mean": 2.3,
     "median": 2,
     "max": 12
   },
@@ -1528,12 +1528,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1187,
+      "count": 1196,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 374
+          "count": 382
         },
         {
           "label": "Domestic Violence",
@@ -1944,7 +1944,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 191
+          "count": 192
         },
         {
           "label": "Domestic Violence",
@@ -1952,7 +1952,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 49
+          "count": 50
         },
         {
           "label": "Driving While License Suspended",
@@ -2047,7 +2047,7 @@
         "avgWeight": 153,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 133
+        "n": 134
       },
       {
         "charge": "Domestic Violence",
@@ -2064,16 +2064,16 @@
         "n": 33
       },
       {
-        "charge": "Assault",
-        "avgWeight": 151,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 26
-      },
-      {
         "charge": "Drug Offense",
         "avgWeight": 152,
         "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 27
+      },
+      {
+        "charge": "Assault",
+        "avgWeight": 151,
+        "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 26
       },

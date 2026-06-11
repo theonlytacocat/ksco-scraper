@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-11T19:23:03.207Z",
+  "generatedAt": "2026-06-11T21:38:34.128Z",
   "bookingCounts": {
-    "total": 1516,
-    "inCustody": 279,
-    "released": 1237
+    "total": 1517,
+    "inCustody": 278,
+    "released": 1239
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1037,
+      "count": 1038,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1069,
+      "count": 1070,
       "pct": 70.5
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 160,
-      "pct": 10.6
+      "pct": 10.5
     },
     {
       "label": "Native American",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 418
+        "count": 419
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 568
+      "count": 569
     },
     {
       "label": "Domestic Violence",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 906
+      "count": 908
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 45057.68,
+    "mean": 44992.06,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1295
+    "count": 1297
   },
   "stay": {
     "mean": 21,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1226,
+    "count": 1228,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 455
+        "count": 456
       },
       {
         "label": "1–3 days",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 161
+        "count": 162
       },
       {
         "label": "3+ months",
@@ -419,8 +419,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 5000,
-      "meanBail": 17616.07,
-      "count": 501
+      "meanBail": 17555.96,
+      "count": 503
     },
     {
       "category": "DUI",
@@ -557,8 +557,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 434,
       "Theft (2nd Degree)": 27,
-      "Failure to Appear": 433,
       "Court Hold": 6,
       "Domestic Violence": 143,
       "Assault": 73,
@@ -769,8 +769,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 412,
       "Theft (2nd Degree)": 25,
-      "Failure to Appear": 411,
       "Court Hold": 7,
       "Domestic Violence": 136,
       "Assault": 77,
@@ -921,7 +921,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 392
+      "count": 394
     },
     {
       "label": "Released (Unknown Reason)",
@@ -961,8 +961,8 @@
     }
   ],
   "recidivism": {
-    "rate": 7.9,
-    "repeatBookerCount": 110,
+    "rate": 8,
+    "repeatBookerCount": 111,
     "totalIndividuals": 1394,
     "repeatBookers": [
       {
@@ -1170,6 +1170,22 @@
         ]
       },
       {
+        "name": "NODLAND, SEAN K/W",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002668",
+            "firstSeen": "06/11/2026, 14:35:49",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001765",
+            "firstSeen": "04/16/2026, 13:30:21",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "FIELD, CHRISTOPHER CORBET",
         "count": 2,
         "bookings": [
@@ -1240,7 +1256,7 @@
           {
             "bookingNumber": "2026002655",
             "firstSeen": "06/10/2026, 19:02:42",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002391",
@@ -1328,22 +1344,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "POOL, CORRISA J",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002632",
-            "firstSeen": "06/09/2026, 01:32:19",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026001547",
-            "firstSeen": "04/03/2026, 17:30:20",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1362,14 +1362,14 @@
     },
     {
       "month": "2026-06",
-      "count": 152
+      "count": 153
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 682,
-      "pct": 30.5
+      "count": 683,
+      "pct": 30.6
     },
     {
       "label": "Violent",
@@ -1420,7 +1420,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2025,
+      "count": 2027,
       "pct": 59.9
     },
     {
@@ -1431,7 +1431,7 @@
     {
       "label": "Felony",
       "count": 546,
-      "pct": 16.2
+      "pct": 16.1
     },
     {
       "label": "Misdemeanor",
@@ -1497,7 +1497,7 @@
       "category": "Failure to Appear",
       "avgDays": 16.7,
       "medianDays": 3.8,
-      "count": 230
+      "count": 231
     },
     {
       "category": "Court Hold",
@@ -1566,12 +1566,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 906,
+      "count": 908,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 248
+          "count": 250
         },
         {
           "label": "Domestic Violence",
@@ -1895,9 +1895,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1237,
+    "total": 1239,
     "withBail": 625,
-    "pct": 50.5
+    "pct": 50.4
   },
   "chargesByAgeGroup": [
     {
@@ -1930,7 +1930,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 182
+          "count": 183
         },
         {
           "label": "Domestic Violence",
@@ -2058,7 +2058,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 407
+        "n": 408
       },
       {
         "charge": "Domestic Violence",
@@ -2641,7 +2641,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1513
+      "count": 1514
     }
   ]
 }

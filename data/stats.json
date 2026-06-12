@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-12T06:55:26.504Z",
+  "generatedAt": "2026-06-12T11:07:56.350Z",
   "bookingCounts": {
     "total": 1529,
-    "inCustody": 284,
-    "released": 1245
+    "inCustody": 281,
+    "released": 1248
   },
   "gender": [
     {
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 169
+      "count": 168
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 44505.26,
+    "mean": 44531.6,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1311
+    "count": 1310
   },
   "stay": {
-    "mean": 21,
+    "mean": 20.9,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1234,
+    "count": 1237,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 457
+        "count": 459
       },
       {
         "label": "1–3 days",
-        "count": 252
+        "count": 253
       },
       {
         "label": "4–7 days",
@@ -387,16 +387,16 @@
       "count": 22
     },
     {
-      "category": "Weapons",
-      "medianBail": 10000,
-      "meanBail": 24500,
-      "count": 8
-    },
-    {
       "category": "Harassment",
       "medianBail": 10000,
       "meanBail": 41676.47,
       "count": 17
+    },
+    {
+      "category": "Weapons",
+      "medianBail": 10000,
+      "meanBail": 26571.43,
+      "count": 7
     },
     {
       "category": "Theft (2nd Degree)",
@@ -564,7 +564,6 @@
   "chargesByRace": {
     "White": {
       "Domestic Violence": 144,
-      "Weapons": 19,
       "Obstruction": 51,
       "Resisting Arrest": 24,
       "Failure to Appear": 438,
@@ -594,6 +593,7 @@
       "Hit and Run": 19,
       "Failure to Comply (Sentence)": 19,
       "Possession of Stolen Vehicle": 15,
+      "Weapons": 18,
       "Interference with DV Reporting": 13,
       "Trafficking Stolen Property": 5,
       "Traffic Violation": 5,
@@ -776,7 +776,6 @@
   "chargesBySex": {
     "Male": {
       "Domestic Violence": 137,
-      "Weapons": 28,
       "Failure to Appear": 415,
       "Drug Offense": 90,
       "Driving While License Suspended": 101,
@@ -803,6 +802,7 @@
       "Indecent Exposure": 6,
       "Failure to Comply (Sentence)": 25,
       "Possession of Stolen Vehicle": 14,
+      "Weapons": 27,
       "Interference with DV Reporting": 11,
       "Criminal Trespass": 61,
       "Resisting Arrest": 26,
@@ -927,11 +927,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 397
+      "count": 398
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 357
+      "count": 359
     },
     {
       "label": "Released",
@@ -1419,8 +1419,8 @@
     },
     {
       "label": "Weapons",
-      "count": 31,
-      "pct": 1.4
+      "count": 30,
+      "pct": 1.3
     }
   ],
   "severity": [
@@ -1436,8 +1436,8 @@
     },
     {
       "label": "Felony",
-      "count": 548,
-      "pct": 16.1
+      "count": 547,
+      "pct": 16
     },
     {
       "label": "Misdemeanor",
@@ -1501,9 +1501,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 16.6,
-      "medianDays": 3.7,
-      "count": 232
+      "avgDays": 16.5,
+      "medianDays": 3.6,
+      "count": 233
     },
     {
       "category": "Court Hold",
@@ -1599,7 +1599,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 170,
+      "count": 169,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1901,9 +1901,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1245,
-    "withBail": 630,
-    "pct": 50.6
+    "total": 1248,
+    "withBail": 633,
+    "pct": 50.7
   },
   "chargesByAgeGroup": [
     {
@@ -2173,10 +2173,10 @@
       },
       {
         "charge": "Weapons",
-        "avgWeight": 179,
-        "avgHeight": "5'10\"",
+        "avgWeight": 180,
+        "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 27
+        "n": 26
       },
       {
         "charge": "Resisting Arrest",

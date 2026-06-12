@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-12T17:26:21.170Z",
+  "generatedAt": "2026-06-12T19:34:27.683Z",
   "bookingCounts": {
     "total": 1529,
-    "inCustody": 277,
-    "released": 1252
+    "inCustody": 276,
+    "released": 1253
   },
   "gender": [
     {
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1255
+      "count": 1257
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 44621.19,
+    "mean": 44850.65,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1307
+    "count": 1303
   },
   "stay": {
     "mean": 21,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1241,
+    "count": 1242,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 253
+        "count": 254
       },
       {
         "label": "4–7 days",
@@ -401,8 +401,8 @@
     {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
-      "meanBail": 13588.24,
-      "count": 17
+      "meanBail": 21166.67,
+      "count": 18
     },
     {
       "category": "Forgery",
@@ -423,6 +423,12 @@
       "count": 4
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 22367.65,
+      "count": 51
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 6120,
@@ -431,8 +437,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 5000,
-      "meanBail": 17677.17,
-      "count": 506
+      "meanBail": 17724.95,
+      "count": 503
     },
     {
       "category": "Reckless Driving",
@@ -453,16 +459,10 @@
       "count": 27
     },
     {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 22765,
-      "count": 50
-    },
-    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
-      "meanBail": 3895.83,
-      "count": 24
+      "meanBail": 4021.74,
+      "count": 23
     },
     {
       "category": "Public Order",
@@ -557,8 +557,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1940.22,
-      "count": 46
+      "meanBail": 1982.95,
+      "count": 44
     }
   ],
   "chargesByRace": {
@@ -955,7 +955,7 @@
     },
     {
       "label": "Extradition",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Court Production Order",
@@ -1426,12 +1426,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2052,
+      "count": 2053,
       "pct": 60
     },
     {
       "label": "Unknown",
-      "count": 580,
+      "count": 581,
       "pct": 17
     },
     {
@@ -1545,12 +1545,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1259,
+      "count": 1261,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 407
+          "count": 408
         },
         {
           "label": "Domestic Violence",
@@ -1901,9 +1901,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1252,
-    "withBail": 634,
-    "pct": 50.6
+    "total": 1253,
+    "withBail": 635,
+    "pct": 50.7
   },
   "chargesByAgeGroup": [
     {

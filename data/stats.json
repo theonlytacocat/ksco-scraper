@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-13T09:46:44.590Z",
+  "generatedAt": "2026-06-13T11:58:43.244Z",
   "bookingCounts": {
-    "total": 1534,
-    "inCustody": 276,
+    "total": 1535,
+    "inCustody": 277,
     "released": 1258
   },
   "gender": [
     {
       "label": "Male",
       "count": 1046,
-      "pct": 68.2
+      "pct": 68.1
     },
     {
       "label": "Female",
@@ -18,14 +18,14 @@
     },
     {
       "label": "Unknown",
-      "count": 157,
-      "pct": 10.2
+      "count": 158,
+      "pct": 10.3
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 1078,
+      "count": 1079,
       "pct": 70.3
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 213
+        "count": 214
       },
       {
         "label": "26–35",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 197
+      "count": 198
     },
     {
       "label": "Driving While License Suspended",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 143
+      "count": 144
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 44874.92,
+    "mean": 44852.03,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1304
+    "count": 1305
   },
   "stay": {
     "mean": 21,
@@ -419,8 +419,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 23752.53,
-      "count": 99
+      "meanBail": 23665,
+      "count": 100
     },
     {
       "category": "Failure to Appear",
@@ -562,47 +562,8 @@
     }
   ],
   "chargesByRace": {
-    "Unknown": {
-      "Domestic Violence": 40,
-      "Sex Offense": 3,
-      "Making False Statements": 5,
-      "Other": 18,
-      "Driving While License Suspended": 16,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Weapons": 3,
-      "Drug Offense": 15,
-      "DUI": 50,
-      "Obstruction": 7,
-      "Hit and Run": 6,
-      "Assault": 14,
-      "Criminal Trespass": 7,
-      "Theft (2nd Degree)": 5,
-      "Failure to Appear": 27,
-      "DOC Warrant": 3,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic / Obstruction": 3,
-      "Attempt to Elude": 4,
-      "Ignition Interlock Violation": 5,
-      "Malicious Mischief": 3,
-      "Theft (3rd Degree)": 6,
-      "Harassment": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Homicide": 1,
-      "Resisting Arrest": 2,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Local / Tribal Code": 1,
-      "Child Exploitation / CSAM": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Public Order": 1
-    },
     "White": {
-      "DUI": 125,
+      "DUI": 126,
       "Indecent Exposure": 4,
       "Domestic Violence": 144,
       "Failure to Appear": 441,
@@ -665,6 +626,45 @@
       "Community Custody Violation": 2,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Unknown": {
+      "Domestic Violence": 40,
+      "Sex Offense": 3,
+      "Making False Statements": 5,
+      "Other": 18,
+      "Driving While License Suspended": 16,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Weapons": 3,
+      "Drug Offense": 15,
+      "DUI": 50,
+      "Obstruction": 7,
+      "Hit and Run": 6,
+      "Assault": 14,
+      "Criminal Trespass": 7,
+      "Theft (2nd Degree)": 5,
+      "Failure to Appear": 27,
+      "DOC Warrant": 3,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic / Obstruction": 3,
+      "Attempt to Elude": 4,
+      "Ignition Interlock Violation": 5,
+      "Malicious Mischief": 3,
+      "Theft (3rd Degree)": 6,
+      "Harassment": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Homicide": 1,
+      "Resisting Arrest": 2,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Local / Tribal Code": 1,
+      "Child Exploitation / CSAM": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Public Order": 1
     },
     "Black": {
       "Driving While License Suspended": 17,
@@ -775,6 +775,7 @@
   },
   "chargesBySex": {
     "Unknown": {
+      "DUI": 41,
       "Domestic Violence": 31,
       "Sex Offense": 2,
       "Making False Statements": 4,
@@ -787,7 +788,6 @@
       "Weapons": 2,
       "Drug Offense": 13,
       "Assault": 11,
-      "DUI": 40,
       "Criminal Trespass": 4,
       "Theft (2nd Degree)": 5,
       "Hit and Run": 4,
@@ -969,7 +969,7 @@
   "recidivism": {
     "rate": 8,
     "repeatBookerCount": 113,
-    "totalIndividuals": 1409,
+    "totalIndividuals": 1410,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1368,7 +1368,7 @@
     },
     {
       "month": "2026-06",
-      "count": 170
+      "count": 171
     }
   ],
   "crimeTypes": [
@@ -1384,8 +1384,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 335,
-      "pct": 14.8
+      "count": 336,
+      "pct": 14.9
     },
     {
       "label": "Property",
@@ -1426,7 +1426,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2058,
+      "count": 2059,
       "pct": 60
     },
     {
@@ -1626,7 +1626,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 145,
+      "count": 146,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1635,7 +1635,7 @@
         },
         {
           "label": "DUI",
-          "count": 27
+          "count": 28
         },
         {
           "label": "Driving While License Suspended",
@@ -1915,7 +1915,7 @@
         },
         {
           "label": "DUI",
-          "count": 46
+          "count": 47
         },
         {
           "label": "Domestic Violence",
@@ -2647,7 +2647,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1531
+      "count": 1532
     }
   ]
 }

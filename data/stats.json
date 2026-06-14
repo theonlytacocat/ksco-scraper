@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-14T11:41:17.375Z",
+  "generatedAt": "2026-06-14T14:13:23.022Z",
   "bookingCounts": {
-    "total": 1546,
-    "inCustody": 282,
+    "total": 1547,
+    "inCustody": 283,
     "released": 1264
   },
   "gender": [
@@ -18,7 +18,7 @@
     },
     {
       "label": "Unknown",
-      "count": 159,
+      "count": 160,
       "pct": 10.3
     }
   ],
@@ -30,8 +30,8 @@
     },
     {
       "label": "Unknown",
-      "count": 197,
-      "pct": 12.7
+      "count": 198,
+      "pct": 12.8
     },
     {
       "label": "Black",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 427
+        "count": 428
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 200
+      "count": 201
     },
     {
       "label": "Driving While License Suspended",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 76
+      "count": 77
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 44633.87,
+    "mean": 44603.73,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1314
+    "count": 1315
   },
   "stay": {
     "mean": 20.9,
@@ -417,16 +417,16 @@
       "count": 2
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 23218.45,
+      "count": 103
+    },
+    {
       "category": "Malicious Mischief",
       "medianBail": 5000,
       "meanBail": 11826.09,
       "count": 23
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 23397.06,
-      "count": 102
     },
     {
       "category": "Failure to Appear",
@@ -562,6 +562,45 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "DUI": 52,
+      "Attempt to Elude": 5,
+      "Domestic Violence": 41,
+      "Hit and Run": 7,
+      "Sex Offense": 3,
+      "Making False Statements": 5,
+      "Other": 18,
+      "Driving While License Suspended": 16,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Weapons": 3,
+      "Drug Offense": 15,
+      "Obstruction": 7,
+      "Assault": 14,
+      "Criminal Trespass": 7,
+      "Theft (2nd Degree)": 5,
+      "Failure to Appear": 27,
+      "DOC Warrant": 3,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic / Obstruction": 3,
+      "Ignition Interlock Violation": 5,
+      "Malicious Mischief": 3,
+      "Theft (3rd Degree)": 6,
+      "Harassment": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Homicide": 1,
+      "Resisting Arrest": 2,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Local / Tribal Code": 1,
+      "Child Exploitation / CSAM": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Public Order": 1
+    },
     "Black": {
       "Protection Order Violation": 15,
       "Failure to Appear": 60,
@@ -673,45 +712,6 @@
       "Theft": 1,
       "Bribery": 1
     },
-    "Unknown": {
-      "Attempt to Elude": 5,
-      "Domestic Violence": 41,
-      "Hit and Run": 7,
-      "DUI": 51,
-      "Sex Offense": 3,
-      "Making False Statements": 5,
-      "Other": 18,
-      "Driving While License Suspended": 16,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Weapons": 3,
-      "Drug Offense": 15,
-      "Obstruction": 7,
-      "Assault": 14,
-      "Criminal Trespass": 7,
-      "Theft (2nd Degree)": 5,
-      "Failure to Appear": 27,
-      "DOC Warrant": 3,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic / Obstruction": 3,
-      "Ignition Interlock Violation": 5,
-      "Malicious Mischief": 3,
-      "Theft (3rd Degree)": 6,
-      "Harassment": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Homicide": 1,
-      "Resisting Arrest": 2,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Local / Tribal Code": 1,
-      "Child Exploitation / CSAM": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Public Order": 1
-    },
     "Asian / Pacific Islander": {
       "Failure to Appear": 24,
       "Protection Order Violation": 4,
@@ -774,6 +774,41 @@
     }
   },
   "chargesBySex": {
+    "Unknown": {
+      "DUI": 42,
+      "Attempt to Elude": 5,
+      "Domestic Violence": 32,
+      "Hit and Run": 5,
+      "Sex Offense": 2,
+      "Making False Statements": 4,
+      "Other": 16,
+      "Driving While License Suspended": 12,
+      "Obstruction": 7,
+      "Resisting Arrest": 2,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Weapons": 2,
+      "Drug Offense": 13,
+      "Assault": 11,
+      "Criminal Trespass": 4,
+      "Theft (2nd Degree)": 5,
+      "DOC Warrant": 4,
+      "Failure to Appear": 18,
+      "Traffic / Obstruction": 3,
+      "Ignition Interlock Violation": 3,
+      "Theft (3rd Degree)": 6,
+      "Harassment": 2,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 1,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 1,
+      "Child Exploitation / CSAM": 1,
+      "Malicious Mischief": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Residential Burglary": 1,
+      "Theft (1st Degree)": 1
+    },
     "Female": {
       "Protection Order Violation": 17,
       "DUI": 37,
@@ -887,41 +922,6 @@
       "Witness Tampering": 3,
       "Incest": 1,
       "Theft": 1
-    },
-    "Unknown": {
-      "Attempt to Elude": 5,
-      "Domestic Violence": 32,
-      "Hit and Run": 5,
-      "DUI": 41,
-      "Sex Offense": 2,
-      "Making False Statements": 4,
-      "Other": 16,
-      "Driving While License Suspended": 12,
-      "Obstruction": 7,
-      "Resisting Arrest": 2,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Weapons": 2,
-      "Drug Offense": 13,
-      "Assault": 11,
-      "Criminal Trespass": 4,
-      "Theft (2nd Degree)": 5,
-      "DOC Warrant": 4,
-      "Failure to Appear": 18,
-      "Traffic / Obstruction": 3,
-      "Ignition Interlock Violation": 3,
-      "Theft (3rd Degree)": 6,
-      "Harassment": 2,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 1,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 1,
-      "Child Exploitation / CSAM": 1,
-      "Malicious Mischief": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Residential Burglary": 1,
-      "Theft (1st Degree)": 1
     }
   },
   "releaseReasons": [
@@ -969,7 +969,7 @@
   "recidivism": {
     "rate": 8,
     "repeatBookerCount": 114,
-    "totalIndividuals": 1420,
+    "totalIndividuals": 1421,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1368,7 +1368,7 @@
     },
     {
       "month": "2026-06",
-      "count": 182
+      "count": 183
     }
   ],
   "crimeTypes": [
@@ -1384,7 +1384,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 339,
+      "count": 340,
       "pct": 14.9
     },
     {
@@ -1426,7 +1426,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2075,
+      "count": 2076,
       "pct": 60.1
     },
     {
@@ -1653,12 +1653,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 76,
+      "count": 77,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 27
+          "count": 28
         },
         {
           "label": "Failure to Appear",
@@ -1944,7 +1944,7 @@
         },
         {
           "label": "DUI",
-          "count": 51
+          "count": 52
         },
         {
           "label": "Assault",
@@ -2647,7 +2647,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1543
+      "count": 1544
     }
   ]
 }

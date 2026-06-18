@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-18T05:21:46.590Z",
+  "generatedAt": "2026-06-18T09:58:24.198Z",
   "bookingCounts": {
-    "total": 1604,
+    "total": 1606,
     "inCustody": 280,
-    "released": 1324
+    "released": 1326
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1091,
-      "pct": 68
+      "count": 1093,
+      "pct": 68.1
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1123,
+      "count": 1125,
       "pct": 70
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 459
+        "count": 461
       },
       {
         "label": "46–55",
@@ -108,11 +108,11 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 104
+      "count": 105
     },
     {
       "label": "DOC Warrant",
-      "count": 95
+      "count": 96
     },
     {
       "label": "Criminal Trespass",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 985
+      "count": 987
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -197,15 +197,15 @@
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1309,
+    "count": 1311,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 483
+        "count": 484
       },
       {
         "label": "1–3 days",
-        "count": 275
+        "count": 276
       },
       {
         "label": "4–7 days",
@@ -563,6 +563,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "DOC Warrant": 78,
+      "Protection Order Violation": 76,
       "Domestic Violence": 153,
       "Weapons": 19,
       "Failure to Appear": 460,
@@ -572,13 +574,11 @@
       "Assault": 74,
       "Possession of Stolen Vehicle": 16,
       "Theft (3rd Degree)": 41,
-      "Protection Order Violation": 75,
       "Other": 56,
       "Driving While License Suspended": 94,
       "Traffic Violation": 6,
       "Identity Theft": 4,
       "Child Exploitation / CSAM": 11,
-      "DOC Warrant": 77,
       "Indecent Exposure": 5,
       "Harassment": 40,
       "Making False Statements": 25,
@@ -777,6 +777,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 79,
+      "Protection Order Violation": 79,
       "Domestic Violence": 145,
       "Theft (3rd Degree)": 37,
       "Driving While License Suspended": 105,
@@ -791,10 +793,8 @@
       "Identity Theft": 5,
       "Weapons": 28,
       "Drug Offense": 92,
-      "DOC Warrant": 78,
       "Indecent Exposure": 8,
       "Harassment": 49,
-      "Protection Order Violation": 78,
       "Making False Statements": 25,
       "Burglary (2nd Degree)": 30,
       "Obstruction": 56,
@@ -934,11 +934,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 377
+      "count": 378
     },
     {
       "label": "Released",
-      "count": 345
+      "count": 346
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -972,7 +972,7 @@
   "recidivism": {
     "rate": 8.2,
     "repeatBookerCount": 121,
-    "totalIndividuals": 1468,
+    "totalIndividuals": 1470,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1232,7 +1232,7 @@
           {
             "bookingNumber": "2026002746",
             "firstSeen": "06/16/2026, 20:08:16",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002726",
@@ -1386,13 +1386,13 @@
     },
     {
       "month": "2026-06",
-      "count": 240
+      "count": 242
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 719,
+      "count": 720,
       "pct": 30.5
     },
     {
@@ -1417,8 +1417,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 178,
-      "pct": 7.5
+      "count": 179,
+      "pct": 7.6
     },
     {
       "label": "Drug",
@@ -1444,7 +1444,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2156,
+      "count": 2157,
       "pct": 59.9
     },
     {
@@ -1454,7 +1454,7 @@
     },
     {
       "label": "Felony",
-      "count": 579,
+      "count": 580,
       "pct": 16.1
     },
     {
@@ -1590,7 +1590,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 985,
+      "count": 987,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1919,9 +1919,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1324,
-    "withBail": 666,
-    "pct": 50.3
+    "total": 1326,
+    "withBail": 668,
+    "pct": 50.4
   },
   "chargesByAgeGroup": [
     {
@@ -1995,7 +1995,7 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 35
+          "count": 36
         }
       ]
     },
@@ -2113,23 +2113,23 @@
         "n": 92
       },
       {
-        "charge": "Assault",
-        "avgWeight": 190,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 78
-      },
-      {
         "charge": "DOC Warrant",
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 78
+        "n": 79
       },
       {
         "charge": "Protection Order Violation",
-        "avgWeight": 186,
+        "avgWeight": 187,
         "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 79
+      },
+      {
+        "charge": "Assault",
+        "avgWeight": 190,
+        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 78
       },
@@ -2665,7 +2665,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1601
+      "count": 1603
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-19T00:13:25.570Z",
+  "generatedAt": "2026-06-19T05:37:31.285Z",
   "bookingCounts": {
-    "total": 1613,
-    "inCustody": 274,
-    "released": 1339
+    "total": 1615,
+    "inCustody": 273,
+    "released": 1342
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1100,
+      "count": 1102,
       "pct": 68.2
     },
     {
       "label": "Female",
       "count": 348,
-      "pct": 21.6
+      "pct": 21.5
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1130,
-      "pct": 70.1
+      "count": 1131,
+      "pct": 70
     },
     {
       "label": "Unknown",
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 177,
+      "count": 178,
       "pct": 11
     },
     {
@@ -46,7 +46,7 @@
     {
       "label": "Asian / Pacific Islander",
       "count": 46,
-      "pct": 2.9
+      "pct": 2.8
     }
   ],
   "age": {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 446
+        "count": 448
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 605
+      "count": 607
     },
     {
       "label": "Domestic Violence",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 105
+      "count": 106
     },
     {
       "label": "DOC Warrant",
@@ -120,7 +120,7 @@
     },
     {
       "label": "Other",
-      "count": 89
+      "count": 90
     },
     {
       "label": "Obstruction",
@@ -162,11 +162,11 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 83
+      "count": 87
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 52
+      "count": 54
     },
     {
       "label": "OTHER AGENCY",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 45329.98,
+    "mean": 45217.45,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1331
+    "count": 1335
   },
   "stay": {
     "mean": 20.7,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1324,
+    "count": 1327,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 488
+        "count": 489
       },
       {
         "label": "1–3 days",
-        "count": 281
+        "count": 282
       },
       {
         "label": "4–7 days",
@@ -213,7 +213,7 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 67
+        "count": 68
       },
       {
         "label": "2–4 weeks",
@@ -429,6 +429,12 @@
       "count": 6
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 21547.17,
+      "count": 53
+    },
+    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
       "meanBail": 3909.09,
@@ -445,12 +451,6 @@
       "medianBail": 5000,
       "meanBail": 26333.33,
       "count": 18
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 21942.31,
-      "count": 52
     },
     {
       "category": "Making False Statements",
@@ -521,8 +521,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 3000,
-      "meanBail": 19667.44,
-      "count": 519
+      "meanBail": 19612.07,
+      "count": 522
     },
     {
       "category": "Drug Offense",
@@ -563,9 +563,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 464,
       "Criminal Trespass": 70,
       "Failure to Comply (Sentence)": 23,
-      "Failure to Appear": 463,
       "DOC Warrant": 78,
       "Protection Order Violation": 76,
       "Domestic Violence": 153,
@@ -627,6 +627,53 @@
       "Theft": 1,
       "Bribery": 1
     },
+    "Black": {
+      "Other": 12,
+      "Protection Order Violation": 17,
+      "Failure to Appear": 65,
+      "Failure to Comply (Sentence)": 7,
+      "Theft (3rd Degree)": 3,
+      "Hit and Run": 4,
+      "Driving While License Suspended": 19,
+      "Ignition Interlock Violation": 3,
+      "Domestic Violence": 30,
+      "Obstruction": 12,
+      "Weapons": 8,
+      "Drug Offense": 12,
+      "Assault": 21,
+      "Fugitive from Justice": 1,
+      "DUI": 13,
+      "Attempt to Elude": 3,
+      "DOC Warrant": 12,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 3,
+      "Indecent Exposure": 3,
+      "Resisting Arrest": 6,
+      "Traffic / Obstruction": 2,
+      "Robbery": 6,
+      "Burglary (1st Degree)": 5,
+      "Harassment": 16,
+      "Theft (1st Degree)": 2,
+      "Malicious Mischief": 5,
+      "Criminal Trespass": 5,
+      "Burglary (2nd Degree)": 6,
+      "Possession of Stolen Property": 1,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Homicide": 4,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Failure to Register (Sex Offender)": 2,
+      "Motor Vehicle Theft": 3,
+      "Making False Statements": 1,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Theft (2nd Degree)": 3,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1,
+      "Vehicle Prowling": 1
+    },
     "Unknown": {
       "Driving While License Suspended": 18,
       "Domestic Violence": 43,
@@ -666,53 +713,6 @@
       "Local / Tribal Code": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
       "Public Order": 1
-    },
-    "Black": {
-      "Failure to Comply (Sentence)": 7,
-      "Theft (3rd Degree)": 3,
-      "Other": 11,
-      "Hit and Run": 4,
-      "Driving While License Suspended": 19,
-      "Protection Order Violation": 16,
-      "Ignition Interlock Violation": 3,
-      "Domestic Violence": 30,
-      "Obstruction": 12,
-      "Failure to Appear": 64,
-      "Weapons": 8,
-      "Drug Offense": 12,
-      "Assault": 21,
-      "Fugitive from Justice": 1,
-      "DUI": 13,
-      "Attempt to Elude": 3,
-      "DOC Warrant": 12,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 3,
-      "Indecent Exposure": 3,
-      "Resisting Arrest": 6,
-      "Traffic / Obstruction": 2,
-      "Robbery": 6,
-      "Burglary (1st Degree)": 5,
-      "Harassment": 16,
-      "Theft (1st Degree)": 2,
-      "Malicious Mischief": 5,
-      "Criminal Trespass": 5,
-      "Burglary (2nd Degree)": 6,
-      "Possession of Stolen Property": 1,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Homicide": 4,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Failure to Register (Sex Offender)": 2,
-      "Motor Vehicle Theft": 3,
-      "Making False Statements": 1,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Theft (2nd Degree)": 3,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1,
-      "Vehicle Prowling": 1
     },
     "Asian / Pacific Islander": {
       "Failure to Appear": 25,
@@ -777,12 +777,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 443,
+      "Other": 58,
+      "Protection Order Violation": 80,
       "Criminal Trespass": 64,
       "Failure to Comply (Sentence)": 30,
-      "Failure to Appear": 441,
       "Driving While License Suspended": 107,
       "DOC Warrant": 79,
-      "Protection Order Violation": 79,
       "Domestic Violence": 145,
       "Theft (3rd Degree)": 37,
       "DUI": 125,
@@ -790,7 +791,6 @@
       "Child Exploitation / CSAM": 11,
       "Assault": 80,
       "Possession of Stolen Vehicle": 15,
-      "Other": 57,
       "Traffic Violation": 6,
       "Identity Theft": 5,
       "Weapons": 28,
@@ -930,7 +930,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 435
+      "count": 437
     },
     {
       "label": "Released (Unknown Reason)",
@@ -946,7 +946,7 @@
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 52
+      "count": 53
     },
     {
       "label": "Failure to Comply",
@@ -972,7 +972,7 @@
   "recidivism": {
     "rate": 8.2,
     "repeatBookerCount": 121,
-    "totalIndividuals": 1476,
+    "totalIndividuals": 1478,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1391,14 +1391,14 @@
     },
     {
       "month": "2026-06",
-      "count": 249
+      "count": 251
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 726,
-      "pct": 30.6
+      "count": 728,
+      "pct": 30.7
     },
     {
       "label": "Violent",
@@ -1408,27 +1408,27 @@
     {
       "label": "Traffic / DUI",
       "count": 350,
-      "pct": 14.8
+      "pct": 14.7
     },
     {
       "label": "Property",
       "count": 279,
-      "pct": 11.8
+      "pct": 11.7
     },
     {
       "label": "Other",
-      "count": 213,
+      "count": 214,
       "pct": 9
     },
     {
       "label": "Order Violations",
-      "count": 179,
-      "pct": 7.5
+      "count": 180,
+      "pct": 7.6
     },
     {
       "label": "Drug",
       "count": 134,
-      "pct": 5.7
+      "pct": 5.6
     },
     {
       "label": "Sex Offense",
@@ -1449,12 +1449,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2165,
+      "count": 2169,
       "pct": 59.9
     },
     {
       "label": "Unknown",
-      "count": 618,
+      "count": 620,
       "pct": 17.1
     },
     {
@@ -1524,15 +1524,15 @@
     },
     {
       "category": "DOC Warrant",
-      "avgDays": 17,
-      "medianDays": 20.2,
-      "count": 24
+      "avgDays": 16.4,
+      "medianDays": 19.8,
+      "count": 25
     },
     {
       "category": "Failure to Appear",
       "avgDays": 16.2,
-      "medianDays": 3.2,
-      "count": 253
+      "medianDays": 3.4,
+      "count": 254
     },
     {
       "category": "Malicious Mischief",
@@ -1676,7 +1676,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 83,
+      "count": 87,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1685,7 +1685,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Driving While License Suspended",
@@ -1696,19 +1696,19 @@
           "count": 7
         },
         {
-          "label": "Obstruction",
+          "label": "Other",
           "count": 5
         }
       ]
     },
     {
       "name": "Gig Harbor PD",
-      "count": 52,
+      "count": 54,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 16
+          "count": 18
         },
         {
           "label": "Driving While License Suspended",
@@ -1924,9 +1924,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1339,
-    "withBail": 670,
-    "pct": 50
+    "total": 1342,
+    "withBail": 672,
+    "pct": 50.1
   },
   "chargesByAgeGroup": [
     {
@@ -1959,7 +1959,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 195
+          "count": 197
         },
         {
           "label": "Domestic Violence",
@@ -2087,7 +2087,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 437
+        "n": 439
       },
       {
         "charge": "Domestic Violence",
@@ -2118,16 +2118,16 @@
         "n": 92
       },
       {
-        "charge": "DOC Warrant",
-        "avgWeight": 182,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 79
-      },
-      {
         "charge": "Protection Order Violation",
         "avgWeight": 187,
         "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 80
+      },
+      {
+        "charge": "DOC Warrant",
+        "avgWeight": 182,
+        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 79
       },
@@ -2148,9 +2148,9 @@
       {
         "charge": "Other",
         "avgWeight": 184,
-        "avgHeight": "5'9\"",
+        "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 56
+        "n": 57
       },
       {
         "charge": "Obstruction",
@@ -2670,7 +2670,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1610
+      "count": 1612
     }
   ]
 }

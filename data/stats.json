@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-20T19:44:46.529Z",
+  "generatedAt": "2026-06-20T21:23:55.534Z",
   "bookingCounts": {
-    "total": 1629,
-    "inCustody": 277,
+    "total": 1630,
+    "inCustody": 278,
     "released": 1352
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1111,
+      "count": 1112,
       "pct": 68.2
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1142,
+      "count": 1143,
       "pct": 70.1
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 467
+        "count": 468
       },
       {
         "label": "46–55",
@@ -112,7 +112,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 97
+      "count": 98
     },
     {
       "label": "Other",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 187
+      "count": 188
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -563,6 +563,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "DOC Warrant": 80,
       "Assault": 77,
       "Other": 57,
       "DUI": 132,
@@ -575,7 +576,6 @@
       "Reckless Driving": 15,
       "Drug Offense": 101,
       "Failure to Appear": 466,
-      "DOC Warrant": 79,
       "Possession of Stolen Vehicle": 17,
       "Protection Order Violation": 77,
       "Domestic Violence": 155,
@@ -777,6 +777,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 81,
       "Assault": 82,
       "Other": 59,
       "Local / Tribal Code": 21,
@@ -789,7 +790,6 @@
       "Reckless Driving": 15,
       "Drug Offense": 93,
       "Failure to Appear": 444,
-      "DOC Warrant": 80,
       "Possession of Stolen Vehicle": 16,
       "Protection Order Violation": 80,
       "Making False Statements": 26,
@@ -971,7 +971,7 @@
   ],
   "recidivism": {
     "rate": 8.3,
-    "repeatBookerCount": 123,
+    "repeatBookerCount": 124,
     "totalIndividuals": 1490,
     "repeatBookers": [
       {
@@ -1231,6 +1231,22 @@
         ]
       },
       {
+        "name": "RUSSELL, CHARLIE LEE",
+        "count": 2,
+        "bookings": [
+          {
+            "bookingNumber": "2026002794",
+            "firstSeen": "06/20/2026, 14:21:13",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001990",
+            "firstSeen": "04/29/2026, 10:57:55",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "COBB, RYAN BELMONT",
         "count": 2,
         "bookings": [
@@ -1357,22 +1373,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "HERNANDEZ CALMO, ISAIAS HERNANDEZ",
-        "count": 2,
-        "bookings": [
-          {
-            "bookingNumber": "2026002711",
-            "firstSeen": "06/14/2026, 22:38:35",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2025001805",
-            "firstSeen": "03/25/2026, 18:55:29",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1391,13 +1391,13 @@
     },
     {
       "month": "2026-06",
-      "count": 265
+      "count": 266
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 731,
+      "count": 732,
       "pct": 30.5
     },
     {
@@ -1459,7 +1459,7 @@
     },
     {
       "label": "Felony",
-      "count": 586,
+      "count": 587,
       "pct": 16
     },
     {
@@ -1622,7 +1622,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 188,
+      "count": 189,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2118,15 +2118,15 @@
         "n": 93
       },
       {
-        "charge": "Assault",
-        "avgWeight": 190,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 80
-      },
-      {
         "charge": "DOC Warrant",
         "avgWeight": 182,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 81
+      },
+      {
+        "charge": "Assault",
+        "avgWeight": 190,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 80
@@ -2670,7 +2670,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1626
+      "count": 1627
     }
   ]
 }

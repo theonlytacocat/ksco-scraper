@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-20T14:56:53.976Z",
+  "generatedAt": "2026-06-20T16:25:22.573Z",
   "bookingCounts": {
     "total": 1628,
-    "inCustody": 277,
-    "released": 1351
+    "inCustody": 276,
+    "released": 1352
   },
   "gender": [
     {
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 45163.92,
+    "mean": 45222.57,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -197,7 +197,7 @@
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1336,
+    "count": 1337,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 174
+        "count": 175
       },
       {
         "label": "3+ months",
@@ -381,6 +381,12 @@
       "count": 23
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 12500,
+      "meanBail": 63666.67,
+      "count": 24
+    },
+    {
       "category": "Weapons",
       "medianBail": 12500,
       "meanBail": 25750,
@@ -391,12 +397,6 @@
       "medianBail": 10000,
       "meanBail": 39416.67,
       "count": 18
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 57739.13,
-      "count": 23
     },
     {
       "category": "Theft (2nd Degree)",
@@ -437,7 +437,7 @@
     {
       "category": "Malicious Mischief",
       "medianBail": 5000,
-      "meanBail": 17541.67,
+      "meanBail": 12958.33,
       "count": 24
     },
     {
@@ -447,16 +447,16 @@
       "count": 19
     },
     {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 21735.85,
-      "count": 53
-    },
-    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
       "meanBail": 3909.09,
       "count": 22
+    },
+    {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 21942.31,
+      "count": 52
     },
     {
       "category": "Making False Statements",
@@ -930,7 +930,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 440
+      "count": 441
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1924,7 +1924,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1351,
+    "total": 1352,
     "withBail": 676,
     "pct": 50
   },

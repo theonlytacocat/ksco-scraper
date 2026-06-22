@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T21:35:37.527Z",
+  "generatedAt": "2026-06-22T23:26:13.444Z",
   "bookingCounts": {
     "total": 1652,
-    "inCustody": 289,
-    "released": 1363
+    "inCustody": 282,
+    "released": 1370
   },
   "gender": [
     {
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.4,
+    "mean": 38.5,
     "median": 37,
     "min": 18,
     "max": 87,
@@ -186,30 +186,30 @@
     }
   ],
   "bail": {
-    "mean": 45518.07,
+    "mean": 45521.77,
     "median": 5000,
     "min": 50,
     "max": 4000000,
     "count": 1354
   },
   "stay": {
-    "mean": 20.7,
+    "mean": 20.8,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1348,
+    "count": 1355,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 494
+        "count": 496
       },
       {
         "label": "1–3 days",
-        "count": 286
+        "count": 289
       },
       {
         "label": "4–7 days",
-        "count": 113
+        "count": 114
       },
       {
         "label": "1–2 weeks",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 76
+        "count": 77
       }
     ]
   },
@@ -431,7 +431,7 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 21547.17,
+      "meanBail": 21594.34,
       "count": 106
     },
     {
@@ -930,15 +930,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 447
+      "count": 448
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 383
+      "count": 385
     },
     {
       "label": "Released",
-      "count": 351
+      "count": 354
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -946,7 +946,7 @@
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 53
+      "count": 54
     },
     {
       "label": "Failure to Comply",
@@ -1132,7 +1132,7 @@
           {
             "bookingNumber": "2026002772",
             "firstSeen": "06/18/2026, 12:32:07",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002560",
@@ -1509,16 +1509,16 @@
       "count": 3
     },
     {
-      "category": "Assault",
-      "avgDays": 22.5,
-      "medianDays": 1.8,
-      "count": 29
-    },
-    {
       "category": "Harassment",
       "avgDays": 21.9,
       "medianDays": 1.3,
       "count": 9
+    },
+    {
+      "category": "Assault",
+      "avgDays": 21.8,
+      "medianDays": 1.8,
+      "count": 30
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -1540,9 +1540,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 16.1,
-      "medianDays": 3.4,
-      "count": 258
+      "avgDays": 16,
+      "medianDays": 3.6,
+      "count": 259
     },
     {
       "category": "Malicious Mischief",
@@ -1934,9 +1934,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1363,
-    "withBail": 680,
-    "pct": 49.9
+    "total": 1370,
+    "withBail": 681,
+    "pct": 49.7
   },
   "chargesByAgeGroup": [
     {

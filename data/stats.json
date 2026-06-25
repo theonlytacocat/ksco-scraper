@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T17:33:28.479Z",
+  "generatedAt": "2026-06-25T19:31:05.656Z",
   "bookingCounts": {
     "total": 1692,
-    "inCustody": 272,
-    "released": 1420
+    "inCustody": 268,
+    "released": 1424
   },
   "gender": [
     {
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 44750.86,
+    "mean": 44776.45,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1359
+    "count": 1358
   },
   "stay": {
-    "mean": 21.3,
+    "mean": 21.2,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1405,
+    "count": 1409,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 515
+        "count": 518
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 117
+        "count": 118
       },
       {
         "label": "1–2 weeks",
@@ -431,8 +431,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 5000,
-      "meanBail": 19057.88,
-      "count": 529
+      "meanBail": 19075.04,
+      "count": 528
     },
     {
       "category": "Malicious Mischief",
@@ -930,7 +930,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 472
+      "count": 475
     },
     {
       "label": "Released (Unknown Reason)",
@@ -938,7 +938,7 @@
     },
     {
       "label": "Released",
-      "count": 363
+      "count": 364
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1090,7 +1090,7 @@
           {
             "bookingNumber": "2026002851",
             "firstSeen": "06/24/2026, 13:00:06",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002588",
@@ -1321,7 +1321,7 @@
           {
             "bookingNumber": "2026002863",
             "firstSeen": "06/25/2026, 10:30:34",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002232",
@@ -1550,9 +1550,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 15.8,
-      "medianDays": 3.2,
-      "count": 271
+      "avgDays": 15.7,
+      "medianDays": 3.1,
+      "count": 274
     },
     {
       "category": "Court Hold",
@@ -1944,8 +1944,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1420,
-    "withBail": 702,
+    "total": 1424,
+    "withBail": 703,
     "pct": 49.4
   },
   "chargesByAgeGroup": [

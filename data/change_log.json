@@ -34,7 +34,7 @@
         "courtType": null
       }
     ],
-    "age": "18",
+    "age": "19",
     "sex": "M",
     "race": "B",
     "height": "509",
@@ -42,7 +42,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "50003631",
-    "schedRelease": "08/05/2026",
+    "schedRelease": "07/31/2026",
     "firstSeen": "06/26/2026, 10:02:39",
     "releasedAt": null,
     "status": "in_custody"
@@ -126,10 +126,10 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350433002",
         "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/26/2026",
@@ -180,8 +180,8 @@
     "inmateId": "50005105",
     "schedRelease": null,
     "firstSeen": "06/26/2026, 04:46:37",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "06/26/2026, 12:19:46",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -256,8 +256,8 @@
     "inmateId": "50002713",
     "schedRelease": null,
     "firstSeen": "06/26/2026, 01:31:17",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "06/26/2026, 12:19:45",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -445,7 +445,7 @@
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350440733",
         "nextCourtDate": "06/26/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/25/2026",
@@ -464,20 +464,6 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/25/2026",
         "courtType": null
-      },
-      {
-        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
-        "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
-        "bondAmount": null,
-        "cashAmount": null,
-        "courtCase": "2610008718",
-        "nextCourtDate": "06/26/2026",
-        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
-        "arrestDate": "06/25/2026",
-        "courtType": "SC"
       },
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
@@ -516,58 +502,72 @@
       {
         "violation": "9A.44.060(2) - RAPE-3",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "ATTEMPT",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": 100000,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350440745",
         "nextCourtDate": "06/26/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "06/25/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       },
       {
         "violation": "9A.40.040(2) - UNLAWFUL IMPRISONMENT",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "06/26/2026",
+        "nextCourtDate": null,
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "06/25/2026",
-        "courtType": "SC"
+        "courtType": null
       },
       {
         "violation": "9A.44.100 - INDECENT LIBERTIES",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "06/26/2026",
+        "nextCourtDate": null,
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "06/25/2026",
-        "courtType": "SC"
+        "courtType": null
       },
       {
         "violation": "9A.36.021(2)(B) - ASSAULT-2 SEXUAL MOTIVATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": null,
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "06/25/2026",
+        "courtType": null
+      },
+      {
+        "violation": "9A.36.041(2) - ASSAULT 4",
+        "cleared": false,
+        "addDesc": "SEXUAL MOTIVATION",
         "clearance": null,
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "350440745",
         "nextCourtDate": "06/26/2026",
         "arrestAgency": "POULSBO POLICE DEPARTMENT",
         "arrestDate": "06/25/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       }
     ],
     "age": "36",
@@ -12651,17 +12651,17 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CRIM TRES 1 X2",
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 10000,
+        "clearance": "TS",
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350428285",
-        "nextCourtDate": "06/26/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/06/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -12686,7 +12686,7 @@
     "hair": "BRO",
     "eyes": "BLU",
     "inmateId": "40749706",
-    "schedRelease": null,
+    "schedRelease": "06/20/2026",
     "firstSeen": "06/06/2026, 21:15:50",
     "releasedAt": null,
     "status": "in_custody"

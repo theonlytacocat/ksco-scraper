@@ -183,7 +183,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondAmount": 6000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "06/26/2026",
@@ -197,7 +197,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 1000,
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "06/26/2026",
@@ -303,10 +303,10 @@
       },
       {
         "violation": "46.20.740(2) - IGNITION INTERLOCK VIOL-NOTATION ON DR REC-VERIFY INTERLOCK",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NF",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
@@ -364,7 +364,7 @@
     "bookingDate": "",
     "charges": [
       {
-        "violation": "PGTC05.07.06 - RAPE 3",
+        "violation": "9A.44.060(2) - RAPE-3",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
@@ -735,9 +735,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CT 1",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -758,8 +758,8 @@
     "inmateId": "30052815",
     "schedRelease": "06/26/2026",
     "firstSeen": "06/24/2026, 16:07:52",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "06/26/2026, 07:33:24",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -1700,6 +1700,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "06/23/2026",
         "courtType": "PO"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51705801",
+        "nextCourtDate": "06/26/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "06/26/2026",
+        "courtType": "BM"
       }
     ],
     "age": "44",
@@ -46890,7 +46904,7 @@
     "hair": "BLK",
     "eyes": "BRO",
     "inmateId": "40653490",
-    "schedRelease": "12/04/2026",
+    "schedRelease": "12/02/2026",
     "firstSeen": "04/07/2026, 11:30:22",
     "releasedAt": null,
     "status": "in_custody"
@@ -49114,7 +49128,7 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "NOBD",
+        "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2210049718",

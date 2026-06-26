@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-26T08:33:53.518Z",
+  "generatedAt": "2026-06-26T11:49:22.293Z",
   "bookingCounts": {
-    "total": 1698,
-    "inCustody": 270,
+    "total": 1699,
+    "inCustody": 271,
     "released": 1428
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1152,
-      "pct": 67.8
+      "count": 1153,
+      "pct": 67.9
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1192,
+      "count": 1193,
       "pct": 70.2
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 473
+        "count": 474
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 221
+      "count": 222
     },
     {
       "label": "Driving While License Suspended",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1052
+      "count": 1053
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 43915.02,
+    "mean": 43886.55,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1366
+    "count": 1367
   },
   "stay": {
     "mean": 21.2,
@@ -429,6 +429,12 @@
       "count": 6
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 20738.32,
+      "count": 107
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5879.31,
@@ -451,12 +457,6 @@
       "medianBail": 5000,
       "meanBail": 13200,
       "count": 5
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 20886.79,
-      "count": 106
     },
     {
       "category": "Theft (3rd Degree)",
@@ -563,12 +563,12 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 144,
       "Domestic Violence": 161,
       "Theft (3rd Degree)": 42,
       "Driving While License Suspended": 104,
       "Failure to Appear": 491,
       "Attempt to Elude": 13,
-      "DUI": 143,
       "Sex Offense": 13,
       "Kidnapping / Unlawful Imprisonment": 4,
       "Assault": 82,
@@ -777,11 +777,11 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 137,
       "Domestic Violence": 151,
       "Theft (3rd Degree)": 39,
       "Driving While License Suspended": 116,
       "Attempt to Elude": 18,
-      "DUI": 136,
       "Sex Offense": 14,
       "Kidnapping / Unlawful Imprisonment": 5,
       "Assault": 87,
@@ -972,7 +972,7 @@
   "recidivism": {
     "rate": 8.7,
     "repeatBookerCount": 135,
-    "totalIndividuals": 1543,
+    "totalIndividuals": 1544,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1411,7 +1411,7 @@
     },
     {
       "month": "2026-06",
-      "count": 334
+      "count": 335
     }
   ],
   "crimeTypes": [
@@ -1427,7 +1427,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 376,
+      "count": 377,
       "pct": 15.1
     },
     {
@@ -1469,7 +1469,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2284,
+      "count": 2285,
       "pct": 60
     },
     {
@@ -1615,7 +1615,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1052,
+      "count": 1053,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1987,7 +1987,7 @@
         },
         {
           "label": "DUI",
-          "count": 58
+          "count": 59
         },
         {
           "label": "Assault",
@@ -2121,7 +2121,7 @@
         "avgWeight": 183,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 125
+        "n": 126
       },
       {
         "charge": "Driving While License Suspended",
@@ -2697,7 +2697,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1695
+      "count": 1696
     }
   ]
 }

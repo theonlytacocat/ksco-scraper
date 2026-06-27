@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-27T07:54:19.502Z",
+  "generatedAt": "2026-06-27T10:15:09.126Z",
   "bookingCounts": {
-    "total": 1708,
-    "inCustody": 272,
+    "total": 1710,
+    "inCustody": 274,
     "released": 1436
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1159,
-      "pct": 67.9
+      "count": 1160,
+      "pct": 67.8
     },
     {
       "label": "Female",
-      "count": 375,
+      "count": 376,
       "pct": 22
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1200,
+      "count": 1202,
       "pct": 70.3
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 243
+        "count": 244
       },
       {
         "label": "26–35",
@@ -77,7 +77,7 @@
       },
       {
         "label": "65+",
-        "count": 38
+        "count": 39
       }
     ]
   },
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 225
+      "count": 226
     },
     {
       "label": "Driving While License Suspended",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 126
+      "count": 127
     },
     {
       "label": "Protection Order Violation",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1056
+      "count": 1057
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 91
+      "count": 92
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 44576.76,
+    "mean": 44772.38,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1357
+    "count": 1359
   },
   "stay": {
     "mean": 21.1,
@@ -339,16 +339,16 @@
       "count": 38
     },
     {
+      "category": "Assault",
+      "medianBail": 30000,
+      "meanBail": 113472.73,
+      "count": 55
+    },
+    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 181666.67,
       "count": 6
-    },
-    {
-      "category": "Assault",
-      "medianBail": 30000,
-      "meanBail": 109092.59,
-      "count": 54
     },
     {
       "category": "Court Hold",
@@ -431,8 +431,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 20738.32,
-      "count": 107
+      "meanBail": 20592.59,
+      "count": 108
     },
     {
       "category": "Hit and Run",
@@ -563,8 +563,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Assault": 83,
+      "DUI": 148,
       "Protection Order Violation": 81,
-      "DUI": 147,
       "Hit and Run": 24,
       "Domestic Violence": 162,
       "Failure to Appear": 494,
@@ -573,7 +574,6 @@
       "Attempt to Elude": 13,
       "Sex Offense": 13,
       "Kidnapping / Unlawful Imprisonment": 4,
-      "Assault": 82,
       "Failure to Comply (Sentence)": 24,
       "DOC Warrant": 82,
       "Arson": 4,
@@ -777,9 +777,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Assault": 89,
       "Protection Order Violation": 84,
       "Domestic Violence": 152,
-      "Assault": 88,
       "Theft (3rd Degree)": 41,
       "Failure to Appear": 462,
       "DUI": 138,
@@ -841,7 +841,7 @@
       "Theft": 1
     },
     "Female": {
-      "DUI": 44,
+      "DUI": 45,
       "Hit and Run": 8,
       "Domestic Violence": 65,
       "Failure to Appear": 158,
@@ -972,7 +972,7 @@
   "recidivism": {
     "rate": 8.7,
     "repeatBookerCount": 135,
-    "totalIndividuals": 1552,
+    "totalIndividuals": 1554,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1416,23 +1416,23 @@
     },
     {
       "month": "2026-06",
-      "count": 344
+      "count": 346
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 766,
-      "pct": 30.6
+      "pct": 30.5
     },
     {
       "label": "Violent",
-      "count": 384,
+      "count": 385,
       "pct": 15.3
     },
     {
       "label": "Traffic / DUI",
-      "count": 380,
+      "count": 381,
       "pct": 15.2
     },
     {
@@ -1443,7 +1443,7 @@
     {
       "label": "Other",
       "count": 222,
-      "pct": 8.9
+      "pct": 8.8
     },
     {
       "label": "Order Violations",
@@ -1474,7 +1474,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2298,
+      "count": 2299,
       "pct": 60
     },
     {
@@ -1484,8 +1484,8 @@
     },
     {
       "label": "Felony",
-      "count": 610,
-      "pct": 15.9
+      "count": 611,
+      "pct": 16
     },
     {
       "label": "Misdemeanor",
@@ -1620,7 +1620,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1056,
+      "count": 1057,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1640,8 +1640,8 @@
           "count": 60
         },
         {
-          "label": "Drug Offense",
-          "count": 53
+          "label": "Assault",
+          "count": 54
         }
       ]
     },
@@ -1701,12 +1701,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 91,
+      "count": 92,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Failure to Appear",
@@ -1975,7 +1975,7 @@
         },
         {
           "label": "Assault",
-          "count": 20
+          "count": 21
         }
       ]
     },
@@ -2084,7 +2084,7 @@
       "topCharges": [
         {
           "label": "DUI",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Domestic Violence",
@@ -2147,7 +2147,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 86
+        "n": 87
       },
       {
         "charge": "Protection Order Violation",
@@ -2520,7 +2520,7 @@
         "avgWeight": 146,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 42
+        "n": 43
       },
       {
         "charge": "Drug Offense",
@@ -2702,7 +2702,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1705
+      "count": 1707
     }
   ]
 }

@@ -44539,9 +44539,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "CONTROLLED SUB KNOW POSSES",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -45176,9 +45176,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -72777,9 +72777,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -73208,18 +73208,18 @@
     "eyes": "BRO",
     "charges": [
       {
-        "violation": "46.61.522(2) - VEHICULAR ASSAULT",
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
         "cleared": false,
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 350000,
+        "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "06/29/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "06/27/2026",
-        "courtType": "SC"
+        "courtType": "BM"
       }
     ],
     "totalBond": 350000,
@@ -73245,10 +73245,64 @@
     "weight": null,
     "hair": "Eyes",
     "eyes": "Height",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "06/29/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "06/27/2026",
+        "courtType": "BM"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "06/27/2026, 04:56:01",
+    "releasedAt": null
+  },
+  "2026002889": {
+    "bookingNumber": "2026002889",
+    "firstName": "CESAR GABRIEL",
+    "lastName": "PEREZ CRESPO",
+    "middleName": "",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "06/27/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=2",
+    "inmateId": "50005113",
+    "schedRelease": null,
+    "age": "19",
+    "height": "501",
+    "weight": "200",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 10000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "06/29/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "06/27/2026",
+        "courtType": "BM"
+      }
+    ],
+    "totalBond": 10000,
+    "status": "in_custody",
+    "firstSeen": "06/27/2026, 06:52:58",
     "releasedAt": null
   }
 }

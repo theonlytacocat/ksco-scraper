@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T20:35:15.148Z",
+  "generatedAt": "2026-06-28T21:12:23.186Z",
   "bookingCounts": {
     "total": 1726,
-    "inCustody": 281,
-    "released": 1445
+    "inCustody": 280,
+    "released": 1446
   },
   "gender": [
     {
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 214
+      "count": 215
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -197,11 +197,11 @@
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1430,
+    "count": 1431,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 525
+        "count": 526
       },
       {
         "label": "1–3 days",
@@ -569,6 +569,7 @@
       "Failure to Appear": 496,
       "Assault": 83,
       "DOC Warrant": 83,
+      "Residential Burglary": 11,
       "Driving While License Suspended": 106,
       "Malicious Mischief": 36,
       "Traffic / Obstruction": 7,
@@ -609,7 +610,6 @@
       "Stalking": 8,
       "Vehicle Prowling": 10,
       "Robbery": 9,
-      "Residential Burglary": 10,
       "Forgery": 3,
       "Probation Violation": 2,
       "Homicide": 14,
@@ -837,6 +837,7 @@
       "Burglary Tools": 6,
       "Assault": 89,
       "DOC Warrant": 82,
+      "Residential Burglary": 13,
       "Driving While License Suspended": 117,
       "Protection Order Violation": 85,
       "Ignition Interlock Violation": 42,
@@ -877,7 +878,6 @@
       "Robbery": 13,
       "Burglary (1st Degree)": 10,
       "Theft (1st Degree)": 8,
-      "Residential Burglary": 12,
       "Vehicle Prowling": 11,
       "Probation Violation": 2,
       "Possession of Stolen Property": 6,
@@ -940,7 +940,7 @@
     },
     {
       "label": "Released",
-      "count": 373
+      "count": 374
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1430,7 +1430,7 @@
     {
       "label": "Court / Supervision",
       "count": 770,
-      "pct": 30.4
+      "pct": 30.3
     },
     {
       "label": "Traffic / DUI",
@@ -1444,7 +1444,7 @@
     },
     {
       "label": "Property",
-      "count": 297,
+      "count": 298,
       "pct": 11.7
     },
     {
@@ -1491,7 +1491,7 @@
     },
     {
       "label": "Felony",
-      "count": 616,
+      "count": 617,
       "pct": 15.9
     },
     {
@@ -1654,7 +1654,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 215,
+      "count": 216,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1975,9 +1975,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1445,
-    "withBail": 710,
-    "pct": 49.1
+    "total": 1446,
+    "withBail": 711,
+    "pct": 49.2
   },
   "chargesByAgeGroup": [
     {
@@ -2549,6 +2549,13 @@
         "n": 14
       },
       {
+        "charge": "Residential Burglary",
+        "avgWeight": 183,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 13
+      },
+      {
         "charge": "Sex Offense",
         "avgWeight": 185,
         "avgHeight": "5'9\"",
@@ -2566,13 +2573,6 @@
         "charge": "Child Exploitation / CSAM",
         "avgWeight": 202,
         "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 12
-      },
-      {
-        "charge": "Residential Burglary",
-        "avgWeight": 182,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 12
       },

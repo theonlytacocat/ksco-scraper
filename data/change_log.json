@@ -80,6 +80,20 @@
         "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
         "arrestDate": "06/28/2026",
         "courtType": "DS"
+      },
+      {
+        "violation": "9A.52.060(2) - POSSESS BURGLARY TOOLS MAKING OR HAVING BURGLARY TOOLS",
+        "cleared": false,
+        "addDesc": "POS BURG TOOLS",
+        "clearance": null,
+        "bondBailType": null,
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "06/29/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "06/28/2026",
+        "courtType": "PO"
       }
     ],
     "age": "32",
@@ -247,10 +261,10 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "POST",
+        "bondBailType": "POST",
         "bondAmount": 5000,
         "cashAmount": null,
         "courtCase": null,
@@ -270,8 +284,8 @@
     "inmateId": "50005114",
     "schedRelease": null,
     "firstSeen": "06/28/2026, 01:35:05",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "06/28/2026, 09:16:03",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -932,7 +946,7 @@
     "sex": "F",
     "race": "W",
     "height": "508",
-    "weight": "135",
+    "weight": "150",
     "hair": "BRO",
     "eyes": "BRO",
     "inmateId": "40003050",

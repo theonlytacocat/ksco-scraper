@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-28T13:27:03.207Z",
+  "generatedAt": "2026-06-28T15:22:05.137Z",
   "bookingCounts": {
-    "total": 1722,
-    "inCustody": 279,
+    "total": 1723,
+    "inCustody": 280,
     "released": 1443
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1168,
+      "count": 1169,
       "pct": 67.8
     },
     {
       "label": "Female",
       "count": 378,
-      "pct": 22
+      "pct": 21.9
     },
     {
       "label": "Unknown",
@@ -30,8 +30,8 @@
     },
     {
       "label": "Unknown",
-      "count": 219,
-      "pct": 12.7
+      "count": 220,
+      "pct": 12.8
     },
     {
       "label": "Black",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 482
+        "count": 483
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 643
+      "count": 644
     },
     {
       "label": "Domestic Violence",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 231
+      "count": 232
     },
     {
       "label": "Driving While License Suspended",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 210
+      "count": 211
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 93
+      "count": 94
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 43912.52,
+    "mean": 43856.49,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1387
+    "count": 1389
   },
   "stay": {
     "mean": 21.1,
@@ -431,8 +431,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 20261.26,
-      "count": 111
+      "meanBail": 20125,
+      "count": 112
     },
     {
       "category": "Malicious Mischief",
@@ -521,8 +521,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 3000,
-      "meanBail": 18802.97,
-      "count": 545
+      "meanBail": 18777.69,
+      "count": 546
     },
     {
       "category": "Drug Offense",
@@ -562,9 +562,50 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "DUI": 55,
+      "Domestic Violence": 46,
+      "Interference with DV Reporting": 3,
+      "Obstruction": 9,
+      "Resisting Arrest": 3,
+      "Criminal Trespass": 9,
+      "Drug Offense": 17,
+      "Other": 20,
+      "Driving While License Suspended": 20,
+      "Weapons": 4,
+      "Harassment": 4,
+      "Failure to Appear": 30,
+      "Theft (3rd Degree)": 7,
+      "Child Exploitation / CSAM": 3,
+      "Making False Statements": 6,
+      "Attempt to Elude": 5,
+      "Hit and Run": 7,
+      "Sex Offense": 3,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Assault": 14,
+      "Theft (2nd Degree)": 5,
+      "DOC Warrant": 3,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic / Obstruction": 3,
+      "Ignition Interlock Violation": 5,
+      "Malicious Mischief": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Homicide": 1,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Local / Tribal Code": 1,
+      "Kidnapping / Unlawful Imprisonment": 1,
+      "Public Order": 1
+    },
     "Black": {
       "Burglary (2nd Degree)": 7,
       "Drug Offense": 13,
+      "Failure to Appear": 66,
       "Assault": 22,
       "Theft (3rd Degree)": 5,
       "Failure to Register (Sex Offender)": 3,
@@ -572,7 +613,6 @@
       "Protection Order Violation": 18,
       "DUI": 15,
       "Other": 12,
-      "Failure to Appear": 65,
       "Obstruction": 13,
       "Making False Statements": 2,
       "Failure to Comply (Sentence)": 7,
@@ -674,46 +714,6 @@
       "Theft": 1,
       "Bribery": 1
     },
-    "Unknown": {
-      "Domestic Violence": 46,
-      "Interference with DV Reporting": 3,
-      "DUI": 54,
-      "Obstruction": 9,
-      "Resisting Arrest": 3,
-      "Criminal Trespass": 9,
-      "Drug Offense": 17,
-      "Other": 20,
-      "Driving While License Suspended": 20,
-      "Weapons": 4,
-      "Harassment": 4,
-      "Failure to Appear": 30,
-      "Theft (3rd Degree)": 7,
-      "Child Exploitation / CSAM": 3,
-      "Making False Statements": 6,
-      "Attempt to Elude": 5,
-      "Hit and Run": 7,
-      "Sex Offense": 3,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Assault": 14,
-      "Theft (2nd Degree)": 5,
-      "DOC Warrant": 3,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic / Obstruction": 3,
-      "Ignition Interlock Violation": 5,
-      "Malicious Mischief": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Homicide": 1,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Local / Tribal Code": 1,
-      "Kidnapping / Unlawful Imprisonment": 1,
-      "Public Order": 1
-    },
     "Native American": {
       "Domestic Violence": 6,
       "Criminal Trespass": 6,
@@ -777,9 +777,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 142,
       "Burglary (2nd Degree)": 32,
       "Drug Offense": 98,
-      "Failure to Appear": 463,
+      "Failure to Appear": 464,
       "Assault": 89,
       "DOC Warrant": 82,
       "Driving While License Suspended": 117,
@@ -787,7 +788,6 @@
       "Ignition Interlock Violation": 42,
       "Possession of Stolen Vehicle": 17,
       "Other": 59,
-      "DUI": 141,
       "Domestic Violence": 152,
       "Theft (3rd Degree)": 41,
       "Attempt to Elude": 18,
@@ -973,7 +973,7 @@
   "recidivism": {
     "rate": 8.8,
     "repeatBookerCount": 138,
-    "totalIndividuals": 1563,
+    "totalIndividuals": 1564,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1417,19 +1417,19 @@
     },
     {
       "month": "2026-06",
-      "count": 358
+      "count": 359
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 769,
+      "count": 770,
       "pct": 30.4
     },
     {
       "label": "Traffic / DUI",
-      "count": 388,
-      "pct": 15.3
+      "count": 389,
+      "pct": 15.4
     },
     {
       "label": "Violent",
@@ -1459,7 +1459,7 @@
     {
       "label": "Sex Offense",
       "count": 57,
-      "pct": 2.3
+      "pct": 2.2
     },
     {
       "label": "Fraud / Identity",
@@ -1475,7 +1475,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2323,
+      "count": 2325,
       "pct": 60.1
     },
     {
@@ -1648,12 +1648,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 211,
+      "count": 212,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 54
+          "count": 55
         },
         {
           "label": "Domestic Violence",
@@ -1702,12 +1702,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 93,
+      "count": 94,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 32
+          "count": 33
         },
         {
           "label": "Failure to Appear",
@@ -2004,7 +2004,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 206
+          "count": 207
         },
         {
           "label": "Domestic Violence",
@@ -2012,7 +2012,7 @@
         },
         {
           "label": "DUI",
-          "count": 60
+          "count": 61
         },
         {
           "label": "Assault",
@@ -2132,7 +2132,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 459
+        "n": 460
       },
       {
         "charge": "Domestic Violence",
@@ -2729,7 +2729,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1719
+      "count": 1720
     }
   ]
 }

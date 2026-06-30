@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T11:49:41.931Z",
+  "generatedAt": "2026-06-30T14:29:15.482Z",
   "bookingCounts": {
     "total": 1759,
-    "inCustody": 288,
-    "released": 1471
+    "inCustody": 285,
+    "released": 1474
   },
   "gender": [
     {
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 115
+      "count": 116
     },
     {
       "label": "DOC Warrant",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 99
+      "count": 100
     },
     {
       "label": "Other",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1496
+      "count": 1498
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1086
+      "count": 1087
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 43952.81,
+    "mean": 43923.1,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1411
+    "count": 1412
   },
   "stay": {
     "mean": 20.8,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1456,
+    "count": 1459,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 531
+        "count": 532
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 124
+        "count": 125
       },
       {
         "label": "1–2 weeks",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 143
+        "count": 144
       },
       {
         "label": "1–3 months",
@@ -545,8 +545,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2163.27,
-      "count": 49
+      "meanBail": 2160,
+      "count": 50
     },
     {
       "category": "Fugitive from Justice",
@@ -563,7 +563,7 @@
   ],
   "chargesByRace": {
     "White": {
-      "Criminal Trespass": 74,
+      "Criminal Trespass": 75,
       "Resisting Arrest": 27,
       "Residential Burglary": 11,
       "Failure to Appear": 505,
@@ -678,7 +678,7 @@
       "Theft (3rd Degree)": 5,
       "Failure to Register (Sex Offender)": 3,
       "Domestic Violence": 32,
-      "Protection Order Violation": 18,
+      "Protection Order Violation": 19,
       "DUI": 15,
       "Other": 12,
       "Obstruction": 13,
@@ -830,9 +830,10 @@
       "Bribery": 1
     },
     "Male": {
+      "Criminal Trespass": 69,
       "Residential Burglary": 13,
       "Failure to Appear": 470,
-      "Protection Order Violation": 86,
+      "Protection Order Violation": 87,
       "Harassment": 51,
       "Assault": 93,
       "PR / Bail Revocation": 17,
@@ -843,7 +844,6 @@
       "DUI": 145,
       "Other": 61,
       "DOC Warrant": 85,
-      "Criminal Trespass": 68,
       "Obstruction": 60,
       "Resisting Arrest": 27,
       "Drug Offense": 99,
@@ -937,7 +937,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 405
+      "count": 406
     },
     {
       "label": "Released",
@@ -945,7 +945,7 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 85
+      "count": 86
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -960,12 +960,12 @@
       "count": 12
     },
     {
-      "label": "Court Production Order",
+      "label": "Extradition",
       "count": 7
     },
     {
-      "label": "Extradition",
-      "count": 6
+      "label": "Court Production Order",
+      "count": 7
     },
     {
       "label": "Community Custody Revocation",
@@ -1460,17 +1460,17 @@
     },
     {
       "label": "Property",
-      "count": 305,
+      "count": 306,
       "pct": 11.8
     },
     {
       "label": "Other",
       "count": 231,
-      "pct": 9
+      "pct": 8.9
     },
     {
       "label": "Order Violations",
-      "count": 194,
+      "count": 195,
       "pct": 7.5
     },
     {
@@ -1497,7 +1497,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2368,
+      "count": 2370,
       "pct": 60.1
     },
     {
@@ -1512,7 +1512,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 280,
+      "count": 281,
       "pct": 7.1
     }
   ],
@@ -1616,7 +1616,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1500,
+      "count": 1502,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1637,13 +1637,13 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 57
+          "count": 59
         }
       ]
     },
     {
       "name": "Bremerton PD",
-      "count": 1086,
+      "count": 1087,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1656,7 +1656,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 62
+          "count": 63
         },
         {
           "label": "Driving While License Suspended",
@@ -1991,8 +1991,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1471,
-    "withBail": 721,
+    "total": 1474,
+    "withBail": 722,
     "pct": 49
   },
   "chargesByAgeGroup": [
@@ -2394,7 +2394,7 @@
         "avgWeight": 190,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 86
+        "n": 87
       },
       {
         "charge": "DOC Warrant",
@@ -2405,10 +2405,10 @@
       },
       {
         "charge": "Criminal Trespass",
-        "avgWeight": 180,
+        "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 67
+        "n": 68
       },
       {
         "charge": "Other",

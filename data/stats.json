@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T19:23:34.964Z",
+  "generatedAt": "2026-07-01T21:10:59.292Z",
   "bookingCounts": {
-    "total": 1774,
-    "inCustody": 284,
-    "released": 1490
+    "total": 1775,
+    "inCustody": 283,
+    "released": 1492
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1204,
+      "count": 1205,
       "pct": 67.9
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1252,
+      "count": 1253,
       "pct": 70.6
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 189,
-      "pct": 10.7
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 515
+        "count": 516
       },
       {
         "label": "46–55",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1101
+      "count": 1102
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 43322.34,
+    "mean": 43503.88,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1413
+    "count": 1411
   },
   "stay": {
     "mean": 20.7,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1475,
+    "count": 1477,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 318
+        "count": 320
       },
       {
         "label": "4–7 days",
@@ -381,6 +381,12 @@
       "count": 2
     },
     {
+      "category": "Weapons",
+      "medianBail": 12500,
+      "meanBail": 19600,
+      "count": 10
+    },
+    {
       "category": "Burglary (2nd Degree)",
       "medianBail": 12500,
       "meanBail": 24612.5,
@@ -395,20 +401,14 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 51960,
-      "count": 25
+      "meanBail": 54000,
+      "count": 24
     },
     {
       "category": "Attempt to Elude",
       "medianBail": 10000,
       "meanBail": 51375,
       "count": 16
-    },
-    {
-      "category": "Weapons",
-      "medianBail": 10000,
-      "meanBail": 17888.89,
-      "count": 9
     },
     {
       "category": "Theft (2nd Degree)",
@@ -435,6 +435,12 @@
       "count": 12
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 5000,
+      "meanBail": 18754.8,
+      "count": 556
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 5000,
       "meanBail": 6331.08,
@@ -443,7 +449,7 @@
     {
       "category": "Other",
       "medianBail": 5000,
-      "meanBail": 16919.81,
+      "meanBail": 19561.32,
       "count": 53
     },
     {
@@ -513,12 +519,6 @@
       "count": 1
     },
     {
-      "category": "Failure to Appear",
-      "medianBail": 3500,
-      "meanBail": 18692.06,
-      "count": 558
-    },
-    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 6462.12,
@@ -563,6 +563,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Weapons": 20,
       "Ignition Interlock Violation": 39,
       "Driving While License Suspended": 107,
       "Failure to Appear": 512,
@@ -597,7 +598,6 @@
       "Arson": 4,
       "Reckless Driving": 16,
       "Child Exploitation / CSAM": 12,
-      "Weapons": 19,
       "Fugitive from Justice": 10,
       "Traffic Violation": 6,
       "Identity Theft": 4,
@@ -779,6 +779,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Weapons": 29,
       "Ignition Interlock Violation": 43,
       "Driving While License Suspended": 119,
       "Failure to Appear": 478,
@@ -818,7 +819,6 @@
       "Fugitive from Justice": 7,
       "Traffic Violation": 6,
       "Identity Theft": 5,
-      "Weapons": 28,
       "Indecent Exposure": 8,
       "Child Sex Offense": 15,
       "Court Hold": 7,
@@ -937,11 +937,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 412
+      "count": 413
     },
     {
       "label": "Released",
-      "count": 388
+      "count": 389
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 8.7,
     "repeatBookerCount": 140,
-    "totalIndividuals": 1608,
+    "totalIndividuals": 1609,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1448,7 +1448,7 @@
     },
     {
       "month": "2026-07",
-      "count": 5
+      "count": 6
     }
   ],
   "crimeTypes": [
@@ -1499,7 +1499,7 @@
     },
     {
       "label": "Weapons",
-      "count": 33,
+      "count": 34,
       "pct": 1.3
     }
   ],
@@ -1507,7 +1507,7 @@
     {
       "label": "Gross Misdemeanor",
       "count": 2391,
-      "pct": 60.2
+      "pct": 60.1
     },
     {
       "label": "Unknown",
@@ -1516,7 +1516,7 @@
     },
     {
       "label": "Felony",
-      "count": 636,
+      "count": 637,
       "pct": 16
     },
     {
@@ -1652,7 +1652,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1101,
+      "count": 1102,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2011,9 +2011,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1490,
+    "total": 1492,
     "withBail": 727,
-    "pct": 48.8
+    "pct": 48.7
   },
   "chargesByAgeGroup": [
     {
@@ -2289,16 +2289,16 @@
         "n": 30
       },
       {
+        "charge": "Weapons",
+        "avgWeight": 182,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 28
+      },
+      {
         "charge": "Resisting Arrest",
         "avgWeight": 193,
         "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 27
-      },
-      {
-        "charge": "Weapons",
-        "avgWeight": 181,
-        "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 27
       },
@@ -2764,7 +2764,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1771
+      "count": 1772
     }
   ]
 }

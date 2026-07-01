@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-01T15:23:00.732Z",
+  "generatedAt": "2026-07-01T17:32:13.216Z",
   "bookingCounts": {
-    "total": 1771,
-    "inCustody": 284,
+    "total": 1773,
+    "inCustody": 286,
     "released": 1487
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1201,
-      "pct": 67.8
+      "count": 1203,
+      "pct": 67.9
     },
     {
       "label": "Female",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1249,
-      "pct": 70.5
+      "count": 1251,
+      "pct": 70.6
     },
     {
       "label": "Unknown",
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 484
+        "count": 485
       },
       {
         "label": "36–45",
-        "count": 514
+        "count": 515
       },
       {
         "label": "46–55",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 102
+      "count": 104
     },
     {
       "label": "Other",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1099
+      "count": 1101
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 43261.29,
+    "mean": 43300.19,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1415
+    "count": 1414
   },
   "stay": {
     "mean": 20.8,
@@ -435,6 +435,12 @@
       "count": 74
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 5000,
+      "meanBail": 18651.2,
+      "count": 560
+    },
+    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 16919.81,
@@ -513,16 +519,10 @@
       "count": 1
     },
     {
-      "category": "Failure to Appear",
-      "medianBail": 3500,
-      "meanBail": 18594.33,
-      "count": 561
-    },
-    {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6402.99,
-      "count": 67
+      "meanBail": 6462.12,
+      "count": 66
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -545,8 +545,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1968.75,
-      "count": 48
+      "meanBail": 1948.98,
+      "count": 49
     },
     {
       "category": "Fugitive from Justice",
@@ -563,12 +563,12 @@
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 78,
       "Harassment": 41,
       "Failure to Appear": 510,
       "Domestic Violence": 169,
       "Drug Offense": 107,
       "DOC Warrant": 87,
-      "Criminal Trespass": 76,
       "Resisting Arrest": 27,
       "Residential Burglary": 11,
       "Protection Order Violation": 83,
@@ -779,13 +779,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 72,
       "Harassment": 52,
       "Driving While License Suspended": 118,
       "Failure to Appear": 476,
       "Domestic Violence": 156,
       "Drug Offense": 100,
       "DOC Warrant": 86,
-      "Criminal Trespass": 70,
       "Residential Burglary": 13,
       "Protection Order Violation": 87,
       "Assault": 93,
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 8.7,
     "repeatBookerCount": 140,
-    "totalIndividuals": 1605,
+    "totalIndividuals": 1607,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1448,14 +1448,14 @@
     },
     {
       "month": "2026-07",
-      "count": 2
+      "count": 4
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 792,
-      "pct": 30.5
+      "pct": 30.4
     },
     {
       "label": "Violent",
@@ -1469,7 +1469,7 @@
     },
     {
       "label": "Property",
-      "count": 306,
+      "count": 308,
       "pct": 11.8
     },
     {
@@ -1521,7 +1521,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 284,
+      "count": 286,
       "pct": 7.2
     }
   ],
@@ -1652,7 +1652,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1099,
+      "count": 1101,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1665,7 +1665,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 63
+          "count": 65
         },
         {
           "label": "Driving While License Suspended",
@@ -2230,7 +2230,7 @@
         "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 69
+        "n": 71
       },
       {
         "charge": "Other",
@@ -2764,7 +2764,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1768
+      "count": 1770
     }
   ]
 }

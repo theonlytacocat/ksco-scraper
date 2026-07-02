@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-02T18:32:32.861Z",
+  "generatedAt": "2026-07-02T19:37:54.916Z",
   "bookingCounts": {
-    "total": 1784,
+    "total": 1785,
     "inCustody": 280,
-    "released": 1504
+    "released": 1505
   },
   "gender": [
     {
@@ -13,8 +13,8 @@
     },
     {
       "label": "Female",
-      "count": 393,
-      "pct": 22
+      "count": 394,
+      "pct": 22.1
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1259,
+      "count": 1260,
       "pct": 70.6
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 190,
-      "pct": 10.7
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 517
+        "count": 518
       },
       {
         "label": "46–55",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1521
+      "count": 1522
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 43299.06,
+    "mean": 43353.23,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1416
+    "count": 1414
   },
   "stay": {
     "mean": 20.8,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1489,
+    "count": 1490,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 545
+        "count": 546
       },
       {
         "label": "1–3 days",
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 3000,
-      "meanBail": 18583.64,
-      "count": 558
+      "meanBail": 18632.5,
+      "count": 556
     },
     {
       "category": "Drug Offense",
@@ -778,6 +778,57 @@
     }
   },
   "chargesBySex": {
+    "Female": {
+      "Assault": 29,
+      "Failure to Appear": 166,
+      "DUI": 47,
+      "Driving While License Suspended": 24,
+      "Ignition Interlock Violation": 6,
+      "Domestic Violence": 68,
+      "DOC Warrant": 16,
+      "Criminal Trespass": 26,
+      "Resisting Arrest": 10,
+      "Residential Burglary": 2,
+      "Other": 16,
+      "Theft (2nd Degree)": 9,
+      "Obstruction": 15,
+      "Malicious Mischief": 4,
+      "Trafficking Stolen Property": 2,
+      "Motor Vehicle Theft": 6,
+      "Attempt to Elude": 1,
+      "Hit and Run": 8,
+      "Protection Order Violation": 22,
+      "Drug Offense": 30,
+      "Burglary (2nd Degree)": 10,
+      "Weapons": 2,
+      "Theft (3rd Degree)": 10,
+      "Theft (1st Degree)": 1,
+      "Harassment": 11,
+      "Interference with DV Reporting": 3,
+      "Vehicle Prowling": 1,
+      "Fugitive from Justice": 4,
+      "Robbery": 2,
+      "PR / Bail Revocation": 8,
+      "Local / Tribal Code": 3,
+      "Forgery": 1,
+      "Failure to Comply (Sentence)": 2,
+      "Possession of Stolen Vehicle": 3,
+      "Reckless Driving": 3,
+      "Homicide": 4,
+      "Making False Statements": 3,
+      "Court Hold": 1,
+      "Public Order": 2,
+      "Human Trafficking": 2,
+      "Assault (Child)": 1,
+      "Child Exploitation / CSAM": 1,
+      "Child Sex Offense": 1,
+      "Sex Offense": 1,
+      "Traffic / Obstruction": 2,
+      "Indecent Exposure": 1,
+      "Community Custody Violation": 2,
+      "Traffic Violation": 1,
+      "Bribery": 1
+    },
     "Male": {
       "Failure to Appear": 480,
       "Protection Order Violation": 88,
@@ -877,57 +928,6 @@
       "Failure to Comply (Sentence)": 1,
       "Residential Burglary": 1,
       "Theft (1st Degree)": 1
-    },
-    "Female": {
-      "Assault": 29,
-      "Failure to Appear": 166,
-      "DUI": 47,
-      "Driving While License Suspended": 24,
-      "Ignition Interlock Violation": 6,
-      "Domestic Violence": 68,
-      "DOC Warrant": 16,
-      "Criminal Trespass": 26,
-      "Resisting Arrest": 10,
-      "Residential Burglary": 2,
-      "Other": 16,
-      "Theft (2nd Degree)": 9,
-      "Obstruction": 15,
-      "Malicious Mischief": 4,
-      "Trafficking Stolen Property": 2,
-      "Motor Vehicle Theft": 6,
-      "Attempt to Elude": 1,
-      "Hit and Run": 8,
-      "Protection Order Violation": 22,
-      "Drug Offense": 30,
-      "Burglary (2nd Degree)": 10,
-      "Weapons": 2,
-      "Theft (3rd Degree)": 10,
-      "Theft (1st Degree)": 1,
-      "Harassment": 11,
-      "Interference with DV Reporting": 3,
-      "Vehicle Prowling": 1,
-      "Fugitive from Justice": 4,
-      "Robbery": 2,
-      "PR / Bail Revocation": 8,
-      "Local / Tribal Code": 3,
-      "Forgery": 1,
-      "Failure to Comply (Sentence)": 2,
-      "Possession of Stolen Vehicle": 3,
-      "Reckless Driving": 3,
-      "Homicide": 4,
-      "Making False Statements": 3,
-      "Court Hold": 1,
-      "Public Order": 2,
-      "Human Trafficking": 2,
-      "Assault (Child)": 1,
-      "Child Exploitation / CSAM": 1,
-      "Child Sex Offense": 1,
-      "Sex Offense": 1,
-      "Traffic / Obstruction": 2,
-      "Indecent Exposure": 1,
-      "Community Custody Violation": 2,
-      "Traffic Violation": 1,
-      "Bribery": 1
     }
   },
   "releaseReasons": [
@@ -941,7 +941,7 @@
     },
     {
       "label": "Released",
-      "count": 390
+      "count": 391
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -974,7 +974,7 @@
   ],
   "recidivism": {
     "rate": 8.9,
-    "repeatBookerCount": 143,
+    "repeatBookerCount": 144,
     "totalIndividuals": 1615,
     "repeatBookers": [
       {
@@ -1448,7 +1448,7 @@
     },
     {
       "month": "2026-07",
-      "count": 15
+      "count": 16
     }
   ],
   "crimeTypes": [
@@ -1506,7 +1506,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2405,
+      "count": 2406,
       "pct": 60.2
     },
     {
@@ -1625,12 +1625,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1525,
+      "count": 1526,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 503
+          "count": 504
         },
         {
           "label": "Domestic Violence",
@@ -2011,7 +2011,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1504,
+    "total": 1505,
     "withBail": 734,
     "pct": 48.8
   },
@@ -2764,7 +2764,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1781
+      "count": 1782
     }
   ]
 }

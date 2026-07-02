@@ -1,6 +1,25 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026002966",
+    "name": "KLOD, SAMANTHA JEAN",
+    "bookingDate": "",
+    "charges": [],
+    "age": "45",
+    "sex": "F",
+    "race": "W",
+    "height": "504",
+    "weight": "125",
+    "hair": "RED",
+    "eyes": "BLU",
+    "inmateId": "50003046",
+    "schedRelease": null,
+    "firstSeen": "07/02/2026, 12:35:09",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026002965",
     "name": "ANDREWS, CRAIG DONAVON",
     "bookingDate": "",
@@ -304,8 +323,8 @@
     "inmateId": "50005131",
     "schedRelease": null,
     "firstSeen": "07/01/2026, 21:41:18",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "07/02/2026, 12:35:09",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -719,9 +738,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -6546,14 +6565,14 @@
         "cleared": false,
         "addDesc": "ASLT 4 DV",
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 2500,
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "10539611",
-        "nextCourtDate": "07/02/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "06/22/2026",
-        "courtType": "DS"
+        "courtType": null
       }
     ],
     "age": "49",
@@ -6564,7 +6583,7 @@
     "hair": "BRO",
     "eyes": "BRO",
     "inmateId": "30026209",
-    "schedRelease": null,
+    "schedRelease": "07/22/2026",
     "firstSeen": "06/22/2026, 11:49:29",
     "releasedAt": null,
     "status": "in_custody"
@@ -43070,7 +43089,7 @@
         "bondAmount": 2500,
         "cashAmount": null,
         "courtCase": "350430653",
-        "nextCourtDate": "07/01/2026",
+        "nextCourtDate": "07/07/2026",
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "04/29/2026",
         "courtType": "DS"
@@ -46076,14 +46095,14 @@
         "cleared": false,
         "addDesc": "DUI, HIT/RUN",
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 7500,
+        "bondBailType": "GL",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": "350422490",
-        "nextCourtDate": "07/02/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "04/23/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "26.20.035(3) - FAMILY NONSUPPORT",
@@ -46122,7 +46141,7 @@
     "hair": "BRO",
     "eyes": "BLU",
     "inmateId": "40253676",
-    "schedRelease": "08/08/2026",
+    "schedRelease": "07/12/2026",
     "firstSeen": "04/23/2026, 03:30:24",
     "releasedAt": null,
     "status": "in_custody"
@@ -51089,38 +51108,38 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": "ASLT 4 DV",
-        "clearance": "RL",
-        "bondBailType": "OOC",
+        "clearance": null,
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "23821902",
-        "nextCourtDate": "07/02/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "04/28/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": "VPO DV",
-        "clearance": "RL",
-        "bondBailType": "OOC",
+        "clearance": null,
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "23821904",
-        "nextCourtDate": "07/02/2026",
+        "nextCourtDate": null,
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "04/28/2026",
-        "courtType": "DS"
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": true,
+        "cleared": false,
         "addDesc": "VPO DV, ASLT 4 DV",
-        "clearance": "RL",
-        "bondBailType": "OOC",
+        "clearance": null,
+        "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "23821903",
@@ -61526,6 +61545,20 @@
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "02/23/2026",
         "courtType": null
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": "ASLT 4 DV",
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "16654135",
+        "nextCourtDate": "07/02/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "07/02/2026",
+        "courtType": "DS"
       }
     ],
     "age": "33",

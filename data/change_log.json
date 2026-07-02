@@ -1,15 +1,63 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026002962",
+    "name": "MELTON, KENNETH DAVID",
+    "bookingDate": "",
+    "charges": [
+      {
+        "violation": "9A.36.031(2) - ASSAULT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 35000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/03/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "07/02/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.020 - OBSTRUCT LAW ENFORCEMENT OFC",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/03/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "07/02/2026",
+        "courtType": "SC"
+      }
+    ],
+    "age": "45",
+    "sex": "M",
+    "race": "W",
+    "height": "509",
+    "weight": "206",
+    "hair": "BLK",
+    "eyes": "BLU",
+    "inmateId": "50003244",
+    "schedRelease": null,
+    "firstSeen": "07/02/2026, 04:08:52",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026002961",
     "name": "BLANCHARD, KERRY BRIAN",
     "bookingDate": "",
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -30,8 +78,8 @@
     "inmateId": "30035183",
     "schedRelease": null,
     "firstSeen": "07/02/2026, 01:13:08",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "07/02/2026, 04:08:52",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -45315,9 +45363,9 @@
       },
       {
         "violation": "NONE - REVOCATION OF PR/BAIL",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "MM 3",
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,

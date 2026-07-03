@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-03T10:42:36.715Z",
+  "generatedAt": "2026-07-03T13:00:39.137Z",
   "bookingCounts": {
-    "total": 1800,
-    "inCustody": 282,
-    "released": 1518
+    "total": 1801,
+    "inCustody": 281,
+    "released": 1520
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1221,
-      "pct": 67.8
+      "count": 1222,
+      "pct": 67.9
     },
     {
       "label": "Female",
@@ -19,19 +19,19 @@
     {
       "label": "Unknown",
       "count": 181,
-      "pct": 10.1
+      "pct": 10
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 1273,
+      "count": 1274,
       "pct": 70.7
     },
     {
       "label": "Unknown",
       "count": 226,
-      "pct": 12.6
+      "pct": 12.5
     },
     {
       "label": "Black",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 523
+        "count": 524
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 263
+      "count": 264
     },
     {
       "label": "DUI",
@@ -178,7 +178,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 29
+      "count": 32
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 42968.03,
+    "mean": 42998.06,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1432
+    "count": 1431
   },
   "stay": {
-    "mean": 20.8,
+    "mean": 20.7,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1503,
+    "count": 1505,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 550
+        "count": 552
       },
       {
         "label": "1–3 days",
@@ -382,8 +382,8 @@
     },
     {
       "category": "Possession of Stolen Property",
-      "medianBail": 10000,
-      "meanBail": 18020,
+      "medianBail": 11000,
+      "meanBail": 18220,
       "count": 5
     },
     {
@@ -521,8 +521,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6823.94,
-      "count": 71
+      "meanBail": 6907.14,
+      "count": 70
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -562,6 +562,71 @@
     }
   ],
   "chargesByRace": {
+    "White": {
+      "Theft (1st Degree)": 7,
+      "Interference with DV Reporting": 14,
+      "Domestic Violence": 170,
+      "DUI": 157,
+      "Protection Order Violation": 86,
+      "Drug Offense": 112,
+      "Failure to Appear": 519,
+      "Obstruction": 59,
+      "Making False Statements": 26,
+      "DOC Warrant": 89,
+      "Other": 61,
+      "Possession of Stolen Property": 7,
+      "Failure to Comply (Sentence)": 25,
+      "Criminal Trespass": 79,
+      "Assault": 88,
+      "Theft (3rd Degree)": 44,
+      "Weapons": 20,
+      "Ignition Interlock Violation": 39,
+      "Driving While License Suspended": 107,
+      "Harassment": 41,
+      "Resisting Arrest": 27,
+      "Residential Burglary": 11,
+      "PR / Bail Revocation": 17,
+      "Robbery": 10,
+      "Motor Vehicle Theft": 16,
+      "Burglary (2nd Degree)": 35,
+      "Theft (2nd Degree)": 30,
+      "Burglary (1st Degree)": 6,
+      "Malicious Mischief": 36,
+      "Trafficking Stolen Property": 6,
+      "Attempt to Elude": 14,
+      "Possession of Stolen Vehicle": 18,
+      "Hit and Run": 24,
+      "Sex Offense": 13,
+      "Kidnapping / Unlawful Imprisonment": 4,
+      "Arson": 4,
+      "Reckless Driving": 16,
+      "Child Exploitation / CSAM": 12,
+      "Fugitive from Justice": 10,
+      "Traffic Violation": 6,
+      "Identity Theft": 4,
+      "Indecent Exposure": 5,
+      "Child Sex Offense": 16,
+      "Court Hold": 6,
+      "Local / Tribal Code": 9,
+      "Public Order": 4,
+      "Stalking": 8,
+      "Vehicle Prowling": 10,
+      "Traffic / Obstruction": 6,
+      "Forgery": 3,
+      "Probation Violation": 2,
+      "Homicide": 14,
+      "Burglary Tools": 5,
+      "Tampering with Evidence": 2,
+      "Criminal Impersonation": 3,
+      "Failure to Register (Sex Offender)": 7,
+      "Community Custody Violation": 3,
+      "Assault (Child)": 2,
+      "Human Trafficking": 2,
+      "Witness Tampering": 2,
+      "Incest": 1,
+      "Theft": 1,
+      "Bribery": 1
+    },
     "Black": {
       "Driving While License Suspended": 21,
       "Failure to Appear": 68,
@@ -610,71 +675,6 @@
       "Interference with DV Reporting": 1,
       "Sex Offense": 1,
       "Vehicle Prowling": 1
-    },
-    "White": {
-      "DUI": 157,
-      "Protection Order Violation": 86,
-      "Drug Offense": 112,
-      "Failure to Appear": 519,
-      "Obstruction": 59,
-      "Making False Statements": 26,
-      "DOC Warrant": 89,
-      "Other": 61,
-      "Possession of Stolen Property": 7,
-      "Failure to Comply (Sentence)": 25,
-      "Criminal Trespass": 79,
-      "Assault": 88,
-      "Theft (3rd Degree)": 44,
-      "Weapons": 20,
-      "Ignition Interlock Violation": 39,
-      "Driving While License Suspended": 107,
-      "Harassment": 41,
-      "Domestic Violence": 169,
-      "Resisting Arrest": 27,
-      "Residential Burglary": 11,
-      "PR / Bail Revocation": 17,
-      "Robbery": 10,
-      "Motor Vehicle Theft": 16,
-      "Burglary (2nd Degree)": 35,
-      "Theft (2nd Degree)": 30,
-      "Burglary (1st Degree)": 6,
-      "Malicious Mischief": 36,
-      "Trafficking Stolen Property": 6,
-      "Attempt to Elude": 14,
-      "Possession of Stolen Vehicle": 18,
-      "Hit and Run": 24,
-      "Sex Offense": 13,
-      "Kidnapping / Unlawful Imprisonment": 4,
-      "Arson": 4,
-      "Reckless Driving": 16,
-      "Child Exploitation / CSAM": 12,
-      "Fugitive from Justice": 10,
-      "Traffic Violation": 6,
-      "Identity Theft": 4,
-      "Indecent Exposure": 5,
-      "Child Sex Offense": 16,
-      "Court Hold": 6,
-      "Local / Tribal Code": 9,
-      "Theft (1st Degree)": 6,
-      "Interference with DV Reporting": 13,
-      "Public Order": 4,
-      "Stalking": 8,
-      "Vehicle Prowling": 10,
-      "Traffic / Obstruction": 6,
-      "Forgery": 3,
-      "Probation Violation": 2,
-      "Homicide": 14,
-      "Burglary Tools": 5,
-      "Tampering with Evidence": 2,
-      "Criminal Impersonation": 3,
-      "Failure to Register (Sex Offender)": 7,
-      "Community Custody Violation": 3,
-      "Assault (Child)": 2,
-      "Human Trafficking": 2,
-      "Witness Tampering": 2,
-      "Incest": 1,
-      "Theft": 1,
-      "Bribery": 1
     },
     "Unknown": {
       "DUI": 57,
@@ -780,6 +780,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Theft (1st Degree)": 9,
+      "Interference with DV Reporting": 12,
+      "Domestic Violence": 158,
       "Driving While License Suspended": 120,
       "Failure to Appear": 483,
       "DUI": 147,
@@ -793,7 +796,6 @@
       "Possession of Stolen Property": 7,
       "Assault": 95,
       "Theft (3rd Degree)": 42,
-      "Domestic Violence": 157,
       "Weapons": 29,
       "Ignition Interlock Violation": 43,
       "Criminal Trespass": 72,
@@ -825,11 +827,9 @@
       "Indecent Exposure": 8,
       "Child Sex Offense": 15,
       "Court Hold": 7,
-      "Interference with DV Reporting": 11,
       "Trafficking Stolen Property": 4,
       "Stalking": 10,
       "Traffic / Obstruction": 6,
-      "Theft (1st Degree)": 8,
       "Vehicle Prowling": 11,
       "Probation Violation": 2,
       "Homicide": 16,
@@ -935,11 +935,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 504
+      "count": 505
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 417
+      "count": 418
     },
     {
       "label": "Released",
@@ -977,7 +977,7 @@
   "recidivism": {
     "rate": 9,
     "repeatBookerCount": 146,
-    "totalIndividuals": 1626,
+    "totalIndividuals": 1627,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1455,7 +1455,7 @@
     },
     {
       "month": "2026-07",
-      "count": 31
+      "count": 32
     }
   ],
   "crimeTypes": [
@@ -1466,7 +1466,7 @@
     },
     {
       "label": "Violent",
-      "count": 402,
+      "count": 403,
       "pct": 15.2
     },
     {
@@ -1476,7 +1476,7 @@
     },
     {
       "label": "Property",
-      "count": 312,
+      "count": 313,
       "pct": 11.8
     },
     {
@@ -1486,8 +1486,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 199,
-      "pct": 7.5
+      "count": 200,
+      "pct": 7.6
     },
     {
       "label": "Drug",
@@ -1514,16 +1514,16 @@
     {
       "label": "Gross Misdemeanor",
       "count": 2421,
-      "pct": 60.1
+      "pct": 60
     },
     {
       "label": "Unknown",
-      "count": 676,
+      "count": 677,
       "pct": 16.8
     },
     {
       "label": "Felony",
-      "count": 644,
+      "count": 646,
       "pct": 16
     },
     {
@@ -1848,7 +1848,7 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 29,
+      "count": 32,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1861,7 +1861,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 3
+          "count": 4
         },
         {
           "label": "Driving While License Suspended",
@@ -2018,9 +2018,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1518,
-    "withBail": 740,
-    "pct": 48.7
+    "total": 1520,
+    "withBail": 742,
+    "pct": 48.8
   },
   "chargesByAgeGroup": [
     {
@@ -2036,7 +2036,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 49
+          "count": 50
         },
         {
           "label": "Driving While License Suspended",
@@ -2188,7 +2188,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 152
+        "n": 153
       },
       {
         "charge": "DUI",
@@ -2408,6 +2408,13 @@
         "n": 13
       },
       {
+        "charge": "Interference with DV Reporting",
+        "avgWeight": 174,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 12
+      },
+      {
         "charge": "Child Exploitation / CSAM",
         "avgWeight": 202,
         "avgHeight": "5'9\"",
@@ -2418,13 +2425,6 @@
         "charge": "Burglary (1st Degree)",
         "avgWeight": 180,
         "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 11
-      },
-      {
-        "charge": "Interference with DV Reporting",
-        "avgWeight": 178,
-        "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 11
       },
@@ -2443,6 +2443,13 @@
         "n": 10
       },
       {
+        "charge": "Theft (1st Degree)",
+        "avgWeight": 157,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 9
+      },
+      {
         "charge": "Stalking",
         "avgWeight": 181,
         "avgHeight": "5'9\"",
@@ -2453,13 +2460,6 @@
         "charge": "Indecent Exposure",
         "avgWeight": 167,
         "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 8
-      },
-      {
-        "charge": "Theft (1st Degree)",
-        "avgWeight": 160,
-        "avgHeight": "5'8\"",
         "topRace": "White",
         "n": 8
       },
@@ -2778,7 +2778,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1797
+      "count": 1798
     }
   ]
 }

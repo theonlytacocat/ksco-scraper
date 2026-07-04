@@ -77899,7 +77899,7 @@
         "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 1000,
+        "bondAmount": 250,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "07/06/2026",
@@ -77912,8 +77912,8 @@
         "cleared": false,
         "addDesc": null,
         "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondBailType": "CC",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
         "nextCourtDate": "07/06/2026",
@@ -78199,23 +78199,23 @@
     "charges": [
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "NF",
+        "bondBailType": "NF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "07/06/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "07/03/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/03/2026, 03:39:28",
-    "releasedAt": null
+    "releasedAt": "07/04/2026, 15:28:56"
   },
   "2026002979": {
     "bookingNumber": "2026002979",
@@ -78888,10 +78888,10 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "PR",
+        "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
@@ -78902,9 +78902,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/04/2026, 06:40:11",
-    "releasedAt": null
+    "releasedAt": "07/04/2026, 15:28:57"
   },
   "2026002995": {
     "bookingNumber": "2026002995",
@@ -79071,7 +79071,7 @@
         "nextCourtDate": "07/06/2026",
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "07/04/2026",
-        "courtType": "SC"
+        "courtType": "DS"
       }
     ],
     "totalBond": 5000,

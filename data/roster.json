@@ -78291,9 +78291,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -78305,9 +78305,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "ASSAULT 4 DV",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 10000,
         "cashAmount": null,
@@ -78319,9 +78319,9 @@
       }
     ],
     "totalBond": 11000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/03/2026, 03:39:29",
-    "releasedAt": null
+    "releasedAt": "07/04/2026, 20:44:10"
   },
   "2026002981": {
     "bookingNumber": "2026002981",
@@ -79100,9 +79100,9 @@
     "charges": [
       {
         "violation": "46.20.342(1)(C) - DWLS 3 -DRIVE W/LICENSE SUSP OR REVOKED-3 OR REVOKED LIC OR PRIVILEGE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "PR",
         "bondAmount": null,
         "cashAmount": null,
@@ -79114,8 +79114,47 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/04/2026, 16:35:25",
+    "releasedAt": "07/04/2026, 20:44:11"
+  },
+  "2026003002": {
+    "bookingNumber": "2026003002",
+    "firstName": "LARRY",
+    "lastName": "NIXON",
+    "middleName": "J",
+    "race": "W",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=20&BookingNumber=1",
+    "inmateId": "50005140",
+    "schedRelease": null,
+    "age": "35",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "charges": [
+      {
+        "violation": "9A.36.041(2) - ASSAULT-4 - DV",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/06/2026",
+        "arrestAgency": "POULSBO POLICE DEPARTMENT",
+        "arrestDate": "07/04/2026",
+        "courtType": "PMC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "07/04/2026, 20:44:10",
     "releasedAt": null
   }
 }

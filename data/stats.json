@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-06T22:19:41.940Z",
+  "generatedAt": "2026-07-06T23:41:48.929Z",
   "bookingCounts": {
     "total": 1847,
-    "inCustody": 283,
-    "released": 1564
+    "inCustody": 279,
+    "released": 1568
   },
   "gender": [
     {
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 42370.9,
+    "mean": 42194.48,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1472
+    "count": 1473
   },
   "stay": {
-    "mean": 20.7,
+    "mean": 20.8,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1548,
+    "count": 1552,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 570
+        "count": 572
       },
       {
         "label": "1–3 days",
-        "count": 332
+        "count": 333
       },
       {
         "label": "4–7 days",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 88
+        "count": 89
       }
     ]
   },
@@ -286,8 +286,8 @@
     },
     {
       "category": "Burglary (1st Degree)",
-      "medianBail": 100000,
-      "meanBail": 143000,
+      "medianBail": 75000,
+      "meanBail": 103000,
       "count": 5
     },
     {
@@ -327,12 +327,6 @@
       "count": 8
     },
     {
-      "category": "Assault",
-      "medianBail": 30000,
-      "meanBail": 104932.2,
-      "count": 59
-    },
-    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 181666.67,
@@ -351,10 +345,10 @@
       "count": 1
     },
     {
-      "category": "Domestic Violence",
+      "category": "Assault",
       "medianBail": 25000,
-      "meanBail": 148329.27,
-      "count": 41
+      "meanBail": 104338.98,
+      "count": 59
     },
     {
       "category": "Possession of Stolen Vehicle",
@@ -363,10 +357,22 @@
       "count": 7
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 22500,
+      "meanBail": 145154.76,
+      "count": 42
+    },
+    {
       "category": "Burglary (2nd Degree)",
       "medianBail": 15000,
       "meanBail": 26487.5,
       "count": 24
+    },
+    {
+      "category": "Protection Order Violation",
+      "medianBail": 12500,
+      "meanBail": 49589.29,
+      "count": 28
     },
     {
       "category": "Weapons",
@@ -375,16 +381,10 @@
       "count": 10
     },
     {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 50685.19,
-      "count": 27
-    },
-    {
       "category": "Possession of Stolen Property",
-      "medianBail": 10000,
-      "meanBail": 18020,
-      "count": 5
+      "medianBail": 11250,
+      "meanBail": 18150,
+      "count": 4
     },
     {
       "category": "Harassment",
@@ -933,7 +933,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 514
+      "count": 516
     },
     {
       "label": "Released (Unknown Reason)",
@@ -941,7 +941,7 @@
     },
     {
       "label": "Released",
-      "count": 410
+      "count": 411
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -969,7 +969,7 @@
     },
     {
       "label": "Community Custody Revocation",
-      "count": 3
+      "count": 4
     }
   ],
   "recidivism": {
@@ -1581,8 +1581,8 @@
     {
       "category": "Failure to Appear",
       "avgDays": 17.5,
-      "medianDays": 3.3,
-      "count": 296
+      "medianDays": 3.2,
+      "count": 297
     },
     {
       "category": "Harassment",
@@ -2016,9 +2016,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1564,
-    "withBail": 763,
-    "pct": 48.8
+    "total": 1568,
+    "withBail": 764,
+    "pct": 48.7
   },
   "chargesByAgeGroup": [
     {

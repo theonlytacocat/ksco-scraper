@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-06T13:08:05.422Z",
+  "generatedAt": "2026-07-06T16:41:20.117Z",
   "bookingCounts": {
     "total": 1842,
-    "inCustody": 295,
-    "released": 1547
+    "inCustody": 291,
+    "released": 1551
   },
   "gender": [
     {
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 139
+      "count": 140
     },
     {
       "label": "Protection Order Violation",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1560
+      "count": 1561
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1172
+      "count": 1173
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 42289.92,
+    "mean": 42557.13,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1471
+    "count": 1461
   },
   "stay": {
     "mean": 20.7,
     "median": 1.9,
     "min": 0,
     "max": 648.6,
-    "count": 1531,
+    "count": 1535,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 567
+        "count": 568
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 129
+        "count": 130
       },
       {
         "label": "1–2 weeks",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 146
+        "count": 147
       },
       {
         "label": "1–3 months",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 86
+        "count": 87
       }
     ]
   },
@@ -333,6 +333,12 @@
       "count": 8
     },
     {
+      "category": "Assault",
+      "medianBail": 30000,
+      "meanBail": 104932.2,
+      "count": 59
+    },
+    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 181666.67,
@@ -351,12 +357,6 @@
       "count": 1
     },
     {
-      "category": "Assault",
-      "medianBail": 27500,
-      "meanBail": 105879.31,
-      "count": 58
-    },
-    {
       "category": "Domestic Violence",
       "medianBail": 25000,
       "meanBail": 151975,
@@ -371,14 +371,8 @@
     {
       "category": "Burglary (2nd Degree)",
       "medianBail": 15000,
-      "meanBail": 25628,
-      "count": 25
-    },
-    {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 37078.95,
-      "count": 19
+      "meanBail": 26487.5,
+      "count": 24
     },
     {
       "category": "Weapons",
@@ -395,8 +389,14 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 52153.85,
-      "count": 26
+      "meanBail": 53840,
+      "count": 25
+    },
+    {
+      "category": "Harassment",
+      "medianBail": 10000,
+      "meanBail": 38583.33,
+      "count": 18
     },
     {
       "category": "Trafficking Stolen Property",
@@ -423,33 +423,39 @@
       "count": 1
     },
     {
+      "category": "Indecent Exposure",
+      "medianBail": 5750,
+      "meanBail": 58916.67,
+      "count": 6
+    },
+    {
       "category": "Other",
       "medianBail": 5000,
-      "meanBail": 20551.72,
-      "count": 58
+      "meanBail": 20824.56,
+      "count": 57
     },
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 18934.43,
-      "count": 122
+      "meanBail": 19028.93,
+      "count": 121
     },
     {
       "category": "Obstruction",
       "medianBail": 5000,
-      "meanBail": 6140.63,
-      "count": 32
+      "meanBail": 5693.55,
+      "count": 31
     },
     {
       "category": "Driving While License Suspended",
       "medianBail": 5000,
-      "meanBail": 5986.84,
-      "count": 76
+      "meanBail": 6000,
+      "count": 75
     },
     {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
-      "meanBail": 4055.56,
+      "meanBail": 3851.85,
       "count": 27
     },
     {
@@ -457,12 +463,6 @@
       "medianBail": 5000,
       "meanBail": 5153.85,
       "count": 13
-    },
-    {
-      "category": "Public Order",
-      "medianBail": 5000,
-      "meanBail": 5062.5,
-      "count": 4
     },
     {
       "category": "Malicious Mischief",
@@ -477,16 +477,16 @@
       "count": 19
     },
     {
-      "category": "Making False Statements",
-      "medianBail": 5000,
-      "meanBail": 3363.64,
-      "count": 11
-    },
-    {
       "category": "Reckless Driving",
       "medianBail": 5000,
       "meanBail": 5450,
       "count": 10
+    },
+    {
+      "category": "Public Order",
+      "medianBail": 5000,
+      "meanBail": 6666.67,
+      "count": 3
     },
     {
       "category": "Vehicle Prowling",
@@ -507,16 +507,16 @@
       "count": 1
     },
     {
-      "category": "Failure to Appear",
-      "medianBail": 3000,
-      "meanBail": 18533.57,
-      "count": 571
+      "category": "Making False Statements",
+      "medianBail": 3750,
+      "meanBail": 3104.17,
+      "count": 12
     },
     {
-      "category": "Indecent Exposure",
-      "medianBail": 3000,
-      "meanBail": 50928.57,
-      "count": 7
+      "category": "Failure to Appear",
+      "medianBail": 2750,
+      "meanBail": 18548.54,
+      "count": 570
     },
     {
       "category": "Drug Offense",
@@ -543,12 +543,6 @@
       "count": 4
     },
     {
-      "category": "Resisting Arrest",
-      "medianBail": 1000,
-      "meanBail": 1714.29,
-      "count": 7
-    },
-    {
       "category": "Criminal Trespass",
       "medianBail": 1000,
       "meanBail": 1928.57,
@@ -559,6 +553,12 @@
       "medianBail": 1000,
       "meanBail": 1000,
       "count": 1
+    },
+    {
+      "category": "Resisting Arrest",
+      "medianBail": 1000,
+      "meanBail": 2100,
+      "count": 5
     }
   ],
   "chargesByRace": {
@@ -611,7 +611,7 @@
       "Malicious Mischief": 37,
       "Other": 67,
       "DUI": 163,
-      "Assault": 90,
+      "Assault": 91,
       "Obstruction": 62,
       "Assault (Child)": 3,
       "Domestic Violence": 174,
@@ -785,7 +785,7 @@
       "Attempt to Elude": 2,
       "Burglary (1st Degree)": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
-      "Assault": 32,
+      "Assault": 33,
       "DUI": 51,
       "Driving While License Suspended": 26,
       "Ignition Interlock Violation": 7,
@@ -939,11 +939,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 511
+      "count": 512
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 429
+      "count": 430
     },
     {
       "label": "Released",
@@ -959,7 +959,7 @@
     },
     {
       "label": "Failure to Comply",
-      "count": 26
+      "count": 28
     },
     {
       "label": "PR / Bail Revoked",
@@ -1475,7 +1475,7 @@
     },
     {
       "label": "Violent",
-      "count": 412,
+      "count": 413,
       "pct": 15.2
     },
     {
@@ -1517,23 +1517,23 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2475,
+      "count": 2474,
       "pct": 59.9
     },
     {
       "label": "Unknown",
-      "count": 702,
+      "count": 703,
       "pct": 17
     },
     {
       "label": "Felony",
-      "count": 653,
+      "count": 654,
       "pct": 15.8
     },
     {
       "label": "Misdemeanor",
-      "count": 299,
-      "pct": 7.2
+      "count": 300,
+      "pct": 7.3
     }
   ],
   "avgCharges": {
@@ -1580,9 +1580,9 @@
     },
     {
       "category": "Failure to Comply (Sentence)",
-      "avgDays": 19.6,
+      "avgDays": 18.8,
       "medianDays": 3.7,
-      "count": 21
+      "count": 22
     },
     {
       "category": "Harassment",
@@ -1636,7 +1636,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1564,
+      "count": 1565,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1653,7 +1653,7 @@
         },
         {
           "label": "Assault",
-          "count": 69
+          "count": 70
         },
         {
           "label": "Protection Order Violation",
@@ -1663,7 +1663,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1172,
+      "count": 1173,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2022,9 +2022,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1547,
-    "withBail": 761,
-    "pct": 49.2
+    "total": 1551,
+    "withBail": 762,
+    "pct": 49.1
   },
   "chargesByAgeGroup": [
     {
@@ -2196,7 +2196,7 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 148,
+        "avgWeight": 149,
         "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 48
@@ -2210,10 +2210,10 @@
       },
       {
         "charge": "Assault",
-        "avgWeight": 153,
+        "avgWeight": 156,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 30
+        "n": 32
       },
       {
         "charge": "Criminal Trespass",
@@ -2224,8 +2224,8 @@
       },
       {
         "charge": "Driving While License Suspended",
-        "avgWeight": 151,
-        "avgHeight": "5'5\"",
+        "avgWeight": 153,
+        "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 25
       },
@@ -2238,10 +2238,10 @@
       },
       {
         "charge": "Other",
-        "avgWeight": 185,
+        "avgWeight": 186,
         "avgHeight": "5'6\"",
         "topRace": "White",
-        "n": 17
+        "n": 18
       },
       {
         "charge": "Obstruction",
@@ -2300,18 +2300,18 @@
         "n": 8
       },
       {
+        "charge": "Ignition Interlock Violation",
+        "avgWeight": 158,
+        "avgHeight": "5'4\"",
+        "topRace": "Black",
+        "n": 7
+      },
+      {
         "charge": "Hit and Run",
         "avgWeight": 168,
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 7
-      },
-      {
-        "charge": "Ignition Interlock Violation",
-        "avgWeight": 151,
-        "avgHeight": "5'4\"",
-        "topRace": "Black",
-        "n": 6
       },
       {
         "charge": "Motor Vehicle Theft",

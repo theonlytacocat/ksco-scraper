@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-07T15:34:25.344Z",
+  "generatedAt": "2026-07-07T16:36:22.802Z",
   "bookingCounts": {
     "total": 1852,
-    "inCustody": 281,
-    "released": 1571
+    "inCustody": 279,
+    "released": 1573
   },
   "gender": [
     {
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 685
+      "count": 686
     },
     {
       "label": "Domestic Violence",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 122
+      "count": 123
     },
     {
       "label": "DOC Warrant",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1575
+      "count": 1577
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 42162.8,
+    "mean": 42165.85,
     "median": 5000,
     "min": 50,
     "max": 4000000,
     "count": 1474
   },
   "stay": {
-    "mean": 20.7,
+    "mean": 21.7,
     "median": 1.9,
     "min": 0,
-    "max": 648.6,
-    "count": 1555,
+    "max": 1233.4,
+    "count": 1557,
     "histogram": [
       {
         "label": "< 1 day",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 89
+        "count": 91
       }
     ]
   },
@@ -369,12 +369,6 @@
       "count": 24
     },
     {
-      "category": "Protection Order Violation",
-      "medianBail": 12500,
-      "meanBail": 49589.29,
-      "count": 28
-    },
-    {
       "category": "Possession of Stolen Property",
       "medianBail": 11250,
       "meanBail": 18150,
@@ -385,6 +379,12 @@
       "medianBail": 10000,
       "meanBail": 17909.09,
       "count": 11
+    },
+    {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 48051.72,
+      "count": 29
     },
     {
       "category": "Harassment",
@@ -515,8 +515,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 18419.11,
-      "count": 582
+      "meanBail": 18449.95,
+      "count": 581
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -563,7 +563,7 @@
       "Weapons": 22,
       "DOC Warrant": 91,
       "Drug Offense": 117,
-      "Failure to Appear": 529,
+      "Failure to Appear": 530,
       "Public Order": 5,
       "Malicious Mischief": 37,
       "Other": 67,
@@ -623,13 +623,13 @@
     },
     "Asian / Pacific Islander": {
       "Failure to Appear": 27,
+      "Protection Order Violation": 6,
       "Indecent Exposure": 1,
       "Drug Offense": 4,
       "Criminal Trespass": 5,
       "Assault": 3,
       "Driving While License Suspended": 5,
       "Ignition Interlock Violation": 3,
-      "Protection Order Violation": 5,
       "Domestic Violence": 7,
       "DOC Warrant": 1,
       "Malicious Mischief": 2,
@@ -778,10 +778,10 @@
     "Male": {
       "Driving While License Suspended": 124,
       "Domestic Violence": 163,
-      "Protection Order Violation": 91,
+      "Protection Order Violation": 92,
       "DOC Warrant": 91,
       "Drug Offense": 108,
-      "Failure to Appear": 492,
+      "Failure to Appear": 493,
       "Harassment": 53,
       "Assault (Child)": 2,
       "Resisting Arrest": 29,
@@ -933,7 +933,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 516
+      "count": 517
     },
     {
       "label": "Released (Unknown Reason)",
@@ -945,7 +945,7 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 89
+      "count": 90
     },
     {
       "label": "DOC Transfer / Detainer",
@@ -1459,7 +1459,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 820,
+      "count": 821,
       "pct": 30.1
     },
     {
@@ -1484,7 +1484,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 204,
+      "count": 205,
       "pct": 7.5
     },
     {
@@ -1511,7 +1511,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2494,
+      "count": 2496,
       "pct": 60
     },
     {
@@ -1630,12 +1630,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1579,
+      "count": 1581,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 518
+          "count": 519
         },
         {
           "label": "Domestic Violence",
@@ -1651,7 +1651,7 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 62
+          "count": 63
         }
       ]
     },
@@ -2016,9 +2016,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1571,
+    "total": 1573,
     "withBail": 766,
-    "pct": 48.8
+    "pct": 48.7
   },
   "chargesByAgeGroup": [
     {
@@ -2101,7 +2101,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 105
+          "count": 106
         },
         {
           "label": "Drug Offense",
@@ -2179,7 +2179,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 487
+        "n": 488
       },
       {
         "charge": "Domestic Violence",
@@ -2218,10 +2218,10 @@
       },
       {
         "charge": "Protection Order Violation",
-        "avgWeight": 189,
+        "avgWeight": 190,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 91
+        "n": 92
       },
       {
         "charge": "DOC Warrant",

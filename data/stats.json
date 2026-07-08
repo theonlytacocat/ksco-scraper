@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-08T03:40:08.772Z",
+  "generatedAt": "2026-07-08T06:33:35.565Z",
   "bookingCounts": {
-    "total": 1858,
+    "total": 1859,
     "inCustody": 274,
-    "released": 1584
+    "released": 1585
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1258,
+      "count": 1259,
       "pct": 67.7
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1312,
+      "count": 1313,
       "pct": 70.6
     },
     {
@@ -50,14 +50,14 @@
     }
   ],
   "age": {
-    "mean": 38.5,
+    "mean": 38.4,
     "median": 37,
     "min": 18,
     "max": 87,
     "histogram": [
       {
         "label": "18–25",
-        "count": 265
+        "count": 266
       },
       {
         "label": "26–35",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 124
+      "count": 125
     },
     {
       "label": "DOC Warrant",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 221
+      "count": 222
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -193,11 +193,11 @@
     "count": 1478
   },
   "stay": {
-    "mean": 21.7,
+    "mean": 21.6,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1568,
+    "count": 1569,
     "histogram": [
       {
         "label": "< 1 day",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 136
+        "count": 137
       },
       {
         "label": "1–2 weeks",
@@ -557,13 +557,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "Protection Order Violation": 91,
       "Failure to Appear": 533,
       "Weapons": 23,
       "Drug Offense": 118,
       "Resisting Arrest": 31,
       "Driving While License Suspended": 110,
       "Domestic Violence": 176,
-      "Protection Order Violation": 90,
       "DOC Warrant": 91,
       "Public Order": 5,
       "Malicious Mischief": 37,
@@ -776,6 +776,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Protection Order Violation": 94,
       "Failure to Appear": 495,
       "Weapons": 31,
       "Drug Offense": 109,
@@ -783,7 +784,6 @@
       "Sex Offense": 15,
       "Driving While License Suspended": 125,
       "Domestic Violence": 163,
-      "Protection Order Violation": 93,
       "DOC Warrant": 91,
       "Harassment": 53,
       "Assault (Child)": 2,
@@ -933,7 +933,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 519
+      "count": 520
     },
     {
       "label": "Released (Unknown Reason)",
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 9.3,
     "repeatBookerCount": 156,
-    "totalIndividuals": 1671,
+    "totalIndividuals": 1672,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1453,7 +1453,7 @@
     },
     {
       "month": "2026-07",
-      "count": 89
+      "count": 90
     }
   ],
   "crimeTypes": [
@@ -1470,7 +1470,7 @@
     {
       "label": "Violent",
       "count": 415,
-      "pct": 15.2
+      "pct": 15.1
     },
     {
       "label": "Property",
@@ -1484,8 +1484,8 @@
     },
     {
       "label": "Order Violations",
-      "count": 206,
-      "pct": 7.5
+      "count": 207,
+      "pct": 7.6
     },
     {
       "label": "Drug",
@@ -1511,7 +1511,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2509,
+      "count": 2510,
       "pct": 60.1
     },
     {
@@ -1684,7 +1684,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 222,
+      "count": 223,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2016,9 +2016,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1584,
-    "withBail": 769,
-    "pct": 48.5
+    "total": 1585,
+    "withBail": 770,
+    "pct": 48.6
   },
   "chargesByAgeGroup": [
     {
@@ -2210,18 +2210,18 @@
         "n": 109
       },
       {
+        "charge": "Protection Order Violation",
+        "avgWeight": 191,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 94
+      },
+      {
         "charge": "Assault",
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 94
-      },
-      {
-        "charge": "Protection Order Violation",
-        "avgWeight": 191,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 93
       },
       {
         "charge": "DOC Warrant",
@@ -2790,7 +2790,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1855
+      "count": 1856
     }
   ]
 }

@@ -1,6 +1,40 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026003054",
+    "name": "SLOCUM, ISAAC ELDEN",
+    "bookingDate": "07/07/2026",
+    "charges": [
+      {
+        "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/08/2026",
+        "arrestAgency": "PORT ORCHARD POLICE DEPARTMENT",
+        "arrestDate": "07/07/2026",
+        "courtType": "PO"
+      }
+    ],
+    "age": "21",
+    "sex": "M",
+    "race": "W",
+    "height": "511",
+    "weight": "225",
+    "hair": "BRO",
+    "eyes": "BRO",
+    "inmateId": "40636943",
+    "schedRelease": null,
+    "firstSeen": "07/07/2026, 23:30:45",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026003053",
     "name": "ONEILL, CHRISTIAN MICHAEL",
     "bookingDate": "07/07/2026",
@@ -2609,9 +2643,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 2500,
         "cashAmount": null,
@@ -2623,9 +2657,9 @@
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "HARASSMENT",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 1000,
         "cashAmount": null,
@@ -2646,8 +2680,8 @@
     "inmateId": "40250904",
     "schedRelease": null,
     "firstSeen": "07/04/2026, 00:23:15",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "07/07/2026, 23:30:45",
+    "status": "released"
   },
   {
     "type": "BOOKED",

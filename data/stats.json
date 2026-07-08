@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-08T19:40:21.360Z",
+  "generatedAt": "2026-07-08T21:13:38.134Z",
   "bookingCounts": {
-    "total": 1866,
-    "inCustody": 277,
-    "released": 1589
+    "total": 1867,
+    "inCustody": 275,
+    "released": 1592
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1262,
+      "count": 1263,
       "pct": 67.6
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1319,
+      "count": 1320,
       "pct": 70.7
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 267
+        "count": 268
       },
       {
         "label": "26–35",
@@ -178,7 +178,7 @@
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 35
+      "count": 38
     },
     {
       "label": "PORT GAMBLE POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 41970.93,
+    "mean": 43067.85,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1463
+    "count": 1466
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1573,
+    "count": 1576,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,11 +217,11 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 154
+        "count": 155
       },
       {
         "label": "1–3 months",
-        "count": 202
+        "count": 204
       },
       {
         "label": "3+ months",
@@ -239,8 +239,8 @@
     {
       "category": "Child Sex Offense",
       "medianBail": 500000,
-      "meanBail": 382727.27,
-      "count": 11
+      "meanBail": 434166.67,
+      "count": 12
     },
     {
       "category": "Human Trafficking",
@@ -255,16 +255,16 @@
       "count": 1
     },
     {
+      "category": "Child Exploitation / CSAM",
+      "medianBail": 375000,
+      "meanBail": 299166.67,
+      "count": 6
+    },
+    {
       "category": "Robbery",
       "medianBail": 255000,
       "meanBail": 430555.56,
       "count": 9
-    },
-    {
-      "category": "Child Exploitation / CSAM",
-      "medianBail": 250000,
-      "meanBail": 259000,
-      "count": 5
     },
     {
       "category": "Kidnapping / Unlawful Imprisonment",
@@ -277,6 +277,12 @@
       "medianBail": 150000,
       "meanBail": 119090.91,
       "count": 11
+    },
+    {
+      "category": "Sex Offense",
+      "medianBail": 115000,
+      "meanBail": 192500,
+      "count": 8
     },
     {
       "category": "Burglary (1st Degree)",
@@ -319,12 +325,6 @@
       "medianBail": 35000,
       "meanBail": 45937.5,
       "count": 8
-    },
-    {
-      "category": "Sex Offense",
-      "medianBail": 30000,
-      "meanBail": 184285.71,
-      "count": 7
     },
     {
       "category": "Court Hold",
@@ -431,8 +431,8 @@
     {
       "category": "Obstruction",
       "medianBail": 5000,
-      "meanBail": 5854.84,
-      "count": 31
+      "meanBail": 5515.63,
+      "count": 32
     },
     {
       "category": "Other",
@@ -509,8 +509,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6729.45,
-      "count": 73
+      "meanBail": 6670.14,
+      "count": 72
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -551,6 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Child Sex Offense": 17,
+      "Child Exploitation / CSAM": 13,
+      "Sex Offense": 14,
       "DUI": 166,
       "Assault": 92,
       "Robbery": 11,
@@ -588,15 +591,12 @@
       "Trafficking Stolen Property": 6,
       "Attempt to Elude": 14,
       "Possession of Stolen Vehicle": 18,
-      "Sex Offense": 13,
       "Kidnapping / Unlawful Imprisonment": 4,
       "Arson": 4,
-      "Child Exploitation / CSAM": 12,
       "Fugitive from Justice": 10,
       "Traffic Violation": 6,
       "Identity Theft": 4,
       "Indecent Exposure": 5,
-      "Child Sex Offense": 16,
       "Court Hold": 6,
       "Local / Tribal Code": 9,
       "Stalking": 8,
@@ -770,6 +770,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Child Sex Offense": 16,
+      "Child Exploitation / CSAM": 13,
+      "Sex Offense": 16,
       "DUI": 154,
       "Assault": 97,
       "Robbery": 15,
@@ -778,7 +781,6 @@
       "Protection Order Violation": 94,
       "Weapons": 31,
       "Resisting Arrest": 30,
-      "Sex Offense": 15,
       "Driving While License Suspended": 125,
       "Domestic Violence": 164,
       "DOC Warrant": 91,
@@ -808,7 +810,6 @@
       "Arson": 4,
       "Malicious Mischief": 44,
       "Reckless Driving": 16,
-      "Child Exploitation / CSAM": 12,
       "Hit and Run": 23,
       "Failure to Register (Sex Offender)": 10,
       "Local / Tribal Code": 20,
@@ -816,7 +817,6 @@
       "Traffic Violation": 6,
       "Identity Theft": 5,
       "Indecent Exposure": 8,
-      "Child Sex Offense": 15,
       "Court Hold": 7,
       "Trafficking Stolen Property": 4,
       "Stalking": 10,
@@ -927,7 +927,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 522
+      "count": 525
     },
     {
       "label": "Released (Unknown Reason)",
@@ -969,7 +969,7 @@
   "recidivism": {
     "rate": 9.3,
     "repeatBookerCount": 156,
-    "totalIndividuals": 1678,
+    "totalIndividuals": 1679,
     "repeatBookers": [
       {
         "name": "BOND, JENNIFER ROSE",
@@ -1447,7 +1447,7 @@
     },
     {
       "month": "2026-07",
-      "count": 97
+      "count": 98
     }
   ],
   "crimeTypes": [
@@ -1488,8 +1488,8 @@
     },
     {
       "label": "Sex Offense",
-      "count": 59,
-      "pct": 2.1
+      "count": 60,
+      "pct": 2.2
     },
     {
       "label": "Fraud / Identity",
@@ -1510,12 +1510,12 @@
     },
     {
       "label": "Unknown",
-      "count": 709,
+      "count": 710,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 661,
+      "count": 663,
       "pct": 15.8
     },
     {
@@ -1575,8 +1575,8 @@
     {
       "category": "Failure to Appear",
       "avgDays": 17.4,
-      "medianDays": 3.3,
-      "count": 300
+      "medianDays": 3.4,
+      "count": 301
     },
     {
       "category": "Harassment",
@@ -1840,7 +1840,7 @@
     },
     {
       "name": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
-      "count": 35,
+      "count": 38,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2010,9 +2010,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1589,
+    "total": 1592,
     "withBail": 770,
-    "pct": 48.5
+    "pct": 48.4
   },
   "chargesByAgeGroup": [
     {
@@ -2344,6 +2344,13 @@
         "n": 17
       },
       {
+        "charge": "Child Sex Offense",
+        "avgWeight": 216,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 16
+      },
+      {
         "charge": "Possession of Stolen Vehicle",
         "avgWeight": 173,
         "avgHeight": "5'10\"",
@@ -2379,16 +2386,16 @@
         "n": 15
       },
       {
-        "charge": "Child Sex Offense",
-        "avgWeight": 212,
-        "avgHeight": "5'10\"",
+        "charge": "Sex Offense",
+        "avgWeight": 191,
+        "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 15
+        "n": 14
       },
       {
-        "charge": "Sex Offense",
-        "avgWeight": 185,
-        "avgHeight": "5'9\"",
+        "charge": "Child Exploitation / CSAM",
+        "avgWeight": 207,
+        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 13
       },
@@ -2402,13 +2409,6 @@
       {
         "charge": "Interference with DV Reporting",
         "avgWeight": 174,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 12
-      },
-      {
-        "charge": "Child Exploitation / CSAM",
-        "avgWeight": 202,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 12
@@ -2784,7 +2784,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1863
+      "count": 1864
     }
   ]
 }

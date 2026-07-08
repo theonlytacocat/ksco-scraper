@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-08T00:02:55.285Z",
+  "generatedAt": "2026-07-08T03:40:08.772Z",
   "bookingCounts": {
-    "total": 1857,
+    "total": 1858,
     "inCustody": 274,
-    "released": 1583
+    "released": 1584
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1257,
+      "count": 1258,
       "pct": 67.7
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1311,
+      "count": 1312,
       "pct": 70.6
     },
     {
       "label": "Unknown",
       "count": 235,
-      "pct": 12.7
+      "pct": 12.6
     },
     {
       "label": "Black",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 264
+        "count": 265
       },
       {
         "label": "26–35",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 688
+      "count": 689
     },
     {
       "label": "Domestic Violence",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1585
+      "count": 1588
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 42189.47,
+    "mean": 42117.37,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1475
+    "count": 1478
   },
   "stay": {
     "mean": 21.7,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1567,
+    "count": 1568,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 334
+        "count": 335
       },
       {
         "label": "4–7 days",
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 18480.9,
-      "count": 580
+      "meanBail": 18420.1,
+      "count": 583
     },
     {
       "category": "Driving While License Suspended",
@@ -557,8 +557,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 533,
       "Weapons": 23,
-      "Failure to Appear": 532,
       "Drug Offense": 118,
       "Resisting Arrest": 31,
       "Driving While License Suspended": 110,
@@ -776,6 +776,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 495,
       "Weapons": 31,
       "Drug Offense": 109,
       "Resisting Arrest": 30,
@@ -784,7 +785,6 @@
       "Domestic Violence": 163,
       "Protection Order Violation": 93,
       "DOC Warrant": 91,
-      "Failure to Appear": 494,
       "Harassment": 53,
       "Assault (Child)": 2,
       "Obstruction": 66,
@@ -937,7 +937,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 439
+      "count": 440
     },
     {
       "label": "Released",
@@ -974,7 +974,7 @@
   ],
   "recidivism": {
     "rate": 9.3,
-    "repeatBookerCount": 155,
+    "repeatBookerCount": 156,
     "totalIndividuals": 1671,
     "repeatBookers": [
       {
@@ -1145,7 +1145,7 @@
           {
             "bookingNumber": "2026003028",
             "firstSeen": "07/06/2026, 02:02:00",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002780",
@@ -1453,13 +1453,13 @@
     },
     {
       "month": "2026-07",
-      "count": 88
+      "count": 89
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 823,
+      "count": 824,
       "pct": 30.1
     },
     {
@@ -1511,7 +1511,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2506,
+      "count": 2509,
       "pct": 60.1
     },
     {
@@ -1630,12 +1630,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1589,
+      "count": 1592,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 521
+          "count": 524
         },
         {
           "label": "Domestic Violence",
@@ -2016,8 +2016,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1583,
-    "withBail": 768,
+    "total": 1584,
+    "withBail": 769,
     "pct": 48.5
   },
   "chargesByAgeGroup": [
@@ -2026,7 +2026,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 67
+          "count": 68
         },
         {
           "label": "DUI",
@@ -2179,7 +2179,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 489
+        "n": 490
       },
       {
         "charge": "Domestic Violence",
@@ -2790,7 +2790,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1854
+      "count": 1855
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-10T22:10:12.369Z",
+  "generatedAt": "2026-07-10T23:39:27.896Z",
   "bookingCounts": {
-    "total": 1894,
-    "inCustody": 280,
+    "total": 1895,
+    "inCustody": 281,
     "released": 1614
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1278,
+      "count": 1279,
       "pct": 67.5
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1338,
-      "pct": 70.6
+      "count": 1339,
+      "pct": 70.7
     },
     {
       "label": "Unknown",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 551
+        "count": 552
       },
       {
         "label": "46–55",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 126
+      "count": 127
     },
     {
       "label": "Criminal Trespass",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1195
+      "count": 1197
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 41530.83,
+    "mean": 41531.1,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1475
+    "count": 1478
   },
   "stay": {
     "mean": 21.8,
@@ -280,9 +280,9 @@
     },
     {
       "category": "Burglary (1st Degree)",
-      "medianBail": 75000,
-      "meanBail": 103000,
-      "count": 5
+      "medianBail": 87500,
+      "meanBail": 102500,
+      "count": 6
     },
     {
       "category": "Theft (1st Degree)",
@@ -341,7 +341,7 @@
     {
       "category": "Assault",
       "medianBail": 25000,
-      "meanBail": 103576.27,
+      "meanBail": 103067.8,
       "count": 59
     },
     {
@@ -353,8 +353,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 20000,
-      "meanBail": 136200,
-      "count": 45
+      "meanBail": 134326.09,
+      "count": 46
     },
     {
       "category": "Weapons",
@@ -375,16 +375,16 @@
       "count": 4
     },
     {
+      "category": "Harassment",
+      "medianBail": 10000,
+      "meanBail": 38805.56,
+      "count": 18
+    },
+    {
       "category": "Protection Order Violation",
       "medianBail": 10000,
       "meanBail": 31767.86,
       "count": 28
-    },
-    {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 40794.12,
-      "count": 17
     },
     {
       "category": "Trafficking Stolen Property",
@@ -551,6 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Burglary (1st Degree)": 7,
+      "Protection Order Violation": 92,
       "Indecent Exposure": 6,
       "Failure to Appear": 545,
       "Reckless Driving": 18,
@@ -568,7 +570,6 @@
       "Child Exploitation / CSAM": 13,
       "Sex Offense": 14,
       "Robbery": 11,
-      "Protection Order Violation": 91,
       "Weapons": 23,
       "Resisting Arrest": 31,
       "DOC Warrant": 91,
@@ -588,7 +589,6 @@
       "Motor Vehicle Theft": 16,
       "Burglary (2nd Degree)": 35,
       "Theft (2nd Degree)": 30,
-      "Burglary (1st Degree)": 6,
       "Trafficking Stolen Property": 6,
       "Attempt to Elude": 14,
       "Possession of Stolen Vehicle": 18,
@@ -771,6 +771,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Burglary (1st Degree)": 12,
+      "Protection Order Violation": 95,
       "Indecent Exposure": 9,
       "Failure to Appear": 506,
       "Driving While License Suspended": 128,
@@ -787,7 +789,6 @@
       "Child Exploitation / CSAM": 13,
       "Sex Offense": 16,
       "Robbery": 15,
-      "Protection Order Violation": 94,
       "Weapons": 31,
       "Resisting Arrest": 30,
       "DOC Warrant": 91,
@@ -805,7 +806,6 @@
       "Motor Vehicle Theft": 15,
       "Burglary (2nd Degree)": 33,
       "Theft (2nd Degree)": 26,
-      "Burglary (1st Degree)": 11,
       "Possession of Stolen Vehicle": 17,
       "Attempt to Elude": 18,
       "Kidnapping / Unlawful Imprisonment": 5,
@@ -1136,6 +1136,27 @@
         ]
       },
       {
+        "name": "GEARY, DAVID MICHAEL",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003098",
+            "firstSeen": "07/10/2026, 16:36:36",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002145",
+            "firstSeen": "05/09/2026, 10:31:46",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002043",
+            "firstSeen": "05/02/2026, 12:05:29",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "ANDERSON, APRIL RENEE",
         "count": 3,
         "bookings": [
@@ -1407,27 +1428,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "METZKER, TRAVIS TOD",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026002708",
-            "firstSeen": "06/14/2026, 14:16:31",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002207",
-            "firstSeen": "05/12/2026, 21:30:20",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001711",
-            "firstSeen": "04/12/2026, 21:00:20",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1450,14 +1450,14 @@
     },
     {
       "month": "2026-07",
-      "count": 125
+      "count": 126
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 841,
-      "pct": 30.1
+      "pct": 30
     },
     {
       "label": "Traffic / DUI",
@@ -1471,7 +1471,7 @@
     },
     {
       "label": "Property",
-      "count": 327,
+      "count": 328,
       "pct": 11.7
     },
     {
@@ -1481,7 +1481,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 210,
+      "count": 211,
       "pct": 7.5
     },
     {
@@ -1508,7 +1508,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2566,
+      "count": 2567,
       "pct": 60.3
     },
     {
@@ -1518,7 +1518,7 @@
     },
     {
       "label": "Felony",
-      "count": 667,
+      "count": 668,
       "pct": 15.7
     },
     {
@@ -1654,7 +1654,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1195,
+      "count": 1197,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2218,7 +2218,7 @@
         "avgWeight": 191,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 94
+        "n": 95
       },
       {
         "charge": "DOC Warrant",
@@ -2410,18 +2410,18 @@
         "n": 13
       },
       {
+        "charge": "Burglary (1st Degree)",
+        "avgWeight": 180,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 12
+      },
+      {
         "charge": "Interference with DV Reporting",
         "avgWeight": 174,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 12
-      },
-      {
-        "charge": "Burglary (1st Degree)",
-        "avgWeight": 180,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 11
       },
       {
         "charge": "Vehicle Prowling",
@@ -2787,7 +2787,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1891
+      "count": 1892
     }
   ]
 }

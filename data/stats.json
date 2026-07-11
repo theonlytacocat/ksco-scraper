@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-11T17:28:53.002Z",
+  "generatedAt": "2026-07-11T18:30:38.062Z",
   "bookingCounts": {
-    "total": 1907,
-    "inCustody": 281,
+    "total": 1908,
+    "inCustody": 282,
     "released": 1626
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1288,
-      "pct": 67.5
+      "count": 1289,
+      "pct": 67.6
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1346,
+      "count": 1347,
       "pct": 70.6
     },
     {
@@ -41,7 +41,7 @@
     {
       "label": "Native American",
       "count": 62,
-      "pct": 3.3
+      "pct": 3.2
     },
     {
       "label": "Asian / Pacific Islander",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 518
+        "count": 519
       },
       {
         "label": "36–45",
@@ -100,11 +100,11 @@
     },
     {
       "label": "Drug Offense",
-      "count": 161
+      "count": 162
     },
     {
       "label": "Assault",
-      "count": 144
+      "count": 145
     },
     {
       "label": "Protection Order Violation",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 93
+      "count": 94
     },
     {
       "label": "Harassment",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1633
+      "count": 1636
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 41154.04,
+    "mean": 41098.17,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1491
+    "count": 1494
   },
   "stay": {
     "mean": 21.7,
@@ -339,16 +339,16 @@
       "count": 1
     },
     {
+      "category": "Assault",
+      "medianBail": 25000,
+      "meanBail": 100344.26,
+      "count": 61
+    },
+    {
       "category": "Possession of Stolen Vehicle",
       "medianBail": 25000,
       "meanBail": 34285.71,
       "count": 7
-    },
-    {
-      "category": "Assault",
-      "medianBail": 22500,
-      "meanBail": 101516.67,
-      "count": 60
     },
     {
       "category": "Domestic Violence",
@@ -411,16 +411,16 @@
       "count": 1
     },
     {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5575.76,
+      "count": 33
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 20400,
       "count": 125
-    },
-    {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5593.75,
-      "count": 32
     },
     {
       "category": "Indecent Exposure",
@@ -501,16 +501,16 @@
       "count": 580
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6592.47,
+      "count": 73
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 5743.59,
       "count": 78
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6614.58,
-      "count": 72
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -551,13 +551,14 @@
   ],
   "chargesByRace": {
     "White": {
+      "Assault": 96,
+      "Obstruction": 67,
+      "Drug Offense": 122,
       "Local / Tribal Code": 10,
       "Criminal Trespass": 88,
       "Domestic Violence": 183,
       "DUI": 171,
       "Protection Order Violation": 93,
-      "Obstruction": 66,
-      "Assault": 95,
       "Residential Burglary": 12,
       "Indecent Exposure": 6,
       "Failure to Appear": 545,
@@ -565,7 +566,6 @@
       "Other": 68,
       "Driving While License Suspended": 112,
       "Ignition Interlock Violation": 42,
-      "Drug Offense": 121,
       "Failure to Comply (Sentence)": 28,
       "Harassment": 41,
       "Child Sex Offense": 17,
@@ -772,21 +772,21 @@
   },
   "chargesBySex": {
     "Male": {
+      "Assault": 100,
+      "Obstruction": 68,
+      "Drug Offense": 113,
       "Local / Tribal Code": 21,
       "Criminal Trespass": 80,
       "Domestic Violence": 167,
       "DUI": 160,
       "Protection Order Violation": 96,
-      "Obstruction": 67,
       "Other": 69,
       "Driving While License Suspended": 130,
       "Failure to Appear": 507,
       "Residential Burglary": 14,
       "Indecent Exposure": 9,
       "Ignition Interlock Violation": 46,
-      "Drug Offense": 112,
       "Failure to Comply (Sentence)": 34,
-      "Assault": 99,
       "Harassment": 53,
       "Child Sex Offense": 16,
       "Child Exploitation / CSAM": 13,
@@ -973,7 +973,7 @@
   "recidivism": {
     "rate": 9.7,
     "repeatBookerCount": 165,
-    "totalIndividuals": 1708,
+    "totalIndividuals": 1709,
     "repeatBookers": [
       {
         "name": "SALTER, CHARLES ARTHUR",
@@ -1456,7 +1456,7 @@
     },
     {
       "month": "2026-07",
-      "count": 138
+      "count": 139
     }
   ],
   "crimeTypes": [
@@ -1468,11 +1468,11 @@
     {
       "label": "Traffic / DUI",
       "count": 435,
-      "pct": 15.5
+      "pct": 15.4
     },
     {
       "label": "Violent",
-      "count": 431,
+      "count": 432,
       "pct": 15.3
     },
     {
@@ -1482,7 +1482,7 @@
     },
     {
       "label": "Other",
-      "count": 255,
+      "count": 256,
       "pct": 9.1
     },
     {
@@ -1492,7 +1492,7 @@
     },
     {
       "label": "Drug",
-      "count": 161,
+      "count": 162,
       "pct": 5.7
     },
     {
@@ -1514,17 +1514,17 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2579,
+      "count": 2580,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 724,
+      "count": 725,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 669,
+      "count": 670,
       "pct": 15.6
     },
     {
@@ -1633,7 +1633,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1637,
+      "count": 1640,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1650,7 +1650,7 @@
         },
         {
           "label": "Assault",
-          "count": 74
+          "count": 75
         },
         {
           "label": "Protection Order Violation",
@@ -2066,10 +2066,10 @@
         },
         {
           "label": "Assault",
-          "count": 46
+          "count": 47
         },
         {
-          "label": "Driving While License Suspended",
+          "label": "Drug Offense",
           "count": 44
         }
       ]
@@ -2207,17 +2207,17 @@
       },
       {
         "charge": "Drug Offense",
-        "avgWeight": 184,
+        "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 112
+        "n": 113
       },
       {
         "charge": "Assault",
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 97
+        "n": 98
       },
       {
         "charge": "Protection Order Violation",
@@ -2241,18 +2241,18 @@
         "n": 79
       },
       {
-        "charge": "Other",
-        "avgWeight": 186,
+        "charge": "Obstruction",
+        "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 68
       },
       {
-        "charge": "Obstruction",
-        "avgWeight": 181,
+        "charge": "Other",
+        "avgWeight": 186,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 67
+        "n": 68
       },
       {
         "charge": "Harassment",
@@ -2793,7 +2793,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1904
+      "count": 1905
     }
   ]
 }

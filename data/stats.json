@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-12T17:04:28.909Z",
+  "generatedAt": "2026-07-12T18:30:58.621Z",
   "bookingCounts": {
-    "total": 1922,
-    "inCustody": 283,
-    "released": 1639
+    "total": 1923,
+    "inCustody": 280,
+    "released": 1643
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1297,
+      "count": 1298,
       "pct": 67.5
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 203,
+      "count": 204,
       "pct": 10.6
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 563
+        "count": 564
       },
       {
         "label": "46–55",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1219
+      "count": 1220
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 40821.78,
+    "mean": 40814.6,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1507
+    "count": 1508
   },
   "stay": {
     "mean": 21.6,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1623,
+    "count": 1627,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 598
+        "count": 599
       },
       {
         "label": "1–3 days",
-        "count": 344
+        "count": 347
       },
       {
         "label": "4–7 days",
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "Indecent Exposure",
+      "medianBail": 7500,
+      "meanBail": 48562.5,
+      "count": 8
+    },
+    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 5321.43,
@@ -427,12 +433,6 @@
       "medianBail": 5000,
       "meanBail": 5593.75,
       "count": 32
-    },
-    {
-      "category": "Indecent Exposure",
-      "medianBail": 5000,
-      "meanBail": 51214.29,
-      "count": 7
     },
     {
       "category": "Other",
@@ -550,6 +550,56 @@
     }
   ],
   "chargesByRace": {
+    "Black": {
+      "Indecent Exposure": 4,
+      "Criminal Trespass": 8,
+      "Drug Offense": 15,
+      "Domestic Violence": 34,
+      "Failure to Appear": 73,
+      "Driving While License Suspended": 23,
+      "Protection Order Violation": 20,
+      "Harassment": 19,
+      "DUI": 18,
+      "Assault": 25,
+      "Public Order": 1,
+      "Making False Statements": 3,
+      "Ignition Interlock Violation": 4,
+      "DOC Warrant": 13,
+      "Burglary (2nd Degree)": 7,
+      "Burglary Tools": 1,
+      "Theft (3rd Degree)": 5,
+      "Failure to Register (Sex Offender)": 3,
+      "Other": 12,
+      "Obstruction": 13,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Weapons": 8,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 3,
+      "Resisting Arrest": 6,
+      "Traffic / Obstruction": 2,
+      "Robbery": 6,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "Malicious Mischief": 5,
+      "Possession of Stolen Property": 1,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Homicide": 4,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Theft (2nd Degree)": 3,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1,
+      "Vehicle Prowling": 1
+    },
     "White": {
       "Failure to Appear": 549,
       "Drug Offense": 125,
@@ -614,56 +664,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Black": {
-      "Criminal Trespass": 8,
-      "Drug Offense": 15,
-      "Domestic Violence": 34,
-      "Failure to Appear": 73,
-      "Driving While License Suspended": 23,
-      "Protection Order Violation": 20,
-      "Harassment": 19,
-      "DUI": 18,
-      "Assault": 25,
-      "Public Order": 1,
-      "Making False Statements": 3,
-      "Ignition Interlock Violation": 4,
-      "DOC Warrant": 13,
-      "Burglary (2nd Degree)": 7,
-      "Burglary Tools": 1,
-      "Theft (3rd Degree)": 5,
-      "Failure to Register (Sex Offender)": 3,
-      "Other": 12,
-      "Obstruction": 13,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Weapons": 8,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 3,
-      "Indecent Exposure": 3,
-      "Resisting Arrest": 6,
-      "Traffic / Obstruction": 2,
-      "Robbery": 6,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "Malicious Mischief": 5,
-      "Possession of Stolen Property": 1,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Homicide": 4,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Theft (2nd Degree)": 3,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1,
-      "Vehicle Prowling": 1
     },
     "Unknown": {
       "DUI": 64,
@@ -772,6 +772,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Indecent Exposure": 10,
       "Failure to Appear": 509,
       "Drug Offense": 116,
       "Criminal Trespass": 83,
@@ -785,7 +786,6 @@
       "Local / Tribal Code": 21,
       "Other": 69,
       "Residential Burglary": 14,
-      "Indecent Exposure": 9,
       "Failure to Comply (Sentence)": 34,
       "Harassment": 53,
       "Child Sex Offense": 16,
@@ -931,15 +931,15 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 539
+      "count": 540
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 453
+      "count": 455
     },
     {
       "label": "Released",
-      "count": 423
+      "count": 424
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -973,7 +973,7 @@
   "recidivism": {
     "rate": 9.7,
     "repeatBookerCount": 167,
-    "totalIndividuals": 1721,
+    "totalIndividuals": 1722,
     "repeatBookers": [
       {
         "name": "SALTER, CHARLES ARTHUR",
@@ -1456,7 +1456,7 @@
     },
     {
       "month": "2026-07",
-      "count": 153
+      "count": 154
     }
   ],
   "crimeTypes": [
@@ -1497,7 +1497,7 @@
     },
     {
       "label": "Sex Offense",
-      "count": 61,
+      "count": 62,
       "pct": 2.2
     },
     {
@@ -1514,13 +1514,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2590,
-      "pct": 60.1
+      "count": 2591,
+      "pct": 60.2
     },
     {
       "label": "Unknown",
       "count": 730,
-      "pct": 17
+      "pct": 16.9
     },
     {
       "label": "Felony",
@@ -1583,9 +1583,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17.5,
+      "avgDays": 17.4,
       "medianDays": 3.5,
-      "count": 307
+      "count": 308
     },
     {
       "category": "Harassment",
@@ -1660,7 +1660,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1219,
+      "count": 1220,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2019,8 +2019,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1639,
-    "withBail": 797,
+    "total": 1643,
+    "withBail": 799,
     "pct": 48.6
   },
   "chargesByAgeGroup": [
@@ -2437,6 +2437,13 @@
         "n": 11
       },
       {
+        "charge": "Indecent Exposure",
+        "avgWeight": 164,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 10
+      },
+      {
         "charge": "Theft (1st Degree)",
         "avgWeight": 159,
         "avgHeight": "5'8\"",
@@ -2449,13 +2456,6 @@
         "avgHeight": "6'0\"",
         "topRace": "White",
         "n": 10
-      },
-      {
-        "charge": "Indecent Exposure",
-        "avgWeight": 164,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 9
       },
       {
         "charge": "Stalking",
@@ -2793,7 +2793,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1919
+      "count": 1920
     }
   ]
 }

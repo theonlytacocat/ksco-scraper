@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-14T22:03:38.206Z",
+  "generatedAt": "2026-07-14T23:28:51.620Z",
   "bookingCounts": {
-    "total": 1961,
-    "inCustody": 276,
-    "released": 1685
+    "total": 1962,
+    "inCustody": 275,
+    "released": 1687
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1322,
+      "count": 1323,
       "pct": 67.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1387,
+      "count": 1388,
       "pct": 70.7
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 284
+        "count": 285
       },
       {
         "label": "26–35",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 273
+      "count": 274
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1671
+      "count": 1672
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 38733.15,
+    "mean": 38725.77,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1527
+    "count": 1526
   },
   "stay": {
     "mean": 21.4,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1667,
+    "count": 1669,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 620
+        "count": 621
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 143
+        "count": 144
       },
       {
         "label": "1–2 weeks",
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 17510.84,
-      "count": 597
+      "meanBail": 17456.33,
+      "count": 596
     },
     {
       "category": "Drug Offense",
@@ -551,13 +551,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 178,
       "Driving While License Suspended": 117,
       "Ignition Interlock Violation": 45,
       "Criminal Trespass": 100,
       "Obstruction": 69,
       "Failure to Appear": 564,
       "Other": 70,
-      "DUI": 177,
       "Domestic Violence": 186,
       "Drug Offense": 126,
       "Hit and Run": 28,
@@ -772,6 +772,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 166,
       "Driving While License Suspended": 136,
       "Ignition Interlock Violation": 49,
       "Criminal Trespass": 91,
@@ -779,7 +780,6 @@
       "Obstruction": 70,
       "Local / Tribal Code": 22,
       "Hit and Run": 26,
-      "DUI": 165,
       "Domestic Violence": 169,
       "Reckless Driving": 18,
       "Other": 70,
@@ -931,7 +931,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 553
+      "count": 554
     },
     {
       "label": "Released (Unknown Reason)",
@@ -939,7 +939,7 @@
     },
     {
       "label": "Released",
-      "count": 436
+      "count": 437
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -973,7 +973,7 @@
   "recidivism": {
     "rate": 10,
     "repeatBookerCount": 175,
-    "totalIndividuals": 1751,
+    "totalIndividuals": 1752,
     "repeatBookers": [
       {
         "name": "SALTER, CHARLES ARTHUR",
@@ -1456,7 +1456,7 @@
     },
     {
       "month": "2026-07",
-      "count": 192
+      "count": 193
     }
   ],
   "crimeTypes": [
@@ -1467,8 +1467,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 449,
-      "pct": 15.5
+      "count": 450,
+      "pct": 15.6
     },
     {
       "label": "Violent",
@@ -1514,7 +1514,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2640,
+      "count": 2641,
       "pct": 60.3
     },
     {
@@ -1585,7 +1585,7 @@
       "category": "Failure to Appear",
       "avgDays": 17.7,
       "medianDays": 3.6,
-      "count": 317
+      "count": 318
     },
     {
       "category": "Harassment",
@@ -1633,7 +1633,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1675,
+      "count": 1676,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1646,7 +1646,7 @@
         },
         {
           "label": "DUI",
-          "count": 104
+          "count": 105
         },
         {
           "label": "Assault",
@@ -2019,9 +2019,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1685,
-    "withBail": 813,
-    "pct": 48.2
+    "total": 1687,
+    "withBail": 814,
+    "pct": 48.3
   },
   "chargesByAgeGroup": [
     {
@@ -2033,7 +2033,7 @@
         },
         {
           "label": "DUI",
-          "count": 68
+          "count": 69
         },
         {
           "label": "Domestic Violence",
@@ -2196,7 +2196,7 @@
         "avgWeight": 183,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 152
+        "n": 153
       },
       {
         "charge": "Driving While License Suspended",
@@ -2793,7 +2793,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1958
+      "count": 1959
     }
   ]
 }

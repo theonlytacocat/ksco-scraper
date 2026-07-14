@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-14T16:21:23.122Z",
+  "generatedAt": "2026-07-14T17:44:08.703Z",
   "bookingCounts": {
-    "total": 1955,
-    "inCustody": 279,
+    "total": 1959,
+    "inCustody": 283,
     "released": 1676
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1317,
+      "count": 1321,
       "pct": 67.4
     },
     {
       "label": "Female",
       "count": 443,
-      "pct": 22.7
+      "pct": 22.6
     },
     {
       "label": "Unknown",
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1383,
-      "pct": 70.7
+      "count": 1386,
+      "pct": 70.8
     },
     {
       "label": "Unknown",
@@ -35,8 +35,8 @@
     },
     {
       "label": "Black",
-      "count": 206,
-      "pct": 10.5
+      "count": 207,
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 531
+        "count": 532
       },
       {
         "label": "36–45",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 293
+        "count": 294
       },
       {
         "label": "56–65",
@@ -77,14 +77,14 @@
       },
       {
         "label": "65+",
-        "count": 42
+        "count": 44
       }
     ]
   },
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 727
+      "count": 729
     },
     {
       "label": "Domestic Violence",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 130
+      "count": 132
     },
     {
       "label": "Protection Order Violation",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 95
+      "count": 96
     },
     {
       "label": "Harassment",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1667
+      "count": 1668
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1255
+      "count": 1259
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 40234.41,
+    "mean": 40034.24,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1538
+    "count": 1534
   },
   "stay": {
     "mean": 21.5,
@@ -261,12 +261,6 @@
       "count": 9
     },
     {
-      "category": "Child Exploitation / CSAM",
-      "medianBail": 250000,
-      "meanBail": 259000,
-      "count": 5
-    },
-    {
       "category": "Kidnapping / Unlawful Imprisonment",
       "medianBail": 250000,
       "meanBail": 250000,
@@ -277,6 +271,12 @@
       "medianBail": 150000,
       "meanBail": 121666.67,
       "count": 12
+    },
+    {
+      "category": "Child Exploitation / CSAM",
+      "medianBail": 137500,
+      "meanBail": 198750,
+      "count": 4
     },
     {
       "category": "Burglary (1st Degree)",
@@ -496,9 +496,9 @@
     },
     {
       "category": "Failure to Appear",
-      "medianBail": 2600,
-      "meanBail": 17297.63,
-      "count": 603
+      "medianBail": 2500,
+      "meanBail": 17464.89,
+      "count": 599
     },
     {
       "category": "Drug Offense",
@@ -533,8 +533,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2016.13,
-      "count": 62
+      "meanBail": 2000,
+      "count": 63
     },
     {
       "category": "Local / Tribal Code",
@@ -551,17 +551,17 @@
   ],
   "chargesByRace": {
     "White": {
-      "Failure to Appear": 563,
+      "Criminal Trespass": 100,
+      "Obstruction": 69,
+      "Failure to Appear": 564,
       "Other": 70,
       "DUI": 177,
       "Domestic Violence": 186,
-      "Criminal Trespass": 98,
       "Drug Offense": 126,
       "Driving While License Suspended": 116,
       "Hit and Run": 28,
       "Ignition Interlock Violation": 44,
       "Reckless Driving": 20,
-      "Obstruction": 68,
       "Making False Statements": 27,
       "Theft (2nd Degree)": 31,
       "Possession of Stolen Property": 8,
@@ -616,9 +616,9 @@
       "Bribery": 1
     },
     "Black": {
+      "Failure to Appear": 75,
       "DUI": 19,
       "Criminal Trespass": 9,
-      "Failure to Appear": 74,
       "Indecent Exposure": 4,
       "Drug Offense": 15,
       "Domestic Violence": 34,
@@ -772,16 +772,16 @@
   },
   "chargesBySex": {
     "Male": {
-      "Failure to Appear": 520,
+      "Criminal Trespass": 91,
+      "Failure to Appear": 522,
+      "Obstruction": 70,
       "Local / Tribal Code": 22,
       "Driving While License Suspended": 135,
       "Hit and Run": 26,
       "Ignition Interlock Violation": 48,
-      "Criminal Trespass": 89,
       "DUI": 165,
       "Domestic Violence": 169,
       "Reckless Driving": 18,
-      "Obstruction": 69,
       "Other": 70,
       "Making False Statements": 29,
       "Indecent Exposure": 10,
@@ -971,9 +971,9 @@
     }
   ],
   "recidivism": {
-    "rate": 9.8,
-    "repeatBookerCount": 172,
-    "totalIndividuals": 1748,
+    "rate": 10,
+    "repeatBookerCount": 175,
+    "totalIndividuals": 1749,
     "repeatBookers": [
       {
         "name": "SALTER, CHARLES ARTHUR",
@@ -1456,13 +1456,13 @@
     },
     {
       "month": "2026-07",
-      "count": 186
+      "count": 190
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 862,
+      "count": 864,
       "pct": 29.9
     },
     {
@@ -1477,12 +1477,12 @@
     },
     {
       "label": "Property",
-      "count": 345,
+      "count": 347,
       "pct": 12
     },
     {
       "label": "Other",
-      "count": 260,
+      "count": 261,
       "pct": 9
     },
     {
@@ -1498,7 +1498,7 @@
     {
       "label": "Sex Offense",
       "count": 62,
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "label": "Fraud / Identity",
@@ -1514,7 +1514,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2636,
+      "count": 2639,
       "pct": 60.3
     },
     {
@@ -1529,7 +1529,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 327,
+      "count": 329,
       "pct": 7.5
     }
   ],
@@ -1633,12 +1633,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1671,
+      "count": 1672,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 554
+          "count": 555
         },
         {
           "label": "Domestic Violence",
@@ -1660,12 +1660,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1255,
+      "count": 1259,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 338
+          "count": 339
         },
         {
           "label": "Domestic Violence",
@@ -1673,7 +1673,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 85
+          "count": 87
         },
         {
           "label": "Driving While License Suspended",
@@ -2054,7 +2054,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 225
+          "count": 226
         },
         {
           "label": "Domestic Violence",
@@ -2119,7 +2119,7 @@
           "count": 31
         },
         {
-          "label": "Protection Order Violation",
+          "label": "Criminal Trespass",
           "count": 26
         }
       ]
@@ -2162,11 +2162,11 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Failure to Appear",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Driving While License Suspended",
@@ -2182,7 +2182,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 515
+        "n": 517
       },
       {
         "charge": "Domestic Violence",
@@ -2238,14 +2238,14 @@
         "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 88
+        "n": 90
       },
       {
         "charge": "Obstruction",
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 69
+        "n": 70
       },
       {
         "charge": "Other",
@@ -2793,7 +2793,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1952
+      "count": 1956
     }
   ]
 }

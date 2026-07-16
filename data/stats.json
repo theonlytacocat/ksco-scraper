@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-16T09:38:22.879Z",
+  "generatedAt": "2026-07-16T11:45:34.474Z",
   "bookingCounts": {
-    "total": 1989,
-    "inCustody": 284,
+    "total": 1991,
+    "inCustody": 286,
     "released": 1705
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1346,
+      "count": 1347,
       "pct": 67.7
     },
     {
       "label": "Female",
-      "count": 446,
-      "pct": 22.4
+      "count": 447,
+      "pct": 22.5
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1408,
+      "count": 1410,
       "pct": 70.8
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 212,
-      "pct": 10.7
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 289
+        "count": 290
       },
       {
         "label": "26–35",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 576
+        "count": 577
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 276
+      "count": 277
     },
     {
       "label": "Driving While License Suspended",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1296
+      "count": 1298
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38063.32,
+    "mean": 38049.69,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1548
+    "count": 1550
   },
   "stay": {
     "mean": 21.4,
@@ -297,16 +297,16 @@
       "count": 2
     },
     {
+      "category": "Residential Burglary",
+      "medianBail": 50000,
+      "meanBail": 80000,
+      "count": 5
+    },
+    {
       "category": "PR / Bail Revocation",
       "medianBail": 50000,
       "meanBail": 62272.73,
       "count": 11
-    },
-    {
-      "category": "Residential Burglary",
-      "medianBail": 50000,
-      "meanBail": 87500,
-      "count": 4
     },
     {
       "category": "Witness Tampering",
@@ -413,8 +413,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 18826.92,
-      "count": 130
+      "meanBail": 18721.37,
+      "count": 131
     },
     {
       "category": "Other",
@@ -551,8 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 181,
+      "Residential Burglary": 13,
       "Harassment": 43,
-      "DUI": 180,
       "Criminal Trespass": 104,
       "Drug Offense": 129,
       "Failure to Appear": 573,
@@ -574,7 +575,6 @@
       "Theft (2nd Degree)": 31,
       "Possession of Stolen Property": 8,
       "Protection Order Violation": 94,
-      "Residential Burglary": 12,
       "Malicious Mischief": 38,
       "Indecent Exposure": 6,
       "Failure to Comply (Sentence)": 28,
@@ -773,8 +773,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 169,
       "Harassment": 55,
-      "DUI": 168,
       "DOC Warrant": 93,
       "Drug Offense": 120,
       "Weapons": 32,
@@ -837,6 +837,7 @@
       "Theft": 1
     },
     "Female": {
+      "Residential Burglary": 3,
       "Failure to Appear": 188,
       "Domestic Violence": 78,
       "Other": 20,
@@ -862,7 +863,6 @@
       "Hit and Run": 9,
       "Failure to Comply (Sentence)": 3,
       "DOC Warrant": 16,
-      "Residential Burglary": 2,
       "Trafficking Stolen Property": 2,
       "Motor Vehicle Theft": 6,
       "Burglary (2nd Degree)": 10,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.2,
     "repeatBookerCount": 180,
-    "totalIndividuals": 1770,
+    "totalIndividuals": 1772,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,7 +1467,7 @@
     },
     {
       "month": "2026-07",
-      "count": 220
+      "count": 222
     }
   ],
   "crimeTypes": [
@@ -1478,8 +1478,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 456,
-      "pct": 15.5
+      "count": 457,
+      "pct": 15.6
     },
     {
       "label": "Violent",
@@ -1488,7 +1488,7 @@
     },
     {
       "label": "Property",
-      "count": 352,
+      "count": 353,
       "pct": 12
     },
     {
@@ -1525,7 +1525,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2686,
+      "count": 2687,
       "pct": 60.2
     },
     {
@@ -1535,7 +1535,7 @@
     },
     {
       "label": "Felony",
-      "count": 681,
+      "count": 682,
       "pct": 15.3
     },
     {
@@ -1671,7 +1671,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1296,
+      "count": 1298,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2044,7 +2044,7 @@
         },
         {
           "label": "DUI",
-          "count": 70
+          "count": 71
         },
         {
           "label": "Domestic Violence",
@@ -2207,7 +2207,7 @@
         "avgWeight": 183,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 155
+        "n": 156
       },
       {
         "charge": "Driving While License Suspended",
@@ -2804,7 +2804,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 1986
+      "count": 1988
     }
   ]
 }

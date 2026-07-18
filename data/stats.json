@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-18T04:08:32.327Z",
+  "generatedAt": "2026-07-18T06:31:11.152Z",
   "bookingCounts": {
-    "total": 2016,
-    "inCustody": 282,
-    "released": 1734
+    "total": 2020,
+    "inCustody": 284,
+    "released": 1736
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1365,
-      "pct": 67.7
+      "count": 1369,
+      "pct": 67.8
     },
     {
       "label": "Female",
@@ -25,18 +25,18 @@
   "race": [
     {
       "label": "White",
-      "count": 1431,
+      "count": 1434,
       "pct": 71
     },
     {
       "label": "Unknown",
       "count": 249,
-      "pct": 12.4
+      "pct": 12.3
     },
     {
       "label": "Black",
       "count": 215,
-      "pct": 10.7
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 58,
+      "count": 59,
       "pct": 2.9
     }
   ],
@@ -61,19 +61,19 @@
       },
       {
         "label": "26–35",
-        "count": 552
+        "count": 553
       },
       {
         "label": "36–45",
-        "count": 586
+        "count": 587
       },
       {
         "label": "46–55",
-        "count": 304
+        "count": 305
       },
       {
         "label": "56–65",
-        "count": 137
+        "count": 138
       },
       {
         "label": "65+",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 293
+      "count": 294
     },
     {
       "label": "DUI",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 175
+      "count": 176
     },
     {
       "label": "Assault",
@@ -108,19 +108,19 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 138
+      "count": 139
     },
     {
       "label": "Protection Order Violation",
       "count": 130
     },
     {
-      "label": "DOC Warrant",
+      "label": "Other",
       "count": 114
     },
     {
-      "label": "Other",
-      "count": 113
+      "label": "DOC Warrant",
+      "count": 114
     },
     {
       "label": "Obstruction",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1727
+      "count": 1728
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1317
+      "count": 1322
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 38416.36,
+    "mean": 38351.87,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1557
+    "count": 1561
   },
   "stay": {
     "mean": 21.6,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1716,
+    "count": 1718,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 641
+        "count": 642
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 147
+        "count": 148
       },
       {
         "label": "1–2 weeks",
@@ -315,6 +315,12 @@
       "count": 1
     },
     {
+      "category": "Possession of Stolen Vehicle",
+      "medianBail": 37500,
+      "meanBail": 36250,
+      "count": 8
+    },
+    {
       "category": "Motor Vehicle Theft",
       "medianBail": 35000,
       "meanBail": 45937.5,
@@ -343,12 +349,6 @@
       "medianBail": 25000,
       "meanBail": 102822.58,
       "count": 62
-    },
-    {
-      "category": "Possession of Stolen Vehicle",
-      "medianBail": 25000,
-      "meanBail": 34285.71,
-      "count": 7
     },
     {
       "category": "Burglary (2nd Degree)",
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 18413.79,
+      "count": 58
+    },
+    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 5800,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 20473.48,
       "count": 132
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 18719.3,
-      "count": 57
     },
     {
       "category": "Public Order",
@@ -491,8 +491,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6516.23,
-      "count": 77
+      "meanBail": 6445.51,
+      "count": 78
     },
     {
       "category": "Driving While License Suspended",
@@ -533,8 +533,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2025.74,
-      "count": 68
+      "meanBail": 2010.87,
+      "count": 69
     },
     {
       "category": "Traffic / Obstruction",
@@ -551,12 +551,15 @@
   ],
   "chargesByRace": {
     "White": {
-      "Drug Offense": 132,
+      "Other": 73,
+      "Criminal Trespass": 105,
+      "Domestic Violence": 192,
+      "Drug Offense": 133,
+      "Possession of Stolen Vehicle": 19,
       "Driving While License Suspended": 124,
       "DUI": 184,
       "Ignition Interlock Violation": 49,
       "Stalking": 9,
-      "Domestic Violence": 191,
       "Failure to Appear": 579,
       "Theft (2nd Degree)": 32,
       "Possession of Stolen Property": 9,
@@ -568,9 +571,7 @@
       "Protection Order Violation": 95,
       "DOC Warrant": 93,
       "Residential Burglary": 13,
-      "Criminal Trespass": 104,
       "Traffic / Obstruction": 7,
-      "Other": 72,
       "Resisting Arrest": 34,
       "Obstruction": 72,
       "Interference with DV Reporting": 15,
@@ -594,7 +595,6 @@
       "Motor Vehicle Theft": 16,
       "Burglary (1st Degree)": 6,
       "Trafficking Stolen Property": 6,
-      "Possession of Stolen Vehicle": 18,
       "Kidnapping / Unlawful Imprisonment": 4,
       "Arson": 4,
       "Fugitive from Justice": 10,
@@ -614,6 +614,35 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "Criminal Trespass": 6,
+      "Failure to Appear": 29,
+      "Driving While License Suspended": 9,
+      "DUI": 10,
+      "Other": 2,
+      "Protection Order Violation": 6,
+      "Indecent Exposure": 1,
+      "Drug Offense": 4,
+      "Assault": 3,
+      "Ignition Interlock Violation": 3,
+      "Domestic Violence": 7,
+      "DOC Warrant": 1,
+      "Malicious Mischief": 2,
+      "Harassment": 1,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Resisting Arrest": 2,
+      "Weapons": 2,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
     },
     "Unknown": {
       "Sex Offense": 5,
@@ -709,35 +738,6 @@
       "Interference with DV Reporting": 1,
       "Sex Offense": 1
     },
-    "Asian / Pacific Islander": {
-      "Criminal Trespass": 6,
-      "Failure to Appear": 29,
-      "Driving While License Suspended": 9,
-      "DUI": 10,
-      "Other": 2,
-      "Protection Order Violation": 6,
-      "Indecent Exposure": 1,
-      "Drug Offense": 4,
-      "Assault": 3,
-      "Ignition Interlock Violation": 3,
-      "Domestic Violence": 7,
-      "DOC Warrant": 1,
-      "Malicious Mischief": 2,
-      "Harassment": 1,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Resisting Arrest": 2,
-      "Weapons": 2,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "Native American": {
       "Assault": 7,
       "Criminal Trespass": 7,
@@ -773,7 +773,11 @@
   },
   "chargesBySex": {
     "Male": {
-      "Drug Offense": 124,
+      "Other": 75,
+      "Criminal Trespass": 98,
+      "Domestic Violence": 173,
+      "Drug Offense": 125,
+      "Possession of Stolen Vehicle": 19,
       "Driving While License Suspended": 141,
       "DUI": 171,
       "Ignition Interlock Violation": 52,
@@ -789,11 +793,8 @@
       "Sex Offense": 17,
       "Malicious Mischief": 46,
       "Vehicle Prowling": 12,
-      "Other": 74,
-      "Criminal Trespass": 97,
       "Weapons": 32,
       "Traffic / Obstruction": 7,
-      "Domestic Violence": 172,
       "Resisting Arrest": 33,
       "Obstruction": 73,
       "Interference with DV Reporting": 13,
@@ -816,7 +817,6 @@
       "Motor Vehicle Theft": 15,
       "Burglary (2nd Degree)": 33,
       "Burglary (1st Degree)": 11,
-      "Possession of Stolen Vehicle": 18,
       "Kidnapping / Unlawful Imprisonment": 5,
       "Arson": 4,
       "Failure to Register (Sex Offender)": 10,
@@ -932,11 +932,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 570
+      "count": 571
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 482
+      "count": 483
     },
     {
       "label": "Released",
@@ -973,8 +973,8 @@
   ],
   "recidivism": {
     "rate": 10.4,
-    "repeatBookerCount": 186,
-    "totalIndividuals": 1789,
+    "repeatBookerCount": 187,
+    "totalIndividuals": 1792,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,7 +1467,7 @@
     },
     {
       "month": "2026-07",
-      "count": 247
+      "count": 251
     }
   ],
   "crimeTypes": [
@@ -1483,17 +1483,17 @@
     },
     {
       "label": "Violent",
-      "count": 447,
+      "count": 448,
       "pct": 15
     },
     {
       "label": "Property",
-      "count": 357,
-      "pct": 12
+      "count": 359,
+      "pct": 12.1
     },
     {
       "label": "Other",
-      "count": 268,
+      "count": 269,
       "pct": 9
     },
     {
@@ -1503,13 +1503,13 @@
     },
     {
       "label": "Drug",
-      "count": 175,
+      "count": 176,
       "pct": 5.9
     },
     {
       "label": "Sex Offense",
       "count": 64,
-      "pct": 2.2
+      "pct": 2.1
     },
     {
       "label": "Fraud / Identity",
@@ -1525,23 +1525,23 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2719,
+      "count": 2721,
       "pct": 60.1
     },
     {
       "label": "Unknown",
-      "count": 764,
+      "count": 766,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 695,
+      "count": 696,
       "pct": 15.4
     },
     {
       "label": "Misdemeanor",
-      "count": 346,
-      "pct": 7.6
+      "count": 347,
+      "pct": 7.7
     }
   ],
   "avgCharges": {
@@ -1644,7 +1644,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1731,
+      "count": 1732,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1671,7 +1671,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1317,
+      "count": 1322,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1680,11 +1680,11 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 102
+          "count": 104
         },
         {
           "label": "Criminal Trespass",
-          "count": 92
+          "count": 93
         },
         {
           "label": "Driving While License Suspended",
@@ -1692,7 +1692,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 70
+          "count": 71
         }
       ]
     },
@@ -2030,9 +2030,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1734,
-    "withBail": 836,
-    "pct": 48.2
+    "total": 1736,
+    "withBail": 838,
+    "pct": 48.3
   },
   "chargesByAgeGroup": [
     {
@@ -2076,12 +2076,12 @@
           "count": 69
         },
         {
-          "label": "Assault",
+          "label": "Drug Offense",
           "count": 49
         },
         {
-          "label": "Drug Offense",
-          "count": 48
+          "label": "Assault",
+          "count": 49
         }
       ]
     },
@@ -2156,7 +2156,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 12
+          "count": 13
         }
       ]
     },
@@ -2200,7 +2200,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 166
+        "n": 167
       },
       {
         "charge": "DUI",
@@ -2218,10 +2218,10 @@
       },
       {
         "charge": "Drug Offense",
-        "avgWeight": 183,
+        "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 124
+        "n": 125
       },
       {
         "charge": "Assault",
@@ -2242,7 +2242,7 @@
         "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 96
+        "n": 97
       },
       {
         "charge": "DOC Warrant",
@@ -2256,7 +2256,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 73
+        "n": 74
       },
       {
         "charge": "Obstruction",
@@ -2323,7 +2323,7 @@
       },
       {
         "charge": "Theft (2nd Degree)",
-        "avgWeight": 173,
+        "avgWeight": 175,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 28
@@ -2357,6 +2357,13 @@
         "n": 19
       },
       {
+        "charge": "Possession of Stolen Vehicle",
+        "avgWeight": 175,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 18
+      },
+      {
         "charge": "Reckless Driving",
         "avgWeight": 201,
         "avgHeight": "5'11\"",
@@ -2367,13 +2374,6 @@
         "charge": "PR / Bail Revocation",
         "avgWeight": 193,
         "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 17
-      },
-      {
-        "charge": "Possession of Stolen Vehicle",
-        "avgWeight": 175,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 17
       },
@@ -2477,7 +2477,7 @@
       },
       {
         "charge": "Possession of Stolen Property",
-        "avgWeight": 172,
+        "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 8
@@ -2804,7 +2804,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2013
+      "count": 2017
     }
   ]
 }

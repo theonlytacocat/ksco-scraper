@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-18T21:28:13.446Z",
+  "generatedAt": "2026-07-18T22:27:23.785Z",
   "bookingCounts": {
-    "total": 2026,
-    "inCustody": 285,
+    "total": 2027,
+    "inCustody": 286,
     "released": 1741
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1374,
+      "count": 1375,
       "pct": 67.8
     },
     {
       "label": "Female",
       "count": 455,
-      "pct": 22.5
+      "pct": 22.4
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1439,
+      "count": 1440,
       "pct": 71
     },
     {
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.4,
+    "mean": 38.5,
     "median": 37,
     "min": 18,
     "max": 87,
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 139
+        "count": 140
       },
       {
         "label": "65+",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 99
+      "count": 100
     },
     {
       "label": "Harassment",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1733
+      "count": 1734
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38172.26,
+    "mean": 38148.58,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1569
+    "count": 1570
   },
   "stay": {
     "mean": 21.5,
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5781.25,
+      "count": 32
+    },
+    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 18271.19,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 6250,
       "count": 4
-    },
-    {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5935.48,
-      "count": 31
     },
     {
       "category": "Theft (3rd Degree)",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Obstruction": 73,
       "Failure to Appear": 580,
       "DUI": 185,
       "Criminal Trespass": 107,
@@ -575,7 +576,6 @@
       "Residential Burglary": 13,
       "Traffic / Obstruction": 7,
       "Resisting Arrest": 34,
-      "Obstruction": 72,
       "Local / Tribal Code": 11,
       "Attempt to Elude": 15,
       "Hit and Run": 28,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Obstruction": 74,
       "Failure to Appear": 536,
       "Other": 76,
       "Domestic Violence": 174,
@@ -798,7 +799,6 @@
       "Weapons": 32,
       "Traffic / Obstruction": 7,
       "Resisting Arrest": 33,
-      "Obstruction": 73,
       "Local / Tribal Code": 23,
       "Attempt to Elude": 19,
       "Child Exploitation / CSAM": 14,
@@ -1174,6 +1174,27 @@
         ]
       },
       {
+        "name": "SCHULGEN, DEAN ROBERT",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003245",
+            "firstSeen": "07/18/2026, 15:24:37",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002729",
+            "firstSeen": "06/16/2026, 01:28:41",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002549",
+            "firstSeen": "06/03/2026, 14:05:35",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "SHERIDAN, DAVID L",
         "count": 3,
         "bookings": [
@@ -1424,27 +1445,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "DUNLAP, JAMES EMERY",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026002915",
-            "firstSeen": "06/29/2026, 02:17:59",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002462",
-            "firstSeen": "05/29/2026, 17:11:11",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026000201",
-            "firstSeen": "03/25/2026, 18:53:11",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1467,7 +1467,7 @@
     },
     {
       "month": "2026-07",
-      "count": 257
+      "count": 258
     }
   ],
   "crimeTypes": [
@@ -1493,8 +1493,8 @@
     },
     {
       "label": "Other",
-      "count": 270,
-      "pct": 9
+      "count": 271,
+      "pct": 9.1
     },
     {
       "label": "Order Violations",
@@ -1525,8 +1525,8 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2729,
-      "pct": 60
+      "count": 2730,
+      "pct": 60.1
     },
     {
       "label": "Unknown",
@@ -1644,7 +1644,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1737,
+      "count": 1738,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2260,10 +2260,10 @@
       },
       {
         "charge": "Obstruction",
-        "avgWeight": 182,
+        "avgWeight": 181,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 73
+        "n": 74
       },
       {
         "charge": "Harassment",
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2023
+      "count": 2024
     }
   ]
 }

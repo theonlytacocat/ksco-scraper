@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-18T17:36:27.828Z",
+  "generatedAt": "2026-07-18T19:12:34.516Z",
   "bookingCounts": {
-    "total": 2025,
-    "inCustody": 285,
+    "total": 2026,
+    "inCustody": 286,
     "released": 1740
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1373,
+      "count": 1374,
       "pct": 67.8
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1438,
+      "count": 1439,
       "pct": 71
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 306
+        "count": 307
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 747
+      "count": 748
     },
     {
       "label": "Domestic Violence",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 137
+      "count": 141
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38265.99,
+    "mean": 38172.26,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1565
+    "count": 1569
   },
   "stay": {
     "mean": 21.6,
@@ -489,6 +489,12 @@
       "count": 12
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 16635.42,
+      "count": 609
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 6376.58,
@@ -499,12 +505,6 @@
       "medianBail": 2500,
       "meanBail": 5779.76,
       "count": 84
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 16735.49,
-      "count": 605
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -550,58 +550,8 @@
     }
   ],
   "chargesByRace": {
-    "Black": {
-      "Other": 15,
-      "Domestic Violence": 35,
-      "Theft (2nd Degree)": 4,
-      "Malicious Mischief": 6,
-      "Vehicle Prowling": 2,
-      "Drug Offense": 17,
-      "Failure to Appear": 78,
-      "Criminal Trespass": 10,
-      "DOC Warrant": 14,
-      "Weapons": 9,
-      "Child Exploitation / CSAM": 1,
-      "DUI": 19,
-      "Indecent Exposure": 4,
-      "Driving While License Suspended": 23,
-      "Protection Order Violation": 20,
-      "Harassment": 19,
-      "Assault": 25,
-      "Public Order": 1,
-      "Making False Statements": 3,
-      "Ignition Interlock Violation": 4,
-      "Burglary (2nd Degree)": 7,
-      "Burglary Tools": 1,
-      "Theft (3rd Degree)": 5,
-      "Failure to Register (Sex Offender)": 3,
-      "Obstruction": 13,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 3,
-      "Resisting Arrest": 6,
-      "Traffic / Obstruction": 2,
-      "Robbery": 6,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "Possession of Stolen Property": 1,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Homicide": 4,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
-    },
     "White": {
+      "Failure to Appear": 580,
       "DUI": 185,
       "Criminal Trespass": 107,
       "Drug Offense": 134,
@@ -613,7 +563,6 @@
       "Driving While License Suspended": 124,
       "Ignition Interlock Violation": 49,
       "Stalking": 9,
-      "Failure to Appear": 579,
       "Theft (2nd Degree)": 32,
       "Possession of Stolen Property": 9,
       "Burglary (2nd Degree)": 36,
@@ -665,6 +614,57 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Black": {
+      "Other": 15,
+      "Domestic Violence": 35,
+      "Theft (2nd Degree)": 4,
+      "Malicious Mischief": 6,
+      "Vehicle Prowling": 2,
+      "Drug Offense": 17,
+      "Failure to Appear": 78,
+      "Criminal Trespass": 10,
+      "DOC Warrant": 14,
+      "Weapons": 9,
+      "Child Exploitation / CSAM": 1,
+      "DUI": 19,
+      "Indecent Exposure": 4,
+      "Driving While License Suspended": 23,
+      "Protection Order Violation": 20,
+      "Harassment": 19,
+      "Assault": 25,
+      "Public Order": 1,
+      "Making False Statements": 3,
+      "Ignition Interlock Violation": 4,
+      "Burglary (2nd Degree)": 7,
+      "Burglary Tools": 1,
+      "Theft (3rd Degree)": 5,
+      "Failure to Register (Sex Offender)": 3,
+      "Obstruction": 13,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 3,
+      "Resisting Arrest": 6,
+      "Traffic / Obstruction": 2,
+      "Robbery": 6,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "Possession of Stolen Property": 1,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Homicide": 4,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
     },
     "Asian / Pacific Islander": {
       "DUI": 11,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 536,
       "Other": 76,
       "Domestic Violence": 174,
       "DUI": 173,
@@ -784,7 +785,6 @@
       "Driving While License Suspended": 142,
       "Ignition Interlock Violation": 53,
       "Stalking": 11,
-      "Failure to Appear": 535,
       "Theft (2nd Degree)": 28,
       "Possession of Stolen Property": 8,
       "Assault": 104,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.4,
     "repeatBookerCount": 187,
-    "totalIndividuals": 1797,
+    "totalIndividuals": 1798,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,13 +1467,13 @@
     },
     {
       "month": "2026-07",
-      "count": 256
+      "count": 257
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 889,
+      "count": 890,
       "pct": 29.8
     },
     {
@@ -1525,13 +1525,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2725,
+      "count": 2729,
       "pct": 60
     },
     {
       "label": "Unknown",
       "count": 770,
-      "pct": 17
+      "pct": 16.9
     },
     {
       "label": "Felony",
@@ -1752,7 +1752,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 137,
+      "count": 141,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1761,7 +1761,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 17
+          "count": 21
         },
         {
           "label": "Driving While License Suspended",
@@ -2115,7 +2115,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 117
+          "count": 118
         },
         {
           "label": "Drug Offense",
@@ -2193,7 +2193,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 530
+        "n": 531
       },
       {
         "charge": "Domestic Violence",
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2022
+      "count": 2023
     }
   ]
 }

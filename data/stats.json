@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-19T01:07:23.852Z",
+  "generatedAt": "2026-07-19T04:52:42.264Z",
   "bookingCounts": {
-    "total": 2029,
-    "inCustody": 287,
-    "released": 1742
+    "total": 2031,
+    "inCustody": 286,
+    "released": 1745
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1377,
+      "count": 1379,
       "pct": 67.9
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1441,
+      "count": 1442,
       "pct": 71
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 217,
+      "count": 218,
       "pct": 10.7
     },
     {
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 556
+        "count": 557
       },
       {
         "label": "36–45",
-        "count": 587
+        "count": 588
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 295
+      "count": 296
     },
     {
       "label": "DUI",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1734
+      "count": 1735
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1325
+      "count": 1326
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 38106.41,
+    "mean": 38085.36,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1572
+    "count": 1573
   },
   "stay": {
     "mean": 21.5,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1724,
+    "count": 1727,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 647
+        "count": 649
       },
       {
         "label": "1–3 days",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 164
+        "count": 165
       },
       {
         "label": "1–3 months",
@@ -489,6 +489,12 @@
       "count": 12
     },
     {
+      "category": "Indecent Exposure",
+      "medianBail": 3250,
+      "meanBail": 26812.5,
+      "count": 8
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 5770.59,
@@ -525,12 +531,6 @@
       "count": 6
     },
     {
-      "category": "Indecent Exposure",
-      "medianBail": 1500,
-      "meanBail": 29928.57,
-      "count": 7
-    },
-    {
       "category": "Criminal Trespass",
       "medianBail": 1000,
       "meanBail": 1996.43,
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "Black": {
+      "Indecent Exposure": 5,
       "Driving While License Suspended": 24,
       "Other": 15,
       "Domestic Violence": 35,
@@ -564,7 +565,6 @@
       "Weapons": 9,
       "Child Exploitation / CSAM": 1,
       "DUI": 19,
-      "Indecent Exposure": 4,
       "Protection Order Violation": 20,
       "Harassment": 19,
       "Assault": 25,
@@ -602,6 +602,7 @@
       "Sex Offense": 1
     },
     "White": {
+      "Domestic Violence": 193,
       "Drug Offense": 135,
       "Obstruction": 73,
       "Failure to Appear": 580,
@@ -610,7 +611,6 @@
       "Assault (Child)": 4,
       "Interference with DV Reporting": 16,
       "Other": 73,
-      "Domestic Violence": 192,
       "Possession of Stolen Vehicle": 19,
       "Driving While License Suspended": 124,
       "Ignition Interlock Violation": 49,
@@ -773,12 +773,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Indecent Exposure": 11,
+      "Domestic Violence": 175,
       "Driving While License Suspended": 143,
       "Drug Offense": 127,
       "Obstruction": 74,
       "Failure to Appear": 536,
       "Other": 76,
-      "Domestic Violence": 174,
       "DUI": 173,
       "Criminal Trespass": 99,
       "Assault (Child)": 3,
@@ -805,7 +806,6 @@
       "Hit and Run": 26,
       "Reckless Driving": 18,
       "Making False Statements": 29,
-      "Indecent Exposure": 10,
       "Residential Burglary": 14,
       "Child Sex Offense": 16,
       "Robbery": 15,
@@ -936,11 +936,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 485
+      "count": 487
     },
     {
       "label": "Released",
-      "count": 445
+      "count": 446
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.4,
     "repeatBookerCount": 187,
-    "totalIndividuals": 1800,
+    "totalIndividuals": 1802,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1180,7 +1180,7 @@
           {
             "bookingNumber": "2026003245",
             "firstSeen": "07/18/2026, 15:24:37",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002729",
@@ -1467,14 +1467,14 @@
     },
     {
       "month": "2026-07",
-      "count": 260
+      "count": 262
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 890,
-      "pct": 29.8
+      "pct": 29.7
     },
     {
       "label": "Traffic / DUI",
@@ -1483,7 +1483,7 @@
     },
     {
       "label": "Violent",
-      "count": 450,
+      "count": 451,
       "pct": 15.1
     },
     {
@@ -1504,12 +1504,12 @@
     {
       "label": "Drug",
       "count": 178,
-      "pct": 6
+      "pct": 5.9
     },
     {
       "label": "Sex Offense",
-      "count": 64,
-      "pct": 2.1
+      "count": 65,
+      "pct": 2.2
     },
     {
       "label": "Fraud / Identity",
@@ -1525,13 +1525,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2731,
-      "pct": 60
+      "count": 2733,
+      "pct": 60.1
     },
     {
       "label": "Unknown",
       "count": 771,
-      "pct": 17
+      "pct": 16.9
     },
     {
       "label": "Felony",
@@ -1644,7 +1644,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1738,
+      "count": 1739,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1653,7 +1653,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 188
+          "count": 189
         },
         {
           "label": "DUI",
@@ -1671,7 +1671,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1325,
+      "count": 1326,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2030,9 +2030,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1742,
-    "withBail": 841,
-    "pct": 48.3
+    "total": 1745,
+    "withBail": 844,
+    "pct": 48.4
   },
   "chargesByAgeGroup": [
     {
@@ -2094,7 +2094,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 76
+          "count": 77
         },
         {
           "label": "Drug Offense",
@@ -2200,7 +2200,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 168
+        "n": 169
       },
       {
         "charge": "DUI",
@@ -2441,6 +2441,13 @@
         "n": 12
       },
       {
+        "charge": "Indecent Exposure",
+        "avgWeight": 168,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 11
+      },
+      {
         "charge": "Burglary (1st Degree)",
         "avgWeight": 180,
         "avgHeight": "5'10\"",
@@ -2450,13 +2457,6 @@
       {
         "charge": "Stalking",
         "avgWeight": 177,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 10
-      },
-      {
-        "charge": "Indecent Exposure",
-        "avgWeight": 164,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 10
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2026
+      "count": 2028
     }
   ]
 }

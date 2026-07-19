@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-18T23:30:43.063Z",
+  "generatedAt": "2026-07-19T01:07:23.852Z",
   "bookingCounts": {
-    "total": 2028,
-    "inCustody": 286,
+    "total": 2029,
+    "inCustody": 287,
     "released": 1742
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1376,
+      "count": 1377,
       "pct": 67.9
     },
     {
@@ -26,7 +26,7 @@
     {
       "label": "White",
       "count": 1441,
-      "pct": 71.1
+      "pct": 71
     },
     {
       "label": "Unknown",
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 216,
+      "count": 217,
       "pct": 10.7
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 307
+        "count": 308
       },
       {
         "label": "56–65",
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 186
+      "count": 187
     },
     {
       "label": "Drug Offense",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 141
+      "count": 142
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38127.48,
+    "mean": 38106.41,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1571
+    "count": 1572
   },
   "stay": {
     "mean": 21.5,
@@ -489,6 +489,12 @@
       "count": 12
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 5770.59,
+      "count": 85
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 6359.38,
@@ -499,12 +505,6 @@
       "medianBail": 2500,
       "meanBail": 16635.42,
       "count": 609
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 5779.76,
-      "count": 84
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -550,6 +550,57 @@
     }
   ],
   "chargesByRace": {
+    "Black": {
+      "Driving While License Suspended": 24,
+      "Other": 15,
+      "Domestic Violence": 35,
+      "Theft (2nd Degree)": 4,
+      "Malicious Mischief": 6,
+      "Vehicle Prowling": 2,
+      "Drug Offense": 17,
+      "Failure to Appear": 78,
+      "Criminal Trespass": 10,
+      "DOC Warrant": 14,
+      "Weapons": 9,
+      "Child Exploitation / CSAM": 1,
+      "DUI": 19,
+      "Indecent Exposure": 4,
+      "Protection Order Violation": 20,
+      "Harassment": 19,
+      "Assault": 25,
+      "Public Order": 1,
+      "Making False Statements": 3,
+      "Ignition Interlock Violation": 4,
+      "Burglary (2nd Degree)": 7,
+      "Burglary Tools": 1,
+      "Theft (3rd Degree)": 5,
+      "Failure to Register (Sex Offender)": 3,
+      "Obstruction": 13,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Local / Tribal Code": 3,
+      "Resisting Arrest": 6,
+      "Traffic / Obstruction": 2,
+      "Robbery": 6,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "Possession of Stolen Property": 1,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Homicide": 4,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
+    },
     "White": {
       "Drug Offense": 135,
       "Obstruction": 73,
@@ -614,57 +665,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Black": {
-      "Other": 15,
-      "Domestic Violence": 35,
-      "Theft (2nd Degree)": 4,
-      "Malicious Mischief": 6,
-      "Vehicle Prowling": 2,
-      "Drug Offense": 17,
-      "Failure to Appear": 78,
-      "Criminal Trespass": 10,
-      "DOC Warrant": 14,
-      "Weapons": 9,
-      "Child Exploitation / CSAM": 1,
-      "DUI": 19,
-      "Indecent Exposure": 4,
-      "Driving While License Suspended": 23,
-      "Protection Order Violation": 20,
-      "Harassment": 19,
-      "Assault": 25,
-      "Public Order": 1,
-      "Making False Statements": 3,
-      "Ignition Interlock Violation": 4,
-      "Burglary (2nd Degree)": 7,
-      "Burglary Tools": 1,
-      "Theft (3rd Degree)": 5,
-      "Failure to Register (Sex Offender)": 3,
-      "Obstruction": 13,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Local / Tribal Code": 3,
-      "Resisting Arrest": 6,
-      "Traffic / Obstruction": 2,
-      "Robbery": 6,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "Possession of Stolen Property": 1,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Homicide": 4,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
     },
     "Asian / Pacific Islander": {
       "DUI": 11,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Driving While License Suspended": 143,
       "Drug Offense": 127,
       "Obstruction": 74,
       "Failure to Appear": 536,
@@ -783,7 +784,6 @@
       "Assault (Child)": 3,
       "Interference with DV Reporting": 14,
       "Possession of Stolen Vehicle": 19,
-      "Driving While License Suspended": 142,
       "Ignition Interlock Violation": 53,
       "Stalking": 11,
       "Theft (2nd Degree)": 28,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.4,
     "repeatBookerCount": 187,
-    "totalIndividuals": 1799,
+    "totalIndividuals": 1800,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,7 +1467,7 @@
     },
     {
       "month": "2026-07",
-      "count": 259
+      "count": 260
     }
   ],
   "crimeTypes": [
@@ -1478,7 +1478,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 465,
+      "count": 466,
       "pct": 15.6
     },
     {
@@ -1525,7 +1525,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2730,
+      "count": 2731,
       "pct": 60
     },
     {
@@ -1752,7 +1752,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 141,
+      "count": 142,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1765,7 +1765,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Hit and Run",
@@ -2214,7 +2214,7 @@
         "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 137
+        "n": 138
       },
       {
         "charge": "Drug Offense",
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2025
+      "count": 2026
     }
   ]
 }

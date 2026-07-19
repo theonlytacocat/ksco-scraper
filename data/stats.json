@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-19T14:05:25.484Z",
+  "generatedAt": "2026-07-19T15:35:11.240Z",
   "bookingCounts": {
     "total": 2034,
-    "inCustody": 289,
-    "released": 1745
+    "inCustody": 286,
+    "released": 1748
   },
   "gender": [
     {
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 38029.97,
+    "mean": 38004.61,
     "median": 5000,
     "min": 50,
     "max": 4000000,
     "count": 1577
   },
   "stay": {
-    "mean": 21.5,
+    "mean": 21.6,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1727,
+    "count": 1730,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,11 +221,11 @@
       },
       {
         "label": "1–3 months",
-        "count": 218
+        "count": 220
       },
       {
         "label": "3+ months",
-        "count": 102
+        "count": 103
       }
     ]
   },
@@ -315,12 +315,6 @@
       "count": 1
     },
     {
-      "category": "Possession of Stolen Vehicle",
-      "medianBail": 37500,
-      "meanBail": 36250,
-      "count": 8
-    },
-    {
       "category": "Motor Vehicle Theft",
       "medianBail": 35000,
       "meanBail": 45937.5,
@@ -361,6 +355,12 @@
       "medianBail": 20000,
       "meanBail": 126867.35,
       "count": 49
+    },
+    {
+      "category": "Possession of Stolen Vehicle",
+      "medianBail": 17500,
+      "meanBail": 31250,
+      "count": 8
     },
     {
       "category": "Protection Order Violation",
@@ -932,7 +932,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 573
+      "count": 574
     },
     {
       "label": "Released (Unknown Reason)",
@@ -944,11 +944,11 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 106
+      "count": 107
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 67
+      "count": 68
     },
     {
       "label": "Failure to Comply",
@@ -1588,9 +1588,9 @@
     },
     {
       "category": "Assault",
-      "avgDays": 19.3,
-      "medianDays": 1.3,
-      "count": 34
+      "avgDays": 20.4,
+      "medianDays": 1.4,
+      "count": 35
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -1600,9 +1600,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17.4,
+      "avgDays": 17.6,
       "medianDays": 3.2,
-      "count": 329
+      "count": 330
     },
     {
       "category": "DOC Warrant",
@@ -2030,9 +2030,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1745,
+    "total": 1748,
     "withBail": 844,
-    "pct": 48.4
+    "pct": 48.3
   },
   "chargesByAgeGroup": [
     {

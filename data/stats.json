@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-19T12:04:41.108Z",
+  "generatedAt": "2026-07-19T14:05:25.484Z",
   "bookingCounts": {
-    "total": 2033,
-    "inCustody": 288,
+    "total": 2034,
+    "inCustody": 289,
     "released": 1745
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1381,
+      "count": 1382,
       "pct": 67.9
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1444,
+      "count": 1445,
       "pct": 71
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 556
+        "count": 557
       },
       {
         "label": "36–45",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 245
+      "count": 246
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Homicide": 15,
       "Drug Offense": 136,
       "DOC Warrant": 94,
       "Resisting Arrest": 35,
@@ -605,7 +606,6 @@
       "Vehicle Prowling": 10,
       "Forgery": 3,
       "Probation Violation": 2,
-      "Homicide": 14,
       "Tampering with Evidence": 2,
       "Criminal Impersonation": 3,
       "Failure to Register (Sex Offender)": 7,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Homicide": 17,
       "Drug Offense": 128,
       "DOC Warrant": 95,
       "Resisting Arrest": 34,
@@ -827,7 +828,6 @@
       "Court Hold": 7,
       "Trafficking Stolen Property": 4,
       "Probation Violation": 2,
-      "Homicide": 16,
       "Tampering with Evidence": 2,
       "Criminal Impersonation": 4,
       "Human Trafficking": 2,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.4,
     "repeatBookerCount": 188,
-    "totalIndividuals": 1803,
+    "totalIndividuals": 1804,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,7 +1467,7 @@
     },
     {
       "month": "2026-07",
-      "count": 264
+      "count": 265
     }
   ],
   "crimeTypes": [
@@ -1483,7 +1483,7 @@
     },
     {
       "label": "Violent",
-      "count": 453,
+      "count": 454,
       "pct": 15.1
     },
     {
@@ -1535,7 +1535,7 @@
     },
     {
       "label": "Felony",
-      "count": 698,
+      "count": 699,
       "pct": 15.3
     },
     {
@@ -1698,7 +1698,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 246,
+      "count": 247,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2371,6 +2371,13 @@
         "n": 18
       },
       {
+        "charge": "Homicide",
+        "avgWeight": 167,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 17
+      },
+      {
         "charge": "PR / Bail Revocation",
         "avgWeight": 193,
         "avgHeight": "5'11\"",
@@ -2381,13 +2388,6 @@
         "charge": "Child Sex Offense",
         "avgWeight": 216,
         "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 16
-      },
-      {
-        "charge": "Homicide",
-        "avgWeight": 168,
-        "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 16
       },
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2030
+      "count": 2031
     }
   ]
 }

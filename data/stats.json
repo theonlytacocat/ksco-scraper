@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-19T07:31:16.645Z",
+  "generatedAt": "2026-07-19T09:32:25.009Z",
   "bookingCounts": {
-    "total": 2032,
-    "inCustody": 287,
+    "total": 2033,
+    "inCustody": 288,
     "released": 1745
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1380,
+      "count": 1381,
       "pct": 67.9
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1443,
+      "count": 1444,
       "pct": 71
     },
     {
       "label": "Unknown",
       "count": 249,
-      "pct": 12.3
+      "pct": 12.2
     },
     {
       "label": "Black",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 588
+        "count": 589
       },
       {
         "label": "46–55",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 178
+      "count": 179
     },
     {
       "label": "Assault",
@@ -115,12 +115,12 @@
       "count": 130
     },
     {
-      "label": "Other",
+      "label": "DOC Warrant",
       "count": 115
     },
     {
-      "label": "DOC Warrant",
-      "count": 114
+      "label": "Other",
+      "count": 115
     },
     {
       "label": "Obstruction",
@@ -136,7 +136,7 @@
     },
     {
       "label": "Theft (3rd Degree)",
-      "count": 61
+      "count": 62
     },
     {
       "label": "Malicious Mischief",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1735
+      "count": 1739
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38104.43,
+    "mean": 38029.97,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1573
+    "count": 1577
   },
   "stay": {
     "mean": 21.5,
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "Theft (3rd Degree)",
+      "medianBail": 5000,
+      "meanBail": 3666.67,
+      "count": 27
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5781.25,
@@ -439,12 +445,6 @@
       "medianBail": 5000,
       "meanBail": 6250,
       "count": 4
-    },
-    {
-      "category": "Theft (3rd Degree)",
-      "medianBail": 5000,
-      "meanBail": 3615.38,
-      "count": 26
     },
     {
       "category": "Malicious Mischief",
@@ -489,16 +489,22 @@
       "count": 12
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6527.78,
+      "count": 81
+    },
+    {
+      "category": "Resisting Arrest",
+      "medianBail": 2500,
+      "meanBail": 5071.43,
+      "count": 7
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 5770.59,
       "count": 85
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6359.38,
-      "count": 80
     },
     {
       "category": "Failure to Appear",
@@ -517,12 +523,6 @@
       "medianBail": 1750,
       "meanBail": 4964.29,
       "count": 14
-    },
-    {
-      "category": "Resisting Arrest",
-      "medianBail": 1750,
-      "meanBail": 5083.33,
-      "count": 6
     },
     {
       "category": "Indecent Exposure",
@@ -551,8 +551,11 @@
   ],
   "chargesByRace": {
     "White": {
+      "Drug Offense": 136,
+      "DOC Warrant": 94,
+      "Resisting Arrest": 35,
+      "Theft (3rd Degree)": 46,
       "Domestic Violence": 194,
-      "Drug Offense": 135,
       "Obstruction": 73,
       "Failure to Appear": 580,
       "DUI": 185,
@@ -572,10 +575,8 @@
       "Making False Statements": 28,
       "Harassment": 45,
       "Protection Order Violation": 95,
-      "DOC Warrant": 93,
       "Residential Burglary": 13,
       "Traffic / Obstruction": 7,
-      "Resisting Arrest": 34,
       "Local / Tribal Code": 11,
       "Attempt to Elude": 15,
       "Hit and Run": 28,
@@ -588,7 +589,6 @@
       "Robbery": 11,
       "Weapons": 23,
       "Public Order": 5,
-      "Theft (3rd Degree)": 45,
       "Burglary Tools": 6,
       "Theft (1st Degree)": 8,
       "PR / Bail Revocation": 17,
@@ -773,11 +773,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Drug Offense": 128,
+      "DOC Warrant": 95,
+      "Resisting Arrest": 34,
+      "Theft (3rd Degree)": 44,
       "Domestic Violence": 176,
       "Indecent Exposure": 11,
       "Assault": 105,
       "Driving While License Suspended": 143,
-      "Drug Offense": 127,
       "Obstruction": 74,
       "Failure to Appear": 536,
       "Other": 76,
@@ -793,13 +796,11 @@
       "Failure to Comply (Sentence)": 37,
       "Harassment": 57,
       "Protection Order Violation": 98,
-      "DOC Warrant": 94,
       "Sex Offense": 17,
       "Malicious Mischief": 46,
       "Vehicle Prowling": 12,
       "Weapons": 32,
       "Traffic / Obstruction": 7,
-      "Resisting Arrest": 33,
       "Local / Tribal Code": 23,
       "Attempt to Elude": 19,
       "Child Exploitation / CSAM": 14,
@@ -809,7 +810,6 @@
       "Residential Burglary": 14,
       "Child Sex Offense": 16,
       "Robbery": 15,
-      "Theft (3rd Degree)": 43,
       "Burglary Tools": 7,
       "Theft (1st Degree)": 10,
       "Public Order": 4,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 10.4,
     "repeatBookerCount": 188,
-    "totalIndividuals": 1802,
+    "totalIndividuals": 1803,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1467,19 +1467,19 @@
     },
     {
       "month": "2026-07",
-      "count": 263
+      "count": 264
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 890,
+      "count": 891,
       "pct": 29.7
     },
     {
       "label": "Traffic / DUI",
       "count": 466,
-      "pct": 15.6
+      "pct": 15.5
     },
     {
       "label": "Violent",
@@ -1488,12 +1488,12 @@
     },
     {
       "label": "Property",
-      "count": 361,
+      "count": 362,
       "pct": 12.1
     },
     {
       "label": "Other",
-      "count": 271,
+      "count": 272,
       "pct": 9.1
     },
     {
@@ -1503,8 +1503,8 @@
     },
     {
       "label": "Drug",
-      "count": 178,
-      "pct": 5.9
+      "count": 179,
+      "pct": 6
     },
     {
       "label": "Sex Offense",
@@ -1525,22 +1525,22 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2734,
-      "pct": 60.1
+      "count": 2735,
+      "pct": 60
     },
     {
       "label": "Unknown",
-      "count": 771,
+      "count": 772,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 697,
+      "count": 698,
       "pct": 15.3
     },
     {
       "label": "Misdemeanor",
-      "count": 350,
+      "count": 351,
       "pct": 7.7
     }
   ],
@@ -1644,7 +1644,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1739,
+      "count": 1743,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2098,7 +2098,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 65
+          "count": 66
         },
         {
           "label": "Driving While License Suspended",
@@ -2221,7 +2221,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 127
+        "n": 128
       },
       {
         "charge": "Assault",
@@ -2249,7 +2249,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 94
+        "n": 95
       },
       {
         "charge": "Other",
@@ -2291,7 +2291,7 @@
         "avgWeight": 176,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 43
+        "n": 44
       },
       {
         "charge": "Failure to Comply (Sentence)",
@@ -2305,7 +2305,7 @@
         "avgWeight": 198,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 33
+        "n": 34
       },
       {
         "charge": "Burglary (2nd Degree)",
@@ -2811,7 +2811,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2029
+      "count": 2030
     }
   ]
 }

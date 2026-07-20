@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T10:58:11.270Z",
+  "generatedAt": "2026-07-20T13:12:31.348Z",
   "bookingCounts": {
     "total": 2040,
     "inCustody": 289,
@@ -108,7 +108,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 141
+      "count": 142
     },
     {
       "label": "Protection Order Violation",
@@ -140,7 +140,7 @@
     },
     {
       "label": "Malicious Mischief",
-      "count": 53
+      "count": 54
     }
   ],
   "topAgencies": [
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1332
+      "count": 1334
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38115.12,
+    "mean": 38184.5,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1579
+    "count": 1576
   },
   "stay": {
     "mean": 21.6,
@@ -297,16 +297,16 @@
       "count": 2
     },
     {
-      "category": "Residential Burglary",
-      "medianBail": 50000,
-      "meanBail": 80000,
-      "count": 5
-    },
-    {
       "category": "PR / Bail Revocation",
       "medianBail": 50000,
       "meanBail": 62272.73,
       "count": 11
+    },
+    {
+      "category": "Residential Burglary",
+      "medianBail": 50000,
+      "meanBail": 87500,
+      "count": 4
     },
     {
       "category": "Witness Tampering",
@@ -417,12 +417,6 @@
       "count": 33
     },
     {
-      "category": "Theft (3rd Degree)",
-      "medianBail": 5000,
-      "meanBail": 3666.67,
-      "count": 27
-    },
-    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 18271.19,
@@ -445,6 +439,12 @@
       "medianBail": 5000,
       "meanBail": 6250,
       "count": 4
+    },
+    {
+      "category": "Theft (3rd Degree)",
+      "medianBail": 5000,
+      "meanBail": 3615.38,
+      "count": 26
     },
     {
       "category": "Malicious Mischief",
@@ -497,14 +497,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6527.78,
+      "meanBail": 6651.23,
       "count": 81
-    },
-    {
-      "category": "Resisting Arrest",
-      "medianBail": 2500,
-      "meanBail": 5071.43,
-      "count": 7
     },
     {
       "category": "Driving While License Suspended",
@@ -525,6 +519,12 @@
       "count": 14
     },
     {
+      "category": "Resisting Arrest",
+      "medianBail": 1750,
+      "meanBail": 5083.33,
+      "count": 6
+    },
+    {
       "category": "Indecent Exposure",
       "medianBail": 1500,
       "meanBail": 29928.57,
@@ -533,8 +533,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1996.43,
-      "count": 70
+      "meanBail": 2672.54,
+      "count": 71
     },
     {
       "category": "Traffic / Obstruction",
@@ -633,7 +633,7 @@
       "Theft (3rd Degree)": 46,
       "Obstruction": 73,
       "DUI": 185,
-      "Criminal Trespass": 107,
+      "Criminal Trespass": 108,
       "Assault (Child)": 4,
       "Other": 73,
       "Possession of Stolen Vehicle": 19,
@@ -649,12 +649,12 @@
       "Harassment": 45,
       "Protection Order Violation": 95,
       "Residential Burglary": 13,
+      "Malicious Mischief": 39,
       "Traffic / Obstruction": 7,
       "Local / Tribal Code": 11,
       "Attempt to Elude": 15,
       "Hit and Run": 28,
       "Reckless Driving": 21,
-      "Malicious Mischief": 38,
       "Indecent Exposure": 6,
       "Child Sex Offense": 17,
       "Child Exploitation / CSAM": 13,
@@ -814,7 +814,7 @@
       "Assault": 36,
       "Domestic Violence": 81,
       "Interference with DV Reporting": 4,
-      "Criminal Trespass": 35,
+      "Criminal Trespass": 36,
       "Failure to Appear": 190,
       "Burglary (2nd Degree)": 11,
       "Making False Statements": 4,
@@ -823,6 +823,7 @@
       "Ignition Interlock Violation": 8,
       "DUI": 56,
       "Residential Burglary": 3,
+      "Malicious Mischief": 6,
       "Other": 20,
       "Drug Offense": 36,
       "Theft (2nd Degree)": 10,
@@ -834,7 +835,6 @@
       "Burglary (1st Degree)": 1,
       "Kidnapping / Unlawful Imprisonment": 1,
       "Public Order": 3,
-      "Malicious Mischief": 5,
       "Obstruction": 17,
       "Indecent Exposure": 2,
       "Resisting Arrest": 11,
@@ -1530,7 +1530,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2740,
+      "count": 2742,
       "pct": 60
     },
     {
@@ -1676,7 +1676,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1332,
+      "count": 1334,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1689,7 +1689,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 94
+          "count": 95
         },
         {
           "label": "Drug Offense",
@@ -2230,10 +2230,10 @@
       },
       {
         "charge": "Criminal Trespass",
-        "avgWeight": 144,
+        "avgWeight": 145,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 32
+        "n": 33
       },
       {
         "charge": "Driving While License Suspended",
@@ -2327,6 +2327,13 @@
         "n": 7
       },
       {
+        "charge": "Malicious Mischief",
+        "avgWeight": 169,
+        "avgHeight": "5'5\"",
+        "topRace": "White",
+        "n": 6
+      },
+      {
         "charge": "Reckless Driving",
         "avgWeight": 160,
         "avgHeight": "5'5\"",
@@ -2339,13 +2346,6 @@
         "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 6
-      },
-      {
-        "charge": "Malicious Mischief",
-        "avgWeight": 164,
-        "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 5
       },
       {
         "charge": "Interference with DV Reporting",

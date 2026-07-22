@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T11:29:38.440Z",
+  "generatedAt": "2026-07-22T13:06:50.655Z",
   "bookingCounts": {
     "total": 2082,
     "inCustody": 293,
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 780
+      "count": 779
     },
     {
       "label": "Domestic Violence",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 37343.92,
+    "mean": 37367.04,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1616
+    "count": 1615
   },
   "stay": {
     "mean": 21.3,
@@ -411,12 +411,6 @@
       "count": 1
     },
     {
-      "category": "Ignition Interlock Violation",
-      "medianBail": 5000,
-      "meanBail": 5200,
-      "count": 15
-    },
-    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 20878.68,
@@ -439,6 +433,12 @@
       "medianBail": 5000,
       "meanBail": 5781.25,
       "count": 32
+    },
+    {
+      "category": "Ignition Interlock Violation",
+      "medianBail": 5000,
+      "meanBail": 5500,
+      "count": 14
     },
     {
       "category": "Public Order",
@@ -491,7 +491,7 @@
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
-      "meanBail": 5465.91,
+      "meanBail": 5477.27,
       "count": 88
     },
     {
@@ -555,12 +555,12 @@
       "Driving While License Suspended": 127,
       "Ignition Interlock Violation": 50,
       "Protection Order Violation": 96,
-      "Failure to Appear": 610,
+      "Failure to Appear": 609,
+      "Fugitive from Justice": 13,
       "Other": 75,
       "Domestic Violence": 198,
       "Drug Offense": 137,
       "Criminal Trespass": 110,
-      "Fugitive from Justice": 12,
       "Theft (2nd Degree)": 33,
       "Theft (3rd Degree)": 47,
       "Robbery": 12,
@@ -782,12 +782,12 @@
       "Weapons": 33,
       "Resisting Arrest": 35,
       "Protection Order Violation": 99,
-      "Failure to Appear": 560,
+      "Failure to Appear": 559,
+      "Fugitive from Justice": 10,
       "Other": 78,
       "Domestic Violence": 178,
       "Drug Offense": 130,
       "Criminal Trespass": 102,
-      "Fugitive from Justice": 9,
       "Theft (2nd Degree)": 29,
       "PR / Bail Revocation": 18,
       "Robbery": 16,
@@ -1537,12 +1537,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2802,
+      "count": 2801,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 785,
+      "count": 786,
       "pct": 16.9
     },
     {
@@ -1688,7 +1688,7 @@
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 377
+          "count": 376
         },
         {
           "label": "Domestic Violence",
@@ -2102,7 +2102,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 273
+          "count": 272
         },
         {
           "label": "Domestic Violence",
@@ -2205,7 +2205,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 554
+        "n": 553
       },
       {
         "charge": "Domestic Violence",
@@ -2467,6 +2467,13 @@
         "n": 11
       },
       {
+        "charge": "Fugitive from Justice",
+        "avgWeight": 200,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 10
+      },
+      {
         "charge": "Stalking",
         "avgWeight": 177,
         "avgHeight": "5'9\"",
@@ -2486,13 +2493,6 @@
         "avgHeight": "6'0\"",
         "topRace": "White",
         "n": 10
-      },
-      {
-        "charge": "Fugitive from Justice",
-        "avgWeight": 194,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 9
       },
       {
         "charge": "Possession of Stolen Property",

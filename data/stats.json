@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-23T00:07:22.280Z",
+  "generatedAt": "2026-07-23T03:57:33.473Z",
   "bookingCounts": {
-    "total": 2089,
-    "inCustody": 281,
-    "released": 1808
+    "total": 2090,
+    "inCustody": 280,
+    "released": 1810
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1422,
+      "count": 1423,
       "pct": 68.1
     },
     {
       "label": "Female",
       "count": 467,
-      "pct": 22.4
+      "pct": 22.3
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1488,
+      "count": 1489,
       "pct": 71.2
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 576
+        "count": 577
       },
       {
         "label": "36–45",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 302
+      "count": 303
     },
     {
       "label": "DUI",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 193
+      "count": 194
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 37676.34,
+    "mean": 37655.94,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1601
+    "count": 1602
   },
   "stay": {
     "mean": 21.5,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1790,
+    "count": 1792,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,11 +205,11 @@
       },
       {
         "label": "1–3 days",
-        "count": 377
+        "count": 378
       },
       {
         "label": "4–7 days",
-        "count": 151
+        "count": 152
       },
       {
         "label": "1–2 weeks",
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 16466.72,
-      "count": 629
+      "meanBail": 16448.52,
+      "count": 630
     },
     {
       "category": "Driving While License Suspended",
@@ -550,59 +550,8 @@
     }
   ],
   "chargesByRace": {
-    "Black": {
-      "Driving While License Suspended": 25,
-      "Other": 16,
-      "Child Sex Offense": 1,
-      "Weapons": 10,
-      "Resisting Arrest": 7,
-      "Drug Offense": 18,
-      "Criminal Trespass": 11,
-      "Failure to Appear": 79,
-      "Local / Tribal Code": 4,
-      "Indecent Exposure": 5,
-      "Assault": 27,
-      "Domestic Violence": 35,
-      "Theft (2nd Degree)": 4,
-      "Malicious Mischief": 6,
-      "Vehicle Prowling": 2,
-      "DOC Warrant": 14,
-      "Child Exploitation / CSAM": 1,
-      "DUI": 19,
-      "Protection Order Violation": 20,
-      "Harassment": 19,
-      "Public Order": 1,
-      "Making False Statements": 3,
-      "Ignition Interlock Violation": 4,
-      "Burglary (2nd Degree)": 7,
-      "Burglary Tools": 1,
-      "Theft (3rd Degree)": 5,
-      "Failure to Register (Sex Offender)": 3,
-      "Obstruction": 13,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Traffic / Obstruction": 2,
-      "Robbery": 6,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "Possession of Stolen Property": 1,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Homicide": 4,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
-    },
     "White": {
+      "Domestic Violence": 199,
       "Failure to Appear": 614,
       "Weapons": 24,
       "DUI": 188,
@@ -613,7 +562,6 @@
       "PR / Bail Revocation": 18,
       "Fugitive from Justice": 13,
       "Other": 75,
-      "Domestic Violence": 198,
       "Drug Offense": 138,
       "Theft (2nd Degree)": 33,
       "Theft (3rd Degree)": 47,
@@ -666,6 +614,58 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Black": {
+      "Driving While License Suspended": 25,
+      "Other": 16,
+      "Child Sex Offense": 1,
+      "Weapons": 10,
+      "Resisting Arrest": 7,
+      "Drug Offense": 18,
+      "Criminal Trespass": 11,
+      "Failure to Appear": 79,
+      "Local / Tribal Code": 4,
+      "Indecent Exposure": 5,
+      "Assault": 27,
+      "Domestic Violence": 35,
+      "Theft (2nd Degree)": 4,
+      "Malicious Mischief": 6,
+      "Vehicle Prowling": 2,
+      "DOC Warrant": 14,
+      "Child Exploitation / CSAM": 1,
+      "DUI": 19,
+      "Protection Order Violation": 20,
+      "Harassment": 19,
+      "Public Order": 1,
+      "Making False Statements": 3,
+      "Ignition Interlock Violation": 4,
+      "Burglary (2nd Degree)": 7,
+      "Burglary Tools": 1,
+      "Theft (3rd Degree)": 5,
+      "Failure to Register (Sex Offender)": 3,
+      "Obstruction": 13,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Traffic / Obstruction": 2,
+      "Robbery": 6,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "Possession of Stolen Property": 1,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Homicide": 4,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
     },
     "Native American": {
       "Failure to Appear": 29,
@@ -775,6 +775,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 179,
       "Driving While License Suspended": 148,
       "Other": 79,
       "Failure to Appear": 563,
@@ -786,7 +787,6 @@
       "Resisting Arrest": 35,
       "Protection Order Violation": 99,
       "Fugitive from Justice": 10,
-      "Domestic Violence": 178,
       "Drug Offense": 131,
       "Theft (2nd Degree)": 29,
       "PR / Bail Revocation": 18,
@@ -934,11 +934,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 599
+      "count": 600
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 507
+      "count": 508
     },
     {
       "label": "Released",
@@ -1228,6 +1228,27 @@
         ]
       },
       {
+        "name": "BALLARD, RILEY ISAIAH",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003313",
+            "firstSeen": "07/22/2026, 20:54:42",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003262",
+            "firstSeen": "07/20/2026, 10:03:18",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002432",
+            "firstSeen": "05/27/2026, 14:02:36",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "LOTT, DAVID RANDALL",
         "count": 3,
         "bookings": [
@@ -1436,27 +1457,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "AMEND, CHRISTIAN JOSEPH",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003027",
-            "firstSeen": "07/05/2026, 21:52:24",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002059",
-            "firstSeen": "05/03/2026, 23:42:19",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001954",
-            "firstSeen": "04/27/2026, 03:30:23",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1479,7 +1479,7 @@
     },
     {
       "month": "2026-07",
-      "count": 320
+      "count": 321
     }
   ],
   "crimeTypes": [
@@ -1495,8 +1495,8 @@
     },
     {
       "label": "Violent",
-      "count": 460,
-      "pct": 14.9
+      "count": 461,
+      "pct": 15
     },
     {
       "label": "Property",
@@ -1537,7 +1537,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2816,
+      "count": 2817,
       "pct": 60.2
     },
     {
@@ -1614,7 +1614,7 @@
       "category": "Failure to Appear",
       "avgDays": 17.3,
       "medianDays": 3.1,
-      "count": 344
+      "count": 345
     },
     {
       "category": "DOC Warrant",
@@ -1737,7 +1737,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 195,
+      "count": 196,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1754,7 +1754,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 10
+          "count": 11
         },
         {
           "label": "Drug Offense",
@@ -2042,8 +2042,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1808,
-    "withBail": 869,
+    "total": 1810,
+    "withBail": 871,
     "pct": 48.1
   },
   "chargesByAgeGroup": [
@@ -2081,7 +2081,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 91
+          "count": 92
         },
         {
           "label": "DUI",
@@ -2212,7 +2212,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 172
+        "n": 173
       },
       {
         "charge": "DUI",
@@ -2823,7 +2823,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2086
+      "count": 2087
     }
   ]
 }

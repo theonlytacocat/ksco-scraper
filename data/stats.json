@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-22T22:36:49.336Z",
+  "generatedAt": "2026-07-23T00:07:22.280Z",
   "bookingCounts": {
     "total": 2089,
-    "inCustody": 283,
-    "released": 1806
+    "inCustody": 281,
+    "released": 1808
   },
   "gender": [
     {
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 37512.39,
+    "mean": 37676.34,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1600
+    "count": 1601
   },
   "stay": {
     "mean": 21.5,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1788,
+    "count": 1790,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 668
+        "count": 669
       },
       {
         "label": "1–3 days",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 229
+        "count": 230
       },
       {
         "label": "3+ months",
@@ -237,12 +237,6 @@
       "count": 7
     },
     {
-      "category": "Child Sex Offense",
-      "medianBail": 500000,
-      "meanBail": 374545.45,
-      "count": 11
-    },
-    {
       "category": "Human Trafficking",
       "medianBail": 500000,
       "meanBail": 466666.67,
@@ -253,6 +247,12 @@
       "medianBail": 500000,
       "meanBail": 500000,
       "count": 1
+    },
+    {
+      "category": "Child Sex Offense",
+      "medianBail": 400000,
+      "meanBail": 368333.33,
+      "count": 12
     },
     {
       "category": "Robbery",
@@ -934,11 +934,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 598
+      "count": 599
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 506
+      "count": 507
     },
     {
       "label": "Released",
@@ -1612,9 +1612,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17.2,
+      "avgDays": 17.3,
       "medianDays": 3.1,
-      "count": 343
+      "count": 344
     },
     {
       "category": "DOC Warrant",
@@ -2042,7 +2042,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1806,
+    "total": 1808,
     "withBail": 869,
     "pct": 48.1
   },

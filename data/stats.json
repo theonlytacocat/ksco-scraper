@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-23T19:12:14.310Z",
+  "generatedAt": "2026-07-23T20:18:22.850Z",
   "bookingCounts": {
-    "total": 2096,
-    "inCustody": 281,
-    "released": 1815
+    "total": 2098,
+    "inCustody": 280,
+    "released": 1818
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1428,
-      "pct": 68.1
+      "count": 1430,
+      "pct": 68.2
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1494,
+      "count": 1496,
       "pct": 71.3
     },
     {
@@ -61,11 +61,11 @@
       },
       {
         "label": "26–35",
-        "count": 577
+        "count": 578
       },
       {
         "label": "36–45",
-        "count": 606
+        "count": 607
       },
       {
         "label": "46–55",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 785
+      "count": 787
     },
     {
       "label": "Domestic Violence",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1802
+      "count": 1803
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1380
+      "count": 1382
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 37664.98,
+    "mean": 37624.12,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1597
+    "count": 1599
   },
   "stay": {
     "mean": 21.5,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1797,
+    "count": 1800,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 379
+        "count": 380
       },
       {
         "label": "4–7 days",
@@ -217,11 +217,11 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 171
+        "count": 172
       },
       {
         "label": "1–3 months",
-        "count": 231
+        "count": 232
       },
       {
         "label": "3+ months",
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 16484.96,
-      "count": 627
+      "meanBail": 16448.44,
+      "count": 629
     },
     {
       "category": "Driving While License Suspended",
@@ -551,9 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 617,
       "Harassment": 46,
       "DOC Warrant": 97,
-      "Failure to Appear": 615,
       "Domestic Violence": 201,
       "Other": 76,
       "Weapons": 24,
@@ -775,9 +775,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 566,
       "Harassment": 58,
       "DOC Warrant": 98,
-      "Failure to Appear": 564,
       "Domestic Violence": 180,
       "Possession of Stolen Property": 9,
       "Criminal Trespass": 104,
@@ -934,7 +934,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 601
+      "count": 603
     },
     {
       "label": "Released (Unknown Reason)",
@@ -942,7 +942,7 @@
     },
     {
       "label": "Released",
-      "count": 453
+      "count": 454
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -975,8 +975,8 @@
   ],
   "recidivism": {
     "rate": 10.8,
-    "repeatBookerCount": 199,
-    "totalIndividuals": 1850,
+    "repeatBookerCount": 200,
+    "totalIndividuals": 1851,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1234,7 +1234,7 @@
           {
             "bookingNumber": "2026003313",
             "firstSeen": "07/22/2026, 20:54:42",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003262",
@@ -1479,14 +1479,14 @@
     },
     {
       "month": "2026-07",
-      "count": 327
+      "count": 329
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 933,
-      "pct": 30.2
+      "count": 935,
+      "pct": 30.3
     },
     {
       "label": "Traffic / DUI",
@@ -1537,7 +1537,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2823,
+      "count": 2826,
       "pct": 60.2
     },
     {
@@ -1614,7 +1614,7 @@
       "category": "Failure to Appear",
       "avgDays": 17.3,
       "medianDays": 3.1,
-      "count": 346
+      "count": 347
     },
     {
       "category": "DOC Warrant",
@@ -1656,12 +1656,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1806,
+      "count": 1807,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 600
+          "count": 601
         },
         {
           "label": "Domestic Violence",
@@ -1683,12 +1683,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1380,
+      "count": 1382,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 379
+          "count": 381
         },
         {
           "label": "Domestic Violence",
@@ -2042,7 +2042,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1815,
+    "total": 1818,
     "withBail": 872,
     "pct": 48
   },
@@ -2077,7 +2077,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 246
+          "count": 247
         },
         {
           "label": "Domestic Violence",
@@ -2102,7 +2102,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 273
+          "count": 274
         },
         {
           "label": "Domestic Violence",
@@ -2205,7 +2205,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 558
+        "n": 560
       },
       {
         "charge": "Domestic Violence",
@@ -2823,7 +2823,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2093
+      "count": 2095
     }
   ]
 }

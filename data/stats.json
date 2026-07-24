@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-24T19:07:24.574Z",
+  "generatedAt": "2026-07-24T20:43:26.368Z",
   "bookingCounts": {
-    "total": 2108,
-    "inCustody": 281,
-    "released": 1827
+    "total": 2111,
+    "inCustody": 282,
+    "released": 1829
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1437,
+      "count": 1440,
       "pct": 68.2
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1504,
-      "pct": 71.3
+      "count": 1507,
+      "pct": 71.4
     },
     {
       "label": "Unknown",
@@ -57,15 +57,15 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 302
+        "count": 303
       },
       {
         "label": "26–35",
-        "count": 581
+        "count": 580
       },
       {
         "label": "36–45",
-        "count": 609
+        "count": 612
       },
       {
         "label": "46–55",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1813
+      "count": 1818
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,26 +186,26 @@
     }
   ],
   "bail": {
-    "mean": 37578.73,
+    "mean": 37656.66,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1600
+    "count": 1602
   },
   "stay": {
     "mean": 21.5,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1809,
+    "count": 1811,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 674
+        "count": 675
       },
       {
         "label": "1–3 days",
-        "count": 382
+        "count": 383
       },
       {
         "label": "4–7 days",
@@ -267,16 +267,16 @@
       "count": 1
     },
     {
-      "category": "Child Exploitation / CSAM",
-      "medianBail": 200000,
-      "meanBail": 199000,
-      "count": 5
-    },
-    {
       "category": "Failure to Comply (Sentence)",
       "medianBail": 150000,
       "meanBail": 111428.57,
       "count": 14
+    },
+    {
+      "category": "Child Exploitation / CSAM",
+      "medianBail": 100000,
+      "meanBail": 170714.29,
+      "count": 7
     },
     {
       "category": "Burglary (1st Degree)",
@@ -551,6 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Child Exploitation / CSAM": 15,
+      "Sex Offense": 15,
       "Theft (3rd Degree)": 48,
       "Failure to Appear": 619,
       "Drug Offense": 139,
@@ -590,8 +592,6 @@
       "Reckless Driving": 21,
       "Indecent Exposure": 6,
       "Child Sex Offense": 17,
-      "Child Exploitation / CSAM": 13,
-      "Sex Offense": 14,
       "Public Order": 5,
       "Burglary Tools": 6,
       "Theft (1st Degree)": 9,
@@ -775,6 +775,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Child Exploitation / CSAM": 16,
+      "Sex Offense": 18,
       "Theft (3rd Degree)": 45,
       "Failure to Appear": 568,
       "Fugitive from Justice": 11,
@@ -806,12 +808,10 @@
       "Stalking": 11,
       "Failure to Comply (Sentence)": 37,
       "Making False Statements": 30,
-      "Sex Offense": 17,
       "Malicious Mischief": 46,
       "Vehicle Prowling": 12,
       "Traffic / Obstruction": 7,
       "Attempt to Elude": 19,
-      "Child Exploitation / CSAM": 14,
       "Hit and Run": 26,
       "Reckless Driving": 18,
       "Residential Burglary": 14,
@@ -935,11 +935,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 606
+      "count": 607
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 511
+      "count": 512
     },
     {
       "label": "Released",
@@ -975,9 +975,9 @@
     }
   ],
   "recidivism": {
-    "rate": 11,
-    "repeatBookerCount": 204,
-    "totalIndividuals": 1857,
+    "rate": 11.1,
+    "repeatBookerCount": 206,
+    "totalIndividuals": 1858,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1480,7 +1480,7 @@
     },
     {
       "month": "2026-07",
-      "count": 339
+      "count": 342
     }
   ],
   "crimeTypes": [
@@ -1521,8 +1521,8 @@
     },
     {
       "label": "Sex Offense",
-      "count": 66,
-      "pct": 2.1
+      "count": 68,
+      "pct": 2.2
     },
     {
       "label": "Fraud / Identity",
@@ -1543,18 +1543,18 @@
     },
     {
       "label": "Unknown",
-      "count": 800,
+      "count": 801,
       "pct": 17
     },
     {
       "label": "Felony",
-      "count": 718,
-      "pct": 15.2
+      "count": 722,
+      "pct": 15.3
     },
     {
       "label": "Misdemeanor",
       "count": 361,
-      "pct": 7.7
+      "pct": 7.6
     }
   ],
   "avgCharges": {
@@ -1657,7 +1657,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1817,
+      "count": 1822,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2043,8 +2043,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1827,
-    "withBail": 873,
+    "total": 1829,
+    "withBail": 875,
     "pct": 47.8
   },
   "chargesByAgeGroup": [
@@ -2078,7 +2078,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 248
+          "count": 247
         },
         {
           "label": "Domestic Violence",
@@ -2089,12 +2089,12 @@
           "count": 71
         },
         {
-          "label": "Drug Offense",
+          "label": "Assault",
           "count": 51
         },
         {
-          "label": "Assault",
-          "count": 51
+          "label": "Driving While License Suspended",
+          "count": 50
         }
       ]
     },
@@ -2103,7 +2103,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 274
+          "count": 275
         },
         {
           "label": "Domestic Violence",
@@ -2111,7 +2111,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 68
+          "count": 69
         },
         {
           "label": "Driving While License Suspended",
@@ -2405,18 +2405,25 @@
         "n": 17
       },
       {
-        "charge": "Robbery",
-        "avgWeight": 176,
+        "charge": "Child Exploitation / CSAM",
+        "avgWeight": 204,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 16
       },
       {
         "charge": "Sex Offense",
-        "avgWeight": 192,
-        "avgHeight": "5'9\"",
+        "avgWeight": 190,
+        "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 15
+        "n": 16
+      },
+      {
+        "charge": "Robbery",
+        "avgWeight": 176,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 16
       },
       {
         "charge": "Motor Vehicle Theft",
@@ -2429,13 +2436,6 @@
         "charge": "Interference with DV Reporting",
         "avgWeight": 172,
         "avgHeight": "5'8\"",
-        "topRace": "White",
-        "n": 14
-      },
-      {
-        "charge": "Child Exploitation / CSAM",
-        "avgWeight": 210,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 14
       },
@@ -2824,7 +2824,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2105
+      "count": 2108
     }
   ]
 }

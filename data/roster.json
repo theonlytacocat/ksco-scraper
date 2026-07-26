@@ -92993,7 +92993,7 @@
         "addDesc": "THEFT-1",
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 15000,
+        "bondAmount": 10000,
         "cashAmount": null,
         "courtCase": "2110100818",
         "nextCourtDate": "08/20/2026",
@@ -96624,9 +96624,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "C/B",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -96638,9 +96638,9 @@
       }
     ],
     "totalBond": 5000,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/25/2026, 16:35:05",
-    "releasedAt": null
+    "releasedAt": "07/26/2026, 01:57:24"
   },
   "2026003360": {
     "bookingNumber": "2026003360",
@@ -96737,10 +96737,10 @@
     "inmateId": "50005217",
     "schedRelease": null,
     "age": "73",
-    "height": null,
-    "weight": null,
+    "height": "600",
+    "weight": "220",
     "hair": "GRY",
-    "eyes": "Height",
+    "eyes": "BRO",
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
@@ -96903,8 +96903,114 @@
       }
     ],
     "totalBond": 1500,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "07/25/2026, 23:21:04",
+    "releasedAt": "07/26/2026, 01:57:25"
+  },
+  "2026003366": {
+    "bookingNumber": "2026003366",
+    "firstName": "AUSTIN",
+    "lastName": "CRUTCHER",
+    "middleName": "DERAYE",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "07/26/2026",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=1&BookingNumber=1",
+    "inmateId": "40146546",
+    "schedRelease": null,
+    "age": "38",
+    "height": "509",
+    "weight": "180",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "9A.56.210(2) - ROBBERY-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 156000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/27/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "07/25/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.070(2) - CRIMINAL TRESPASS-1",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/27/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "07/25/2026",
+        "courtType": "SC"
+      },
+      {
+        "violation": "9A.76.040(2) - RESISTING ARREST",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/27/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "07/25/2026",
+        "courtType": "SC"
+      }
+    ],
+    "totalBond": 156000,
+    "status": "in_custody",
+    "firstSeen": "07/26/2026, 01:57:23",
+    "releasedAt": null
+  },
+  "2026003368": {
+    "bookingNumber": "2026003368",
+    "firstName": "JOHNNY",
+    "lastName": "BOWMAN",
+    "middleName": "",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=20&BookingNumber=13",
+    "inmateId": "50005221",
+    "schedRelease": null,
+    "age": "42",
+    "height": "604",
+    "weight": "315",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 5000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "07/27/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "07/25/2026",
+        "courtType": "DS"
+      }
+    ],
+    "totalBond": 5000,
+    "status": "in_custody",
+    "firstSeen": "07/26/2026, 01:57:24",
     "releasedAt": null
   }
 }

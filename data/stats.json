@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-26T17:08:15.619Z",
+  "generatedAt": "2026-07-26T18:35:35.390Z",
   "bookingCounts": {
-    "total": 2136,
-    "inCustody": 294,
+    "total": 2137,
+    "inCustody": 295,
     "released": 1842
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1464,
-      "pct": 68.5
+      "count": 1465,
+      "pct": 68.6
     },
     {
       "label": "Female",
       "count": 471,
-      "pct": 22.1
+      "pct": 22
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1525,
+      "count": 1526,
       "pct": 71.4
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 587
+        "count": 588
       },
       {
         "label": "36–45",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 310
+      "count": 311
     },
     {
       "label": "DUI",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Protection Order Violation",
-      "count": 132
+      "count": 133
     },
     {
       "label": "DOC Warrant",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1834
+      "count": 1837
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -551,15 +551,15 @@
   ],
   "chargesByRace": {
     "White": {
-      "Domestic Violence": 206,
-      "Interference with DV Reporting": 18,
+      "Domestic Violence": 207,
+      "Protection Order Violation": 98,
+      "Interference with DV Reporting": 19,
       "Failure to Appear": 627,
       "Burglary (2nd Degree)": 37,
       "Harassment": 48,
       "Malicious Mischief": 40,
       "DUI": 194,
       "Driving While License Suspended": 131,
-      "Protection Order Violation": 97,
       "Obstruction": 74,
       "Drug Offense": 140,
       "Community Custody Violation": 5,
@@ -775,18 +775,18 @@
   },
   "chargesBySex": {
     "Male": {
-      "Domestic Violence": 185,
+      "Domestic Violence": 186,
+      "Protection Order Violation": 101,
+      "Interference with DV Reporting": 16,
       "DUI": 185,
       "Robbery": 17,
       "Criminal Trespass": 107,
       "Resisting Arrest": 36,
       "Burglary (2nd Degree)": 35,
-      "Interference with DV Reporting": 15,
       "Failure to Appear": 576,
       "Harassment": 60,
       "Malicious Mischief": 47,
       "Driving While License Suspended": 152,
-      "Protection Order Violation": 100,
       "Obstruction": 75,
       "Drug Offense": 132,
       "Community Custody Violation": 7,
@@ -977,7 +977,7 @@
   "recidivism": {
     "rate": 11.1,
     "repeatBookerCount": 209,
-    "totalIndividuals": 1879,
+    "totalIndividuals": 1880,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1480,7 +1480,7 @@
     },
     {
       "month": "2026-07",
-      "count": 367
+      "count": 368
     }
   ],
   "crimeTypes": [
@@ -1496,7 +1496,7 @@
     },
     {
       "label": "Violent",
-      "count": 471,
+      "count": 472,
       "pct": 15
     },
     {
@@ -1511,7 +1511,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 229,
+      "count": 230,
       "pct": 7.3
     },
     {
@@ -1538,18 +1538,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2873,
+      "count": 2875,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 804,
-      "pct": 16.8
+      "count": 805,
+      "pct": 16.9
     },
     {
       "label": "Felony",
       "count": 733,
-      "pct": 15.4
+      "pct": 15.3
     },
     {
       "label": "Misdemeanor",
@@ -1657,7 +1657,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1838,
+      "count": 1841,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1666,7 +1666,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 199
+          "count": 200
         },
         {
           "label": "DUI",
@@ -1678,7 +1678,7 @@
         },
         {
           "label": "Protection Order Violation",
-          "count": 67
+          "count": 68
         }
       ]
     },
@@ -2082,7 +2082,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 94
+          "count": 95
         },
         {
           "label": "DUI",
@@ -2213,7 +2213,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 179
+        "n": 180
       },
       {
         "charge": "DUI",
@@ -2255,7 +2255,7 @@
         "avgWeight": 192,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 100
+        "n": 101
       },
       {
         "charge": "DOC Warrant",
@@ -2412,6 +2412,13 @@
         "n": 17
       },
       {
+        "charge": "Interference with DV Reporting",
+        "avgWeight": 175,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 16
+      },
+      {
         "charge": "Child Exploitation / CSAM",
         "avgWeight": 204,
         "avgHeight": "5'10\"",
@@ -2424,13 +2431,6 @@
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 16
-      },
-      {
-        "charge": "Interference with DV Reporting",
-        "avgWeight": 171,
-        "avgHeight": "5'8\"",
-        "topRace": "White",
-        "n": 15
       },
       {
         "charge": "Motor Vehicle Theft",
@@ -2824,7 +2824,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2133
+      "count": 2134
     }
   ]
 }

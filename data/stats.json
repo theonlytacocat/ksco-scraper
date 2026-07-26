@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-26T03:20:40.191Z",
+  "generatedAt": "2026-07-26T06:23:43.719Z",
   "bookingCounts": {
-    "total": 2131,
-    "inCustody": 293,
+    "total": 2133,
+    "inCustody": 295,
     "released": 1838
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1459,
+      "count": 1461,
       "pct": 68.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1522,
+      "count": 1524,
       "pct": 71.4
     },
     {
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 227,
-      "pct": 10.7
+      "pct": 10.6
     },
     {
       "label": "Native American",
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 305
+        "count": 306
       },
       {
         "label": "26–35",
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 147
+        "count": 148
       },
       {
         "label": "65+",
@@ -84,11 +84,11 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 797
+      "count": 798
     },
     {
       "label": "Domestic Violence",
-      "count": 308
+      "count": 309
     },
     {
       "label": "DUI",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 249
+      "count": 252
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 38136.6,
+    "mean": 38114.22,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1636
+    "count": 1637
   },
   "stay": {
     "mean": 21.4,
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 16178.9,
-      "count": 646
+      "meanBail": 16156.21,
+      "count": 647
     },
     {
       "category": "Driving While License Suspended",
@@ -551,11 +551,12 @@
   ],
   "chargesByRace": {
     "White": {
-      "Domestic Violence": 204,
+      "Domestic Violence": 205,
+      "Interference with DV Reporting": 18,
+      "Failure to Appear": 627,
       "Burglary (2nd Degree)": 37,
       "Harassment": 48,
       "Malicious Mischief": 40,
-      "Failure to Appear": 626,
       "DUI": 194,
       "Driving While License Suspended": 131,
       "Protection Order Violation": 97,
@@ -577,7 +578,6 @@
       "Criminal Trespass": 112,
       "PR / Bail Revocation": 18,
       "Robbery": 12,
-      "Interference with DV Reporting": 17,
       "Homicide": 15,
       "Resisting Arrest": 35,
       "Assault (Child)": 4,
@@ -775,11 +775,12 @@
   },
   "chargesBySex": {
     "Male": {
-      "Domestic Violence": 183,
+      "Domestic Violence": 184,
+      "Interference with DV Reporting": 15,
+      "Failure to Appear": 576,
       "Burglary (2nd Degree)": 34,
       "Harassment": 60,
       "Malicious Mischief": 47,
-      "Failure to Appear": 575,
       "DUI": 184,
       "Driving While License Suspended": 152,
       "Criminal Trespass": 106,
@@ -806,7 +807,6 @@
       "Local / Tribal Code": 24,
       "Indecent Exposure": 11,
       "Assault (Child)": 3,
-      "Interference with DV Reporting": 14,
       "Possession of Stolen Vehicle": 19,
       "Stalking": 11,
       "Failure to Comply (Sentence)": 37,
@@ -975,9 +975,9 @@
     }
   ],
   "recidivism": {
-    "rate": 11.2,
+    "rate": 11.1,
     "repeatBookerCount": 209,
-    "totalIndividuals": 1874,
+    "totalIndividuals": 1876,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1480,13 +1480,13 @@
     },
     {
       "month": "2026-07",
-      "count": 362
+      "count": 364
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 948,
+      "count": 949,
       "pct": 30.3
     },
     {
@@ -1496,8 +1496,8 @@
     },
     {
       "label": "Violent",
-      "count": 468,
-      "pct": 14.9
+      "count": 469,
+      "pct": 15
     },
     {
       "label": "Property",
@@ -1511,7 +1511,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 228,
+      "count": 229,
       "pct": 7.3
     },
     {
@@ -1538,17 +1538,17 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2869,
+      "count": 2870,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 803,
+      "count": 804,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 728,
+      "count": 730,
       "pct": 15.3
     },
     {
@@ -1711,7 +1711,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 250,
+      "count": 253,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1720,7 +1720,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 29
+          "count": 31
         },
         {
           "label": "Assault",
@@ -2061,7 +2061,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 58
+          "count": 59
         },
         {
           "label": "Driving While License Suspended",
@@ -2153,7 +2153,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 47
+          "count": 48
         },
         {
           "label": "DUI",
@@ -2206,14 +2206,14 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 569
+        "n": 570
       },
       {
         "charge": "Domestic Violence",
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 177
+        "n": 178
       },
       {
         "charge": "DUI",
@@ -2426,18 +2426,18 @@
         "n": 16
       },
       {
+        "charge": "Interference with DV Reporting",
+        "avgWeight": 171,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 15
+      },
+      {
         "charge": "Motor Vehicle Theft",
         "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 15
-      },
-      {
-        "charge": "Interference with DV Reporting",
-        "avgWeight": 172,
-        "avgHeight": "5'8\"",
-        "topRace": "White",
-        "n": 14
       },
       {
         "charge": "Residential Burglary",
@@ -2824,7 +2824,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2128
+      "count": 2130
     }
   ]
 }

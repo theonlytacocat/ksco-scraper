@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-07-28T04:18:16.014Z",
+  "generatedAt": "2026-07-28T07:18:29.239Z",
   "bookingCounts": {
-    "total": 2154,
+    "total": 2156,
     "inCustody": 290,
-    "released": 1864
+    "released": 1866
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1478,
+      "count": 1480,
       "pct": 68.6
     },
     {
       "label": "Female",
       "count": 475,
-      "pct": 22.1
+      "pct": 22
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1540,
+      "count": 1542,
       "pct": 71.5
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 324
+        "count": 326
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 805
+      "count": 807
     },
     {
       "label": "Domestic Violence",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1854
+      "count": 1855
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -170,7 +170,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 51
+      "count": 52
     },
     {
       "label": "OTHER AGENCY",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 37887.83,
+    "mean": 37843.73,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1654
+    "count": 1656
   },
   "stay": {
     "mean": 21.3,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 1846,
+    "count": 1848,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 684
+        "count": 685
       },
       {
         "label": "1–3 days",
@@ -209,7 +209,7 @@
       },
       {
         "label": "4–7 days",
-        "count": 156
+        "count": 157
       },
       {
         "label": "1–2 weeks",
@@ -489,16 +489,16 @@
       "count": 1
     },
     {
+      "category": "Failure to Appear",
+      "medianBail": 2500,
+      "meanBail": 16050.87,
+      "count": 655
+    },
+    {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 5367.82,
       "count": 87
-    },
-    {
-      "category": "Failure to Appear",
-      "medianBail": 2500,
-      "meanBail": 16095.82,
-      "count": 653
     },
     {
       "category": "Drug Offense",
@@ -551,9 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 636,
       "Driving While License Suspended": 132,
       "Ignition Interlock Violation": 53,
-      "Failure to Appear": 634,
       "DUI": 195,
       "Protection Order Violation": 101,
       "Criminal Trespass": 116,
@@ -775,13 +775,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 582,
       "Driving While License Suspended": 153,
       "Ignition Interlock Violation": 57,
       "Malicious Mischief": 48,
       "DUI": 186,
       "Local / Tribal Code": 26,
       "Protection Order Violation": 104,
-      "Failure to Appear": 580,
       "Criminal Trespass": 111,
       "Drug Offense": 133,
       "Making False Statements": 31,
@@ -935,11 +935,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 622
+      "count": 623
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 518
+      "count": 519
     },
     {
       "label": "Released",
@@ -977,7 +977,7 @@
   "recidivism": {
     "rate": 11.3,
     "repeatBookerCount": 213,
-    "totalIndividuals": 1890,
+    "totalIndividuals": 1892,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1485,14 +1485,14 @@
     },
     {
       "month": "2026-07",
-      "count": 385
+      "count": 387
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 957,
-      "pct": 30.2
+      "count": 959,
+      "pct": 30.3
     },
     {
       "label": "Traffic / DUI",
@@ -1543,7 +1543,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2902,
+      "count": 2904,
       "pct": 60.2
     },
     {
@@ -1618,9 +1618,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 17,
+      "avgDays": 16.9,
       "medianDays": 3.1,
-      "count": 357
+      "count": 358
     },
     {
       "category": "DOC Warrant",
@@ -1662,12 +1662,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1858,
+      "count": 1859,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 614
+          "count": 615
         },
         {
           "label": "Domestic Violence",
@@ -1824,7 +1824,7 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 51,
+      "count": 52,
       "topCharge": "Local / Tribal Code",
       "chargeBreakdown": [
         {
@@ -1833,7 +1833,7 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 14
+          "count": 15
         },
         {
           "label": "DOC Warrant",
@@ -2048,8 +2048,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1864,
-    "withBail": 894,
+    "total": 1866,
+    "withBail": 895,
     "pct": 48
   },
   "chargesByAgeGroup": [
@@ -2133,7 +2133,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 129
+          "count": 131
         },
         {
           "label": "Drug Offense",
@@ -2211,7 +2211,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 574
+        "n": 576
       },
       {
         "charge": "Domestic Violence",
@@ -2829,7 +2829,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2151
+      "count": 2153
     }
   ]
 }

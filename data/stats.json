@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-28T12:24:57.486Z",
+  "generatedAt": "2026-07-28T15:02:59.261Z",
   "bookingCounts": {
-    "total": 2156,
+    "total": 2157,
     "inCustody": 287,
-    "released": 1869
+    "released": 1870
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1480,
-      "pct": 68.6
+      "count": 1481,
+      "pct": 68.7
     },
     {
       "label": "Female",
@@ -35,7 +35,7 @@
     },
     {
       "label": "Black",
-      "count": 230,
+      "count": 231,
       "pct": 10.7
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 308
+        "count": 309
       },
       {
         "label": "26–35",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1435
+      "count": 1436
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 37843.73,
+    "mean": 38424.39,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1656
+    "count": 1657
   },
   "stay": {
-    "mean": 21.2,
+    "mean": 21.3,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1851,
+    "count": 1852,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 242
+        "count": 243
       },
       {
         "label": "3+ months",
@@ -233,8 +233,8 @@
     {
       "category": "Homicide",
       "medianBail": 1000000,
-      "meanBail": 1306250,
-      "count": 8
+      "meanBail": 1272222.22,
+      "count": 9
     },
     {
       "category": "Human Trafficking",
@@ -550,6 +550,58 @@
     }
   ],
   "chargesByRace": {
+    "Black": {
+      "Homicide": 6,
+      "Malicious Mischief": 7,
+      "DUI": 20,
+      "Robbery": 7,
+      "Criminal Trespass": 15,
+      "Resisting Arrest": 8,
+      "Burglary (2nd Degree)": 8,
+      "Obstruction": 14,
+      "Theft (3rd Degree)": 6,
+      "Possession of Stolen Property": 2,
+      "Other": 17,
+      "Driving While License Suspended": 25,
+      "Child Sex Offense": 1,
+      "Weapons": 10,
+      "Drug Offense": 18,
+      "Failure to Appear": 79,
+      "Local / Tribal Code": 4,
+      "Indecent Exposure": 5,
+      "Assault": 27,
+      "Domestic Violence": 35,
+      "Theft (2nd Degree)": 4,
+      "Vehicle Prowling": 2,
+      "DOC Warrant": 14,
+      "Child Exploitation / CSAM": 1,
+      "Protection Order Violation": 20,
+      "Harassment": 19,
+      "Public Order": 1,
+      "Making False Statements": 3,
+      "Ignition Interlock Violation": 4,
+      "Burglary Tools": 1,
+      "Failure to Register (Sex Offender)": 3,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Traffic / Obstruction": 2,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Community Custody Violation": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
+    },
     "White": {
       "Failure to Appear": 635,
       "Other": 77,
@@ -614,58 +666,6 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
-    },
-    "Black": {
-      "Malicious Mischief": 7,
-      "DUI": 20,
-      "Robbery": 7,
-      "Criminal Trespass": 15,
-      "Resisting Arrest": 8,
-      "Burglary (2nd Degree)": 8,
-      "Obstruction": 14,
-      "Theft (3rd Degree)": 6,
-      "Homicide": 5,
-      "Possession of Stolen Property": 2,
-      "Other": 17,
-      "Driving While License Suspended": 25,
-      "Child Sex Offense": 1,
-      "Weapons": 10,
-      "Drug Offense": 18,
-      "Failure to Appear": 79,
-      "Local / Tribal Code": 4,
-      "Indecent Exposure": 5,
-      "Assault": 27,
-      "Domestic Violence": 35,
-      "Theft (2nd Degree)": 4,
-      "Vehicle Prowling": 2,
-      "DOC Warrant": 14,
-      "Child Exploitation / CSAM": 1,
-      "Protection Order Violation": 20,
-      "Harassment": 19,
-      "Public Order": 1,
-      "Making False Statements": 3,
-      "Ignition Interlock Violation": 4,
-      "Burglary Tools": 1,
-      "Failure to Register (Sex Offender)": 3,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Traffic / Obstruction": 2,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Community Custody Violation": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
     },
     "Native American": {
       "Local / Tribal Code": 13,
@@ -775,6 +775,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Homicide": 19,
       "Failure to Appear": 581,
       "Other": 82,
       "Driving While License Suspended": 153,
@@ -798,7 +799,6 @@
       "Obstruction": 76,
       "Theft (3rd Degree)": 46,
       "Harassment": 60,
-      "Homicide": 18,
       "Child Exploitation / CSAM": 16,
       "Sex Offense": 18,
       "Fugitive from Justice": 11,
@@ -935,7 +935,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 625
+      "count": 626
     },
     {
       "label": "Released (Unknown Reason)",
@@ -977,7 +977,7 @@
   "recidivism": {
     "rate": 11.3,
     "repeatBookerCount": 213,
-    "totalIndividuals": 1892,
+    "totalIndividuals": 1893,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1485,7 +1485,7 @@
     },
     {
       "month": "2026-07",
-      "count": 387
+      "count": 388
     }
   ],
   "crimeTypes": [
@@ -1501,7 +1501,7 @@
     },
     {
       "label": "Violent",
-      "count": 473,
+      "count": 474,
       "pct": 14.9
     },
     {
@@ -1517,7 +1517,7 @@
     {
       "label": "Order Violations",
       "count": 233,
-      "pct": 7.4
+      "pct": 7.3
     },
     {
       "label": "Drug",
@@ -1553,7 +1553,7 @@
     },
     {
       "label": "Felony",
-      "count": 737,
+      "count": 738,
       "pct": 15.3
     },
     {
@@ -1618,9 +1618,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 16.9,
+      "avgDays": 17,
       "medianDays": 3.1,
-      "count": 359
+      "count": 360
     },
     {
       "category": "DOC Warrant",
@@ -1689,7 +1689,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1435,
+      "count": 1436,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2048,7 +2048,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1869,
+    "total": 1870,
     "withBail": 898,
     "pct": 48
   },
@@ -2368,18 +2368,18 @@
         "n": 26
       },
       {
+        "charge": "Homicide",
+        "avgWeight": 166,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 19
+      },
+      {
         "charge": "Attempt to Elude",
         "avgWeight": 195,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 19
-      },
-      {
-        "charge": "Homicide",
-        "avgWeight": 167,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 18
       },
       {
         "charge": "PR / Bail Revocation",
@@ -2829,7 +2829,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2153
+      "count": 2154
     }
   ]
 }

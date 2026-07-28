@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-28T15:02:59.261Z",
+  "generatedAt": "2026-07-28T16:50:22.291Z",
   "bookingCounts": {
     "total": 2157,
-    "inCustody": 287,
-    "released": 1870
+    "inCustody": 279,
+    "released": 1878
   },
   "gender": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 312
+      "count": 313
     },
     {
       "label": "DUI",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1855
+      "count": 1858
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1436
+      "count": 1437
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 38424.39,
+    "mean": 38346.73,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1657
+    "count": 1659
   },
   "stay": {
-    "mean": 21.3,
+    "mean": 21.4,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 1852,
+    "count": 1860,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,15 +217,15 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 173
+        "count": 177
       },
       {
         "label": "1–3 months",
-        "count": 243
+        "count": 245
       },
       {
         "label": "3+ months",
-        "count": 107
+        "count": 109
       }
     ]
   },
@@ -419,7 +419,7 @@
     {
       "category": "Malicious Mischief",
       "medianBail": 5000,
-      "meanBail": 11083.33,
+      "meanBail": 9208.33,
       "count": 24
     },
     {
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 16075.03,
-      "count": 654
+      "meanBail": 16029.07,
+      "count": 656
     },
     {
       "category": "Driving While License Suspended",
@@ -539,7 +539,7 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2034.38,
+      "meanBail": 1921.88,
       "count": 80
     },
     {
@@ -610,10 +610,10 @@
       "DUI": 195,
       "Protection Order Violation": 101,
       "Criminal Trespass": 116,
+      "Domestic Violence": 209,
       "Drug Offense": 141,
       "Making False Statements": 31,
       "DOC Warrant": 102,
-      "Domestic Violence": 208,
       "Interference with DV Reporting": 19,
       "Theft (2nd Degree)": 35,
       "Vehicle Prowling": 11,
@@ -785,10 +785,10 @@
       "Local / Tribal Code": 26,
       "Protection Order Violation": 104,
       "Criminal Trespass": 111,
+      "Domestic Violence": 187,
       "Drug Offense": 133,
       "Making False Statements": 31,
       "DOC Warrant": 101,
-      "Domestic Violence": 186,
       "Interference with DV Reporting": 16,
       "Theft (2nd Degree)": 30,
       "Vehicle Prowling": 13,
@@ -935,11 +935,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 626
+      "count": 629
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 519
+      "count": 520
     },
     {
       "label": "Released",
@@ -947,11 +947,11 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 118
+      "count": 121
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 70
+      "count": 71
     },
     {
       "label": "Failure to Comply",
@@ -1501,8 +1501,8 @@
     },
     {
       "label": "Violent",
-      "count": 474,
-      "pct": 14.9
+      "count": 475,
+      "pct": 15
     },
     {
       "label": "Property",
@@ -1543,7 +1543,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2903,
+      "count": 2906,
       "pct": 60.2
     },
     {
@@ -1553,7 +1553,7 @@
     },
     {
       "label": "Felony",
-      "count": 738,
+      "count": 739,
       "pct": 15.3
     },
     {
@@ -1662,16 +1662,16 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1859,
+      "count": 1862,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 615
+          "count": 617
         },
         {
           "label": "Domestic Violence",
-          "count": 201
+          "count": 202
         },
         {
           "label": "DUI",
@@ -1689,7 +1689,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1436,
+      "count": 1437,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2048,9 +2048,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1870,
+    "total": 1878,
     "withBail": 898,
-    "pct": 48
+    "pct": 47.8
   },
   "chargesByAgeGroup": [
     {
@@ -2112,7 +2112,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 79
+          "count": 80
         },
         {
           "label": "Drug Offense",
@@ -2218,7 +2218,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 180
+        "n": 181
       },
       {
         "charge": "DUI",

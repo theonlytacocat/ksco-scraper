@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-01T16:06:00.737Z",
+  "generatedAt": "2026-08-01T17:34:41.378Z",
   "bookingCounts": {
-    "total": 2222,
+    "total": 2223,
     "inCustody": 281,
-    "released": 1941
+    "released": 1942
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1522,
+      "count": 1523,
       "pct": 68.5
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1587,
+      "count": 1588,
       "pct": 71.4
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 606
+        "count": 607
       },
       {
         "label": "36–45",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 319
+      "count": 320
     },
     {
       "label": "DUI",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 159
+      "count": 160
     },
     {
       "label": "Assault",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1904
+      "count": 1905
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1491
+      "count": 1492
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 37432.96,
+    "mean": 37411.26,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1701
+    "count": 1702
   },
   "stay": {
     "mean": 21.4,
@@ -537,29 +537,29 @@
       "count": 7
     },
     {
+      "category": "Criminal Trespass",
+      "medianBail": 1000,
+      "meanBail": 1850,
+      "count": 85
+    },
+    {
       "category": "Local / Tribal Code",
       "medianBail": 1000,
       "meanBail": 4941.18,
       "count": 17
-    },
-    {
-      "category": "Criminal Trespass",
-      "medianBail": 1000,
-      "meanBail": 1866.07,
-      "count": 84
     }
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 120,
       "Drug Offense": 149,
       "Failure to Appear": 658,
+      "Domestic Violence": 215,
       "Driving While License Suspended": 135,
       "Other": 80,
       "Possession of Stolen Property": 10,
       "Protection Order Violation": 104,
       "Assault": 102,
-      "Domestic Violence": 214,
-      "Criminal Trespass": 119,
       "Sex Offense": 16,
       "Child Exploitation / CSAM": 16,
       "Child Sex Offense": 18,
@@ -777,6 +777,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 114,
       "Drug Offense": 139,
       "Failure to Appear": 601,
       "Driving While License Suspended": 155,
@@ -796,7 +797,6 @@
       "DOC Warrant": 104,
       "Making False Statements": 33,
       "Malicious Mischief": 49,
-      "Criminal Trespass": 113,
       "Harassment": 63,
       "Burglary (1st Degree)": 12,
       "Theft (3rd Degree)": 47,
@@ -841,10 +841,10 @@
       "Theft": 1
     },
     "Female": {
+      "Domestic Violence": 86,
       "Protection Order Violation": 27,
       "Failure to Appear": 211,
       "Driving While License Suspended": 30,
-      "Domestic Violence": 85,
       "Criminal Trespass": 39,
       "Drug Offense": 39,
       "Other": 21,
@@ -938,7 +938,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 654
+      "count": 655
     },
     {
       "label": "Released (Unknown Reason)",
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 11.5,
     "repeatBookerCount": 224,
-    "totalIndividuals": 1946,
+    "totalIndividuals": 1947,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1492,7 +1492,7 @@
     },
     {
       "month": "2026-08",
-      "count": 7
+      "count": 8
     }
   ],
   "crimeTypes": [
@@ -1508,12 +1508,12 @@
     },
     {
       "label": "Violent",
-      "count": 484,
+      "count": 485,
       "pct": 14.8
     },
     {
       "label": "Property",
-      "count": 391,
+      "count": 392,
       "pct": 12
     },
     {
@@ -1550,12 +1550,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2983,
+      "count": 2984,
       "pct": 60.3
     },
     {
       "label": "Unknown",
-      "count": 838,
+      "count": 839,
       "pct": 16.9
     },
     {
@@ -1669,7 +1669,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1908,
+      "count": 1909,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1678,7 +1678,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 206
+          "count": 207
         },
         {
           "label": "DUI",
@@ -1696,7 +1696,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1491,
+      "count": 1492,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1705,7 +1705,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 112
+          "count": 113
         },
         {
           "label": "Domestic Violence",
@@ -2059,8 +2059,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 1941,
-    "withBail": 930,
+    "total": 1942,
+    "withBail": 931,
     "pct": 47.9
   },
   "chargesByAgeGroup": [
@@ -2077,7 +2077,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 60
+          "count": 61
         },
         {
           "label": "Driving While License Suspended",
@@ -2254,10 +2254,10 @@
       },
       {
         "charge": "Criminal Trespass",
-        "avgWeight": 180,
+        "avgWeight": 179,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 111
+        "n": 112
       },
       {
         "charge": "Protection Order Violation",
@@ -2627,10 +2627,10 @@
       },
       {
         "charge": "Domestic Violence",
-        "avgWeight": 152,
+        "avgWeight": 153,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 75
+        "n": 76
       },
       {
         "charge": "DUI",
@@ -2840,7 +2840,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2219
+      "count": 2220
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-02T18:33:25.819Z",
+  "generatedAt": "2026-08-02T20:14:41.066Z",
   "bookingCounts": {
-    "total": 2238,
-    "inCustody": 285,
+    "total": 2240,
+    "inCustody": 287,
     "released": 1953
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1533,
+      "count": 1534,
       "pct": 68.5
     },
     {
       "label": "Female",
-      "count": 499,
+      "count": 500,
       "pct": 22.3
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1599,
+      "count": 1600,
       "pct": 71.4
     },
     {
       "label": "Unknown",
-      "count": 265,
-      "pct": 11.8
+      "count": 266,
+      "pct": 11.9
     },
     {
       "label": "Black",
@@ -50,14 +50,14 @@
     }
   ],
   "age": {
-    "mean": 38.6,
+    "mean": 38.5,
     "median": 37,
     "min": 18,
     "max": 87,
     "histogram": [
       {
         "label": "18–25",
-        "count": 319
+        "count": 321
       },
       {
         "label": "26–35",
@@ -92,11 +92,11 @@
     },
     {
       "label": "DUI",
-      "count": 306
+      "count": 307
     },
     {
       "label": "Driving While License Suspended",
-      "count": 202
+      "count": 203
     },
     {
       "label": "Drug Offense",
@@ -146,11 +146,11 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1908
+      "count": 1909
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1511
+      "count": 1512
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 37144.05,
+    "mean": 37125.35,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1718
+    "count": 1719
   },
   "stay": {
     "mean": 21.3,
@@ -411,16 +411,16 @@
       "count": 1
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 19795.14,
+      "count": 144
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5600,
       "count": 35
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 19898.6,
-      "count": 143
     },
     {
       "category": "Other",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 202,
       "Protection Order Violation": 105,
       "Failure to Appear": 659,
       "Obstruction": 75,
@@ -558,7 +559,6 @@
       "Assault": 104,
       "Domestic Violence": 217,
       "Indecent Exposure": 7,
-      "DUI": 201,
       "Drug Offense": 151,
       "Other": 82,
       "Local / Tribal Code": 12,
@@ -616,6 +616,7 @@
       "Bribery": 1
     },
     "Unknown": {
+      "Driving While License Suspended": 27,
       "Drug Offense": 20,
       "Domestic Violence": 56,
       "DUI": 69,
@@ -627,7 +628,6 @@
       "Criminal Trespass": 12,
       "Harassment": 7,
       "Obstruction": 11,
-      "Driving While License Suspended": 26,
       "Sex Offense": 5,
       "Ignition Interlock Violation": 8,
       "Local / Tribal Code": 4,
@@ -777,6 +777,7 @@
   },
   "chargesBySex": {
     "Female": {
+      "DUI": 59,
       "Protection Order Violation": 28,
       "Obstruction": 18,
       "Resisting Arrest": 12,
@@ -787,7 +788,6 @@
       "Failure to Appear": 211,
       "Driving While License Suspended": 30,
       "Other": 21,
-      "DUI": 58,
       "Harassment": 12,
       "DOC Warrant": 19,
       "Arson": 1,
@@ -832,6 +832,7 @@
       "Bribery": 1
     },
     "Male": {
+      "Driving While License Suspended": 156,
       "Failure to Appear": 603,
       "Domestic Violence": 192,
       "Indecent Exposure": 12,
@@ -842,7 +843,6 @@
       "Assault": 111,
       "Tampering with Evidence": 3,
       "Criminal Trespass": 114,
-      "Driving While License Suspended": 155,
       "Possession of Stolen Property": 10,
       "Protection Order Violation": 108,
       "Resisting Arrest": 39,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 11.6,
     "repeatBookerCount": 228,
-    "totalIndividuals": 1958,
+    "totalIndividuals": 1960,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1492,7 +1492,7 @@
     },
     {
       "month": "2026-08",
-      "count": 23
+      "count": 25
     }
   ],
   "crimeTypes": [
@@ -1503,8 +1503,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 501,
-      "pct": 15.2
+      "count": 503,
+      "pct": 15.3
     },
     {
       "label": "Violent",
@@ -1550,8 +1550,8 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 2998,
-      "pct": 60.2
+      "count": 3000,
+      "pct": 60.3
     },
     {
       "label": "Unknown",
@@ -1669,7 +1669,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1913,
+      "count": 1914,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1682,7 +1682,7 @@
         },
         {
           "label": "DUI",
-          "count": 123
+          "count": 124
         },
         {
           "label": "Assault",
@@ -1696,7 +1696,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1511,
+      "count": 1512,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1717,7 +1717,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 82
+          "count": 83
         }
       ]
     },
@@ -2073,7 +2073,7 @@
         },
         {
           "label": "DUI",
-          "count": 76
+          "count": 77
         },
         {
           "label": "Domestic Violence",
@@ -2081,7 +2081,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 34
+          "count": 35
         },
         {
           "label": "Assault",
@@ -2236,7 +2236,7 @@
         "avgWeight": 151,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 55
+        "n": 56
       },
       {
         "charge": "Drug Offense",
@@ -2462,7 +2462,7 @@
         "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 150
+        "n": 151
       },
       {
         "charge": "Drug Offense",
@@ -2847,7 +2847,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2235
+      "count": 2237
     }
   ]
 }

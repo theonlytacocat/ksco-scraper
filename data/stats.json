@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-03T21:44:40.836Z",
+  "generatedAt": "2026-08-03T23:07:12.934Z",
   "bookingCounts": {
-    "total": 2253,
-    "inCustody": 285,
+    "total": 2254,
+    "inCustody": 286,
     "released": 1968
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1540,
+      "count": 1541,
       "pct": 68.4
     },
     {
       "label": "Female",
       "count": 506,
-      "pct": 22.5
+      "pct": 22.4
     },
     {
       "label": "Unknown",
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1607,
+      "count": 1608,
       "pct": 71.3
     },
     {
       "label": "Unknown",
       "count": 267,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Black",
@@ -41,7 +41,7 @@
     {
       "label": "Native American",
       "count": 71,
-      "pct": 3.2
+      "pct": 3.1
     },
     {
       "label": "Asian / Pacific Islander",
@@ -77,14 +77,14 @@
       },
       {
         "label": "65+",
-        "count": 55
+        "count": 56
       }
     ]
   },
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 843
+      "count": 845
     },
     {
       "label": "Domestic Violence",
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 205
+      "count": 206
     },
     {
       "label": "Drug Offense",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Ignition Interlock Violation",
-      "count": 70
+      "count": 71
     },
     {
       "label": "Theft (3rd Degree)",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1922
+      "count": 1923
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 163
+      "count": 166
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36974.74,
+    "mean": 36978.79,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1723
+    "count": 1722
   },
   "stay": {
     "mean": 21.4,
@@ -347,8 +347,8 @@
     {
       "category": "Assault",
       "medianBail": 25000,
-      "meanBail": 104870.97,
-      "count": 62
+      "meanBail": 105934.43,
+      "count": 61
     },
     {
       "category": "Domestic Violence",
@@ -363,6 +363,12 @@
       "count": 23
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 12500,
+      "meanBail": 35703.13,
+      "count": 32
+    },
+    {
       "category": "Possession of Stolen Property",
       "medianBail": 11250,
       "meanBail": 18150,
@@ -373,12 +379,6 @@
       "medianBail": 10000,
       "meanBail": 40620,
       "count": 25
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 36048.39,
-      "count": 31
     },
     {
       "category": "Theft (2nd Degree)",
@@ -503,8 +503,8 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6557.78,
-      "count": 90
+      "meanBail": 6462.92,
+      "count": 89
     },
     {
       "category": "Local / Tribal Code",
@@ -545,8 +545,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Driving While License Suspended": 136,
+      "Ignition Interlock Violation": 54,
+      "Failure to Appear": 664,
       "DOC Warrant": 106,
-      "Failure to Appear": 662,
       "Domestic Violence": 218,
       "Drug Offense": 153,
       "DUI": 203,
@@ -560,7 +562,6 @@
       "Local / Tribal Code": 12,
       "Tampering with Evidence": 3,
       "Criminal Trespass": 122,
-      "Driving While License Suspended": 135,
       "Possession of Stolen Property": 10,
       "Sex Offense": 16,
       "Child Exploitation / CSAM": 16,
@@ -568,7 +569,6 @@
       "Hit and Run": 29,
       "Failure to Comply (Sentence)": 33,
       "Burglary (1st Degree)": 7,
-      "Ignition Interlock Violation": 53,
       "Making False Statements": 32,
       "Interference with DV Reporting": 19,
       "Theft (2nd Degree)": 35,
@@ -771,9 +771,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Driving While License Suspended": 159,
+      "Ignition Interlock Violation": 58,
+      "Failure to Appear": 610,
       "DOC Warrant": 105,
-      "Failure to Appear": 608,
-      "Driving While License Suspended": 158,
       "Drug Offense": 143,
       "Domestic Violence": 192,
       "Indecent Exposure": 12,
@@ -797,7 +798,6 @@
       "Burglary (1st Degree)": 12,
       "Theft (3rd Degree)": 47,
       "Homicide": 19,
-      "Ignition Interlock Violation": 57,
       "Interference with DV Reporting": 16,
       "Theft (2nd Degree)": 30,
       "Vehicle Prowling": 13,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 11.6,
     "repeatBookerCount": 229,
-    "totalIndividuals": 1972,
+    "totalIndividuals": 1973,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1486,24 +1486,24 @@
     },
     {
       "month": "2026-08",
-      "count": 38
+      "count": 39
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1001,
+      "count": 1003,
       "pct": 30.3
     },
     {
       "label": "Traffic / DUI",
-      "count": 507,
-      "pct": 15.3
+      "count": 508,
+      "pct": 15.4
     },
     {
       "label": "Violent",
       "count": 491,
-      "pct": 14.9
+      "pct": 14.8
     },
     {
       "label": "Property",
@@ -1544,7 +1544,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3020,
+      "count": 3022,
       "pct": 60.3
     },
     {
@@ -1559,8 +1559,8 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 382,
-      "pct": 7.6
+      "count": 384,
+      "pct": 7.7
     }
   ],
   "avgCharges": {
@@ -1663,12 +1663,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1927,
+      "count": 1928,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 644
+          "count": 645
         },
         {
           "label": "Domestic Violence",
@@ -1771,7 +1771,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 163,
+      "count": 166,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1780,11 +1780,11 @@
         },
         {
           "label": "Failure to Appear",
-          "count": 27
+          "count": 28
         },
         {
           "label": "Driving While License Suspended",
-          "count": 11
+          "count": 12
         },
         {
           "label": "Other",
@@ -2138,7 +2138,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 137
+          "count": 138
         },
         {
           "label": "Drug Offense",
@@ -2196,15 +2196,15 @@
         },
         {
           "label": "Failure to Appear",
+          "count": 7
+        },
+        {
+          "label": "Driving While License Suspended",
           "count": 6
         },
         {
           "label": "Criminal Trespass",
           "count": 6
-        },
-        {
-          "label": "Driving While License Suspended",
-          "count": 5
         }
       ]
     }
@@ -2216,7 +2216,7 @@
         "avgWeight": 185,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 602
+        "n": 604
       },
       {
         "charge": "Domestic Violence",
@@ -2237,7 +2237,7 @@
         "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 153
+        "n": 154
       },
       {
         "charge": "Drug Offense",
@@ -2300,7 +2300,7 @@
         "avgWeight": 175,
         "avgHeight": "5'8\"",
         "topRace": "White",
-        "n": 56
+        "n": 57
       },
       {
         "charge": "Malicious Mischief",
@@ -2631,7 +2631,7 @@
         "avgWeight": 155,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 78
+        "n": 79
       },
       {
         "charge": "DUI",
@@ -2841,7 +2841,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2250
+      "count": 2251
     }
   ]
 }

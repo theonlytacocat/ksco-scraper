@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-04T15:06:23.841Z",
+  "generatedAt": "2026-08-04T17:16:11.749Z",
   "bookingCounts": {
-    "total": 2260,
-    "inCustody": 275,
+    "total": 2261,
+    "inCustody": 276,
     "released": 1985
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1544,
+      "count": 1545,
       "pct": 68.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1613,
+      "count": 1614,
       "pct": 71.4
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 341
+        "count": 342
       },
       {
         "label": "56–65",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 162
+      "count": 163
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1926
+      "count": 1928
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36822.34,
+    "mean": 36945.58,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1731
+    "count": 1728
   },
   "stay": {
     "mean": 21.2,
@@ -268,9 +268,9 @@
     },
     {
       "category": "Arson",
-      "medianBail": 112500,
-      "meanBail": 112500,
-      "count": 2
+      "medianBail": 100000,
+      "meanBail": 108333.33,
+      "count": 3
     },
     {
       "category": "Child Exploitation / CSAM",
@@ -346,9 +346,9 @@
     },
     {
       "category": "Assault",
-      "medianBail": 22500,
-      "meanBail": 101156.25,
-      "count": 64
+      "medianBail": 25000,
+      "meanBail": 101138.46,
+      "count": 65
     },
     {
       "category": "Domestic Violence",
@@ -363,22 +363,22 @@
       "count": 23
     },
     {
-      "category": "Protection Order Violation",
-      "medianBail": 12500,
-      "meanBail": 35703.13,
-      "count": 32
-    },
-    {
       "category": "Possession of Stolen Property",
       "medianBail": 11250,
       "meanBail": 18150,
       "count": 4
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 36048.39,
+      "count": 31
+    },
+    {
       "category": "Harassment",
       "medianBail": 10000,
-      "meanBail": 40620,
-      "count": 25
+      "meanBail": 39812.5,
+      "count": 24
     },
     {
       "category": "Theft (2nd Degree)",
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15726.61,
-      "count": 681
+      "meanBail": 15777.76,
+      "count": 678
     },
     {
       "category": "Driving While License Suspended",
@@ -545,12 +545,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "Arson": 6,
+      "Assault": 107,
       "Court Hold": 7,
       "Failure to Appear": 667,
       "Driving While License Suspended": 137,
       "Ignition Interlock Violation": 55,
       "Domestic Violence": 219,
-      "Assault": 106,
       "DOC Warrant": 106,
       "Drug Offense": 153,
       "DUI": 203,
@@ -579,7 +580,6 @@
       "Malicious Mischief": 40,
       "Theft (3rd Degree)": 48,
       "Fugitive from Justice": 14,
-      "Arson": 5,
       "PR / Bail Revocation": 18,
       "Robbery": 12,
       "Homicide": 15,
@@ -771,9 +771,10 @@
   },
   "chargesBySex": {
     "Male": {
+      "Arson": 5,
+      "Assault": 115,
       "Court Hold": 8,
       "Failure to Appear": 611,
-      "Assault": 114,
       "Driving While License Suspended": 159,
       "Ignition Interlock Violation": 58,
       "DOC Warrant": 105,
@@ -820,7 +821,6 @@
       "Public Order": 4,
       "Motor Vehicle Theft": 15,
       "Kidnapping / Unlawful Imprisonment": 5,
-      "Arson": 4,
       "Failure to Register (Sex Offender)": 10,
       "Traffic Violation": 6,
       "Identity Theft": 5,
@@ -974,7 +974,7 @@
   "recidivism": {
     "rate": 11.6,
     "repeatBookerCount": 229,
-    "totalIndividuals": 1978,
+    "totalIndividuals": 1979,
     "repeatBookers": [
       {
         "name": "AMUO, SAMIO M",
@@ -1486,7 +1486,7 @@
     },
     {
       "month": "2026-08",
-      "count": 45
+      "count": 46
     }
   ],
   "crimeTypes": [
@@ -1502,12 +1502,12 @@
     },
     {
       "label": "Violent",
-      "count": 494,
+      "count": 495,
       "pct": 14.9
     },
     {
       "label": "Property",
-      "count": 394,
+      "count": 395,
       "pct": 11.9
     },
     {
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "Felony",
-      "count": 753,
+      "count": 755,
       "pct": 15
     },
     {
@@ -1663,12 +1663,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1931,
+      "count": 1935,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 647
+          "count": 648
         },
         {
           "label": "Domestic Violence",
@@ -1680,7 +1680,7 @@
         },
         {
           "label": "Assault",
-          "count": 82
+          "count": 83
         },
         {
           "label": "Protection Order Violation",
@@ -1933,7 +1933,7 @@
     },
     {
       "name": "DOC",
-      "count": 7,
+      "count": 5,
       "topCharge": "DOC Warrant",
       "chargeBreakdown": [
         {
@@ -1943,14 +1943,6 @@
         {
           "label": "Community Custody Violation",
           "count": 2
-        },
-        {
-          "label": "Court Hold",
-          "count": 1
-        },
-        {
-          "label": "Failure to Appear",
-          "count": 1
         },
         {
           "label": "Probation Violation",
@@ -2263,10 +2255,10 @@
       },
       {
         "charge": "Assault",
-        "avgWeight": 187,
+        "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 111
+        "n": 112
       },
       {
         "charge": "Protection Order Violation",
@@ -2556,6 +2548,13 @@
         "n": 6
       },
       {
+        "charge": "Arson",
+        "avgWeight": 173,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
         "charge": "Identity Theft",
         "avgWeight": 194,
         "avgHeight": "5'10\"",
@@ -2573,13 +2572,6 @@
         "charge": "Kidnapping / Unlawful Imprisonment",
         "avgWeight": 166,
         "avgHeight": "5'6\"",
-        "topRace": "White",
-        "n": 4
-      },
-      {
-        "charge": "Arson",
-        "avgWeight": 159,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 4
       },
@@ -2849,7 +2841,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2257
+      "count": 2258
     }
   ]
 }

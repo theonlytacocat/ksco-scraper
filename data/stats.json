@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T09:20:44.333Z",
+  "generatedAt": "2026-08-05T11:25:26.901Z",
   "bookingCounts": {
     "total": 2269,
     "inCustody": 280,
@@ -115,12 +115,12 @@
       "count": 147
     },
     {
-      "label": "DOC Warrant",
+      "label": "Other",
       "count": 129
     },
     {
-      "label": "Other",
-      "count": 128
+      "label": "DOC Warrant",
+      "count": 129
     },
     {
       "label": "Obstruction",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 170
+      "count": 171
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 37342.96,
+    "mean": 37324.26,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1729
+    "count": 1730
   },
   "stay": {
     "mean": 21.2,
@@ -411,6 +411,12 @@
       "count": 1
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 17573.77,
+      "count": 61
+    },
+    {
       "category": "Malicious Mischief",
       "medianBail": 5000,
       "meanBail": 8860,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 5500,
       "count": 34
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 17783.33,
-      "count": 60
     },
     {
       "category": "Theft (3rd Degree)",
@@ -545,12 +545,12 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 84,
       "Protection Order Violation": 107,
       "Criminal Trespass": 123,
       "Malicious Mischief": 42,
       "Weapons": 26,
       "Drug Offense": 154,
-      "Other": 83,
       "Failure to Appear": 668,
       "DUI": 204,
       "Community Custody Violation": 5,
@@ -771,13 +771,13 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 89,
       "Protection Order Violation": 110,
       "Failure to Appear": 613,
       "Criminal Trespass": 116,
       "Malicious Mischief": 51,
       "Weapons": 36,
       "Drug Offense": 144,
-      "Other": 88,
       "DUI": 193,
       "DOC Warrant": 106,
       "Arson": 5,
@@ -1512,8 +1512,8 @@
     },
     {
       "label": "Other",
-      "count": 301,
-      "pct": 9
+      "count": 302,
+      "pct": 9.1
     },
     {
       "label": "Order Violations",
@@ -1549,8 +1549,8 @@
     },
     {
       "label": "Unknown",
-      "count": 854,
-      "pct": 16.9
+      "count": 855,
+      "pct": 17
     },
     {
       "label": "Felony",
@@ -1771,7 +1771,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 170,
+      "count": 171,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1788,7 +1788,7 @@
         },
         {
           "label": "Other",
-          "count": 9
+          "count": 10
         },
         {
           "label": "Hit and Run",
@@ -2279,7 +2279,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 87
+        "n": 88
       },
       {
         "charge": "Obstruction",

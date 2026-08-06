@@ -1,6 +1,25 @@
 [
   {
     "type": "BOOKED",
+    "bookingNumber": "2026003537",
+    "name": "BARCELO, CAREN",
+    "bookingDate": "",
+    "charges": [],
+    "age": null,
+    "sex": "",
+    "race": "",
+    "height": null,
+    "weight": null,
+    "hair": "Eyes",
+    "eyes": "Height",
+    "inmateId": "50005265",
+    "schedRelease": null,
+    "firstSeen": "08/06/2026, 07:54:15",
+    "releasedAt": null,
+    "status": "in_custody"
+  },
+  {
+    "type": "BOOKED",
     "bookingNumber": "2026003534",
     "name": "HINTHORN, BENJAMIN ROBERT",
     "bookingDate": "",
@@ -147,10 +166,10 @@
     "age": "34",
     "sex": "",
     "race": "",
-    "height": null,
-    "weight": null,
-    "hair": "Eyes",
-    "eyes": "Height",
+    "height": "600",
+    "weight": "200",
+    "hair": "BRO",
+    "eyes": "BRO",
     "inmateId": "50005264",
     "schedRelease": null,
     "firstSeen": "08/06/2026, 02:41:27",
@@ -234,7 +253,7 @@
       {
         "violation": "9A.36.041(2) - ASSAULT-4 - DV",
         "cleared": false,
-        "addDesc": null,
+        "addDesc": "ASLT 4 DV",
         "clearance": null,
         "bondBailType": null,
         "bondAmount": null,
@@ -246,13 +265,13 @@
         "courtType": "DS"
       }
     ],
-    "age": "41",
+    "age": "43",
     "sex": "M",
     "race": "W",
     "height": "508",
     "weight": "176",
     "hair": "BRO",
-    "eyes": "Height",
+    "eyes": "HAZ",
     "inmateId": "40163012",
     "schedRelease": null,
     "firstSeen": "08/05/2026, 20:50:22",
@@ -267,17 +286,17 @@
     "charges": [
       {
         "violation": "9A.36.041(2) - ASSAULT-4",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "NOBD",
+        "clearance": "RF",
+        "bondBailType": "RF",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "08/06/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/05/2026",
-        "courtType": "BM"
+        "courtType": null
       }
     ],
     "age": "47",
@@ -902,6 +921,20 @@
         "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
         "arrestDate": "08/04/2026",
         "courtType": "SC"
+      },
+      {
+        "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 2500,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "08/06/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "08/06/2026",
+        "courtType": "PO"
       }
     ],
     "age": "32",

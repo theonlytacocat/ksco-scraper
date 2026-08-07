@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-07T22:09:46.504Z",
+  "generatedAt": "2026-08-07T23:10:02.161Z",
   "bookingCounts": {
-    "total": 2303,
-    "inCustody": 286,
+    "total": 2304,
+    "inCustody": 287,
     "released": 2017
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1574,
-      "pct": 68.3
+      "count": 1575,
+      "pct": 68.4
     },
     {
       "label": "Female",
@@ -31,7 +31,7 @@
     {
       "label": "Unknown",
       "count": 273,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Black",
@@ -45,8 +45,8 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 67,
-      "pct": 2.9
+      "count": 68,
+      "pct": 3
     }
   ],
   "age": {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 332
+        "count": 333
       },
       {
         "label": "26–35",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 315
+      "count": 316
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 1977
+      "count": 1980
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36727.94,
+    "mean": 36225.58,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1717
+    "count": 1715
   },
   "stay": {
     "mean": 21.1,
@@ -353,8 +353,8 @@
     {
       "category": "Assault",
       "medianBail": 25000,
-      "meanBail": 114437.5,
-      "count": 64
+      "meanBail": 102603.17,
+      "count": 63
     },
     {
       "category": "Domestic Violence",
@@ -503,8 +503,8 @@
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
-      "meanBail": 5225.81,
-      "count": 93
+      "meanBail": 4467.39,
+      "count": 92
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -544,7 +544,41 @@
     }
   ],
   "chargesByRace": {
+    "Asian / Pacific Islander": {
+      "Failure to Comply (Sentence)": 1,
+      "Assault": 5,
+      "Protection Order Violation": 7,
+      "Failure to Appear": 31,
+      "DUI": 13,
+      "Theft (3rd Degree)": 1,
+      "Resisting Arrest": 3,
+      "Harassment": 2,
+      "PR / Bail Revocation": 1,
+      "Weapons": 3,
+      "Driving While License Suspended": 10,
+      "Ignition Interlock Violation": 4,
+      "Criminal Trespass": 6,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Drug Offense": 4,
+      "Domestic Violence": 7,
+      "DOC Warrant": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
+    },
     "White": {
+      "Burglary (2nd Degree)": 38,
+      "DUI": 208,
       "Failure to Appear": 683,
       "Theft (3rd Degree)": 49,
       "Criminal Trespass": 126,
@@ -552,7 +586,6 @@
       "Assault": 109,
       "Protection Order Violation": 108,
       "DOC Warrant": 108,
-      "DUI": 207,
       "Domestic Violence": 224,
       "Making False Statements": 33,
       "Drug Offense": 157,
@@ -582,7 +615,6 @@
       "Interference with DV Reporting": 19,
       "Theft (2nd Degree)": 35,
       "Vehicle Prowling": 11,
-      "Burglary (2nd Degree)": 37,
       "Fugitive from Justice": 14,
       "PR / Bail Revocation": 18,
       "Robbery": 12,
@@ -736,41 +768,13 @@
       "Homicide": 1,
       "Community Custody Violation": 1,
       "Burglary (2nd Degree)": 1
-    },
-    "Asian / Pacific Islander": {
-      "Assault": 5,
-      "Protection Order Violation": 7,
-      "Failure to Appear": 31,
-      "DUI": 13,
-      "Theft (3rd Degree)": 1,
-      "Resisting Arrest": 3,
-      "Harassment": 2,
-      "PR / Bail Revocation": 1,
-      "Weapons": 3,
-      "Driving While License Suspended": 10,
-      "Ignition Interlock Violation": 4,
-      "Criminal Trespass": 6,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Drug Offense": 4,
-      "Domestic Violence": 7,
-      "DOC Warrant": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
     }
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Comply (Sentence)": 39,
+      "Burglary (2nd Degree)": 36,
+      "DUI": 196,
       "Failure to Appear": 624,
       "Theft (3rd Degree)": 48,
       "Criminal Trespass": 119,
@@ -785,7 +789,6 @@
       "Driving While License Suspended": 160,
       "Possession of Stolen Property": 11,
       "Ignition Interlock Violation": 59,
-      "DUI": 195,
       "Malicious Mischief": 51,
       "Forgery": 4,
       "Other": 88,
@@ -800,7 +803,6 @@
       "Sex Offense": 19,
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
-      "Failure to Comply (Sentence)": 38,
       "Making False Statements": 33,
       "Harassment": 63,
       "Burglary (1st Degree)": 12,
@@ -809,7 +811,6 @@
       "Theft (2nd Degree)": 30,
       "Vehicle Prowling": 13,
       "Robbery": 17,
-      "Burglary (2nd Degree)": 35,
       "Fugitive from Justice": 11,
       "PR / Bail Revocation": 18,
       "Assault (Child)": 3,
@@ -974,7 +975,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 239,
-    "totalIndividuals": 2007,
+    "totalIndividuals": 2008,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1491,18 +1492,18 @@
     },
     {
       "month": "2026-08",
-      "count": 88
+      "count": 89
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1029,
+      "count": 1030,
       "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
-      "count": 516,
+      "count": 517,
       "pct": 15.3
     },
     {
@@ -1512,7 +1513,7 @@
     },
     {
       "label": "Property",
-      "count": 402,
+      "count": 403,
       "pct": 11.9
     },
     {
@@ -1549,17 +1550,17 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3086,
-      "pct": 60.4
+      "count": 3087,
+      "pct": 60.3
     },
     {
       "label": "Unknown",
-      "count": 863,
+      "count": 864,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 770,
+      "count": 771,
       "pct": 15.1
     },
     {
@@ -1668,7 +1669,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 1988,
+      "count": 1991,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1681,7 +1682,7 @@
         },
         {
           "label": "DUI",
-          "count": 127
+          "count": 128
         },
         {
           "label": "Assault",
@@ -2072,7 +2073,7 @@
         },
         {
           "label": "DUI",
-          "count": 79
+          "count": 80
         },
         {
           "label": "Domestic Violence",
@@ -2235,7 +2236,7 @@
         "avgWeight": 184,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 180
+        "n": 181
       },
       {
         "charge": "Driving While License Suspended",
@@ -2333,19 +2334,19 @@
         "avgWeight": 193,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 37
+        "n": 38
+      },
+      {
+        "charge": "Burglary (2nd Degree)",
+        "avgWeight": 168,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 36
       },
       {
         "charge": "Weapons",
         "avgWeight": 187,
         "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 35
-      },
-      {
-        "charge": "Burglary (2nd Degree)",
-        "avgWeight": 169,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 35
       },
@@ -2853,7 +2854,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2300
+      "count": 2301
     }
   ]
 }

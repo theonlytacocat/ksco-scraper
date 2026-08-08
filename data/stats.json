@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-07T23:10:02.161Z",
+  "generatedAt": "2026-08-08T00:02:59.838Z",
   "bookingCounts": {
-    "total": 2304,
-    "inCustody": 287,
+    "total": 2305,
+    "inCustody": 288,
     "released": 2017
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1575,
+      "count": 1576,
       "pct": 68.4
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1645,
+      "count": 1646,
       "pct": 71.4
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 333
+        "count": 334
       },
       {
         "label": "26–35",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1542
+      "count": 1545
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36225.58,
+    "mean": 36249.63,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1715
+    "count": 1718
   },
   "stay": {
     "mean": 21.1,
@@ -351,6 +351,12 @@
       "count": 6
     },
     {
+      "category": "Weapons",
+      "medianBail": 25000,
+      "meanBail": 27582.14,
+      "count": 14
+    },
+    {
       "category": "Assault",
       "medianBail": 25000,
       "meanBail": 102603.17,
@@ -439,12 +445,6 @@
       "medianBail": 5000,
       "meanBail": 5466.67,
       "count": 15
-    },
-    {
-      "category": "Weapons",
-      "medianBail": 5000,
-      "meanBail": 21468.18,
-      "count": 11
     },
     {
       "category": "Public Order",
@@ -544,39 +544,8 @@
     }
   ],
   "chargesByRace": {
-    "Asian / Pacific Islander": {
-      "Failure to Comply (Sentence)": 1,
-      "Assault": 5,
-      "Protection Order Violation": 7,
-      "Failure to Appear": 31,
-      "DUI": 13,
-      "Theft (3rd Degree)": 1,
-      "Resisting Arrest": 3,
-      "Harassment": 2,
-      "PR / Bail Revocation": 1,
-      "Weapons": 3,
-      "Driving While License Suspended": 10,
-      "Ignition Interlock Violation": 4,
-      "Criminal Trespass": 6,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Drug Offense": 4,
-      "Domestic Violence": 7,
-      "DOC Warrant": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
     "White": {
+      "Weapons": 27,
       "Burglary (2nd Degree)": 38,
       "DUI": 208,
       "Failure to Appear": 683,
@@ -596,7 +565,6 @@
       "Ignition Interlock Violation": 56,
       "Malicious Mischief": 42,
       "Forgery": 4,
-      "Weapons": 26,
       "Community Custody Violation": 5,
       "Arson": 6,
       "Residential Burglary": 14,
@@ -640,6 +608,38 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Asian / Pacific Islander": {
+      "Failure to Comply (Sentence)": 1,
+      "Assault": 5,
+      "Protection Order Violation": 7,
+      "Failure to Appear": 31,
+      "DUI": 13,
+      "Theft (3rd Degree)": 1,
+      "Resisting Arrest": 3,
+      "Harassment": 2,
+      "PR / Bail Revocation": 1,
+      "Weapons": 3,
+      "Driving While License Suspended": 10,
+      "Ignition Interlock Violation": 4,
+      "Criminal Trespass": 6,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Drug Offense": 4,
+      "Domestic Violence": 7,
+      "DOC Warrant": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
     },
     "Unknown": {
       "DUI": 70,
@@ -772,6 +772,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Weapons": 37,
       "Failure to Comply (Sentence)": 39,
       "Burglary (2nd Degree)": 36,
       "DUI": 196,
@@ -792,7 +793,6 @@
       "Malicious Mischief": 51,
       "Forgery": 4,
       "Other": 88,
-      "Weapons": 36,
       "Arson": 5,
       "Residential Burglary": 15,
       "Court Hold": 8,
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 239,
-    "totalIndividuals": 2008,
+    "totalIndividuals": 2009,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1492,14 +1492,14 @@
     },
     {
       "month": "2026-08",
-      "count": 89
+      "count": 90
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
       "count": 1030,
-      "pct": 30.5
+      "pct": 30.4
     },
     {
       "label": "Traffic / DUI",
@@ -1543,7 +1543,7 @@
     },
     {
       "label": "Weapons",
-      "count": 43,
+      "count": 44,
       "pct": 1.3
     }
   ],
@@ -1560,7 +1560,7 @@
     },
     {
       "label": "Felony",
-      "count": 771,
+      "count": 774,
       "pct": 15.1
     },
     {
@@ -1696,7 +1696,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1542,
+      "count": 1545,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2337,18 +2337,18 @@
         "n": 38
       },
       {
+        "charge": "Weapons",
+        "avgWeight": 186,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 36
+      },
+      {
         "charge": "Burglary (2nd Degree)",
         "avgWeight": 168,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 36
-      },
-      {
-        "charge": "Weapons",
-        "avgWeight": 187,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 35
       },
       {
         "charge": "Making False Statements",
@@ -2854,7 +2854,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2301
+      "count": 2302
     }
   ]
 }

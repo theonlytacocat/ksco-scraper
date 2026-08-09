@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-09T06:12:00.009Z",
+  "generatedAt": "2026-08-09T07:36:35.714Z",
   "bookingCounts": {
-    "total": 2319,
-    "inCustody": 288,
+    "total": 2320,
+    "inCustody": 289,
     "released": 2031
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1583,
+      "count": 1584,
       "pct": 68.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1654,
+      "count": 1655,
       "pct": 71.3
     },
     {
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 162
+        "count": 163
       },
       {
         "label": "65+",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 316
+      "count": 317
     },
     {
       "label": "Driving While License Suspended",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1553
+      "count": 1554
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36177.9,
+    "mean": 36159.83,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1725
+    "count": 1726
   },
   "stay": {
     "mean": 21.1,
@@ -411,6 +411,12 @@
       "count": 14
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 19799.32,
+      "count": 147
+    },
+    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
       "meanBail": 4103.45,
@@ -433,12 +439,6 @@
       "medianBail": 5000,
       "meanBail": 8760,
       "count": 25
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 19900.68,
-      "count": 146
     },
     {
       "category": "Ignition Interlock Violation",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 209,
       "Failure to Appear": 686,
       "DOC Warrant": 109,
       "Drug Offense": 159,
@@ -555,7 +556,6 @@
       "Weapons": 27,
       "Community Custody Violation": 6,
       "Burglary (2nd Degree)": 38,
-      "DUI": 208,
       "Theft (3rd Degree)": 49,
       "Obstruction": 76,
       "Assault": 109,
@@ -772,6 +772,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 197,
       "Failure to Appear": 626,
       "DOC Warrant": 109,
       "Drug Offense": 147,
@@ -783,7 +784,6 @@
       "Community Custody Violation": 8,
       "Failure to Comply (Sentence)": 39,
       "Burglary (2nd Degree)": 36,
-      "DUI": 196,
       "Theft (3rd Degree)": 48,
       "Criminal Trespass": 119,
       "Obstruction": 78,
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 240,
-    "totalIndividuals": 2020,
+    "totalIndividuals": 2021,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1492,7 +1492,7 @@
     },
     {
       "month": "2026-08",
-      "count": 104
+      "count": 105
     }
   ],
   "crimeTypes": [
@@ -1503,7 +1503,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 517,
+      "count": 518,
       "pct": 15.2
     },
     {
@@ -1550,7 +1550,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3099,
+      "count": 3100,
       "pct": 60.3
     },
     {
@@ -1561,7 +1561,7 @@
     {
       "label": "Felony",
       "count": 779,
-      "pct": 15.2
+      "pct": 15.1
     },
     {
       "label": "Misdemeanor",
@@ -1696,7 +1696,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1553,
+      "count": 1554,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2173,7 +2173,7 @@
         },
         {
           "label": "DUI",
-          "count": 23
+          "count": 24
         },
         {
           "label": "Driving While License Suspended",
@@ -2236,7 +2236,7 @@
         "avgWeight": 184,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 181
+        "n": 182
       },
       {
         "charge": "Driving While License Suspended",
@@ -2854,7 +2854,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2316
+      "count": 2317
     }
   ]
 }

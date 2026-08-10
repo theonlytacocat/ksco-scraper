@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-09T23:36:50.097Z",
+  "generatedAt": "2026-08-10T02:08:25.774Z",
   "bookingCounts": {
     "total": 2326,
-    "inCustody": 293,
-    "released": 2033
+    "inCustody": 292,
+    "released": 2034
   },
   "gender": [
     {
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 871
+      "count": 872
     },
     {
       "label": "Domestic Violence",
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 208
+      "count": 209
     },
     {
       "label": "Drug Offense",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1558
+      "count": 1560
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 36107.48,
+    "mean": 36067.03,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1734
+    "count": 1736
   },
   "stay": {
     "mean": 21.1,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 2013,
+    "count": 2014,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 750
+        "count": 751
       },
       {
         "label": "1–3 days",
@@ -489,22 +489,22 @@
       "count": 14
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 4430.11,
+      "count": 93
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15545.19,
-      "count": 671
+      "meanBail": 15523.54,
+      "count": 672
     },
     {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 7082.8,
       "count": 93
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4467.39,
-      "count": 92
     },
     {
       "category": "Failure to Register (Sex Offender)",
@@ -545,9 +545,10 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "Driving While License Suspended": 28,
+      "Failure to Appear": 37,
       "DUI": 71,
       "Local / Tribal Code": 5,
-      "Failure to Appear": 36,
       "Domestic Violence": 60,
       "Harassment": 8,
       "Other": 23,
@@ -555,7 +556,6 @@
       "Obstruction": 12,
       "Malicious Mischief": 5,
       "DOC Warrant": 4,
-      "Driving While License Suspended": 27,
       "Drug Offense": 20,
       "Fugitive from Justice": 1,
       "Assault": 16,
@@ -772,9 +772,10 @@
   },
   "chargesBySex": {
     "Unknown": {
+      "Driving While License Suspended": 18,
+      "Failure to Appear": 25,
       "DUI": 58,
       "Local / Tribal Code": 4,
-      "Failure to Appear": 24,
       "Domestic Violence": 46,
       "Harassment": 7,
       "Other": 20,
@@ -785,7 +786,6 @@
       "Drug Offense": 16,
       "Fugitive from Justice": 1,
       "Hit and Run": 8,
-      "Driving While License Suspended": 17,
       "Ignition Interlock Violation": 5,
       "Homicide": 1,
       "Resisting Arrest": 4,
@@ -941,7 +941,7 @@
     },
     {
       "label": "Released",
-      "count": 502
+      "count": 503
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1498,13 +1498,13 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1037,
+      "count": 1038,
       "pct": 30.4
     },
     {
       "label": "Traffic / DUI",
-      "count": 520,
-      "pct": 15.2
+      "count": 521,
+      "pct": 15.3
     },
     {
       "label": "Violent",
@@ -1550,7 +1550,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3108,
+      "count": 3109,
       "pct": 60.3
     },
     {
@@ -1565,7 +1565,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 395,
+      "count": 396,
       "pct": 7.7
     }
   ],
@@ -1696,12 +1696,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1558,
+      "count": 1560,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 432
+          "count": 433
         },
         {
           "label": "Criminal Trespass",
@@ -1717,7 +1717,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 84
+          "count": 85
         }
       ]
     },
@@ -2059,8 +2059,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2033,
-    "withBail": 972,
+    "total": 2034,
+    "withBail": 973,
     "pct": 47.8
   },
   "chargesByAgeGroup": [
@@ -2119,7 +2119,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 311
+          "count": 312
         },
         {
           "label": "Domestic Violence",
@@ -2131,7 +2131,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 64
+          "count": 65
         },
         {
           "label": "Criminal Trespass",

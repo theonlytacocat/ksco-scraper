@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-10T20:48:01.660Z",
+  "generatedAt": "2026-08-10T21:46:51.772Z",
   "bookingCounts": {
-    "total": 2335,
+    "total": 2336,
     "inCustody": 280,
-    "released": 2055
+    "released": 2056
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1594,
+      "count": 1595,
       "pct": 68.3
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1662,
+      "count": 1663,
       "pct": 71.2
     },
     {
@@ -50,14 +50,14 @@
     }
   ],
   "age": {
-    "mean": 38.7,
+    "mean": 38.6,
     "median": 37,
     "min": 18,
     "max": 87,
     "histogram": [
       {
         "label": "18–25",
-        "count": 334
+        "count": 335
       },
       {
         "label": "26–35",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1564
+      "count": 1565
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 35792.36,
+    "mean": 35777.96,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1744
+    "count": 1748
   },
   "stay": {
     "mean": 21.2,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2035,
+    "count": 2036,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 757
+        "count": 758
       },
       {
         "label": "1–3 days",
@@ -357,10 +357,10 @@
       "count": 62
     },
     {
-      "category": "Domestic Violence",
-      "medianBail": 12500,
-      "meanBail": 104750,
-      "count": 64
+      "category": "Weapons",
+      "medianBail": 15000,
+      "meanBail": 37396.15,
+      "count": 13
     },
     {
       "category": "Forgery",
@@ -375,28 +375,28 @@
       "count": 4
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 10000,
+      "meanBail": 101712.12,
+      "count": 66
+    },
+    {
       "category": "Harassment",
       "medianBail": 10000,
       "meanBail": 39420,
       "count": 25
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 33220.59,
+      "count": 34
+    },
+    {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
       "meanBail": 21657.89,
       "count": 19
-    },
-    {
-      "category": "Weapons",
-      "medianBail": 10000,
-      "meanBail": 32179.17,
-      "count": 12
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 34075.76,
-      "count": 33
     },
     {
       "category": "Trafficking Stolen Property",
@@ -491,7 +491,7 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15431.05,
+      "meanBail": 15436.96,
       "count": 677
     },
     {
@@ -544,59 +544,8 @@
     }
   ],
   "chargesByRace": {
-    "Black": {
-      "Assault": 30,
-      "Domestic Violence": 36,
-      "Protection Order Violation": 24,
-      "Theft (2nd Degree)": 5,
-      "DOC Warrant": 16,
-      "Community Custody Violation": 3,
-      "DUI": 22,
-      "Failure to Appear": 82,
-      "Drug Offense": 19,
-      "Driving While License Suspended": 27,
-      "Local / Tribal Code": 6,
-      "Resisting Arrest": 9,
-      "Obstruction": 15,
-      "Other": 18,
-      "Making False Statements": 4,
-      "Homicide": 6,
-      "Malicious Mischief": 7,
-      "Robbery": 7,
-      "Criminal Trespass": 15,
-      "Burglary (2nd Degree)": 8,
-      "Theft (3rd Degree)": 6,
-      "Possession of Stolen Property": 2,
-      "Child Sex Offense": 1,
-      "Weapons": 10,
-      "Indecent Exposure": 5,
-      "Vehicle Prowling": 2,
-      "Child Exploitation / CSAM": 1,
-      "Harassment": 19,
-      "Public Order": 1,
-      "Ignition Interlock Violation": 4,
-      "Burglary Tools": 1,
-      "Failure to Register (Sex Offender)": 3,
-      "Failure to Comply (Sentence)": 7,
-      "Hit and Run": 4,
-      "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
-      "Reckless Driving": 2,
-      "Traffic / Obstruction": 2,
-      "Burglary (1st Degree)": 5,
-      "Theft (1st Degree)": 2,
-      "PR / Bail Revocation": 5,
-      "Court Hold": 2,
-      "Human Trafficking": 2,
-      "Stalking": 1,
-      "Motor Vehicle Theft": 3,
-      "Witness Tampering": 1,
-      "Residential Burglary": 2,
-      "Possession of Stolen Vehicle": 1,
-      "Interference with DV Reporting": 1,
-      "Sex Offense": 1
-    },
     "White": {
+      "Weapons": 28,
       "Failure to Appear": 690,
       "Criminal Trespass": 128,
       "DUI": 211,
@@ -607,7 +556,6 @@
       "DOC Warrant": 109,
       "Drug Offense": 159,
       "Interference with DV Reporting": 20,
-      "Weapons": 27,
       "Community Custody Violation": 6,
       "Burglary (2nd Degree)": 38,
       "Theft (3rd Degree)": 49,
@@ -660,6 +608,58 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Black": {
+      "Assault": 30,
+      "Domestic Violence": 36,
+      "Protection Order Violation": 24,
+      "Theft (2nd Degree)": 5,
+      "DOC Warrant": 16,
+      "Community Custody Violation": 3,
+      "DUI": 22,
+      "Failure to Appear": 82,
+      "Drug Offense": 19,
+      "Driving While License Suspended": 27,
+      "Local / Tribal Code": 6,
+      "Resisting Arrest": 9,
+      "Obstruction": 15,
+      "Other": 18,
+      "Making False Statements": 4,
+      "Homicide": 6,
+      "Malicious Mischief": 7,
+      "Robbery": 7,
+      "Criminal Trespass": 15,
+      "Burglary (2nd Degree)": 8,
+      "Theft (3rd Degree)": 6,
+      "Possession of Stolen Property": 2,
+      "Child Sex Offense": 1,
+      "Weapons": 10,
+      "Indecent Exposure": 5,
+      "Vehicle Prowling": 2,
+      "Child Exploitation / CSAM": 1,
+      "Harassment": 19,
+      "Public Order": 1,
+      "Ignition Interlock Violation": 4,
+      "Burglary Tools": 1,
+      "Failure to Register (Sex Offender)": 3,
+      "Failure to Comply (Sentence)": 7,
+      "Hit and Run": 4,
+      "Fugitive from Justice": 1,
+      "Attempt to Elude": 3,
+      "Reckless Driving": 2,
+      "Traffic / Obstruction": 2,
+      "Burglary (1st Degree)": 5,
+      "Theft (1st Degree)": 2,
+      "PR / Bail Revocation": 5,
+      "Court Hold": 2,
+      "Human Trafficking": 2,
+      "Stalking": 1,
+      "Motor Vehicle Theft": 3,
+      "Witness Tampering": 1,
+      "Residential Burglary": 2,
+      "Possession of Stolen Vehicle": 1,
+      "Interference with DV Reporting": 1,
+      "Sex Offense": 1
     },
     "Unknown": {
       "DUI": 72,
@@ -772,6 +772,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Weapons": 38,
       "Assault": 119,
       "Failure to Appear": 632,
       "Criminal Trespass": 120,
@@ -785,7 +786,6 @@
       "Drug Offense": 147,
       "Interference with DV Reporting": 17,
       "Theft (2nd Degree)": 31,
-      "Weapons": 37,
       "Community Custody Violation": 8,
       "Failure to Comply (Sentence)": 39,
       "Burglary (2nd Degree)": 36,
@@ -941,7 +941,7 @@
     },
     {
       "label": "Released",
-      "count": 509
+      "count": 510
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -975,7 +975,7 @@
   "recidivism": {
     "rate": 11.8,
     "repeatBookerCount": 241,
-    "totalIndividuals": 2034,
+    "totalIndividuals": 2035,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1497,7 +1497,7 @@
     },
     {
       "month": "2026-08",
-      "count": 120
+      "count": 121
     }
   ],
   "crimeTypes": [
@@ -1548,7 +1548,7 @@
     },
     {
       "label": "Weapons",
-      "count": 44,
+      "count": 45,
       "pct": 1.3
     }
   ],
@@ -1565,7 +1565,7 @@
     },
     {
       "label": "Felony",
-      "count": 784,
+      "count": 785,
       "pct": 15.2
     },
     {
@@ -1618,9 +1618,9 @@
     },
     {
       "category": "Assault",
-      "avgDays": 18.1,
-      "medianDays": 1.2,
-      "count": 40
+      "avgDays": 17.6,
+      "medianDays": 1,
+      "count": 41
     },
     {
       "category": "Failure to Appear",
@@ -1701,7 +1701,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1564,
+      "count": 1565,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2064,9 +2064,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2055,
-    "withBail": 983,
-    "pct": 47.8
+    "total": 2056,
+    "withBail": 984,
+    "pct": 47.9
   },
   "chargesByAgeGroup": [
     {
@@ -2343,10 +2343,10 @@
       },
       {
         "charge": "Weapons",
-        "avgWeight": 186,
+        "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 36
+        "n": 37
       },
       {
         "charge": "Burglary (2nd Degree)",
@@ -2859,7 +2859,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2332
+      "count": 2333
     }
   ]
 }

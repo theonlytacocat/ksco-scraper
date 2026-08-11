@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-11T17:31:55.342Z",
+  "generatedAt": "2026-08-11T18:31:30.584Z",
   "bookingCounts": {
-    "total": 2343,
-    "inCustody": 278,
-    "released": 2065
+    "total": 2346,
+    "inCustody": 280,
+    "released": 2066
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1599,
-      "pct": 68.2
+      "count": 1602,
+      "pct": 68.3
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1670,
+      "count": 1672,
       "pct": 71.3
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "label": "Black",
-      "count": 249,
-      "pct": 10.6
+      "count": 250,
+      "pct": 10.7
     },
     {
       "label": "Native American",
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37,
+    "median": 37.5,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 686
+        "count": 687
       },
       {
         "label": "46–55",
-        "count": 352
+        "count": 354
       },
       {
         "label": "56–65",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 207
+      "count": 208
     },
     {
       "label": "Criminal Trespass",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 83
+      "count": 84
     },
     {
       "label": "Ignition Interlock Violation",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1569
+      "count": 1571
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 36110.27,
+    "mean": 36209.5,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1749
+    "count": 1744
   },
   "stay": {
     "mean": 21.4,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2044,
+    "count": 2045,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 759
+        "count": 760
       },
       {
         "label": "1–3 days",
@@ -363,16 +363,22 @@
       "count": 13
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 12500,
+      "meanBail": 113352.94,
+      "count": 68
+    },
+    {
       "category": "Forgery",
       "medianBail": 12500,
       "meanBail": 12500,
       "count": 2
     },
     {
-      "category": "Domestic Violence",
+      "category": "Harassment",
       "medianBail": 10000,
-      "meanBail": 111855.07,
-      "count": 69
+      "meanBail": 38620,
+      "count": 25
     },
     {
       "category": "Protection Order Violation",
@@ -385,12 +391,6 @@
       "medianBail": 10000,
       "meanBail": 21657.89,
       "count": 19
-    },
-    {
-      "category": "Harassment",
-      "medianBail": 10000,
-      "meanBail": 39812.5,
-      "count": 24
     },
     {
       "category": "Trafficking Stolen Property",
@@ -441,6 +441,12 @@
       "count": 23
     },
     {
+      "category": "Making False Statements",
+      "medianBail": 5000,
+      "meanBail": 3346.15,
+      "count": 13
+    },
+    {
       "category": "Public Order",
       "medianBail": 5000,
       "meanBail": 6250,
@@ -477,34 +483,28 @@
       "count": 1
     },
     {
-      "category": "Making False Statements",
-      "medianBail": 3750,
-      "meanBail": 3142.86,
-      "count": 14
-    },
-    {
       "category": "Failure to Register (Sex Offender)",
       "medianBail": 3750,
       "meanBail": 4000,
       "count": 4
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6018.28,
+      "count": 93
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15408.29,
-      "count": 678
+      "meanBail": 15444.26,
+      "count": 676
     },
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 4436.17,
       "count": 94
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6072.83,
-      "count": 92
     },
     {
       "category": "Possession of Stolen Property",
@@ -533,31 +533,31 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1869.44,
-      "count": 90
+      "meanBail": 1900.57,
+      "count": 88
     },
     {
       "category": "Local / Tribal Code",
       "medianBail": 1000,
-      "meanBail": 4150,
-      "count": 20
+      "meanBail": 4342.11,
+      "count": 19
     }
   ],
   "chargesByRace": {
     "White": {
+      "Community Custody Violation": 7,
+      "Drug Offense": 161,
       "DUI": 213,
       "Failure to Appear": 693,
       "Domestic Violence": 229,
       "Obstruction": 77,
       "Criminal Trespass": 129,
-      "Drug Offense": 160,
       "Failure to Register (Sex Offender)": 8,
       "Weapons": 28,
       "Protection Order Violation": 111,
       "Interference with DV Reporting": 21,
       "Witness Tampering": 3,
       "DOC Warrant": 109,
-      "Community Custody Violation": 6,
       "Burglary (2nd Degree)": 38,
       "Theft (3rd Degree)": 49,
       "Assault": 109,
@@ -610,6 +610,7 @@
       "Bribery": 1
     },
     "Black": {
+      "Harassment": 20,
       "Assault": 30,
       "Domestic Violence": 36,
       "Protection Order Violation": 24,
@@ -637,7 +638,6 @@
       "Indecent Exposure": 5,
       "Vehicle Prowling": 2,
       "Child Exploitation / CSAM": 1,
-      "Harassment": 19,
       "Public Order": 1,
       "Ignition Interlock Violation": 4,
       "Burglary Tools": 1,
@@ -772,10 +772,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Community Custody Violation": 9,
+      "Harassment": 65,
+      "Drug Offense": 149,
       "DUI": 200,
       "Obstruction": 79,
       "Criminal Trespass": 121,
-      "Drug Offense": 148,
       "Failure to Register (Sex Offender)": 11,
       "Weapons": 38,
       "Assault": 119,
@@ -787,7 +789,6 @@
       "Witness Tampering": 4,
       "DOC Warrant": 109,
       "Theft (2nd Degree)": 31,
-      "Community Custody Violation": 8,
       "Failure to Comply (Sentence)": 39,
       "Burglary (2nd Degree)": 36,
       "Theft (3rd Degree)": 48,
@@ -808,7 +809,6 @@
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
       "Making False Statements": 33,
-      "Harassment": 64,
       "Burglary (1st Degree)": 12,
       "Homicide": 19,
       "Vehicle Prowling": 13,
@@ -937,7 +937,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 560
+      "count": 561
     },
     {
       "label": "Released",
@@ -979,7 +979,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 243,
-    "totalIndividuals": 2039,
+    "totalIndividuals": 2040,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1267,6 +1267,48 @@
         ]
       },
       {
+        "name": "VANBUREN, THOMAS DEWAYNE",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003603",
+            "firstSeen": "08/11/2026, 11:28:18",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002999",
+            "firstSeen": "07/04/2026, 16:35:25",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001974",
+            "firstSeen": "04/28/2026, 10:12:55",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "PHILLIPS, DARRELL JOHN",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003604",
+            "firstSeen": "08/11/2026, 11:28:17",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002894",
+            "firstSeen": "06/28/2026, 01:35:11",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002705",
+            "firstSeen": "06/14/2026, 10:58:32",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "LITTFIN, JOHN STEPHEN",
         "count": 3,
         "bookings": [
@@ -1433,48 +1475,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "COBB, RYAN BELMONT",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003379",
-            "firstSeen": "07/27/2026, 10:00:16",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002782",
-            "firstSeen": "06/19/2026, 12:03:28",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001256",
-            "firstSeen": "03/25/2026, 18:49:43",
-            "status": "released"
-          }
-        ]
-      },
-      {
-        "name": "FRIEND, MATTHEW R",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003373",
-            "firstSeen": "07/26/2026, 21:23:03",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002914",
-            "firstSeen": "06/29/2026, 02:18:05",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002388",
-            "firstSeen": "05/25/2026, 10:46:47",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1501,13 +1501,13 @@
     },
     {
       "month": "2026-08",
-      "count": 128
+      "count": 131
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1046,
+      "count": 1047,
       "pct": 30.4
     },
     {
@@ -1528,16 +1528,16 @@
     {
       "label": "Other",
       "count": 308,
-      "pct": 9
+      "pct": 8.9
     },
     {
       "label": "Order Violations",
-      "count": 256,
-      "pct": 7.4
+      "count": 257,
+      "pct": 7.5
     },
     {
       "label": "Drug",
-      "count": 207,
+      "count": 208,
       "pct": 6
     },
     {
@@ -1559,18 +1559,18 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3133,
+      "count": 3134,
       "pct": 60.3
     },
     {
       "label": "Unknown",
-      "count": 877,
+      "count": 878,
       "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 787,
-      "pct": 15.1
+      "count": 788,
+      "pct": 15.2
     },
     {
       "label": "Misdemeanor",
@@ -1705,7 +1705,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1569,
+      "count": 1571,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1722,7 +1722,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 94
+          "count": 95
         },
         {
           "label": "Driving While License Suspended",
@@ -1948,12 +1948,12 @@
     },
     {
       "name": "DOC",
-      "count": 8,
+      "count": 9,
       "topCharge": "Community Custody Violation",
       "chargeBreakdown": [
         {
           "label": "Community Custody Violation",
-          "count": 4
+          "count": 5
         },
         {
           "label": "DOC Warrant",
@@ -2068,7 +2068,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2065,
+    "total": 2066,
     "withBail": 989,
     "pct": 47.9
   },
@@ -2136,7 +2136,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 79
+          "count": 80
         },
         {
           "label": "Driving While License Suspended",
@@ -2259,7 +2259,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 148
+        "n": 149
       },
       {
         "charge": "Criminal Trespass",
@@ -2305,10 +2305,10 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 182,
+        "avgWeight": 183,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 62
+        "n": 63
       },
       {
         "charge": "Ignition Interlock Violation",
@@ -2529,10 +2529,10 @@
       },
       {
         "charge": "Community Custody Violation",
-        "avgWeight": 177,
-        "avgHeight": "5'10\"",
+        "avgWeight": 180,
+        "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 8
+        "n": 9
       },
       {
         "charge": "Court Hold",
@@ -2863,7 +2863,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2340
+      "count": 2343
     }
   ]
 }

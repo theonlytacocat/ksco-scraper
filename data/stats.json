@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-11T21:54:59.095Z",
+  "generatedAt": "2026-08-11T23:50:47.000Z",
   "bookingCounts": {
     "total": 2349,
-    "inCustody": 278,
-    "released": 2071
+    "inCustody": 277,
+    "released": 2072
   },
   "gender": [
     {
@@ -103,12 +103,12 @@
       "count": 208
     },
     {
-      "label": "Criminal Trespass",
+      "label": "Assault",
       "count": 170
     },
     {
-      "label": "Assault",
-      "count": 169
+      "label": "Criminal Trespass",
+      "count": 170
     },
     {
       "label": "Protection Order Violation",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 273
+      "count": 275
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 36523.97,
+    "mean": 36097.47,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1747
+    "count": 1748
   },
   "stay": {
     "mean": 21.4,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2050,
+    "count": 2051,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 761
+        "count": 762
       },
       {
         "label": "1–3 days",
@@ -261,16 +261,16 @@
       "count": 9
     },
     {
-      "category": "Arson",
-      "medianBail": 150000,
-      "meanBail": 291666.67,
-      "count": 3
-    },
-    {
       "category": "Failure to Comply (Sentence)",
       "medianBail": 150000,
       "meanBail": 111428.57,
       "count": 14
+    },
+    {
+      "category": "Arson",
+      "medianBail": 112500,
+      "meanBail": 112500,
+      "count": 2
     },
     {
       "category": "Child Exploitation / CSAM",
@@ -321,12 +321,6 @@
       "count": 22
     },
     {
-      "category": "Motor Vehicle Theft",
-      "medianBail": 35000,
-      "meanBail": 45937.5,
-      "count": 8
-    },
-    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 187857.14,
@@ -352,14 +346,20 @@
     },
     {
       "category": "Assault",
-      "medianBail": 17500,
-      "meanBail": 99500,
-      "count": 62
+      "medianBail": 20000,
+      "meanBail": 98238.1,
+      "count": 63
+    },
+    {
+      "category": "Motor Vehicle Theft",
+      "medianBail": 20000,
+      "meanBail": 40944.44,
+      "count": 9
     },
     {
       "category": "Weapons",
       "medianBail": 15000,
-      "meanBail": 29703.85,
+      "meanBail": 23550,
       "count": 13
     },
     {
@@ -630,7 +630,7 @@
       "Burglary (2nd Degree)": 1
     },
     "White": {
-      "Assault": 110,
+      "Assault": 111,
       "Community Custody Violation": 7,
       "Drug Offense": 161,
       "DUI": 213,
@@ -782,7 +782,7 @@
       "Criminal Trespass": 121,
       "Failure to Register (Sex Offender)": 11,
       "Weapons": 38,
-      "Assault": 119,
+      "Assault": 120,
       "Failure to Appear": 633,
       "Domestic Violence": 201,
       "Driving While License Suspended": 161,
@@ -942,7 +942,7 @@
     },
     {
       "label": "Released",
-      "count": 513
+      "count": 514
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1518,8 +1518,8 @@
     },
     {
       "label": "Violent",
-      "count": 515,
-      "pct": 14.9
+      "count": 516,
+      "pct": 15
     },
     {
       "label": "Property",
@@ -1570,7 +1570,7 @@
     },
     {
       "label": "Felony",
-      "count": 790,
+      "count": 792,
       "pct": 15.2
     },
     {
@@ -1733,7 +1733,7 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 274,
+      "count": 276,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1746,7 +1746,7 @@
         },
         {
           "label": "Assault",
-          "count": 17
+          "count": 19
         },
         {
           "label": "Theft (2nd Degree)",
@@ -2069,9 +2069,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2071,
+    "total": 2072,
     "withBail": 991,
-    "pct": 47.9
+    "pct": 47.8
   },
   "chargesByAgeGroup": [
     {
@@ -2274,7 +2274,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 116
+        "n": 117
       },
       {
         "charge": "Protection Order Violation",
@@ -2530,7 +2530,7 @@
       },
       {
         "charge": "Community Custody Violation",
-        "avgWeight": 180,
+        "avgWeight": 186,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 9

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-11T16:10:55.883Z",
+  "generatedAt": "2026-08-11T17:31:55.342Z",
   "bookingCounts": {
     "total": 2343,
-    "inCustody": 280,
-    "released": 2063
+    "inCustody": 278,
+    "released": 2065
   },
   "gender": [
     {
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 878
+      "count": 879
     },
     {
       "label": "Domestic Violence",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Harassment",
-      "count": 82
+      "count": 83
     },
     {
       "label": "Ignition Interlock Violation",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2012
+      "count": 2014
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 36057.57,
+    "mean": 36110.27,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1752
+    "count": 1749
   },
   "stay": {
     "mean": 21.4,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2043,
+    "count": 2044,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 758
+        "count": 759
       },
       {
         "label": "1–3 days",
@@ -437,8 +437,8 @@
     {
       "category": "Malicious Mischief",
       "medianBail": 5000,
-      "meanBail": 9020.83,
-      "count": 24
+      "meanBail": 9195.65,
+      "count": 23
     },
     {
       "category": "Public Order",
@@ -477,21 +477,21 @@
       "count": 1
     },
     {
-      "category": "Failure to Register (Sex Offender)",
-      "medianBail": 3750,
-      "meanBail": 3666.67,
-      "count": 6
-    },
-    {
       "category": "Making False Statements",
       "medianBail": 3750,
       "meanBail": 3142.86,
       "count": 14
     },
     {
+      "category": "Failure to Register (Sex Offender)",
+      "medianBail": 3750,
+      "meanBail": 4000,
+      "count": 4
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15415.66,
+      "meanBail": 15408.29,
       "count": 678
     },
     {
@@ -546,7 +546,7 @@
   "chargesByRace": {
     "White": {
       "DUI": 213,
-      "Failure to Appear": 692,
+      "Failure to Appear": 693,
       "Domestic Violence": 229,
       "Obstruction": 77,
       "Criminal Trespass": 129,
@@ -572,7 +572,7 @@
       "Arson": 6,
       "Residential Burglary": 14,
       "Court Hold": 7,
-      "Harassment": 51,
+      "Harassment": 52,
       "Resisting Arrest": 36,
       "Indecent Exposure": 7,
       "Local / Tribal Code": 12,
@@ -779,7 +779,7 @@
       "Failure to Register (Sex Offender)": 11,
       "Weapons": 38,
       "Assault": 119,
-      "Failure to Appear": 632,
+      "Failure to Appear": 633,
       "Domestic Violence": 201,
       "Driving While License Suspended": 161,
       "Protection Order Violation": 113,
@@ -808,7 +808,7 @@
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
       "Making False Statements": 33,
-      "Harassment": 63,
+      "Harassment": 64,
       "Burglary (1st Degree)": 12,
       "Homicide": 19,
       "Vehicle Prowling": 13,
@@ -933,11 +933,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 700
+      "count": 701
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 559
+      "count": 560
     },
     {
       "label": "Released",
@@ -1273,7 +1273,7 @@
           {
             "bookingNumber": "2026003595",
             "firstSeen": "08/10/2026, 22:11:49",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003533",
@@ -1507,7 +1507,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1045,
+      "count": 1046,
       "pct": 30.4
     },
     {
@@ -1518,7 +1518,7 @@
     {
       "label": "Violent",
       "count": 514,
-      "pct": 15
+      "pct": 14.9
     },
     {
       "label": "Property",
@@ -1532,7 +1532,7 @@
     },
     {
       "label": "Order Violations",
-      "count": 255,
+      "count": 256,
       "pct": 7.4
     },
     {
@@ -1559,7 +1559,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3131,
+      "count": 3133,
       "pct": 60.3
     },
     {
@@ -1570,7 +1570,7 @@
     {
       "label": "Felony",
       "count": 787,
-      "pct": 15.2
+      "pct": 15.1
     },
     {
       "label": "Misdemeanor",
@@ -1678,12 +1678,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2023,
+      "count": 2025,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 678
+          "count": 679
         },
         {
           "label": "Domestic Violence",
@@ -2068,8 +2068,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2063,
-    "withBail": 988,
+    "total": 2065,
+    "withBail": 989,
     "pct": 47.9
   },
   "chargesByAgeGroup": [
@@ -2153,7 +2153,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 139
+          "count": 140
         },
         {
           "label": "Drug Offense",
@@ -2231,7 +2231,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 626
+        "n": 627
       },
       {
         "charge": "Domestic Violence",
@@ -2305,10 +2305,10 @@
       },
       {
         "charge": "Harassment",
-        "avgWeight": 183,
+        "avgWeight": 182,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 61
+        "n": 62
       },
       {
         "charge": "Ignition Interlock Violation",

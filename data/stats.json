@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-12T05:59:22.287Z",
+  "generatedAt": "2026-08-12T09:32:18.815Z",
   "bookingCounts": {
-    "total": 2352,
-    "inCustody": 276,
+    "total": 2354,
+    "inCustody": 278,
     "released": 2076
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1605,
-      "pct": 68.2
+      "count": 1607,
+      "pct": 68.3
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1675,
+      "count": 1677,
       "pct": 71.2
     },
     {
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37.5,
+    "median": 38,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -65,11 +65,11 @@
       },
       {
         "label": "36–45",
-        "count": 691
+        "count": 692
       },
       {
         "label": "46–55",
-        "count": 355
+        "count": 356
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 881
+      "count": 882
     },
     {
       "label": "Domestic Violence",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 77
+      "count": 78
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -174,7 +174,7 @@
     },
     {
       "label": "OTHER AGENCY",
-      "count": 45
+      "count": 46
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36059.64,
+    "mean": 36041.9,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1750
+    "count": 1751
   },
   "stay": {
     "mean": 21.4,
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15395.17,
-      "count": 679
+      "meanBail": 15379.88,
+      "count": 680
     },
     {
       "category": "Driving While License Suspended",
@@ -545,8 +545,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 696,
       "Domestic Violence": 230,
-      "Failure to Appear": 695,
       "Assault": 111,
       "Community Custody Violation": 7,
       "Drug Offense": 161,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 634,
       "Domestic Violence": 202,
       "Arson": 6,
       "Harassment": 66,
@@ -784,7 +785,6 @@
       "Failure to Register (Sex Offender)": 11,
       "Weapons": 38,
       "Assault": 120,
-      "Failure to Appear": 633,
       "Driving While License Suspended": 161,
       "Protection Order Violation": 113,
       "Interference with DV Reporting": 18,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 244,
-    "totalIndividuals": 2045,
+    "totalIndividuals": 2047,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1502,13 +1502,13 @@
     },
     {
       "month": "2026-08",
-      "count": 137
+      "count": 139
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1049,
+      "count": 1050,
       "pct": 30.4
     },
     {
@@ -1524,7 +1524,7 @@
     {
       "label": "Property",
       "count": 409,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Other",
@@ -1560,13 +1560,13 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3141,
+      "count": 3143,
       "pct": 60.3
     },
     {
       "label": "Unknown",
       "count": 878,
-      "pct": 16.9
+      "pct": 16.8
     },
     {
       "label": "Felony",
@@ -1814,12 +1814,12 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 77,
+      "count": 78,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 30
+          "count": 31
         },
         {
           "label": "Domestic Violence",
@@ -1868,12 +1868,12 @@
     },
     {
       "name": "OTHER AGENCY",
-      "count": 45,
+      "count": 46,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 20
+          "count": 21
         },
         {
           "label": "DUI",
@@ -2154,7 +2154,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 141
+          "count": 142
         },
         {
           "label": "Drug Offense",
@@ -2232,7 +2232,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 627
+        "n": 628
       },
       {
         "charge": "Domestic Violence",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2349
+      "count": 2351
     }
   ]
 }

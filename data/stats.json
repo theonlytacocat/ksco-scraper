@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-12T14:39:46.529Z",
+  "generatedAt": "2026-08-12T16:13:45.655Z",
   "bookingCounts": {
-    "total": 2354,
-    "inCustody": 278,
-    "released": 2076
+    "total": 2356,
+    "inCustody": 277,
+    "released": 2079
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1607,
+      "count": 1608,
       "pct": 68.3
     },
     {
       "label": "Female",
-      "count": 525,
+      "count": 526,
       "pct": 22.3
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1677,
-      "pct": 71.2
+      "count": 1679,
+      "pct": 71.3
     },
     {
       "label": "Unknown",
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 38,
+    "median": 37.5,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 639
+        "count": 641
       },
       {
         "label": "36–45",
@@ -116,11 +116,11 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 134
+      "count": 135
     },
     {
       "label": "Other",
-      "count": 131
+      "count": 132
     },
     {
       "label": "Obstruction",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 203
+      "count": 204
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 36041.9,
+    "mean": 36127.57,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1751
+    "count": 1747
   },
   "stay": {
-    "mean": 21.4,
+    "mean": 21.6,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2055,
+    "count": 2058,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 439
+        "count": 440
       },
       {
         "label": "4–7 days",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 198
+        "count": 199
       },
       {
         "label": "1–3 months",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 119
+        "count": 120
       }
     ]
   },
@@ -405,6 +405,12 @@
       "count": 13
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 17411.29,
+      "count": 62
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 19779.61,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 5573.53,
       "count": 34
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 17532.79,
-      "count": 61
     },
     {
       "category": "Ignition Interlock Violation",
@@ -491,8 +491,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15379.88,
-      "count": 680
+      "meanBail": 15487.14,
+      "count": 675
     },
     {
       "category": "Driving While License Suspended",
@@ -545,6 +545,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 86,
+      "DOC Warrant": 110,
       "DUI": 214,
       "Failure to Appear": 696,
       "Domestic Violence": 230,
@@ -558,11 +560,9 @@
       "Protection Order Violation": 111,
       "Interference with DV Reporting": 21,
       "Witness Tampering": 3,
-      "DOC Warrant": 109,
       "Burglary (2nd Degree)": 38,
       "Theft (3rd Degree)": 49,
       "Making False Statements": 33,
-      "Other": 85,
       "Theft (1st Degree)": 10,
       "Driving While License Suspended": 138,
       "Possession of Stolen Property": 11,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 90,
       "DUI": 202,
       "Failure to Appear": 634,
       "Domestic Violence": 202,
@@ -799,7 +800,6 @@
       "Ignition Interlock Violation": 59,
       "Malicious Mischief": 51,
       "Forgery": 4,
-      "Other": 89,
       "Residential Burglary": 15,
       "Court Hold": 8,
       "Indecent Exposure": 12,
@@ -837,12 +837,12 @@
       "Theft": 1
     },
     "Female": {
+      "DOC Warrant": 21,
       "Failure to Appear": 223,
       "Assault": 38,
       "Domestic Violence": 93,
       "DUI": 64,
       "Protection Order Violation": 32,
-      "DOC Warrant": 20,
       "Criminal Trespass": 41,
       "Drug Offense": 43,
       "Making False Statements": 6,
@@ -934,7 +934,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 704
+      "count": 707
     },
     {
       "label": "Released (Unknown Reason)",
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 11.9,
     "repeatBookerCount": 244,
-    "totalIndividuals": 2047,
+    "totalIndividuals": 2048,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1170,7 +1170,7 @@
           {
             "bookingNumber": "2026003274",
             "firstSeen": "07/20/2026, 13:48:50",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026002772",
@@ -1263,6 +1263,27 @@
           {
             "bookingNumber": "2026001471",
             "firstSeen": "03/30/2026, 01:30:23",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "HAUSMANN, TAITE SAMUEL",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003616",
+            "firstSeen": "08/12/2026, 09:11:01",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003346",
+            "firstSeen": "07/24/2026, 19:52:34",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002458",
+            "firstSeen": "05/29/2026, 13:50:32",
             "status": "released"
           }
         ]
@@ -1455,27 +1476,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "BLANCHARD, KERRY BRIAN",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003407",
-            "firstSeen": "07/29/2026, 09:23:47",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002961",
-            "firstSeen": "07/02/2026, 01:13:08",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002438",
-            "firstSeen": "05/28/2026, 01:44:12",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1502,13 +1502,13 @@
     },
     {
       "month": "2026-08",
-      "count": 139
+      "count": 141
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1050,
+      "count": 1051,
       "pct": 30.4
     },
     {
@@ -1528,7 +1528,7 @@
     },
     {
       "label": "Other",
-      "count": 308,
+      "count": 309,
       "pct": 8.9
     },
     {
@@ -1565,12 +1565,12 @@
     },
     {
       "label": "Unknown",
-      "count": 878,
-      "pct": 16.8
+      "count": 879,
+      "pct": 16.9
     },
     {
       "label": "Felony",
-      "count": 792,
+      "count": 793,
       "pct": 15.2
     },
     {
@@ -1629,9 +1629,9 @@
     },
     {
       "category": "Failure to Appear",
-      "avgDays": 16.8,
+      "avgDays": 16.7,
       "medianDays": 3.2,
-      "count": 401
+      "count": 403
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -1760,7 +1760,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 208,
+      "count": 209,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2069,8 +2069,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2076,
-    "withBail": 995,
+    "total": 2079,
+    "withBail": 996,
     "pct": 47.9
   },
   "chargesByAgeGroup": [
@@ -2295,7 +2295,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 88
+        "n": 89
       },
       {
         "charge": "Obstruction",
@@ -2692,18 +2692,18 @@
         "n": 30
       },
       {
+        "charge": "DOC Warrant",
+        "avgWeight": 164,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 21
+      },
+      {
         "charge": "Other",
         "avgWeight": 175,
         "avgHeight": "5'5\"",
         "topRace": "White",
         "n": 21
-      },
-      {
-        "charge": "DOC Warrant",
-        "avgWeight": 164,
-        "avgHeight": "5'4\"",
-        "topRace": "White",
-        "n": 20
       },
       {
         "charge": "Obstruction",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2351
+      "count": 2353
     }
   ]
 }

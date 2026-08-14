@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T04:25:44.114Z",
+  "generatedAt": "2026-08-14T05:59:42.325Z",
   "bookingCounts": {
-    "total": 2372,
-    "inCustody": 272,
+    "total": 2373,
+    "inCustody": 273,
     "released": 2100
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1617,
+      "count": 1618,
       "pct": 68.2
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1690,
-      "pct": 71.2
+      "count": 1691,
+      "pct": 71.3
     },
     {
       "label": "Unknown",
@@ -36,7 +36,7 @@
     {
       "label": "Black",
       "count": 255,
-      "pct": 10.8
+      "pct": 10.7
     },
     {
       "label": "Native American",
@@ -46,7 +46,7 @@
     {
       "label": "Asian / Pacific Islander",
       "count": 70,
-      "pct": 3
+      "pct": 2.9
     }
   ],
   "age": {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 338
+        "count": 339
       },
       {
         "label": "26–35",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Other",
-      "count": 135
+      "count": 136
     },
     {
       "label": "DOC Warrant",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 179
+      "count": 180
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36586.71,
+    "mean": 36568.69,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1752
+    "count": 1753
   },
   "stay": {
     "mean": 22.1,
@@ -405,16 +405,16 @@
       "count": 13
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 17059.52,
+      "count": 63
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 21422.58,
       "count": 155
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 17254.03,
-      "count": 62
     },
     {
       "category": "Theft (3rd Degree)",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 88,
       "Possession of Stolen Property": 12,
       "Trafficking Stolen Property": 7,
       "Failure to Appear": 701,
@@ -552,7 +553,6 @@
       "Driving While License Suspended": 140,
       "DUI": 216,
       "Assault": 112,
-      "Other": 87,
       "Weapons": 30,
       "Drug Offense": 163,
       "Community Custody Violation": 9,
@@ -773,12 +773,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 93,
       "Possession of Stolen Property": 13,
       "Trafficking Stolen Property": 5,
       "Failure to Comply (Sentence)": 42,
       "Assault": 121,
       "Failure to Appear": 640,
-      "Other": 92,
       "Weapons": 40,
       "Drug Offense": 151,
       "Community Custody Violation": 10,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 12,
     "repeatBookerCount": 248,
-    "totalIndividuals": 2059,
+    "totalIndividuals": 2060,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1502,7 +1502,7 @@
     },
     {
       "month": "2026-08",
-      "count": 157
+      "count": 158
     }
   ],
   "crimeTypes": [
@@ -1528,7 +1528,7 @@
     },
     {
       "label": "Other",
-      "count": 313,
+      "count": 314,
       "pct": 9
     },
     {
@@ -1565,7 +1565,7 @@
     },
     {
       "label": "Unknown",
-      "count": 894,
+      "count": 895,
       "pct": 17
     },
     {
@@ -1787,7 +1787,7 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 179,
+      "count": 180,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
@@ -1804,7 +1804,7 @@
         },
         {
           "label": "Other",
-          "count": 11
+          "count": 12
         },
         {
           "label": "Hit and Run",
@@ -2094,7 +2094,7 @@
           "count": 36
         },
         {
-          "label": "Assault",
+          "label": "Other",
           "count": 27
         }
       ]
@@ -2295,7 +2295,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 91
+        "n": 92
       },
       {
         "charge": "Obstruction",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2369
+      "count": 2370
     }
   ]
 }

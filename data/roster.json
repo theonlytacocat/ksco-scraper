@@ -98431,7 +98431,7 @@
     "schReleaseDate": "",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=21&BookingNumber=4",
     "inmateId": "40036730",
-    "schedRelease": "09/05/2026",
+    "schedRelease": "08/10/2026",
     "age": "45",
     "height": "602",
     "weight": "202",
@@ -98454,9 +98454,9 @@
       },
       {
         "violation": "7.105.450(1) - PROTECTION ORDER VIOLATION",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "TS",
         "bondBailType": "GL",
         "bondAmount": null,
         "cashAmount": null,
@@ -110041,6 +110041,20 @@
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "08/13/2026",
         "courtType": "DS"
+      },
+      {
+        "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "RL",
+        "bondBailType": "OOC",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "350432041",
+        "nextCourtDate": "08/14/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "08/14/2026",
+        "courtType": "DS"
       }
     ],
     "totalBond": 5000,
@@ -110259,7 +110273,7 @@
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=6",
     "inmateId": "50001354",
     "schedRelease": null,
-    "age": "24",
+    "age": "25",
     "height": "507",
     "weight": "120",
     "hair": "BLN",
@@ -110267,9 +110281,9 @@
     "charges": [
       {
         "violation": "9A.56.050(2) - THEFT-3",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "BR",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -110356,10 +110370,78 @@
     "weight": "195",
     "hair": "BRO",
     "eyes": "BLU",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "9A.56.050(2) - THEFT-3",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "22062402",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "08/14/2026",
+        "courtType": null
+      },
+      {
+        "violation": "9A.52.080(2) - CRIMINAL TRESPASS-2",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "22062402",
+        "nextCourtDate": null,
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "08/14/2026",
+        "courtType": null
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "08/14/2026, 11:58:41",
+    "releasedAt": null
+  },
+  "2026003641": {
+    "bookingNumber": "2026003641",
+    "firstName": "ERIC",
+    "lastName": "GROSS",
+    "middleName": "LAMONT",
+    "race": "B",
+    "sex": "M",
+    "bookingDate": "",
+    "releaseDate": "",
+    "schReleaseDate": "",
+    "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=8",
+    "inmateId": "30003788",
+    "schedRelease": null,
+    "age": "55",
+    "height": "601",
+    "weight": "210",
+    "hair": "BLK",
+    "eyes": "BRO",
+    "charges": [
+      {
+        "violation": "DOCWT - DEPARTMENT OF CORRECTIONS WARRANT",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "NOBD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "966389",
+        "nextCourtDate": "08/17/2026",
+        "arrestAgency": "DEPARTMENT OF CORRECTIONS",
+        "arrestDate": "08/14/2026",
+        "courtType": "DOC"
+      }
+    ],
+    "totalBond": null,
+    "status": "in_custody",
+    "firstSeen": "08/14/2026, 12:51:11",
     "releasedAt": null
   }
 }

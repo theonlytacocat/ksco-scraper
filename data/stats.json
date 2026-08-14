@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T05:59:42.325Z",
+  "generatedAt": "2026-08-14T07:44:33.892Z",
   "bookingCounts": {
-    "total": 2373,
-    "inCustody": 273,
+    "total": 2374,
+    "inCustody": 274,
     "released": 2100
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1618,
+      "count": 1619,
       "pct": 68.2
     },
     {
@@ -26,7 +26,7 @@
     {
       "label": "White",
       "count": 1691,
-      "pct": 71.3
+      "pct": 71.2
     },
     {
       "label": "Unknown",
@@ -45,13 +45,13 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 70,
-      "pct": 2.9
+      "count": 71,
+      "pct": 3
     }
   ],
   "age": {
     "mean": 38.7,
-    "median": 38,
+    "median": 37.5,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 645
+        "count": 646
       },
       {
         "label": "36–45",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 343
+      "count": 344
     },
     {
       "label": "DUI",
@@ -124,7 +124,7 @@
     },
     {
       "label": "Obstruction",
-      "count": 109
+      "count": 110
     },
     {
       "label": "Harassment",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1584
+      "count": 1585
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -411,6 +411,12 @@
       "count": 63
     },
     {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5557.14,
+      "count": 35
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 21422.58,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 4103.45,
       "count": 29
-    },
-    {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5573.53,
-      "count": 34
     },
     {
       "category": "Ignition Interlock Violation",
@@ -507,12 +507,6 @@
       "count": 94
     },
     {
-      "category": "Local / Tribal Code",
-      "medianBail": 1750,
-      "meanBail": 4375,
-      "count": 20
-    },
-    {
       "category": "Resisting Arrest",
       "medianBail": 1750,
       "meanBail": 3416.67,
@@ -537,6 +531,12 @@
       "count": 88
     },
     {
+      "category": "Local / Tribal Code",
+      "medianBail": 1000,
+      "meanBail": 4342.11,
+      "count": 19
+    },
+    {
       "category": "Fugitive from Justice",
       "medianBail": 1000,
       "meanBail": 1000,
@@ -544,12 +544,44 @@
     }
   ],
   "chargesByRace": {
+    "Asian / Pacific Islander": {
+      "Domestic Violence": 8,
+      "Driving While License Suspended": 11,
+      "Failure to Appear": 33,
+      "Failure to Comply (Sentence)": 1,
+      "Assault": 5,
+      "Protection Order Violation": 7,
+      "DUI": 13,
+      "Theft (3rd Degree)": 1,
+      "Resisting Arrest": 3,
+      "Harassment": 2,
+      "PR / Bail Revocation": 1,
+      "Weapons": 3,
+      "Ignition Interlock Violation": 4,
+      "Criminal Trespass": 6,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Drug Offense": 4,
+      "DOC Warrant": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
+    },
     "White": {
       "Other": 88,
       "Possession of Stolen Property": 12,
       "Trafficking Stolen Property": 7,
       "Failure to Appear": 701,
-      "Local / Tribal Code": 13,
+      "Obstruction": 78,
       "Driving While License Suspended": 140,
       "DUI": 216,
       "Assault": 112,
@@ -559,7 +591,6 @@
       "DOC Warrant": 110,
       "Domestic Violence": 231,
       "Traffic / Obstruction": 8,
-      "Obstruction": 77,
       "Criminal Trespass": 129,
       "Failure to Register (Sex Offender)": 8,
       "Protection Order Violation": 112,
@@ -579,6 +610,7 @@
       "Harassment": 52,
       "Resisting Arrest": 36,
       "Indecent Exposure": 7,
+      "Local / Tribal Code": 12,
       "Tampering with Evidence": 3,
       "Sex Offense": 16,
       "Child Exploitation / CSAM": 16,
@@ -737,42 +769,11 @@
       "Homicide": 1,
       "Community Custody Violation": 1,
       "Burglary (2nd Degree)": 1
-    },
-    "Asian / Pacific Islander": {
-      "Driving While License Suspended": 11,
-      "Failure to Appear": 33,
-      "Failure to Comply (Sentence)": 1,
-      "Assault": 5,
-      "Protection Order Violation": 7,
-      "DUI": 13,
-      "Theft (3rd Degree)": 1,
-      "Resisting Arrest": 3,
-      "Harassment": 2,
-      "PR / Bail Revocation": 1,
-      "Weapons": 3,
-      "Ignition Interlock Violation": 4,
-      "Criminal Trespass": 6,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Drug Offense": 4,
-      "Domestic Violence": 7,
-      "DOC Warrant": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
     }
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 204,
       "Other": 93,
       "Possession of Stolen Property": 13,
       "Trafficking Stolen Property": 5,
@@ -783,7 +784,6 @@
       "Drug Offense": 151,
       "Community Custody Violation": 10,
       "DUI": 202,
-      "Domestic Violence": 203,
       "Arson": 6,
       "Harassment": 66,
       "Driving While License Suspended": 162,
@@ -838,7 +838,7 @@
     },
     "Female": {
       "Failure to Appear": 225,
-      "Local / Tribal Code": 4,
+      "Obstruction": 19,
       "Driving While License Suspended": 33,
       "DUI": 66,
       "Community Custody Violation": 4,
@@ -851,7 +851,6 @@
       "Making False Statements": 6,
       "Other": 22,
       "Ignition Interlock Violation": 9,
-      "Obstruction": 18,
       "Resisting Arrest": 12,
       "Harassment": 12,
       "Arson": 1,
@@ -878,6 +877,7 @@
       "Vehicle Prowling": 1,
       "Fugitive from Justice": 4,
       "Robbery": 2,
+      "Local / Tribal Code": 3,
       "Forgery": 1,
       "Possession of Stolen Vehicle": 3,
       "Homicide": 4,
@@ -1268,6 +1268,27 @@
         ]
       },
       {
+        "name": "LEWIS, DADDY TERUO",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003634",
+            "firstSeen": "08/14/2026, 00:41:37",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002042",
+            "firstSeen": "05/02/2026, 12:05:30",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001592",
+            "firstSeen": "04/06/2026, 08:00:26",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "WARSALLA, ELIZABETH MARIE",
         "count": 3,
         "bookings": [
@@ -1455,27 +1476,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "SABLAN, ANTHONY J",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003520",
-            "firstSeen": "08/05/2026, 02:17:53",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026003326",
-            "firstSeen": "07/23/2026, 21:42:55",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002411",
-            "firstSeen": "05/26/2026, 21:56:07",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1502,7 +1502,7 @@
     },
     {
       "month": "2026-08",
-      "count": 158
+      "count": 159
     }
   ],
   "crimeTypes": [
@@ -1518,7 +1518,7 @@
     },
     {
       "label": "Violent",
-      "count": 519,
+      "count": 520,
       "pct": 14.9
     },
     {
@@ -1560,12 +1560,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3175,
+      "count": 3177,
       "pct": 60.3
     },
     {
       "label": "Unknown",
-      "count": 895,
+      "count": 894,
       "pct": 17
     },
     {
@@ -1706,7 +1706,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1584,
+      "count": 1585,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1719,7 +1719,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 115
+          "count": 116
         },
         {
           "label": "Drug Offense",
@@ -2108,7 +2108,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 106
+          "count": 107
         },
         {
           "label": "DUI",
@@ -2239,7 +2239,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 195
+        "n": 196
       },
       {
         "charge": "DUI",
@@ -2707,10 +2707,10 @@
       },
       {
         "charge": "Obstruction",
-        "avgWeight": 138,
+        "avgWeight": 137,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 17
+        "n": 18
       },
       {
         "charge": "Resisting Arrest",
@@ -2797,13 +2797,6 @@
         "n": 6
       },
       {
-        "charge": "Local / Tribal Code",
-        "avgWeight": 152,
-        "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 4
-      },
-      {
         "charge": "Community Custody Violation",
         "avgWeight": 176,
         "avgHeight": "5'8\"",
@@ -2853,6 +2846,13 @@
         "n": 3
       },
       {
+        "charge": "Local / Tribal Code",
+        "avgWeight": 165,
+        "avgHeight": "5'4\"",
+        "topRace": "White",
+        "n": 3
+      },
+      {
         "charge": "Possession of Stolen Vehicle",
         "avgWeight": 178,
         "avgHeight": "5'5\"",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2370
+      "count": 2371
     }
   ]
 }

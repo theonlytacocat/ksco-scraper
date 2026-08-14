@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-14T15:57:36.684Z",
+  "generatedAt": "2026-08-14T16:59:08.070Z",
   "bookingCounts": {
-    "total": 2376,
-    "inCustody": 269,
+    "total": 2377,
+    "inCustody": 270,
     "released": 2107
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1620,
+      "count": 1621,
       "pct": 68.2
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1693,
+      "count": 1694,
       "pct": 71.3
     },
     {
       "label": "Unknown",
       "count": 284,
-      "pct": 12
+      "pct": 11.9
     },
     {
       "label": "Black",
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37.5,
+    "median": 37,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 646
+        "count": 647
       },
       {
         "label": "36–45",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 210
+      "count": 211
     },
     {
       "label": "Assault",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Other",
-      "count": 136
+      "count": 137
     },
     {
       "label": "DOC Warrant",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 211
+      "count": 213
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36606.46,
+    "mean": 36629.67,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1751
+    "count": 1750
   },
   "stay": {
     "mean": 22.1,
@@ -405,16 +405,16 @@
       "count": 13
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 17107.14,
+      "count": 63
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 21317.31,
       "count": 156
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 17302.42,
-      "count": 62
     },
     {
       "category": "Theft (3rd Degree)",
@@ -489,22 +489,22 @@
       "count": 4
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6505.26,
+      "count": 95
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15476.26,
-      "count": 671
+      "meanBail": 15536.78,
+      "count": 668
     },
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
       "meanBail": 4463.92,
       "count": 97
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6521.28,
-      "count": 94
     },
     {
       "category": "Resisting Arrest",
@@ -545,8 +545,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 89,
+      "Drug Offense": 164,
       "DUI": 218,
-      "Other": 88,
       "Possession of Stolen Property": 12,
       "Trafficking Stolen Property": 7,
       "Failure to Appear": 701,
@@ -554,7 +555,6 @@
       "Driving While License Suspended": 140,
       "Assault": 112,
       "Weapons": 30,
-      "Drug Offense": 163,
       "Community Custody Violation": 9,
       "DOC Warrant": 110,
       "Domestic Violence": 231,
@@ -773,16 +773,16 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 94,
+      "Drug Offense": 152,
       "DUI": 203,
       "Domestic Violence": 204,
       "Failure to Appear": 641,
-      "Other": 93,
       "Possession of Stolen Property": 13,
       "Trafficking Stolen Property": 5,
       "Failure to Comply (Sentence)": 42,
       "Assault": 121,
       "Weapons": 40,
-      "Drug Offense": 151,
       "Community Custody Violation": 10,
       "Arson": 6,
       "Harassment": 66,
@@ -1268,6 +1268,27 @@
         ]
       },
       {
+        "name": "BELGARDE, SAMUEL JOSEPH",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003637",
+            "firstSeen": "08/14/2026, 09:56:20",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003203",
+            "firstSeen": "07/16/2026, 00:47:44",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001756",
+            "firstSeen": "04/15/2026, 17:30:22",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "LEWIS, DADDY TERUO",
         "count": 3,
         "bookings": [
@@ -1455,27 +1476,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "WATSON, DALE",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003546",
-            "firstSeen": "08/07/2026, 01:16:14",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026002431",
-            "firstSeen": "05/27/2026, 14:02:34",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026000950",
-            "firstSeen": "03/25/2026, 18:51:38",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1502,7 +1502,7 @@
     },
     {
       "month": "2026-08",
-      "count": 161
+      "count": 162
     }
   ],
   "crimeTypes": [
@@ -1528,17 +1528,17 @@
     },
     {
       "label": "Other",
-      "count": 314,
+      "count": 315,
       "pct": 9
     },
     {
       "label": "Order Violations",
       "count": 260,
-      "pct": 7.5
+      "pct": 7.4
     },
     {
       "label": "Drug",
-      "count": 210,
+      "count": 211,
       "pct": 6
     },
     {
@@ -1565,7 +1565,7 @@
     },
     {
       "label": "Unknown",
-      "count": 894,
+      "count": 896,
       "pct": 17
     },
     {
@@ -1760,7 +1760,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 216,
+      "count": 218,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1777,7 +1777,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 12
+          "count": 13
         },
         {
           "label": "Domestic Violence",
@@ -2115,12 +2115,12 @@
           "count": 82
         },
         {
-          "label": "Driving While License Suspended",
+          "label": "Drug Offense",
           "count": 58
         },
         {
-          "label": "Drug Offense",
-          "count": 57
+          "label": "Driving While License Suspended",
+          "count": 58
         }
       ]
     },
@@ -2260,7 +2260,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 151
+        "n": 152
       },
       {
         "charge": "Criminal Trespass",
@@ -2295,7 +2295,7 @@
         "avgWeight": 183,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 92
+        "n": 93
       },
       {
         "charge": "Obstruction",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2373
+      "count": 2374
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:30:37.625Z",
+  "generatedAt": "2026-08-14T21:54:57.766Z",
   "bookingCounts": {
     "total": 2382,
     "inCustody": 269,
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 893
+      "count": 895
     },
     {
       "label": "Domestic Violence",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 212
+      "count": 213
     },
     {
       "label": "Assault",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2054
+      "count": 2057
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 276
+      "count": 279
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36716.41,
+    "mean": 36662.52,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1744
+    "count": 1747
   },
   "stay": {
     "mean": 22.2,
@@ -483,16 +483,16 @@
       "count": 4
     },
     {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6563.83,
-      "count": 94
-    },
-    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15551.98,
-      "count": 665
+      "meanBail": 15527.84,
+      "count": 667
+    },
+    {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6505.26,
+      "count": 95
     },
     {
       "category": "Driving While License Suspended",
@@ -545,8 +545,8 @@
   ],
   "chargesByRace": {
     "White": {
-      "Drug Offense": 165,
-      "Failure to Appear": 703,
+      "Failure to Appear": 705,
+      "Drug Offense": 166,
       "Theft (3rd Degree)": 52,
       "Criminal Trespass": 130,
       "Other": 89,
@@ -773,14 +773,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 644,
+      "Drug Offense": 153,
       "DOC Warrant": 110,
       "Theft (3rd Degree)": 49,
       "Criminal Trespass": 122,
       "Other": 94,
-      "Drug Offense": 152,
       "DUI": 203,
       "Domestic Violence": 204,
-      "Failure to Appear": 642,
       "Possession of Stolen Property": 13,
       "Trafficking Stolen Property": 5,
       "Failure to Comply (Sentence)": 42,
@@ -1508,8 +1508,8 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1067,
-      "pct": 30.5
+      "count": 1069,
+      "pct": 30.6
     },
     {
       "label": "Traffic / DUI",
@@ -1538,7 +1538,7 @@
     },
     {
       "label": "Drug",
-      "count": 212,
+      "count": 213,
       "pct": 6.1
     },
     {
@@ -1560,12 +1560,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3183,
-      "pct": 60.2
+      "count": 3188,
+      "pct": 60.3
     },
     {
       "label": "Unknown",
-      "count": 897,
+      "count": 898,
       "pct": 17
     },
     {
@@ -1679,12 +1679,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2065,
+      "count": 2068,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 694
+          "count": 697
         },
         {
           "label": "Domestic Violence",
@@ -1733,12 +1733,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 277,
+      "count": 280,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 73
+          "count": 75
         },
         {
           "label": "Domestic Violence",
@@ -2104,7 +2104,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 267
+          "count": 268
         },
         {
           "label": "Domestic Violence",
@@ -2116,7 +2116,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 59
+          "count": 60
         },
         {
           "label": "Driving While License Suspended",
@@ -2154,7 +2154,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 143
+          "count": 144
         },
         {
           "label": "Drug Offense",
@@ -2232,7 +2232,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 636
+        "n": 638
       },
       {
         "charge": "Domestic Violence",
@@ -2260,7 +2260,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 152
+        "n": 153
       },
       {
         "charge": "Criminal Trespass",

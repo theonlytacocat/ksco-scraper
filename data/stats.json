@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:28:53.019Z",
+  "generatedAt": "2026-08-14T22:54:11.723Z",
   "bookingCounts": {
     "total": 2382,
     "inCustody": 269,
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2057
+      "count": 2064
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36662.52,
+    "mean": 36261.42,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1747
+    "count": 1744
   },
   "stay": {
     "mean": 22.2,
@@ -250,9 +250,9 @@
     },
     {
       "category": "Child Sex Offense",
-      "medianBail": 300000,
-      "meanBail": 310909.09,
-      "count": 11
+      "medianBail": 275000,
+      "meanBail": 292000,
+      "count": 10
     },
     {
       "category": "Robbery",
@@ -347,8 +347,8 @@
     {
       "category": "Assault",
       "medianBail": 20000,
-      "meanBail": 99546.88,
-      "count": 64
+      "meanBail": 97841.27,
+      "count": 63
     },
     {
       "category": "Motor Vehicle Theft",
@@ -361,12 +361,6 @@
       "medianBail": 12500,
       "meanBail": 12500,
       "count": 2
-    },
-    {
-      "category": "Trafficking Stolen Property",
-      "medianBail": 10000,
-      "meanBail": 26666.67,
-      "count": 3
     },
     {
       "category": "Domestic Violence",
@@ -391,6 +385,12 @@
       "medianBail": 10000,
       "meanBail": 21657.89,
       "count": 19
+    },
+    {
+      "category": "Trafficking Stolen Property",
+      "medianBail": 10000,
+      "meanBail": 10000,
+      "count": 2
     },
     {
       "category": "Attempt to Elude",
@@ -491,7 +491,7 @@
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 6505.26,
+      "meanBail": 6057.89,
       "count": 95
     },
     {
@@ -580,7 +580,7 @@
       "Indecent Exposure": 7,
       "Local / Tribal Code": 12,
       "Tampering with Evidence": 3,
-      "Sex Offense": 16,
+      "Sex Offense": 17,
       "Child Exploitation / CSAM": 16,
       "Child Sex Offense": 18,
       "Hit and Run": 29,
@@ -592,7 +592,7 @@
       "PR / Bail Revocation": 18,
       "Robbery": 12,
       "Homicide": 15,
-      "Assault (Child)": 4,
+      "Assault (Child)": 5,
       "Possession of Stolen Vehicle": 19,
       "Stalking": 9,
       "Attempt to Elude": 15,
@@ -808,7 +808,7 @@
       "Local / Tribal Code": 30,
       "Tampering with Evidence": 3,
       "Resisting Arrest": 39,
-      "Sex Offense": 19,
+      "Sex Offense": 20,
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
       "Making False Statements": 33,
@@ -819,7 +819,7 @@
       "Motor Vehicle Theft": 16,
       "Fugitive from Justice": 11,
       "PR / Bail Revocation": 18,
-      "Assault (Child)": 3,
+      "Assault (Child)": 4,
       "Possession of Stolen Vehicle": 19,
       "Stalking": 11,
       "Attempt to Elude": 19,
@@ -1509,7 +1509,7 @@
     {
       "label": "Court / Supervision",
       "count": 1069,
-      "pct": 30.6
+      "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
@@ -1518,7 +1518,7 @@
     },
     {
       "label": "Violent",
-      "count": 520,
+      "count": 521,
       "pct": 14.9
     },
     {
@@ -1561,16 +1561,16 @@
     {
       "label": "Gross Misdemeanor",
       "count": 3188,
-      "pct": 60.3
+      "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 898,
-      "pct": 17
+      "count": 904,
+      "pct": 17.1
     },
     {
       "label": "Felony",
-      "count": 800,
+      "count": 801,
       "pct": 15.1
     },
     {
@@ -1679,7 +1679,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2068,
+      "count": 2075,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2410,6 +2410,13 @@
         "n": 18
       },
       {
+        "charge": "Sex Offense",
+        "avgWeight": 189,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 18
+      },
+      {
         "charge": "Child Sex Offense",
         "avgWeight": 220,
         "avgHeight": "5'11\"",
@@ -2436,13 +2443,6 @@
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 18
-      },
-      {
-        "charge": "Sex Offense",
-        "avgWeight": 191,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 17
       },
       {
         "charge": "Child Exploitation / CSAM",
@@ -2599,6 +2599,13 @@
         "n": 4
       },
       {
+        "charge": "Assault (Child)",
+        "avgWeight": 189,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 4
+      },
+      {
         "charge": "Public Order",
         "avgWeight": 183,
         "avgHeight": "5'10\"",
@@ -2623,13 +2630,6 @@
         "charge": "Tampering with Evidence",
         "avgWeight": 207,
         "avgHeight": "6'3\"",
-        "topRace": "White",
-        "n": 3
-      },
-      {
-        "charge": "Assault (Child)",
-        "avgWeight": 200,
-        "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 3
       }

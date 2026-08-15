@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-15T03:44:16.791Z",
+  "generatedAt": "2026-08-15T04:37:07.699Z",
   "bookingCounts": {
-    "total": 2384,
-    "inCustody": 266,
+    "total": 2386,
+    "inCustody": 268,
     "released": 2118
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1626,
+      "count": 1627,
       "pct": 68.2
     },
     {
@@ -18,14 +18,14 @@
     },
     {
       "label": "Unknown",
-      "count": 223,
+      "count": 224,
       "pct": 9.4
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 1700,
+      "count": 1702,
       "pct": 71.3
     },
     {
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.6,
+    "mean": 38.7,
     "median": 37,
     "min": 18,
     "max": 87,
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 699
+        "count": 700
       },
       {
         "label": "46–55",
@@ -73,7 +73,7 @@
       },
       {
         "label": "56–65",
-        "count": 167
+        "count": 168
       },
       {
         "label": "65+",
@@ -92,15 +92,15 @@
     },
     {
       "label": "DUI",
-      "count": 330
+      "count": 331
+    },
+    {
+      "label": "Drug Offense",
+      "count": 214
     },
     {
       "label": "Driving While License Suspended",
       "count": 214
-    },
-    {
-      "label": "Drug Offense",
-      "count": 213
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2065
+      "count": 2066
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 79
+      "count": 80
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36243.51,
+    "mean": 36223.32,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1745
+    "count": 1746
   },
   "stay": {
     "mean": 22.1,
@@ -483,16 +483,16 @@
       "count": 4
     },
     {
+      "category": "Drug Offense",
+      "medianBail": 2500,
+      "meanBail": 6005.21,
+      "count": 96
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 15527.84,
       "count": 667
-    },
-    {
-      "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 6057.89,
-      "count": 95
     },
     {
       "category": "Driving While License Suspended",
@@ -545,10 +545,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 220,
+      "Drug Offense": 167,
       "Criminal Trespass": 131,
-      "DUI": 219,
       "Failure to Appear": 705,
-      "Drug Offense": 166,
       "Theft (3rd Degree)": 52,
       "Other": 89,
       "Possession of Stolen Property": 12,
@@ -773,8 +773,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 205,
       "Criminal Trespass": 123,
-      "DUI": 204,
       "Failure to Appear": 644,
       "Drug Offense": 153,
       "DOC Warrant": 110,
@@ -836,6 +836,45 @@
       "Incest": 1,
       "Theft": 1
     },
+    "Unknown": {
+      "Drug Offense": 17,
+      "Assault": 13,
+      "Harassment": 8,
+      "Other": 21,
+      "Driving While License Suspended": 19,
+      "DUI": 59,
+      "Domestic Violence": 47,
+      "Failure to Appear": 25,
+      "Local / Tribal Code": 4,
+      "Criminal Trespass": 8,
+      "Obstruction": 12,
+      "Malicious Mischief": 3,
+      "DOC Warrant": 5,
+      "Fugitive from Justice": 1,
+      "Hit and Run": 8,
+      "Ignition Interlock Violation": 5,
+      "Homicide": 1,
+      "Resisting Arrest": 4,
+      "Criminal Impersonation": 1,
+      "Making False Statements": 6,
+      "Theft (3rd Degree)": 8,
+      "Interference with DV Reporting": 3,
+      "Weapons": 3,
+      "Child Exploitation / CSAM": 2,
+      "Attempt to Elude": 5,
+      "Sex Offense": 2,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Theft (2nd Degree)": 5,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Residential Burglary": 1,
+      "Theft (1st Degree)": 1
+    },
     "Female": {
       "Drug Offense": 44,
       "Failure to Appear": 226,
@@ -890,45 +929,6 @@
       "Traffic / Obstruction": 2,
       "Traffic Violation": 1,
       "Bribery": 1
-    },
-    "Unknown": {
-      "Assault": 13,
-      "Harassment": 8,
-      "Other": 21,
-      "Driving While License Suspended": 19,
-      "DUI": 59,
-      "Domestic Violence": 47,
-      "Failure to Appear": 25,
-      "Local / Tribal Code": 4,
-      "Criminal Trespass": 8,
-      "Obstruction": 12,
-      "Malicious Mischief": 3,
-      "DOC Warrant": 5,
-      "Drug Offense": 16,
-      "Fugitive from Justice": 1,
-      "Hit and Run": 8,
-      "Ignition Interlock Violation": 5,
-      "Homicide": 1,
-      "Resisting Arrest": 4,
-      "Criminal Impersonation": 1,
-      "Making False Statements": 6,
-      "Theft (3rd Degree)": 8,
-      "Interference with DV Reporting": 3,
-      "Weapons": 3,
-      "Child Exploitation / CSAM": 2,
-      "Attempt to Elude": 5,
-      "Sex Offense": 2,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Theft (2nd Degree)": 5,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Residential Burglary": 1,
-      "Theft (1st Degree)": 1
     }
   },
   "releaseReasons": [
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 12.1,
     "repeatBookerCount": 251,
-    "totalIndividuals": 2066,
+    "totalIndividuals": 2068,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1502,7 +1502,7 @@
     },
     {
       "month": "2026-08",
-      "count": 169
+      "count": 171
     }
   ],
   "crimeTypes": [
@@ -1513,8 +1513,8 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 534,
-      "pct": 15.2
+      "count": 535,
+      "pct": 15.3
     },
     {
       "label": "Violent",
@@ -1538,7 +1538,7 @@
     },
     {
       "label": "Drug",
-      "count": 213,
+      "count": 214,
       "pct": 6.1
     },
     {
@@ -1560,12 +1560,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3189,
+      "count": 3190,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 904,
+      "count": 905,
       "pct": 17.1
     },
     {
@@ -1679,7 +1679,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2076,
+      "count": 2077,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1692,7 +1692,7 @@
         },
         {
           "label": "DUI",
-          "count": 134
+          "count": 135
         },
         {
           "label": "Assault",
@@ -1814,7 +1814,7 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 79,
+      "count": 80,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1830,11 +1830,11 @@
           "count": 7
         },
         {
-          "label": "DUI",
+          "label": "Drug Offense",
           "count": 5
         },
         {
-          "label": "Theft (3rd Degree)",
+          "label": "DUI",
           "count": 5
         }
       ]
@@ -2137,7 +2137,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 80
+          "count": 81
         },
         {
           "label": "Driving While License Suspended",
@@ -2183,7 +2183,7 @@
         },
         {
           "label": "DUI",
-          "count": 25
+          "count": 26
         },
         {
           "label": "Driving While License Suspended",
@@ -2246,7 +2246,7 @@
         "avgWeight": 185,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 189
+        "n": 190
       },
       {
         "charge": "Driving While License Suspended",
@@ -2864,7 +2864,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2381
+      "count": 2383
     }
   ]
 }

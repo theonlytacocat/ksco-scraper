@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:55:14.885Z",
+  "generatedAt": "2026-08-15T10:28:35.512Z",
   "bookingCounts": {
     "total": 2389,
     "inCustody": 269,
@@ -92,11 +92,11 @@
     },
     {
       "label": "DUI",
-      "count": 333
+      "count": 334
     },
     {
       "label": "Driving While License Suspended",
-      "count": 215
+      "count": 216
     },
     {
       "label": "Drug Offense",
@@ -162,7 +162,7 @@
     },
     {
       "label": "WASHINGTON STATE PATROL",
-      "count": 181
+      "count": 183
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 36169.77,
+    "mean": 36154.81,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1749
+    "count": 1750
   },
   "stay": {
     "mean": 22.1,
@@ -401,8 +401,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 21110.76,
-      "count": 158
+      "meanBail": 21040.88,
+      "count": 159
     },
     {
       "category": "Theft (3rd Degree)",
@@ -610,6 +610,8 @@
       "Bribery": 1
     },
     "Black": {
+      "DUI": 23,
+      "Driving While License Suspended": 28,
       "DOC Warrant": 18,
       "Failure to Comply (Sentence)": 9,
       "Other": 19,
@@ -621,9 +623,7 @@
       "Protection Order Violation": 24,
       "Theft (2nd Degree)": 5,
       "Community Custody Violation": 3,
-      "DUI": 22,
       "Drug Offense": 19,
-      "Driving While License Suspended": 27,
       "Local / Tribal Code": 6,
       "Resisting Arrest": 9,
       "Obstruction": 15,
@@ -773,12 +773,12 @@
   },
   "chargesBySex": {
     "Female": {
-      "DUI": 68,
+      "DUI": 69,
+      "Driving While License Suspended": 34,
       "Drug Offense": 44,
       "Failure to Appear": 226,
       "Theft (3rd Degree)": 13,
       "Obstruction": 19,
-      "Driving While License Suspended": 33,
       "Community Custody Violation": 4,
       "DOC Warrant": 21,
       "Assault": 38,
@@ -1513,7 +1513,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 537,
+      "count": 538,
       "pct": 15.3
     },
     {
@@ -1560,7 +1560,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3192,
+      "count": 3193,
       "pct": 60.2
     },
     {
@@ -1575,8 +1575,8 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 405,
-      "pct": 7.6
+      "count": 406,
+      "pct": 7.7
     }
   ],
   "avgCharges": {
@@ -1787,12 +1787,12 @@
     },
     {
       "name": "WASHINGTON STATE PATROL",
-      "count": 181,
+      "count": 183,
       "topCharge": "DUI",
       "chargeBreakdown": [
         {
           "label": "DUI",
-          "count": 62
+          "count": 63
         },
         {
           "label": "Failure to Appear",
@@ -1800,7 +1800,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 13
+          "count": 14
         },
         {
           "label": "Other",
@@ -2112,7 +2112,7 @@
         },
         {
           "label": "DUI",
-          "count": 83
+          "count": 84
         },
         {
           "label": "Drug Offense",
@@ -2120,7 +2120,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 58
+          "count": 59
         }
       ]
     },
@@ -2243,10 +2243,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 152,
+        "avgWeight": 153,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 65
+        "n": 66
       },
       {
         "charge": "Drug Offense",
@@ -2271,10 +2271,10 @@
       },
       {
         "charge": "Driving While License Suspended",
-        "avgWeight": 156,
+        "avgWeight": 157,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 32
+        "n": 33
       },
       {
         "charge": "Protection Order Violation",

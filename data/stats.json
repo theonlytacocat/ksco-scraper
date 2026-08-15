@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-15T20:27:34.910Z",
+  "generatedAt": "2026-08-15T20:51:58.736Z",
   "bookingCounts": {
-    "total": 2393,
-    "inCustody": 267,
+    "total": 2395,
+    "inCustody": 269,
     "released": 2126
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1631,
+      "count": 1633,
       "pct": 68.2
     },
     {
@@ -25,8 +25,8 @@
   "race": [
     {
       "label": "White",
-      "count": 1707,
-      "pct": 71.3
+      "count": 1709,
+      "pct": 71.4
     },
     {
       "label": "Unknown",
@@ -41,7 +41,7 @@
     {
       "label": "Native American",
       "count": 73,
-      "pct": 3.1
+      "pct": 3
     },
     {
       "label": "Asian / Pacific Islander",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 652
+        "count": 654
       },
       {
         "label": "36–45",
@@ -115,12 +115,12 @@
       "count": 153
     },
     {
-      "label": "Other",
+      "label": "DOC Warrant",
       "count": 137
     },
     {
-      "label": "DOC Warrant",
-      "count": 136
+      "label": "Other",
+      "count": 137
     },
     {
       "label": "Obstruction",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1598
+      "count": 1599
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "DOC Warrant": 111,
       "Failure to Appear": 707,
       "Drug Offense": 168,
       "DUI": 223,
@@ -558,7 +559,6 @@
       "Assault": 112,
       "Weapons": 30,
       "Community Custody Violation": 9,
-      "DOC Warrant": 110,
       "Domestic Violence": 231,
       "Traffic / Obstruction": 8,
       "Failure to Register (Sex Offender)": 8,
@@ -773,12 +773,12 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 111,
       "Failure to Appear": 646,
       "Drug Offense": 154,
       "DUI": 207,
       "Driving While License Suspended": 163,
       "Criminal Trespass": 123,
-      "DOC Warrant": 110,
       "Theft (3rd Degree)": 49,
       "Other": 94,
       "Domestic Violence": 204,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 12.1,
     "repeatBookerCount": 251,
-    "totalIndividuals": 2074,
+    "totalIndividuals": 2075,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1138,6 +1138,32 @@
           {
             "bookingNumber": "2026002078",
             "firstSeen": "05/05/2026, 09:26:37",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "METZKER, TRAVIS TOD",
+        "count": 4,
+        "bookings": [
+          {
+            "bookingNumber": "2026003654",
+            "firstSeen": "08/15/2026, 13:49:13",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002708",
+            "firstSeen": "06/14/2026, 14:16:31",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002207",
+            "firstSeen": "05/12/2026, 21:30:20",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001711",
+            "firstSeen": "04/12/2026, 21:00:20",
             "status": "released"
           }
         ]
@@ -1460,27 +1486,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "WILLIAMS, DAKOTA RAY",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003554",
-            "firstSeen": "08/07/2026, 14:11:43",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026003216",
-            "firstSeen": "07/16/2026, 14:33:38",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002016",
-            "firstSeen": "04/30/2026, 14:33:35",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1507,13 +1512,13 @@
     },
     {
       "month": "2026-08",
-      "count": 178
+      "count": 180
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1071,
+      "count": 1072,
       "pct": 30.5
     },
     {
@@ -1575,7 +1580,7 @@
     },
     {
       "label": "Felony",
-      "count": 801,
+      "count": 802,
       "pct": 15.1
     },
     {
@@ -1711,7 +1716,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1598,
+      "count": 1599,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2290,10 +2295,10 @@
       },
       {
         "charge": "DOC Warrant",
-        "avgWeight": 181,
+        "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 110
+        "n": 111
       },
       {
         "charge": "Other",
@@ -2869,7 +2874,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2390
+      "count": 2392
     }
   ]
 }

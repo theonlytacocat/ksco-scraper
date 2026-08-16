@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T03:53:26.244Z",
+  "generatedAt": "2026-08-16T04:40:45.839Z",
   "bookingCounts": {
     "total": 2396,
     "inCustody": 270,
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2073
+      "count": 2074
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -548,6 +548,7 @@
       "Theft (3rd Degree)": 53,
       "Theft (2nd Degree)": 36,
       "Drug Offense": 169,
+      "Fugitive from Justice": 15,
       "Failure to Appear": 708,
       "DOC Warrant": 111,
       "DUI": 223,
@@ -588,7 +589,6 @@
       "Burglary (1st Degree)": 7,
       "Vehicle Prowling": 11,
       "Motor Vehicle Theft": 17,
-      "Fugitive from Justice": 14,
       "PR / Bail Revocation": 18,
       "Robbery": 12,
       "Homicide": 15,
@@ -776,6 +776,7 @@
       "Theft (3rd Degree)": 14,
       "Theft (2nd Degree)": 12,
       "Drug Offense": 45,
+      "Fugitive from Justice": 5,
       "Domestic Violence": 94,
       "DUI": 69,
       "Driving While License Suspended": 34,
@@ -811,7 +812,6 @@
       "Motor Vehicle Theft": 6,
       "Theft (1st Degree)": 2,
       "Vehicle Prowling": 1,
-      "Fugitive from Justice": 4,
       "Robbery": 2,
       "Local / Tribal Code": 3,
       "Forgery": 1,
@@ -1518,7 +1518,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1073,
+      "count": 1074,
       "pct": 30.5
     },
     {
@@ -1575,8 +1575,8 @@
     },
     {
       "label": "Unknown",
-      "count": 907,
-      "pct": 17
+      "count": 908,
+      "pct": 17.1
     },
     {
       "label": "Felony",
@@ -1586,7 +1586,7 @@
     {
       "label": "Misdemeanor",
       "count": 407,
-      "pct": 7.7
+      "pct": 7.6
     }
   ],
   "avgCharges": {
@@ -1689,7 +1689,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2084,
+      "count": 2085,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2260,10 +2260,10 @@
       },
       {
         "charge": "Drug Offense",
-        "avgWeight": 150,
+        "avgWeight": 151,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 44
+        "n": 45
       },
       {
         "charge": "Criminal Trespass",
@@ -2316,14 +2316,14 @@
       },
       {
         "charge": "Theft (3rd Degree)",
-        "avgWeight": 145,
+        "avgWeight": 149,
         "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 14
       },
       {
         "charge": "Theft (2nd Degree)",
-        "avgWeight": 174,
+        "avgWeight": 176,
         "avgHeight": "5'4\"",
         "topRace": "White",
         "n": 12
@@ -2399,6 +2399,13 @@
         "n": 6
       },
       {
+        "charge": "Fugitive from Justice",
+        "avgWeight": 149,
+        "avgHeight": "5'1\"",
+        "topRace": "White",
+        "n": 5
+      },
+      {
         "charge": "Community Custody Violation",
         "avgWeight": 176,
         "avgHeight": "5'8\"",
@@ -2423,13 +2430,6 @@
         "charge": "Failure to Comply (Sentence)",
         "avgWeight": 156,
         "avgHeight": "5'5\"",
-        "topRace": "White",
-        "n": 4
-      },
-      {
-        "charge": "Fugitive from Justice",
-        "avgWeight": 132,
-        "avgHeight": "5'1\"",
         "topRace": "White",
         "n": 4
       },

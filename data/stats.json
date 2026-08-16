@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-16T05:33:29.673Z",
+  "generatedAt": "2026-08-16T06:45:59.865Z",
   "bookingCounts": {
-    "total": 2396,
-    "inCustody": 270,
+    "total": 2397,
+    "inCustody": 271,
     "released": 2126
   },
   "gender": [
     {
       "label": "Male",
       "count": 1633,
-      "pct": 68.2
+      "pct": 68.1
     },
     {
       "label": "Female",
-      "count": 539,
+      "count": 540,
       "pct": 22.5
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1710,
+      "count": 1711,
       "pct": 71.4
     },
     {
       "label": "Unknown",
       "count": 284,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Black",
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 654
+        "count": 655
       },
       {
         "label": "36–45",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 335
+      "count": 336
     },
     {
       "label": "Drug Offense",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2074
+      "count": 2075
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35963.04,
+    "mean": 35945.47,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1761
+    "count": 1762
   },
   "stay": {
     "mean": 22.1,
@@ -399,16 +399,16 @@
       "count": 13
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 20847.83,
+      "count": 161
+    },
+    {
       "category": "Theft (3rd Degree)",
       "medianBail": 5000,
       "meanBail": 4161.29,
       "count": 31
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 20946.88,
-      "count": 160
     },
     {
       "category": "Other",
@@ -545,13 +545,13 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 224,
       "Theft (3rd Degree)": 53,
       "Theft (2nd Degree)": 36,
       "Drug Offense": 169,
       "Fugitive from Justice": 15,
       "Failure to Appear": 708,
       "DOC Warrant": 111,
-      "DUI": 223,
       "Driving While License Suspended": 141,
       "Criminal Trespass": 131,
       "Other": 89,
@@ -773,12 +773,12 @@
   },
   "chargesBySex": {
     "Female": {
+      "DUI": 70,
       "Theft (3rd Degree)": 14,
       "Theft (2nd Degree)": 12,
       "Drug Offense": 45,
       "Fugitive from Justice": 5,
       "Domestic Violence": 94,
-      "DUI": 69,
       "Driving While License Suspended": 34,
       "Failure to Appear": 226,
       "Obstruction": 19,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 12.1,
     "repeatBookerCount": 251,
-    "totalIndividuals": 2076,
+    "totalIndividuals": 2077,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1512,7 +1512,7 @@
     },
     {
       "month": "2026-08",
-      "count": 181
+      "count": 182
     }
   ],
   "crimeTypes": [
@@ -1523,7 +1523,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 539,
+      "count": 540,
       "pct": 15.3
     },
     {
@@ -1570,7 +1570,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3203,
+      "count": 3204,
       "pct": 60.2
     },
     {
@@ -1689,7 +1689,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2085,
+      "count": 2086,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1702,7 +1702,7 @@
         },
         {
           "label": "DUI",
-          "count": 136
+          "count": 137
         },
         {
           "label": "Assault",
@@ -2122,7 +2122,7 @@
         },
         {
           "label": "DUI",
-          "count": 84
+          "count": 85
         },
         {
           "label": "Drug Offense",
@@ -2253,10 +2253,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 153,
+        "avgWeight": 154,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 66
+        "n": 67
       },
       {
         "charge": "Drug Offense",
@@ -2874,7 +2874,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2393
+      "count": 2394
     }
   ]
 }

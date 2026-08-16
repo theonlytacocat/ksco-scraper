@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-16T10:53:06.979Z",
+  "generatedAt": "2026-08-16T11:25:21.175Z",
   "bookingCounts": {
-    "total": 2399,
-    "inCustody": 272,
+    "total": 2400,
+    "inCustody": 273,
     "released": 2127
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1635,
+      "count": 1636,
       "pct": 68.2
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1713,
+      "count": 1714,
       "pct": 71.4
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 705
+        "count": 706
       },
       {
         "label": "46–55",
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 345
+      "count": 346
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2076
+      "count": 2077
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Domestic Violence": 232,
       "Possession of Stolen Property": 13,
       "Assault": 113,
       "DUI": 224,
@@ -560,7 +561,6 @@
       "Obstruction": 78,
       "Weapons": 30,
       "Community Custody Violation": 9,
-      "Domestic Violence": 231,
       "Traffic / Obstruction": 8,
       "Failure to Register (Sex Offender)": 8,
       "Protection Order Violation": 112,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Domestic Violence": 205,
       "Possession of Stolen Property": 14,
       "Assault": 122,
       "Failure to Appear": 647,
@@ -783,7 +784,6 @@
       "Criminal Trespass": 123,
       "Theft (3rd Degree)": 49,
       "Other": 94,
-      "Domestic Violence": 204,
       "Trafficking Stolen Property": 5,
       "Failure to Comply (Sentence)": 42,
       "Weapons": 40,
@@ -1299,6 +1299,27 @@
         ]
       },
       {
+        "name": "FIELD, CHRISTOPHER CORBET",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003660",
+            "firstSeen": "08/16/2026, 04:22:41",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026002661",
+            "firstSeen": "06/11/2026, 04:56:18",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026000453",
+            "firstSeen": "03/24/2026, 05:04:28",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "BELGARDE, SAMUEL JOSEPH",
         "count": 3,
         "bookings": [
@@ -1465,27 +1486,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "KLOD, SAMANTHA JEAN",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003569",
-            "firstSeen": "08/08/2026, 11:41:28",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002966",
-            "firstSeen": "07/02/2026, 12:35:09",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002707",
-            "firstSeen": "06/14/2026, 10:58:31",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1512,7 +1512,7 @@
     },
     {
       "month": "2026-08",
-      "count": 184
+      "count": 185
     }
   ],
   "crimeTypes": [
@@ -1528,7 +1528,7 @@
     },
     {
       "label": "Violent",
-      "count": 523,
+      "count": 524,
       "pct": 14.9
     },
     {
@@ -1570,7 +1570,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3205,
+      "count": 3206,
       "pct": 60.2
     },
     {
@@ -1689,7 +1689,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2087,
+      "count": 2088,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1698,7 +1698,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 224
+          "count": 225
         },
         {
           "label": "DUI",
@@ -2143,7 +2143,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 88
+          "count": 89
         },
         {
           "label": "Drug Offense",
@@ -2249,7 +2249,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 196
+        "n": 197
       },
       {
         "charge": "DUI",
@@ -2874,7 +2874,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2396
+      "count": 2397
     }
   ]
 }

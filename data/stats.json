@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T17:49:31.648Z",
+  "generatedAt": "2026-08-16T18:35:33.790Z",
   "bookingCounts": {
     "total": 2404,
     "inCustody": 273,
@@ -95,11 +95,11 @@
       "count": 336
     },
     {
-      "label": "Drug Offense",
-      "count": 216
+      "label": "Driving While License Suspended",
+      "count": 217
     },
     {
-      "label": "Driving While License Suspended",
+      "label": "Drug Offense",
       "count": 216
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "label": "Ignition Interlock Violation",
-      "count": 73
+      "count": 74
     },
     {
       "label": "Theft (3rd Degree)",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1601
+      "count": 1603
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35967.4,
+    "mean": 35952.7,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1766
+    "count": 1767
   },
   "stay": {
     "mean": 22.1,
@@ -495,16 +495,16 @@
       "count": 677
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 4520.41,
+      "count": 98
+    },
+    {
       "category": "Drug Offense",
       "medianBail": 2500,
       "meanBail": 6005.21,
       "count": 96
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4463.92,
-      "count": 97
     },
     {
       "category": "Resisting Arrest",
@@ -546,9 +546,10 @@
   "chargesByRace": {
     "Black": {
       "Failure to Appear": 86,
+      "Driving While License Suspended": 29,
+      "Ignition Interlock Violation": 5,
       "Domestic Violence": 37,
       "DUI": 23,
-      "Driving While License Suspended": 28,
       "DOC Warrant": 18,
       "Failure to Comply (Sentence)": 9,
       "Other": 19,
@@ -576,7 +577,6 @@
       "Vehicle Prowling": 2,
       "Child Exploitation / CSAM": 1,
       "Public Order": 1,
-      "Ignition Interlock Violation": 4,
       "Burglary Tools": 1,
       "Failure to Register (Sex Offender)": 3,
       "Hit and Run": 4,
@@ -774,6 +774,8 @@
   "chargesBySex": {
     "Male": {
       "Failure to Appear": 648,
+      "Driving While License Suspended": 164,
+      "Ignition Interlock Violation": 60,
       "Other": 95,
       "Domestic Violence": 206,
       "Possession of Stolen Property": 14,
@@ -781,7 +783,6 @@
       "DOC Warrant": 111,
       "Drug Offense": 154,
       "DUI": 207,
-      "Driving While License Suspended": 163,
       "Criminal Trespass": 123,
       "Theft (3rd Degree)": 49,
       "Trafficking Stolen Property": 5,
@@ -799,7 +800,6 @@
       "Theft (2nd Degree)": 31,
       "Burglary (2nd Degree)": 36,
       "Theft (1st Degree)": 11,
-      "Ignition Interlock Violation": 59,
       "Malicious Mischief": 51,
       "Forgery": 4,
       "Residential Burglary": 15,
@@ -1523,7 +1523,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 540,
+      "count": 541,
       "pct": 15.3
     },
     {
@@ -1585,8 +1585,8 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 407,
-      "pct": 7.6
+      "count": 409,
+      "pct": 7.7
     }
   ],
   "avgCharges": {
@@ -1716,7 +1716,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1601,
+      "count": 1603,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1737,7 +1737,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 88
+          "count": 89
         }
       ]
     },
@@ -2151,7 +2151,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 67
+          "count": 68
         },
         {
           "label": "DUI",
@@ -2260,10 +2260,10 @@
       },
       {
         "charge": "Driving While License Suspended",
-        "avgWeight": 178,
+        "avgWeight": 179,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 158
+        "n": 159
       },
       {
         "charge": "Drug Offense",
@@ -2326,7 +2326,7 @@
         "avgWeight": 175,
         "avgHeight": "5'8\"",
         "topRace": "White",
-        "n": 58
+        "n": 59
       },
       {
         "charge": "Theft (3rd Degree)",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:00:20.801Z",
+  "generatedAt": "2026-08-17T21:34:50.916Z",
   "bookingCounts": {
     "total": 2419,
     "inCustody": 271,
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2092
+      "count": 2094
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35770.04,
+    "mean": 35743.85,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1775
+    "count": 1777
   },
   "stay": {
     "mean": 22.3,
@@ -263,8 +263,8 @@
     {
       "category": "Failure to Comply (Sentence)",
       "medianBail": 150000,
-      "meanBail": 106470.59,
-      "count": 17
+      "meanBail": 103333.33,
+      "count": 18
     },
     {
       "category": "Arson",
@@ -315,12 +315,6 @@
       "count": 1
     },
     {
-      "category": "Weapons",
-      "medianBail": 35000,
-      "meanBail": 31909.09,
-      "count": 11
-    },
-    {
       "category": "Sex Offense",
       "medianBail": 30000,
       "meanBail": 187857.14,
@@ -337,6 +331,12 @@
       "medianBail": 30000,
       "meanBail": 30000,
       "count": 1
+    },
+    {
+      "category": "Weapons",
+      "medianBail": 27500,
+      "meanBail": 30100,
+      "count": 10
     },
     {
       "category": "Possession of Stolen Vehicle",
@@ -357,6 +357,12 @@
       "count": 64
     },
     {
+      "category": "Domestic Violence",
+      "medianBail": 12500,
+      "meanBail": 115143.94,
+      "count": 66
+    },
+    {
       "category": "Forgery",
       "medianBail": 12500,
       "meanBail": 12500,
@@ -373,12 +379,6 @@
       "medianBail": 10000,
       "meanBail": 21575,
       "count": 20
-    },
-    {
-      "category": "Domestic Violence",
-      "medianBail": 10000,
-      "meanBail": 116684.62,
-      "count": 65
     },
     {
       "category": "Harassment",
@@ -413,8 +413,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 20694.44,
-      "count": 162
+      "meanBail": 20628.83,
+      "count": 163
     },
     {
       "category": "Reckless Driving",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Comply (Sentence)": 35,
       "Criminal Trespass": 133,
       "Drug Offense": 170,
       "Domestic Violence": 235,
@@ -569,7 +570,6 @@
       "Interference with DV Reporting": 21,
       "Witness Tampering": 3,
       "Burglary (2nd Degree)": 38,
-      "Failure to Comply (Sentence)": 34,
       "Making False Statements": 33,
       "Theft (1st Degree)": 10,
       "Ignition Interlock Violation": 56,
@@ -686,11 +686,11 @@
       "Vehicle Prowling": 2,
       "Child Exploitation / CSAM": 1,
       "Public Order": 1,
+      "Attempt to Elude": 4,
       "Burglary Tools": 1,
       "Failure to Register (Sex Offender)": 3,
       "Hit and Run": 4,
       "Fugitive from Justice": 1,
-      "Attempt to Elude": 3,
       "Reckless Driving": 2,
       "Traffic / Obstruction": 2,
       "Burglary (1st Degree)": 5,
@@ -773,6 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Comply (Sentence)": 43,
       "Criminal Trespass": 125,
       "Drug Offense": 155,
       "Failure to Appear": 651,
@@ -789,7 +790,6 @@
       "Hit and Run": 27,
       "Theft (3rd Degree)": 49,
       "Trafficking Stolen Property": 5,
-      "Failure to Comply (Sentence)": 42,
       "Community Custody Violation": 10,
       "Arson": 6,
       "Harassment": 66,
@@ -824,7 +824,7 @@
       "Assault (Child)": 4,
       "Possession of Stolen Vehicle": 19,
       "Stalking": 11,
-      "Attempt to Elude": 19,
+      "Attempt to Elude": 20,
       "Burglary Tools": 7,
       "Public Order": 4,
       "Kidnapping / Unlawful Imprisonment": 5,
@@ -1523,12 +1523,12 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1079,
+      "count": 1080,
       "pct": 30.4
     },
     {
       "label": "Traffic / DUI",
-      "count": 546,
+      "count": 547,
       "pct": 15.4
     },
     {
@@ -1575,12 +1575,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3224,
+      "count": 3225,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 915,
+      "count": 916,
       "pct": 17.1
     },
     {
@@ -1694,7 +1694,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2103,
+      "count": 2105,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2349,10 +2349,10 @@
       },
       {
         "charge": "Failure to Comply (Sentence)",
-        "avgWeight": 194,
+        "avgWeight": 193,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 41
+        "n": 42
       },
       {
         "charge": "Weapons",
@@ -2404,6 +2404,13 @@
         "n": 27
       },
       {
+        "charge": "Attempt to Elude",
+        "avgWeight": 196,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 20
+      },
+      {
         "charge": "Reckless Driving",
         "avgWeight": 201,
         "avgHeight": "5'11\"",
@@ -2414,13 +2421,6 @@
         "charge": "Homicide",
         "avgWeight": 166,
         "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 19
-      },
-      {
-        "charge": "Attempt to Elude",
-        "avgWeight": 195,
-        "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 19
       },

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-17T04:48:29.513Z",
+  "generatedAt": "2026-08-17T05:40:06.024Z",
   "bookingCounts": {
-    "total": 2408,
-    "inCustody": 273,
+    "total": 2409,
+    "inCustody": 274,
     "released": 2135
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1641,
-      "pct": 68.1
+      "count": 1642,
+      "pct": 68.2
     },
     {
       "label": "Female",
@@ -30,7 +30,7 @@
     },
     {
       "label": "Unknown",
-      "count": 286,
+      "count": 287,
       "pct": 11.9
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 708
+        "count": 709
       },
       {
         "label": "46–55",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 336
+      "count": 337
     },
     {
       "label": "Driving While License Suspended",
@@ -115,11 +115,11 @@
       "count": 153
     },
     {
-      "label": "DOC Warrant",
-      "count": 139
+      "label": "Other",
+      "count": 140
     },
     {
-      "label": "Other",
+      "label": "DOC Warrant",
       "count": 139
     },
     {
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1604
+      "count": 1606
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35932.93,
+    "mean": 35918.27,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1768
+    "count": 1769
   },
   "stay": {
     "mean": 22,
@@ -405,16 +405,16 @@
       "count": 13
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 20780.86,
+      "count": 162
+    },
+    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 16750,
       "count": 65
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 20847.83,
-      "count": 161
     },
     {
       "category": "Theft (3rd Degree)",
@@ -544,6 +544,50 @@
     }
   ],
   "chargesByRace": {
+    "Unknown": {
+      "DUI": 73,
+      "Other": 26,
+      "Assault": 19,
+      "Harassment": 9,
+      "Driving While License Suspended": 29,
+      "Domestic Violence": 62,
+      "Failure to Appear": 37,
+      "Local / Tribal Code": 5,
+      "Criminal Trespass": 13,
+      "Obstruction": 12,
+      "Malicious Mischief": 5,
+      "DOC Warrant": 4,
+      "Drug Offense": 20,
+      "Fugitive from Justice": 1,
+      "Resisting Arrest": 5,
+      "Sex Offense": 5,
+      "Ignition Interlock Violation": 8,
+      "Hit and Run": 9,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Making False Statements": 7,
+      "Attempt to Elude": 6,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Theft (3rd Degree)": 8,
+      "Residential Burglary": 1,
+      "Interference with DV Reporting": 3,
+      "Weapons": 4,
+      "Child Exploitation / CSAM": 3,
+      "Child Sex Offense": 2,
+      "Protection Order Violation": 7,
+      "Theft (2nd Degree)": 5,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
+    },
     "White": {
       "Domestic Violence": 234,
       "DOC Warrant": 112,
@@ -662,50 +706,6 @@
       "Interference with DV Reporting": 1,
       "Sex Offense": 1
     },
-    "Unknown": {
-      "Other": 25,
-      "Assault": 19,
-      "Harassment": 9,
-      "Driving While License Suspended": 29,
-      "DUI": 72,
-      "Domestic Violence": 62,
-      "Failure to Appear": 37,
-      "Local / Tribal Code": 5,
-      "Criminal Trespass": 13,
-      "Obstruction": 12,
-      "Malicious Mischief": 5,
-      "DOC Warrant": 4,
-      "Drug Offense": 20,
-      "Fugitive from Justice": 1,
-      "Resisting Arrest": 5,
-      "Sex Offense": 5,
-      "Ignition Interlock Violation": 8,
-      "Hit and Run": 9,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Making False Statements": 7,
-      "Attempt to Elude": 6,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Theft (3rd Degree)": 8,
-      "Residential Burglary": 1,
-      "Interference with DV Reporting": 3,
-      "Weapons": 4,
-      "Child Exploitation / CSAM": 3,
-      "Child Sex Offense": 2,
-      "Protection Order Violation": 7,
-      "Theft (2nd Degree)": 5,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
-    },
     "Asian / Pacific Islander": {
       "Domestic Violence": 8,
       "Failure to Appear": 34,
@@ -773,16 +773,16 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 208,
+      "Other": 96,
       "Domestic Violence": 207,
       "DOC Warrant": 112,
       "Failure to Appear": 648,
       "Driving While License Suspended": 164,
       "Ignition Interlock Violation": 60,
-      "Other": 95,
       "Possession of Stolen Property": 14,
       "Assault": 122,
       "Drug Offense": 154,
-      "DUI": 207,
       "Criminal Trespass": 123,
       "Theft (3rd Degree)": 49,
       "Trafficking Stolen Property": 5,
@@ -980,7 +980,7 @@
   "recidivism": {
     "rate": 12.1,
     "repeatBookerCount": 253,
-    "totalIndividuals": 2083,
+    "totalIndividuals": 2084,
     "repeatBookers": [
       {
         "name": "DUNKLE, JEROME M",
@@ -1512,7 +1512,7 @@
     },
     {
       "month": "2026-08",
-      "count": 193
+      "count": 194
     }
   ],
   "crimeTypes": [
@@ -1523,7 +1523,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 541,
+      "count": 542,
       "pct": 15.3
     },
     {
@@ -1538,7 +1538,7 @@
     },
     {
       "label": "Other",
-      "count": 317,
+      "count": 318,
       "pct": 9
     },
     {
@@ -1570,12 +1570,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3210,
+      "count": 3211,
       "pct": 60.2
     },
     {
       "label": "Unknown",
-      "count": 910,
+      "count": 911,
       "pct": 17.1
     },
     {
@@ -1716,7 +1716,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1604,
+      "count": 1606,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2155,7 +2155,7 @@
         },
         {
           "label": "DUI",
-          "count": 60
+          "count": 61
         }
       ]
     },
@@ -2253,7 +2253,7 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 185,
+        "avgWeight": 184,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 192
@@ -2874,7 +2874,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2405
+      "count": 2406
     }
   ]
 }

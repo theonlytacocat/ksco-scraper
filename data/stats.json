@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-17T22:30:14.309Z",
+  "generatedAt": "2026-08-17T22:55:09.147Z",
   "bookingCounts": {
-    "total": 2419,
-    "inCustody": 269,
+    "total": 2420,
+    "inCustody": 270,
     "released": 2150
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1647,
+      "count": 1648,
       "pct": 68.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1724,
+      "count": 1725,
       "pct": 71.3
     },
     {
@@ -50,7 +50,7 @@
     }
   ],
   "age": {
-    "mean": 38.6,
+    "mean": 38.7,
     "median": 37,
     "min": 18,
     "max": 87,
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 362
+        "count": 363
       },
       {
         "label": "56–65",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2094
+      "count": 2097
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35752.71,
+    "mean": 35755.1,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1776
+    "count": 1777
   },
   "stay": {
     "mean": 22.2,
@@ -345,6 +345,12 @@
       "count": 6
     },
     {
+      "category": "Possession of Stolen Property",
+      "medianBail": 20000,
+      "meanBail": 19085.71,
+      "count": 7
+    },
+    {
       "category": "Motor Vehicle Theft",
       "medianBail": 20000,
       "meanBail": 40944.44,
@@ -367,12 +373,6 @@
       "medianBail": 12500,
       "meanBail": 12500,
       "count": 2
-    },
-    {
-      "category": "Possession of Stolen Property",
-      "medianBail": 11250,
-      "meanBail": 15600,
-      "count": 6
     },
     {
       "category": "Harassment",
@@ -545,6 +545,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Possession of Stolen Property": 14,
+      "Theft (1st Degree)": 11,
+      "Theft (2nd Degree)": 37,
       "Failure to Comply (Sentence)": 35,
       "Criminal Trespass": 133,
       "Drug Offense": 170,
@@ -554,11 +557,9 @@
       "Reckless Driving": 22,
       "DOC Warrant": 112,
       "Other": 90,
-      "Possession of Stolen Property": 13,
       "Assault": 113,
       "Weapons": 31,
       "Theft (3rd Degree)": 53,
-      "Theft (2nd Degree)": 36,
       "Driving While License Suspended": 141,
       "Hit and Run": 30,
       "Trafficking Stolen Property": 7,
@@ -571,7 +572,6 @@
       "Witness Tampering": 3,
       "Burglary (2nd Degree)": 38,
       "Making False Statements": 33,
-      "Theft (1st Degree)": 10,
       "Ignition Interlock Violation": 56,
       "Malicious Mischief": 42,
       "Forgery": 4,
@@ -773,6 +773,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Possession of Stolen Property": 15,
+      "Theft (1st Degree)": 12,
+      "Theft (2nd Degree)": 32,
       "Failure to Comply (Sentence)": 43,
       "Criminal Trespass": 125,
       "Drug Offense": 155,
@@ -784,7 +787,6 @@
       "DOC Warrant": 112,
       "Driving While License Suspended": 164,
       "Ignition Interlock Violation": 60,
-      "Possession of Stolen Property": 14,
       "Assault": 122,
       "Weapons": 41,
       "Hit and Run": 27,
@@ -799,9 +801,7 @@
       "Protection Order Violation": 114,
       "Interference with DV Reporting": 18,
       "Witness Tampering": 4,
-      "Theft (2nd Degree)": 31,
       "Burglary (2nd Degree)": 36,
-      "Theft (1st Degree)": 11,
       "Malicious Mischief": 51,
       "Forgery": 4,
       "Residential Burglary": 15,
@@ -978,8 +978,8 @@
     }
   ],
   "recidivism": {
-    "rate": 12.1,
-    "repeatBookerCount": 254,
+    "rate": 12.2,
+    "repeatBookerCount": 255,
     "totalIndividuals": 2092,
     "repeatBookers": [
       {
@@ -1517,7 +1517,7 @@
     },
     {
       "month": "2026-08",
-      "count": 204
+      "count": 205
     }
   ],
   "crimeTypes": [
@@ -1538,7 +1538,7 @@
     },
     {
       "label": "Property",
-      "count": 418,
+      "count": 419,
       "pct": 11.8
     },
     {
@@ -1580,13 +1580,13 @@
     },
     {
       "label": "Unknown",
-      "count": 916,
+      "count": 918,
       "pct": 17.1
     },
     {
       "label": "Felony",
-      "count": 806,
-      "pct": 15
+      "count": 807,
+      "pct": 15.1
     },
     {
       "label": "Misdemeanor",
@@ -1694,7 +1694,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2105,
+      "count": 2108,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2376,18 +2376,18 @@
         "n": 36
       },
       {
+        "charge": "Theft (2nd Degree)",
+        "avgWeight": 184,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 32
+      },
+      {
         "charge": "Making False Statements",
         "avgWeight": 174,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 32
-      },
-      {
-        "charge": "Theft (2nd Degree)",
-        "avgWeight": 182,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 31
       },
       {
         "charge": "Local / Tribal Code",
@@ -2481,6 +2481,13 @@
         "n": 16
       },
       {
+        "charge": "Possession of Stolen Property",
+        "avgWeight": 193,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 15
+      },
+      {
         "charge": "Residential Burglary",
         "avgWeight": 185,
         "avgHeight": "5'9\"",
@@ -2488,18 +2495,18 @@
         "n": 15
       },
       {
-        "charge": "Possession of Stolen Property",
-        "avgWeight": 191,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 14
-      },
-      {
         "charge": "Vehicle Prowling",
         "avgWeight": 183,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 13
+      },
+      {
+        "charge": "Theft (1st Degree)",
+        "avgWeight": 166,
+        "avgHeight": "5'8\"",
+        "topRace": "White",
+        "n": 12
       },
       {
         "charge": "Indecent Exposure",
@@ -2519,13 +2526,6 @@
         "charge": "Failure to Register (Sex Offender)",
         "avgWeight": 208,
         "avgHeight": "5'12\"",
-        "topRace": "White",
-        "n": 11
-      },
-      {
-        "charge": "Theft (1st Degree)",
-        "avgWeight": 161,
-        "avgHeight": "5'8\"",
         "topRace": "White",
         "n": 11
       },
@@ -2879,7 +2879,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2416
+      "count": 2417
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-17T23:51:51.386Z",
+  "generatedAt": "2026-08-18T01:24:57.543Z",
   "bookingCounts": {
     "total": 2424,
-    "inCustody": 274,
-    "released": 2150
+    "inCustody": 272,
+    "released": 2152
   },
   "gender": [
     {
@@ -197,11 +197,11 @@
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2129,
+    "count": 2131,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 787
+        "count": 789
       },
       {
         "label": "1–3 days",
@@ -545,7 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
-      "Burglary (1st Degree)": 8,
+      "Fugitive from Justice": 15,
       "Criminal Trespass": 135,
       "Failure to Appear": 712,
       "Possession of Stolen Property": 14,
@@ -587,9 +587,9 @@
       "Sex Offense": 17,
       "Child Exploitation / CSAM": 16,
       "Child Sex Offense": 18,
+      "Burglary (1st Degree)": 7,
       "Vehicle Prowling": 11,
       "Motor Vehicle Theft": 17,
-      "Fugitive from Justice": 14,
       "PR / Bail Revocation": 18,
       "Robbery": 12,
       "Homicide": 15,
@@ -610,7 +610,7 @@
       "Bribery": 1
     },
     "Unknown": {
-      "Burglary (1st Degree)": 2,
+      "Fugitive from Justice": 2,
       "Other": 27,
       "Driving While License Suspended": 30,
       "DUI": 75,
@@ -624,7 +624,6 @@
       "Malicious Mischief": 5,
       "DOC Warrant": 4,
       "Drug Offense": 20,
-      "Fugitive from Justice": 1,
       "Resisting Arrest": 5,
       "Sex Offense": 5,
       "Ignition Interlock Violation": 8,
@@ -633,6 +632,7 @@
       "Criminal Impersonation": 1,
       "Making False Statements": 7,
       "Attempt to Elude": 6,
+      "Burglary (1st Degree)": 1,
       "Kidnapping / Unlawful Imprisonment": 2,
       "Theft (3rd Degree)": 8,
       "Residential Burglary": 1,
@@ -773,7 +773,7 @@
   },
   "chargesBySex": {
     "Male": {
-      "Burglary (1st Degree)": 13,
+      "Fugitive from Justice": 12,
       "Criminal Trespass": 126,
       "Possession of Stolen Property": 15,
       "Theft (1st Degree)": 12,
@@ -815,11 +815,11 @@
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
       "Making False Statements": 33,
+      "Burglary (1st Degree)": 12,
       "Homicide": 19,
       "Vehicle Prowling": 13,
       "Robbery": 17,
       "Motor Vehicle Theft": 16,
-      "Fugitive from Justice": 11,
       "PR / Bail Revocation": 18,
       "Assault (Child)": 4,
       "Possession of Stolen Vehicle": 19,
@@ -892,7 +892,7 @@
       "Bribery": 1
     },
     "Unknown": {
-      "Burglary (1st Degree)": 1,
+      "Fugitive from Justice": 2,
       "Other": 23,
       "Driving While License Suspended": 20,
       "DUI": 60,
@@ -906,7 +906,6 @@
       "Obstruction": 12,
       "Malicious Mischief": 3,
       "DOC Warrant": 5,
-      "Fugitive from Justice": 1,
       "Hit and Run": 8,
       "Ignition Interlock Violation": 5,
       "Homicide": 1,
@@ -935,11 +934,11 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 725
+      "count": 726
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 577
+      "count": 578
     },
     {
       "label": "Released",
@@ -1150,7 +1149,7 @@
           {
             "bookingNumber": "2026003677",
             "firstSeen": "08/17/2026, 10:57:53",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003311",
@@ -1524,8 +1523,8 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1081,
-      "pct": 30.4
+      "count": 1083,
+      "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
@@ -1539,8 +1538,8 @@
     },
     {
       "label": "Property",
-      "count": 423,
-      "pct": 11.9
+      "count": 421,
+      "pct": 11.8
     },
     {
       "label": "Other",
@@ -1581,13 +1580,13 @@
     },
     {
       "label": "Unknown",
-      "count": 918,
+      "count": 920,
       "pct": 17.1
     },
     {
       "label": "Felony",
-      "count": 809,
-      "pct": 15.1
+      "count": 807,
+      "pct": 15
     },
     {
       "label": "Misdemeanor",
@@ -1653,7 +1652,7 @@
       "category": "Failure to Appear",
       "avgDays": 16.6,
       "medianDays": 3.2,
-      "count": 409
+      "count": 410
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -2085,9 +2084,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2150,
-    "withBail": 1028,
-    "pct": 47.8
+    "total": 2152,
+    "withBail": 1030,
+    "pct": 47.9
   },
   "chargesByAgeGroup": [
     {
@@ -2496,18 +2495,18 @@
         "n": 15
       },
       {
-        "charge": "Burglary (1st Degree)",
-        "avgWeight": 184,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 13
-      },
-      {
         "charge": "Vehicle Prowling",
         "avgWeight": 183,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 13
+      },
+      {
+        "charge": "Fugitive from Justice",
+        "avgWeight": 200,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 12
       },
       {
         "charge": "Theft (1st Degree)",
@@ -2524,16 +2523,16 @@
         "n": 12
       },
       {
+        "charge": "Burglary (1st Degree)",
+        "avgWeight": 181,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 12
+      },
+      {
         "charge": "Failure to Register (Sex Offender)",
         "avgWeight": 208,
         "avgHeight": "5'12\"",
-        "topRace": "White",
-        "n": 11
-      },
-      {
-        "charge": "Fugitive from Justice",
-        "avgWeight": 198,
-        "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 11
       },

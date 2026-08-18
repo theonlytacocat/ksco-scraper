@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T21:52:43.257Z",
+  "generatedAt": "2026-08-18T22:29:19.486Z",
   "bookingCounts": {
     "total": 2436,
     "inCustody": 268,
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "Black": {
+      "Community Custody Violation": 4,
       "DOC Warrant": 19,
       "Failure to Appear": 88,
       "Driving While License Suspended": 29,
@@ -558,7 +559,6 @@
       "Assault": 30,
       "Protection Order Violation": 24,
       "Theft (2nd Degree)": 5,
-      "Community Custody Violation": 3,
       "Drug Offense": 19,
       "Local / Tribal Code": 6,
       "Resisting Arrest": 9,
@@ -774,6 +774,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Community Custody Violation": 12,
       "Fugitive from Justice": 13,
       "Failure to Register (Sex Offender)": 12,
       "Driving While License Suspended": 166,
@@ -797,7 +798,6 @@
       "Hit and Run": 27,
       "Theft (3rd Degree)": 49,
       "Trafficking Stolen Property": 5,
-      "Community Custody Violation": 11,
       "Arson": 6,
       "Harassment": 66,
       "Traffic / Obstruction": 8,
@@ -1524,7 +1524,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1088,
+      "count": 1089,
       "pct": 30.5
     },
     {
@@ -1535,7 +1535,7 @@
     {
       "label": "Violent",
       "count": 534,
-      "pct": 15
+      "pct": 14.9
     },
     {
       "label": "Property",
@@ -1586,7 +1586,7 @@
     },
     {
       "label": "Felony",
-      "count": 815,
+      "count": 816,
       "pct": 15.1
     },
     {
@@ -1965,12 +1965,12 @@
     },
     {
       "name": "DOC",
-      "count": 12,
+      "count": 13,
       "topCharge": "Community Custody Violation",
       "chargeBreakdown": [
         {
           "label": "Community Custody Violation",
-          "count": 7
+          "count": 8
         },
         {
           "label": "DOC Warrant",
@@ -2510,6 +2510,13 @@
         "n": 13
       },
       {
+        "charge": "Community Custody Violation",
+        "avgWeight": 191,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 12
+      },
+      {
         "charge": "Failure to Register (Sex Offender)",
         "avgWeight": 206,
         "avgHeight": "5'12\"",
@@ -2536,13 +2543,6 @@
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 12
-      },
-      {
-        "charge": "Community Custody Violation",
-        "avgWeight": 187,
-        "avgHeight": "5'11\"",
-        "topRace": "White",
-        "n": 11
       },
       {
         "charge": "Stalking",

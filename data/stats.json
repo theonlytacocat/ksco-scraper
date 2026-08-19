@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-19T17:55:44.793Z",
+  "generatedAt": "2026-08-19T18:41:45.449Z",
   "bookingCounts": {
-    "total": 2450,
+    "total": 2451,
     "inCustody": 276,
-    "released": 2174
+    "released": 2175
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1667,
-      "pct": 68
+      "count": 1668,
+      "pct": 68.1
     },
     {
       "label": "Female",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1741,
+      "count": 1742,
       "pct": 71.1
     },
     {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 721
+        "count": 722
       },
       {
         "label": "46–55",
@@ -120,7 +120,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 140
+      "count": 141
     },
     {
       "label": "Obstruction",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 35215.21,
+    "mean": 35201.28,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1809
+    "count": 1810
   },
   "stay": {
     "mean": 22.1,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 2153,
+    "count": 2154,
     "histogram": [
       {
         "label": "< 1 day",
@@ -217,7 +217,7 @@
       },
       {
         "label": "2–4 weeks",
-        "count": 210
+        "count": 211
       },
       {
         "label": "1–3 months",
@@ -381,6 +381,12 @@
       "count": 2
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 33905.41,
+      "count": 37
+    },
+    {
       "category": "Theft (2nd Degree)",
       "medianBail": 10000,
       "meanBail": 21023.81,
@@ -397,12 +403,6 @@
       "medianBail": 10000,
       "meanBail": 38620,
       "count": 25
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 34569.44,
-      "count": 36
     },
     {
       "category": "Trafficking Stolen Property",
@@ -550,6 +550,71 @@
     }
   ],
   "chargesByRace": {
+    "White": {
+      "DOC Warrant": 113,
+      "Motor Vehicle Theft": 18,
+      "Criminal Trespass": 137,
+      "Failure to Appear": 717,
+      "Protection Order Violation": 113,
+      "Theft (2nd Degree)": 38,
+      "Local / Tribal Code": 14,
+      "Drug Offense": 171,
+      "Burglary (2nd Degree)": 39,
+      "Hit and Run": 31,
+      "Failure to Register (Sex Offender)": 9,
+      "Fugitive from Justice": 16,
+      "Driving While License Suspended": 142,
+      "Ignition Interlock Violation": 57,
+      "Robbery": 13,
+      "Assault": 115,
+      "Resisting Arrest": 37,
+      "Obstruction": 80,
+      "Sex Offense": 18,
+      "Possession of Stolen Property": 14,
+      "Theft (1st Degree)": 11,
+      "Failure to Comply (Sentence)": 35,
+      "Domestic Violence": 235,
+      "DUI": 225,
+      "Reckless Driving": 22,
+      "Other": 90,
+      "Weapons": 31,
+      "Theft (3rd Degree)": 53,
+      "Trafficking Stolen Property": 7,
+      "Community Custody Violation": 10,
+      "Traffic / Obstruction": 8,
+      "Interference with DV Reporting": 21,
+      "Witness Tampering": 3,
+      "Making False Statements": 33,
+      "Malicious Mischief": 42,
+      "Forgery": 4,
+      "Arson": 6,
+      "Residential Burglary": 14,
+      "Court Hold": 7,
+      "Harassment": 52,
+      "Indecent Exposure": 7,
+      "Tampering with Evidence": 3,
+      "Child Exploitation / CSAM": 16,
+      "Child Sex Offense": 18,
+      "Burglary (1st Degree)": 7,
+      "Vehicle Prowling": 11,
+      "PR / Bail Revocation": 18,
+      "Homicide": 15,
+      "Assault (Child)": 5,
+      "Possession of Stolen Vehicle": 19,
+      "Stalking": 9,
+      "Attempt to Elude": 15,
+      "Public Order": 5,
+      "Burglary Tools": 6,
+      "Kidnapping / Unlawful Imprisonment": 4,
+      "Traffic Violation": 6,
+      "Identity Theft": 4,
+      "Probation Violation": 2,
+      "Criminal Impersonation": 3,
+      "Human Trafficking": 2,
+      "Incest": 1,
+      "Theft": 1,
+      "Bribery": 1
+    },
     "Asian / Pacific Islander": {
       "Stalking": 1,
       "Criminal Trespass": 7,
@@ -660,71 +725,6 @@
       "Failure to Comply (Sentence)": 1,
       "Public Order": 1
     },
-    "White": {
-      "Motor Vehicle Theft": 18,
-      "Criminal Trespass": 137,
-      "Failure to Appear": 717,
-      "Protection Order Violation": 113,
-      "Theft (2nd Degree)": 38,
-      "Local / Tribal Code": 14,
-      "Drug Offense": 171,
-      "Burglary (2nd Degree)": 39,
-      "Hit and Run": 31,
-      "Failure to Register (Sex Offender)": 9,
-      "Fugitive from Justice": 16,
-      "Driving While License Suspended": 142,
-      "Ignition Interlock Violation": 57,
-      "Robbery": 13,
-      "Assault": 115,
-      "Resisting Arrest": 37,
-      "Obstruction": 80,
-      "Sex Offense": 18,
-      "Possession of Stolen Property": 14,
-      "Theft (1st Degree)": 11,
-      "Failure to Comply (Sentence)": 35,
-      "Domestic Violence": 235,
-      "DUI": 225,
-      "Reckless Driving": 22,
-      "DOC Warrant": 112,
-      "Other": 90,
-      "Weapons": 31,
-      "Theft (3rd Degree)": 53,
-      "Trafficking Stolen Property": 7,
-      "Community Custody Violation": 10,
-      "Traffic / Obstruction": 8,
-      "Interference with DV Reporting": 21,
-      "Witness Tampering": 3,
-      "Making False Statements": 33,
-      "Malicious Mischief": 42,
-      "Forgery": 4,
-      "Arson": 6,
-      "Residential Burglary": 14,
-      "Court Hold": 7,
-      "Harassment": 52,
-      "Indecent Exposure": 7,
-      "Tampering with Evidence": 3,
-      "Child Exploitation / CSAM": 16,
-      "Child Sex Offense": 18,
-      "Burglary (1st Degree)": 7,
-      "Vehicle Prowling": 11,
-      "PR / Bail Revocation": 18,
-      "Homicide": 15,
-      "Assault (Child)": 5,
-      "Possession of Stolen Vehicle": 19,
-      "Stalking": 9,
-      "Attempt to Elude": 15,
-      "Public Order": 5,
-      "Burglary Tools": 6,
-      "Kidnapping / Unlawful Imprisonment": 4,
-      "Traffic Violation": 6,
-      "Identity Theft": 4,
-      "Probation Violation": 2,
-      "Criminal Impersonation": 3,
-      "Human Trafficking": 2,
-      "Incest": 1,
-      "Theft": 1,
-      "Bribery": 1
-    },
     "Black": {
       "Drug Offense": 20,
       "Criminal Trespass": 16,
@@ -781,6 +781,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "DOC Warrant": 114,
       "Stalking": 12,
       "Criminal Trespass": 130,
       "Local / Tribal Code": 32,
@@ -788,7 +789,6 @@
       "Driving While License Suspended": 167,
       "Making False Statements": 34,
       "Ignition Interlock Violation": 62,
-      "DOC Warrant": 113,
       "Motor Vehicle Theft": 17,
       "Protection Order Violation": 115,
       "Drug Offense": 157,
@@ -946,7 +946,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 585
+      "count": 586
     },
     {
       "label": "Released",
@@ -988,7 +988,7 @@
   "recidivism": {
     "rate": 12.2,
     "repeatBookerCount": 259,
-    "totalIndividuals": 2115,
+    "totalIndividuals": 2116,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1214,7 +1214,7 @@
           {
             "bookingNumber": "2026003387",
             "firstSeen": "07/27/2026, 21:14:57",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003351",
@@ -1530,13 +1530,13 @@
     },
     {
       "month": "2026-08",
-      "count": 235
+      "count": 236
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1094,
+      "count": 1095,
       "pct": 30.4
     },
     {
@@ -1598,7 +1598,7 @@
     },
     {
       "label": "Felony",
-      "count": 820,
+      "count": 821,
       "pct": 15.1
     },
     {
@@ -1699,9 +1699,9 @@
     },
     {
       "category": "Malicious Mischief",
-      "avgDays": 12.1,
-      "medianDays": 4.9,
-      "count": 9
+      "avgDays": 13.1,
+      "medianDays": 7.9,
+      "count": 10
     }
   ],
   "agencyBreakdown": [
@@ -1977,7 +1977,7 @@
     },
     {
       "name": "DOC",
-      "count": 13,
+      "count": 14,
       "topCharge": "Community Custody Violation",
       "chargeBreakdown": [
         {
@@ -1986,7 +1986,7 @@
         },
         {
           "label": "DOC Warrant",
-          "count": 4
+          "count": 5
         },
         {
           "label": "Probation Violation",
@@ -2097,8 +2097,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2174,
-    "withBail": 1046,
+    "total": 2175,
+    "withBail": 1047,
     "pct": 48.1
   },
   "chargesByAgeGroup": [
@@ -2316,7 +2316,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 112
+        "n": 113
       },
       {
         "charge": "Other",
@@ -2892,7 +2892,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2447
+      "count": 2448
     }
   ]
 }

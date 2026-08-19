@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T16:35:31.558Z",
+  "generatedAt": "2026-08-19T17:31:51.201Z",
   "bookingCounts": {
-    "total": 2448,
-    "inCustody": 274,
+    "total": 2450,
+    "inCustody": 276,
     "released": 2174
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1665,
+      "count": 1667,
       "pct": 68
     },
     {
@@ -40,12 +40,12 @@
     },
     {
       "label": "Asian / Pacific Islander",
-      "count": 73,
+      "count": 74,
       "pct": 3
     },
     {
       "label": "Native American",
-      "count": 73,
+      "count": 74,
       "pct": 3
     }
   ],
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 350
+        "count": 351
       },
       {
         "label": "26–35",
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 720
+        "count": 721
       },
       {
         "label": "46–55",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 179
+      "count": 180
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1640
+      "count": 1642
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -170,7 +170,7 @@
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
-      "count": 58
+      "count": 59
     },
     {
       "label": "BAINBRIDGE ISLAND POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35421.36,
+    "mean": 35223.23,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1808
+    "count": 1809
   },
   "stay": {
     "mean": 22.1,
@@ -259,6 +259,12 @@
       "medianBail": 177500,
       "meanBail": 397500,
       "count": 10
+    },
+    {
+      "category": "Stalking",
+      "medianBail": 151000,
+      "meanBail": 151000,
+      "count": 1
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -365,8 +371,8 @@
     {
       "category": "Assault",
       "medianBail": 15000,
-      "meanBail": 92264.71,
-      "count": 68
+      "meanBail": 93567.16,
+      "count": 67
     },
     {
       "category": "Forgery",
@@ -383,8 +389,8 @@
     {
       "category": "Domestic Violence",
       "medianBail": 10000,
-      "meanBail": 113500,
-      "count": 67
+      "meanBail": 107643.94,
+      "count": 66
     },
     {
       "category": "Harassment",
@@ -395,8 +401,8 @@
     {
       "category": "Protection Order Violation",
       "medianBail": 10000,
-      "meanBail": 34700,
-      "count": 35
+      "meanBail": 34569.44,
+      "count": 36
     },
     {
       "category": "Trafficking Stolen Property",
@@ -531,19 +537,85 @@
       "count": 7
     },
     {
+      "category": "Local / Tribal Code",
+      "medianBail": 1000,
+      "meanBail": 4023.81,
+      "count": 21
+    },
+    {
       "category": "Criminal Trespass",
       "medianBail": 1000,
       "meanBail": 1909.57,
       "count": 94
-    },
-    {
-      "category": "Local / Tribal Code",
-      "medianBail": 1000,
-      "meanBail": 4175,
-      "count": 20
     }
   ],
   "chargesByRace": {
+    "Asian / Pacific Islander": {
+      "Stalking": 1,
+      "Criminal Trespass": 7,
+      "Fugitive from Justice": 1,
+      "Driving While License Suspended": 12,
+      "Domestic Violence": 8,
+      "Failure to Appear": 34,
+      "Failure to Comply (Sentence)": 1,
+      "Assault": 5,
+      "Protection Order Violation": 7,
+      "DUI": 13,
+      "Theft (3rd Degree)": 1,
+      "Resisting Arrest": 3,
+      "Harassment": 2,
+      "PR / Bail Revocation": 1,
+      "Weapons": 3,
+      "Ignition Interlock Violation": 4,
+      "Other": 2,
+      "Indecent Exposure": 1,
+      "Drug Offense": 4,
+      "DOC Warrant": 1,
+      "Malicious Mischief": 2,
+      "Obstruction": 1,
+      "Reckless Driving": 1,
+      "Attempt to Elude": 1,
+      "Criminal Impersonation": 1,
+      "Motor Vehicle Theft": 2,
+      "Theft (2nd Degree)": 1,
+      "Residential Burglary": 1,
+      "Forgery": 1,
+      "Community Custody Violation": 1,
+      "Possession of Stolen Vehicle": 1,
+      "Traffic Violation": 1
+    },
+    "Native American": {
+      "Local / Tribal Code": 15,
+      "DUI": 4,
+      "Driving While License Suspended": 7,
+      "Failure to Appear": 34,
+      "Protection Order Violation": 3,
+      "Assault": 7,
+      "Criminal Trespass": 7,
+      "Other": 3,
+      "Domestic Violence": 7,
+      "DOC Warrant": 3,
+      "Theft (3rd Degree)": 3,
+      "Failure to Comply (Sentence)": 2,
+      "Resisting Arrest": 2,
+      "Identity Theft": 1,
+      "Harassment": 2,
+      "Theft (1st Degree)": 2,
+      "Malicious Mischief": 4,
+      "Obstruction": 4,
+      "Vehicle Prowling": 1,
+      "Attempt to Elude": 1,
+      "Hit and Run": 1,
+      "Drug Offense": 4,
+      "Making False Statements": 1,
+      "Residential Burglary": 1,
+      "Theft (2nd Degree)": 1,
+      "PR / Bail Revocation": 2,
+      "Ignition Interlock Violation": 1,
+      "Homicide": 1,
+      "Community Custody Violation": 1,
+      "Burglary (2nd Degree)": 1
+    },
     "Unknown": {
       "Driving While License Suspended": 32,
       "Making False Statements": 8,
@@ -705,84 +777,20 @@
       "Possession of Stolen Vehicle": 1,
       "Interference with DV Reporting": 1,
       "Sex Offense": 1
-    },
-    "Asian / Pacific Islander": {
-      "Fugitive from Justice": 1,
-      "Driving While License Suspended": 12,
-      "Domestic Violence": 8,
-      "Failure to Appear": 34,
-      "Failure to Comply (Sentence)": 1,
-      "Assault": 5,
-      "Protection Order Violation": 7,
-      "DUI": 13,
-      "Theft (3rd Degree)": 1,
-      "Resisting Arrest": 3,
-      "Harassment": 2,
-      "PR / Bail Revocation": 1,
-      "Weapons": 3,
-      "Ignition Interlock Violation": 4,
-      "Criminal Trespass": 6,
-      "Other": 2,
-      "Indecent Exposure": 1,
-      "Drug Offense": 4,
-      "DOC Warrant": 1,
-      "Malicious Mischief": 2,
-      "Obstruction": 1,
-      "Reckless Driving": 1,
-      "Attempt to Elude": 1,
-      "Criminal Impersonation": 1,
-      "Motor Vehicle Theft": 2,
-      "Theft (2nd Degree)": 1,
-      "Residential Burglary": 1,
-      "Forgery": 1,
-      "Community Custody Violation": 1,
-      "Possession of Stolen Vehicle": 1,
-      "Traffic Violation": 1
-    },
-    "Native American": {
-      "DUI": 4,
-      "Driving While License Suspended": 7,
-      "Failure to Appear": 34,
-      "Protection Order Violation": 3,
-      "Local / Tribal Code": 14,
-      "Assault": 7,
-      "Criminal Trespass": 7,
-      "Other": 3,
-      "Domestic Violence": 7,
-      "DOC Warrant": 3,
-      "Theft (3rd Degree)": 3,
-      "Failure to Comply (Sentence)": 2,
-      "Resisting Arrest": 2,
-      "Identity Theft": 1,
-      "Harassment": 2,
-      "Theft (1st Degree)": 2,
-      "Malicious Mischief": 4,
-      "Obstruction": 4,
-      "Vehicle Prowling": 1,
-      "Attempt to Elude": 1,
-      "Hit and Run": 1,
-      "Drug Offense": 4,
-      "Making False Statements": 1,
-      "Residential Burglary": 1,
-      "Theft (2nd Degree)": 1,
-      "PR / Bail Revocation": 2,
-      "Ignition Interlock Violation": 1,
-      "Homicide": 1,
-      "Community Custody Violation": 1,
-      "Burglary (2nd Degree)": 1
     }
   },
   "chargesBySex": {
     "Male": {
+      "Stalking": 12,
+      "Criminal Trespass": 130,
+      "Local / Tribal Code": 32,
       "Driving While License Suspended": 167,
       "Making False Statements": 34,
       "Ignition Interlock Violation": 62,
       "Failure to Appear": 657,
       "DOC Warrant": 113,
       "Motor Vehicle Theft": 17,
-      "Criminal Trespass": 129,
       "Protection Order Violation": 115,
-      "Local / Tribal Code": 31,
       "Drug Offense": 157,
       "Burglary (2nd Degree)": 37,
       "Hit and Run": 28,
@@ -824,7 +832,6 @@
       "PR / Bail Revocation": 18,
       "Assault (Child)": 4,
       "Possession of Stolen Vehicle": 19,
-      "Stalking": 11,
       "Attempt to Elude": 20,
       "Burglary Tools": 7,
       "Public Order": 4,
@@ -980,8 +987,8 @@
   ],
   "recidivism": {
     "rate": 12.2,
-    "repeatBookerCount": 258,
-    "totalIndividuals": 2114,
+    "repeatBookerCount": 259,
+    "totalIndividuals": 2115,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1523,7 +1530,7 @@
     },
     {
       "month": "2026-08",
-      "count": 233
+      "count": 235
     }
   ],
   "crimeTypes": [
@@ -1544,17 +1551,17 @@
     },
     {
       "label": "Property",
-      "count": 427,
+      "count": 428,
       "pct": 11.9
     },
     {
       "label": "Other",
-      "count": 323,
+      "count": 324,
       "pct": 9
     },
     {
       "label": "Order Violations",
-      "count": 261,
+      "count": 262,
       "pct": 7.3
     },
     {
@@ -1586,17 +1593,17 @@
     },
     {
       "label": "Unknown",
-      "count": 932,
+      "count": 933,
       "pct": 17.2
     },
     {
       "label": "Felony",
-      "count": 819,
+      "count": 820,
       "pct": 15.1
     },
     {
       "label": "Misdemeanor",
-      "count": 420,
+      "count": 421,
       "pct": 7.8
     }
   ],
@@ -1727,7 +1734,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1640,
+      "count": 1642,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1736,7 +1743,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 127
+          "count": 128
         },
         {
           "label": "Domestic Violence",
@@ -1862,12 +1869,12 @@
     },
     {
       "name": "Suquamish Tribal Police",
-      "count": 58,
+      "count": 59,
       "topCharge": "Local / Tribal Code",
       "chargeBreakdown": [
         {
           "label": "Local / Tribal Code",
-          "count": 23
+          "count": 24
         },
         {
           "label": "Failure to Appear",
@@ -2285,10 +2292,10 @@
       },
       {
         "charge": "Criminal Trespass",
-        "avgWeight": 179,
+        "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 127
+        "n": 128
       },
       {
         "charge": "Assault",
@@ -2389,18 +2396,18 @@
         "n": 33
       },
       {
+        "charge": "Local / Tribal Code",
+        "avgWeight": 187,
+        "avgHeight": "5'10\"",
+        "topRace": "Native American",
+        "n": 32
+      },
+      {
         "charge": "Theft (2nd Degree)",
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 32
-      },
-      {
-        "charge": "Local / Tribal Code",
-        "avgWeight": 187,
-        "avgHeight": "5'9\"",
-        "topRace": "Native American",
-        "n": 31
       },
       {
         "charge": "Hit and Run",
@@ -2551,10 +2558,10 @@
       },
       {
         "charge": "Stalking",
-        "avgWeight": 177,
-        "avgHeight": "5'9\"",
+        "avgWeight": 184,
+        "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 10
+        "n": 11
       },
       {
         "charge": "Traffic / Obstruction",
@@ -2885,7 +2892,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2445
+      "count": 2447
     }
   ]
 }

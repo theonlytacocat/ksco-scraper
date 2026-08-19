@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T05:35:42.551Z",
+  "generatedAt": "2026-08-19T06:52:07.081Z",
   "bookingCounts": {
-    "total": 2444,
-    "inCustody": 270,
+    "total": 2445,
+    "inCustody": 271,
     "released": 2174
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1662,
+      "count": 1663,
       "pct": 68
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1739,
+      "count": 1740,
       "pct": 71.2
     },
     {
@@ -51,7 +51,7 @@
   ],
   "age": {
     "mean": 38.7,
-    "median": 37,
+    "median": 37.5,
     "min": 18,
     "max": 87,
     "histogram": [
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 367
+        "count": 368
       },
       {
         "label": "56–65",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 909
+      "count": 910
     },
     {
       "label": "Domestic Violence",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 177
+      "count": 178
     },
     {
       "label": "Protection Order Violation",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1631
+      "count": 1633
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 35519.19,
+    "mean": 35500.04,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1801
+    "count": 1802
   },
   "stay": {
     "mean": 22.1,
@@ -533,8 +533,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1919.35,
-      "count": 93
+      "meanBail": 1909.57,
+      "count": 94
     },
     {
       "category": "Local / Tribal Code",
@@ -545,10 +545,10 @@
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 137,
+      "Failure to Appear": 717,
       "Protection Order Violation": 113,
       "Theft (2nd Degree)": 38,
-      "Failure to Appear": 716,
-      "Criminal Trespass": 136,
       "Local / Tribal Code": 14,
       "Drug Offense": 171,
       "Burglary (2nd Degree)": 39,
@@ -774,11 +774,11 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 128,
+      "Failure to Appear": 656,
       "Protection Order Violation": 115,
-      "Criminal Trespass": 127,
       "Local / Tribal Code": 31,
       "Drug Offense": 157,
-      "Failure to Appear": 655,
       "Burglary (2nd Degree)": 37,
       "Hit and Run": 28,
       "Community Custody Violation": 12,
@@ -984,6 +984,42 @@
     "totalIndividuals": 2112,
     "repeatBookers": [
       {
+        "name": "SCHWEITZER, BRIAN A",
+        "count": 6,
+        "bookings": [
+          {
+            "bookingNumber": "2026003706",
+            "firstSeen": "08/18/2026, 23:49:26",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003588",
+            "firstSeen": "08/10/2026, 10:26:30",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026003257",
+            "firstSeen": "07/20/2026, 00:41:27",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026003150",
+            "firstSeen": "07/13/2026, 14:07:48",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002623",
+            "firstSeen": "06/08/2026, 12:22:56",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001184",
+            "firstSeen": "03/25/2026, 18:50:21",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "DUNKLE, JEROME M",
         "count": 6,
         "bookings": [
@@ -1015,37 +1051,6 @@
           {
             "bookingNumber": "2026001203",
             "firstSeen": "03/25/2026, 18:49:57",
-            "status": "released"
-          }
-        ]
-      },
-      {
-        "name": "SCHWEITZER, BRIAN A",
-        "count": 5,
-        "bookings": [
-          {
-            "bookingNumber": "2026003588",
-            "firstSeen": "08/10/2026, 10:26:30",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026003257",
-            "firstSeen": "07/20/2026, 00:41:27",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026003150",
-            "firstSeen": "07/13/2026, 14:07:48",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002623",
-            "firstSeen": "06/08/2026, 12:22:56",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001184",
-            "firstSeen": "03/25/2026, 18:50:21",
             "status": "released"
           }
         ]
@@ -1518,14 +1523,14 @@
     },
     {
       "month": "2026-08",
-      "count": 229
+      "count": 230
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1091,
-      "pct": 30.4
+      "count": 1092,
+      "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
@@ -1539,8 +1544,8 @@
     },
     {
       "label": "Property",
-      "count": 424,
-      "pct": 11.8
+      "count": 425,
+      "pct": 11.9
     },
     {
       "label": "Other",
@@ -1576,8 +1581,8 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3241,
-      "pct": 60
+      "count": 3242,
+      "pct": 59.9
     },
     {
       "label": "Unknown",
@@ -1591,7 +1596,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 417,
+      "count": 418,
       "pct": 7.7
     }
   ],
@@ -1722,16 +1727,16 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1631,
+      "count": 1633,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 450
+          "count": 451
         },
         {
           "label": "Criminal Trespass",
-          "count": 126
+          "count": 127
         },
         {
           "label": "Domestic Violence",
@@ -2170,7 +2175,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 144
+          "count": 145
         },
         {
           "label": "Drug Offense",
@@ -2186,7 +2191,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 36
+          "count": 37
         }
       ]
     },
@@ -2248,7 +2253,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 649
+        "n": 650
       },
       {
         "charge": "Domestic Violence",
@@ -2283,7 +2288,7 @@
         "avgWeight": 179,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 125
+        "n": 126
       },
       {
         "charge": "Assault",
@@ -2880,7 +2885,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2441
+      "count": 2442
     }
   ]
 }

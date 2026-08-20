@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T10:23:17.688Z",
+  "generatedAt": "2026-08-20T10:36:26.895Z",
   "bookingCounts": {
     "total": 2462,
     "inCustody": 276,
@@ -92,11 +92,11 @@
     },
     {
       "label": "DUI",
-      "count": 342
+      "count": 343
     },
     {
       "label": "Driving While License Suspended",
-      "count": 224
+      "count": 225
     },
     {
       "label": "Drug Offense",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1647
+      "count": 1649
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34888.91,
+    "mean": 34872.42,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1811
+    "count": 1812
   },
   "stay": {
     "mean": 22.1,
@@ -501,16 +501,16 @@
       "count": 4
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 4533.33,
+      "count": 105
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 15042.11,
       "count": 688
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4528.85,
-      "count": 104
     },
     {
       "category": "Drug Offense",
@@ -551,16 +551,16 @@
   ],
   "chargesByRace": {
     "Black": {
+      "DUI": 24,
+      "Driving While License Suspended": 30,
       "Failure to Comply (Sentence)": 10,
       "Failure to Appear": 89,
       "Drug Offense": 20,
       "Criminal Trespass": 16,
       "Community Custody Violation": 4,
       "DOC Warrant": 20,
-      "Driving While License Suspended": 29,
       "Ignition Interlock Violation": 5,
       "Domestic Violence": 37,
-      "DUI": 23,
       "Other": 19,
       "Arson": 1,
       "Harassment": 21,
@@ -781,9 +781,10 @@
   },
   "chargesBySex": {
     "Female": {
+      "DUI": 73,
+      "Driving While License Suspended": 36,
       "Failure to Appear": 232,
       "Community Custody Violation": 5,
-      "Driving While License Suspended": 35,
       "Theft (2nd Degree)": 13,
       "Fugitive from Justice": 5,
       "Assault": 40,
@@ -792,7 +793,6 @@
       "Local / Tribal Code": 4,
       "Criminal Trespass": 42,
       "Domestic Violence": 95,
-      "DUI": 72,
       "DOC Warrant": 22,
       "Theft (3rd Degree)": 14,
       "Drug Offense": 45,
@@ -1541,7 +1541,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 556,
+      "count": 557,
       "pct": 15.4
     },
     {
@@ -1552,7 +1552,7 @@
     {
       "label": "Property",
       "count": 428,
-      "pct": 11.9
+      "pct": 11.8
     },
     {
       "label": "Other",
@@ -1588,7 +1588,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3252,
+      "count": 3254,
       "pct": 59.8
     },
     {
@@ -1734,7 +1734,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1647,
+      "count": 1649,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1755,7 +1755,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 94
+          "count": 95
         }
       ]
     },
@@ -2111,7 +2111,7 @@
         },
         {
           "label": "DUI",
-          "count": 83
+          "count": 84
         },
         {
           "label": "Domestic Violence",
@@ -2119,7 +2119,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 37
+          "count": 38
         },
         {
           "label": "Assault",
@@ -2271,10 +2271,10 @@
       },
       {
         "charge": "DUI",
-        "avgWeight": 155,
+        "avgWeight": 154,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 68
+        "n": 69
       },
       {
         "charge": "Drug Offense",
@@ -2299,10 +2299,10 @@
       },
       {
         "charge": "Driving While License Suspended",
-        "avgWeight": 157,
-        "avgHeight": "5'5\"",
+        "avgWeight": 156,
+        "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 34
+        "n": 35
       },
       {
         "charge": "Protection Order Violation",

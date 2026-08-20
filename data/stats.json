@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-08-20T19:36:13.681Z",
+  "generatedAt": "2026-08-20T20:33:58.242Z",
   "bookingCounts": {
-    "total": 2463,
-    "inCustody": 267,
+    "total": 2464,
+    "inCustody": 268,
     "released": 2196
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1674,
+      "count": 1675,
       "pct": 68
     },
     {
       "label": "Female",
       "count": 553,
-      "pct": 22.5
+      "pct": 22.4
     },
     {
       "label": "Unknown",
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1748,
+      "count": 1749,
       "pct": 71
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 352
+        "count": 353
       },
       {
         "label": "26–35",
@@ -115,12 +115,12 @@
       "count": 154
     },
     {
-      "label": "DOC Warrant",
+      "label": "Other",
       "count": 143
     },
     {
-      "label": "Other",
-      "count": 142
+      "label": "DOC Warrant",
+      "count": 143
     },
     {
       "label": "Obstruction",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1649
+      "count": 1650
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34871.52,
+    "mean": 34852.83,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1811
+    "count": 1812
   },
   "stay": {
     "mean": 22.2,
@@ -411,6 +411,12 @@
       "count": 13
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 16611.54,
+      "count": 65
+    },
+    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 20536.81,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 5500,
       "count": 16
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 16855.47,
-      "count": 64
     },
     {
       "category": "Reckless Driving",
@@ -545,6 +545,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Other": 91,
       "Failure to Appear": 721,
       "DUI": 226,
       "Community Custody Violation": 11,
@@ -572,7 +573,6 @@
       "Failure to Comply (Sentence)": 35,
       "Domestic Violence": 235,
       "Reckless Driving": 22,
-      "Other": 90,
       "Weapons": 31,
       "Theft (3rd Degree)": 53,
       "Trafficking Stolen Property": 7,
@@ -775,6 +775,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Other": 97,
       "Failure to Appear": 660,
       "Local / Tribal Code": 33,
       "DUI": 209,
@@ -804,7 +805,6 @@
       "Theft (1st Degree)": 12,
       "Theft (2nd Degree)": 32,
       "Reckless Driving": 19,
-      "Other": 96,
       "Domestic Violence": 207,
       "Weapons": 41,
       "Trafficking Stolen Property": 5,
@@ -982,7 +982,7 @@
   "recidivism": {
     "rate": 12.4,
     "repeatBookerCount": 264,
-    "totalIndividuals": 2123,
+    "totalIndividuals": 2124,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1524,7 +1524,7 @@
     },
     {
       "month": "2026-08",
-      "count": 248
+      "count": 249
     }
   ],
   "crimeTypes": [
@@ -1550,7 +1550,7 @@
     },
     {
       "label": "Other",
-      "count": 326,
+      "count": 327,
       "pct": 9
     },
     {
@@ -1587,7 +1587,7 @@
     },
     {
       "label": "Unknown",
-      "count": 937,
+      "count": 938,
       "pct": 17.2
     },
     {
@@ -1728,7 +1728,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1649,
+      "count": 1650,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2314,10 +2314,10 @@
       },
       {
         "charge": "Other",
-        "avgWeight": 183,
+        "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 94
+        "n": 95
       },
       {
         "charge": "Obstruction",
@@ -2893,7 +2893,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2460
+      "count": 2461
     }
   ]
 }

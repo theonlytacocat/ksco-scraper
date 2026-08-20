@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-20T14:41:21.543Z",
+  "generatedAt": "2026-08-20T15:39:31.948Z",
   "bookingCounts": {
     "total": 2462,
-    "inCustody": 273,
-    "released": 2189
+    "inCustody": 272,
+    "released": 2190
   },
   "gender": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 350
+      "count": 351
     },
     {
       "label": "DUI",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2121
+      "count": 2122
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 34883.39,
+    "mean": 34915.05,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1811
+    "count": 1809
   },
   "stay": {
     "mean": 22.1,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 2168,
+    "count": 2169,
     "histogram": [
       {
         "label": "< 1 day",
@@ -225,7 +225,7 @@
       },
       {
         "label": "3+ months",
-        "count": 130
+        "count": 131
       }
     ]
   },
@@ -417,12 +417,6 @@
       "count": 13
     },
     {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 20548.78,
-      "count": 164
-    },
-    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 5500,
@@ -433,6 +427,12 @@
       "medianBail": 5000,
       "meanBail": 16750,
       "count": 65
+    },
+    {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 20628.83,
+      "count": 163
     },
     {
       "category": "Reckless Driving",
@@ -509,8 +509,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15042.11,
-      "count": 688
+      "meanBail": 15056.72,
+      "count": 687
     },
     {
       "category": "Drug Offense",
@@ -553,6 +553,7 @@
     "Black": {
       "DUI": 24,
       "Driving While License Suspended": 30,
+      "Domestic Violence": 38,
       "Failure to Comply (Sentence)": 10,
       "Failure to Appear": 89,
       "Drug Offense": 20,
@@ -560,7 +561,6 @@
       "Community Custody Violation": 4,
       "DOC Warrant": 20,
       "Ignition Interlock Violation": 5,
-      "Domestic Violence": 37,
       "Other": 19,
       "Arson": 1,
       "Harassment": 21,
@@ -783,6 +783,7 @@
     "Female": {
       "DUI": 73,
       "Driving While License Suspended": 36,
+      "Domestic Violence": 96,
       "Failure to Appear": 232,
       "Community Custody Violation": 5,
       "Theft (2nd Degree)": 13,
@@ -792,7 +793,6 @@
       "Obstruction": 20,
       "Local / Tribal Code": 4,
       "Criminal Trespass": 42,
-      "Domestic Violence": 95,
       "DOC Warrant": 22,
       "Theft (3rd Degree)": 14,
       "Drug Offense": 45,
@@ -942,7 +942,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 739
+      "count": 740
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1546,7 +1546,7 @@
     },
     {
       "label": "Violent",
-      "count": 535,
+      "count": 536,
       "pct": 14.8
     },
     {
@@ -1588,7 +1588,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3254,
+      "count": 3255,
       "pct": 59.8
     },
     {
@@ -1599,7 +1599,7 @@
     {
       "label": "Felony",
       "count": 824,
-      "pct": 15.2
+      "pct": 15.1
     },
     {
       "label": "Misdemeanor",
@@ -1707,7 +1707,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2132,
+      "count": 2133,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1716,7 +1716,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 232
+          "count": 233
         },
         {
           "label": "DUI",
@@ -2097,8 +2097,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2189,
-    "withBail": 1053,
+    "total": 2190,
+    "withBail": 1054,
     "pct": 48.1
   },
   "chargesByAgeGroup": [
@@ -2115,7 +2115,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 65
+          "count": 66
         },
         {
           "label": "Driving While License Suspended",
@@ -2267,7 +2267,7 @@
         "avgWeight": 157,
         "avgHeight": "5'5\"",
         "topRace": "White",
-        "n": 85
+        "n": 86
       },
       {
         "charge": "DUI",

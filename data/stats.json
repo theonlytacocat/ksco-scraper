@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:45:21.211Z",
+  "generatedAt": "2026-08-20T19:36:13.681Z",
   "bookingCounts": {
     "total": 2463,
     "inCustody": 267,
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34917.77,
+    "mean": 34871.52,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1808
+    "count": 1811
   },
   "stay": {
     "mean": 22.2,
@@ -259,12 +259,6 @@
       "medianBail": 255000,
       "meanBail": 439444.44,
       "count": 9
-    },
-    {
-      "category": "Stalking",
-      "medianBail": 156000,
-      "meanBail": 156000,
-      "count": 1
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -370,9 +364,9 @@
     },
     {
       "category": "Assault",
-      "medianBail": 15000,
-      "meanBail": 93567.16,
-      "count": 67
+      "medianBail": 17500,
+      "meanBail": 92485.29,
+      "count": 68
     },
     {
       "category": "Forgery",
@@ -519,12 +513,6 @@
       "count": 98
     },
     {
-      "category": "Resisting Arrest",
-      "medianBail": 1750,
-      "meanBail": 3416.67,
-      "count": 6
-    },
-    {
       "category": "Traffic / Obstruction",
       "medianBail": 1750,
       "meanBail": 2375,
@@ -545,8 +533,14 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 1909.57,
-      "count": 94
+      "meanBail": 3531.58,
+      "count": 95
+    },
+    {
+      "category": "Resisting Arrest",
+      "medianBail": 1000,
+      "meanBail": 3000,
+      "count": 7
     }
   ],
   "chargesByRace": {
@@ -750,6 +744,7 @@
       "Criminal Trespass": 7,
       "Drug Offense": 5,
       "Harassment": 3,
+      "Resisting Arrest": 4,
       "Theft (3rd Degree)": 2,
       "Fugitive from Justice": 1,
       "Driving While License Suspended": 12,
@@ -759,7 +754,6 @@
       "Assault": 5,
       "Protection Order Violation": 7,
       "DUI": 13,
-      "Resisting Arrest": 3,
       "PR / Bail Revocation": 1,
       "Weapons": 3,
       "Ignition Interlock Violation": 4,
@@ -791,6 +785,7 @@
       "Criminal Trespass": 130,
       "Drug Offense": 158,
       "Harassment": 67,
+      "Resisting Arrest": 40,
       "Theft (3rd Degree)": 50,
       "Making False Statements": 34,
       "Ignition Interlock Violation": 62,
@@ -824,7 +819,6 @@
       "Court Hold": 8,
       "Indecent Exposure": 12,
       "Tampering with Evidence": 3,
-      "Resisting Arrest": 39,
       "Child Exploitation / CSAM": 17,
       "Child Sex Offense": 18,
       "Burglary (1st Degree)": 12,
@@ -1556,7 +1550,7 @@
     },
     {
       "label": "Other",
-      "count": 325,
+      "count": 326,
       "pct": 9
     },
     {
@@ -1588,7 +1582,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3261,
+      "count": 3262,
       "pct": 59.9
     },
     {
@@ -1603,7 +1597,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 425,
+      "count": 424,
       "pct": 7.8
     }
   ],
@@ -2368,18 +2362,18 @@
         "n": 43
       },
       {
+        "charge": "Resisting Arrest",
+        "avgWeight": 201,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 40
+      },
+      {
         "charge": "Weapons",
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 40
-      },
-      {
-        "charge": "Resisting Arrest",
-        "avgWeight": 200,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 39
       },
       {
         "charge": "Burglary (2nd Degree)",

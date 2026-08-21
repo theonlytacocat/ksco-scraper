@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T06:54:45.020Z",
+  "generatedAt": "2026-08-21T07:47:50.387Z",
   "bookingCounts": {
-    "total": 2471,
-    "inCustody": 266,
+    "total": 2472,
+    "inCustody": 267,
     "released": 2205
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1681,
+      "count": 1682,
       "pct": 68
     },
     {
@@ -19,13 +19,13 @@
     {
       "label": "Unknown",
       "count": 236,
-      "pct": 9.6
+      "pct": 9.5
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 1755,
+      "count": 1756,
       "pct": 71
     },
     {
@@ -61,7 +61,7 @@
       },
       {
         "label": "26–35",
-        "count": 673
+        "count": 674
       },
       {
         "label": "36–45",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 920
+      "count": 921
     },
     {
       "label": "Domestic Violence",
@@ -100,7 +100,7 @@
     },
     {
       "label": "Drug Offense",
-      "count": 222
+      "count": 223
     },
     {
       "label": "Criminal Trespass",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1657
+      "count": 1659
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34812.95,
+    "mean": 34780.15,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1816
+    "count": 1818
   },
   "stay": {
     "mean": 22.1,
@@ -495,22 +495,22 @@
       "count": 4
     },
     {
-      "category": "Resisting Arrest",
+      "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 3285.71,
-      "count": 7
+      "meanBail": 15014.47,
+      "count": 689
     },
     {
       "category": "Drug Offense",
       "medianBail": 2500,
-      "meanBail": 5830.81,
-      "count": 99
+      "meanBail": 5822.5,
+      "count": 100
     },
     {
-      "category": "Failure to Appear",
+      "category": "Resisting Arrest",
       "medianBail": 2500,
-      "meanBail": 15029.03,
-      "count": 688
+      "meanBail": 3285.71,
+      "count": 7
     },
     {
       "category": "Driving While License Suspended",
@@ -545,6 +545,8 @@
   ],
   "chargesByRace": {
     "White": {
+      "Failure to Appear": 724,
+      "Drug Offense": 173,
       "Hit and Run": 32,
       "Protection Order Violation": 114,
       "Obstruction": 81,
@@ -552,8 +554,6 @@
       "Domestic Violence": 236,
       "Interference with DV Reporting": 22,
       "Child Sex Offense": 19,
-      "Drug Offense": 172,
-      "Failure to Appear": 723,
       "Driving While License Suspended": 145,
       "Other": 91,
       "DUI": 226,
@@ -775,6 +775,8 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 663,
+      "Drug Offense": 160,
       "Hit and Run": 29,
       "Protection Order Violation": 116,
       "Obstruction": 81,
@@ -782,8 +784,6 @@
       "Domestic Violence": 208,
       "Interference with DV Reporting": 19,
       "Child Sex Offense": 19,
-      "Drug Offense": 159,
-      "Failure to Appear": 662,
       "Driving While License Suspended": 169,
       "Other": 97,
       "Local / Tribal Code": 33,
@@ -982,7 +982,7 @@
   "recidivism": {
     "rate": 12.4,
     "repeatBookerCount": 265,
-    "totalIndividuals": 2130,
+    "totalIndividuals": 2131,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1524,13 +1524,13 @@
     },
     {
       "month": "2026-08",
-      "count": 256
+      "count": 257
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1107,
+      "count": 1108,
       "pct": 30.5
     },
     {
@@ -1560,7 +1560,7 @@
     },
     {
       "label": "Drug",
-      "count": 222,
+      "count": 223,
       "pct": 6.1
     },
     {
@@ -1582,12 +1582,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3273,
+      "count": 3274,
       "pct": 59.9
     },
     {
       "label": "Unknown",
-      "count": 940,
+      "count": 941,
       "pct": 17.2
     },
     {
@@ -1728,12 +1728,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1657,
+      "count": 1659,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 457
+          "count": 458
         },
         {
           "label": "Criminal Trespass",
@@ -1745,7 +1745,7 @@
         },
         {
           "label": "Drug Offense",
-          "count": 101
+          "count": 102
         },
         {
           "label": "Driving While License Suspended",
@@ -2126,7 +2126,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 276
+          "count": 277
         },
         {
           "label": "Domestic Violence",
@@ -2137,12 +2137,12 @@
           "count": 86
         },
         {
-          "label": "Driving While License Suspended",
+          "label": "Drug Offense",
           "count": 62
         },
         {
-          "label": "Drug Offense",
-          "count": 61
+          "label": "Driving While License Suspended",
+          "count": 62
         }
       ]
     },
@@ -2254,7 +2254,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 656
+        "n": 657
       },
       {
         "charge": "Domestic Violence",
@@ -2282,7 +2282,7 @@
         "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 159
+        "n": 160
       },
       {
         "charge": "Criminal Trespass",
@@ -2893,7 +2893,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2468
+      "count": 2469
     }
   ]
 }

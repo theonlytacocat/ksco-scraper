@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-21T18:42:59.233Z",
+  "generatedAt": "2026-08-21T19:30:44.392Z",
   "bookingCounts": {
     "total": 2479,
-    "inCustody": 271,
-    "released": 2208
+    "inCustody": 269,
+    "released": 2210
   },
   "gender": [
     {
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1669
+      "count": 1673
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 34710.27,
+    "mean": 34699.38,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1818
+    "count": 1817
   },
   "stay": {
     "mean": 22.1,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 2187,
+    "count": 2189,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 814
+        "count": 816
       },
       {
         "label": "1–3 days",
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 20536.81,
-      "count": 163
+      "meanBail": 20354.94,
+      "count": 162
     },
     {
       "category": "Ignition Interlock Violation",
@@ -514,8 +514,8 @@
     },
     {
       "category": "Drug Offense",
-      "medianBail": 2500,
-      "meanBail": 5822.5,
+      "medianBail": 2250,
+      "meanBail": 5777.5,
       "count": 100
     },
     {
@@ -595,6 +595,7 @@
       "Public Order": 1
     },
     "Black": {
+      "PR / Bail Revocation": 6,
       "Failure to Appear": 91,
       "Domestic Violence": 40,
       "Other": 20,
@@ -636,7 +637,6 @@
       "Traffic / Obstruction": 2,
       "Burglary (1st Degree)": 5,
       "Theft (1st Degree)": 2,
-      "PR / Bail Revocation": 5,
       "Court Hold": 2,
       "Human Trafficking": 2,
       "Stalking": 1,
@@ -782,6 +782,7 @@
   "chargesBySex": {
     "Male": {
       "Other": 100,
+      "PR / Bail Revocation": 19,
       "Protection Order Violation": 118,
       "Harassment": 68,
       "Domestic Violence": 210,
@@ -830,7 +831,6 @@
       "Burglary (1st Degree)": 12,
       "Homicide": 19,
       "Vehicle Prowling": 13,
-      "PR / Bail Revocation": 18,
       "Assault (Child)": 4,
       "Possession of Stolen Vehicle": 19,
       "Attempt to Elude": 20,
@@ -946,11 +946,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 594
+      "count": 595
     },
     {
       "label": "Released",
-      "count": 543
+      "count": 544
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1536,7 +1536,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1111,
+      "count": 1112,
       "pct": 30.5
     },
     {
@@ -1593,8 +1593,8 @@
     },
     {
       "label": "Unknown",
-      "count": 947,
-      "pct": 17.2
+      "count": 951,
+      "pct": 17.3
     },
     {
       "label": "Felony",
@@ -1734,7 +1734,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1669,
+      "count": 1673,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2097,8 +2097,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2208,
-    "withBail": 1059,
+    "total": 2210,
+    "withBail": 1060,
     "pct": 48
   },
   "chargesByAgeGroup": [
@@ -2431,6 +2431,13 @@
         "n": 20
       },
       {
+        "charge": "PR / Bail Revocation",
+        "avgWeight": 191,
+        "avgHeight": "5'11\"",
+        "topRace": "White",
+        "n": 19
+      },
+      {
         "charge": "Motor Vehicle Theft",
         "avgWeight": 187,
         "avgHeight": "5'9\"",
@@ -2469,13 +2476,6 @@
         "charge": "Robbery",
         "avgWeight": 176,
         "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 18
-      },
-      {
-        "charge": "PR / Bail Revocation",
-        "avgWeight": 191,
-        "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 18
       },

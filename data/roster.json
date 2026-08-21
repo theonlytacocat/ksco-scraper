@@ -54140,31 +54140,31 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 50000,
-        "cashAmount": null,
-        "courtCase": "2610038118",
-        "nextCourtDate": "09/01/2026",
-        "arrestAgency": "WASHINGTON STATE PATROL",
-        "arrestDate": "05/29/2026",
-        "courtType": "SC"
-      },
-      {
-        "violation": "46.52.020 - HIT AND RUN",
-        "cleared": false,
-        "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
+        "clearance": "CD",
+        "bondBailType": "CD",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": "2610038118",
-        "nextCourtDate": "09/01/2026",
+        "nextCourtDate": null,
         "arrestAgency": "WASHINGTON STATE PATROL",
         "arrestDate": "05/29/2026",
-        "courtType": "SC"
+        "courtType": null
+      },
+      {
+        "violation": "46.52.020 - HIT AND RUN",
+        "cleared": true,
+        "addDesc": null,
+        "clearance": "CD",
+        "bondBailType": "CD",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "2610038118",
+        "nextCourtDate": null,
+        "arrestAgency": "WASHINGTON STATE PATROL",
+        "arrestDate": "05/29/2026",
+        "courtType": null
       },
       {
         "violation": "9A.76.190(3)(B) - FAILURE TO APPEAR / CONTEMPT OF COURT - MISD",
@@ -115135,9 +115135,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/20/2026, 19:47:17",
-    "releasedAt": null
+    "releasedAt": "08/21/2026, 12:27:40"
   },
   "2026003733": {
     "bookingNumber": "2026003733",
@@ -115432,16 +115432,16 @@
       {
         "violation": "69.50.4013.1.A - UNLAWFUL POSSESSION OF A CONTROLLED SUBSTANCE",
         "cleared": false,
-        "addDesc": "POSS CS",
+        "addDesc": null,
         "clearance": null,
         "bondBailType": "C/B",
-        "bondAmount": 5000,
+        "bondAmount": 500,
         "cashAmount": null,
         "courtCase": "51727001",
-        "nextCourtDate": null,
+        "nextCourtDate": "09/04/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/20/2026",
-        "courtType": null
+        "courtType": "BM"
       }
     ],
     "totalBond": 10000,
@@ -115604,9 +115604,9 @@
       }
     ],
     "totalBond": null,
-    "status": "in_custody",
+    "status": "released",
     "firstSeen": "08/21/2026, 04:29:11",
-    "releasedAt": null
+    "releasedAt": "08/21/2026, 12:27:41"
   },
   "2026003741": {
     "bookingNumber": "2026003741",
@@ -115807,13 +115807,70 @@
     "schReleaseDate": "",
     "detailUrl": "https://incustody.kitsap.gov/Home/BookingSearchResult?LastName=%25&FirstName=&BookingFrom=&BookingTo=&ValidSearch=&sort=BookingDate&sortdir=DESC&page=19&BookingNumber=10",
     "inmateId": "40028064",
-    "schedRelease": null,
+    "schedRelease": "08/23/2026",
     "age": "36",
     "height": "600",
     "weight": "190",
     "hair": "BLK",
     "eyes": "BRO",
-    "charges": [],
+    "charges": [
+      {
+        "violation": "NONE - REVOCATION OF PR/BAIL",
+        "cleared": true,
+        "addDesc": "DWLS 3 PCS VIO IID",
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51336703",
+        "nextCourtDate": "09/01/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "08/21/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "NONE - REVOCATION OF PR/BAIL",
+        "cleared": true,
+        "addDesc": "CT 2",
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51336705",
+        "nextCourtDate": "09/01/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "08/21/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "NONE - REVOCATION OF PR/BAIL",
+        "cleared": true,
+        "addDesc": "FALSE STATES, PCS",
+        "clearance": "PR",
+        "bondBailType": "PR",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51336704",
+        "nextCourtDate": "09/01/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "08/21/2026",
+        "courtType": "BM"
+      },
+      {
+        "violation": "NONE - REVOCATION OF PR/BAIL",
+        "cleared": false,
+        "addDesc": "DUI",
+        "clearance": null,
+        "bondBailType": "GL",
+        "bondAmount": null,
+        "cashAmount": null,
+        "courtCase": "51336701",
+        "nextCourtDate": "09/01/2026",
+        "arrestAgency": "BREMERTON POLICE DEPARTMENT",
+        "arrestDate": "08/21/2026",
+        "courtType": "BM"
+      }
+    ],
     "totalBond": null,
     "status": "in_custody",
     "firstSeen": "08/21/2026, 11:39:56",

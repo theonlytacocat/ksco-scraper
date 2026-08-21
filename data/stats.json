@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-21T15:38:34.189Z",
+  "generatedAt": "2026-08-21T16:40:07.290Z",
   "bookingCounts": {
-    "total": 2475,
-    "inCustody": 268,
+    "total": 2476,
+    "inCustody": 269,
     "released": 2207
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1685,
+      "count": 1686,
       "pct": 68.1
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "label": "Black",
-      "count": 268,
-      "pct": 10.8
+      "count": 269,
+      "pct": 10.9
     },
     {
       "label": "Native American",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 371
+        "count": 372
       },
       {
         "label": "56–65",
@@ -84,11 +84,11 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 922
+      "count": 923
     },
     {
       "label": "Domestic Violence",
-      "count": 353
+      "count": 354
     },
     {
       "label": "DUI",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1661
+      "count": 1663
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 34844.58,
+    "mean": 34826.16,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -277,6 +277,12 @@
       "medianBail": 150000,
       "meanBail": 195833.33,
       "count": 6
+    },
+    {
+      "category": "Stalking",
+      "medianBail": 100000,
+      "meanBail": 100000,
+      "count": 1
     },
     {
       "category": "Burglary (1st Degree)",
@@ -375,6 +381,12 @@
       "count": 2
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 33229.73,
+      "count": 37
+    },
+    {
       "category": "Domestic Violence",
       "medianBail": 10000,
       "meanBail": 106111.94,
@@ -385,12 +397,6 @@
       "medianBail": 10000,
       "meanBail": 37903.85,
       "count": 26
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 33458.33,
-      "count": 36
     },
     {
       "category": "Theft (2nd Degree)",
@@ -423,12 +429,6 @@
       "count": 19
     },
     {
-      "category": "Obstruction",
-      "medianBail": 5000,
-      "meanBail": 5397.06,
-      "count": 34
-    },
-    {
       "category": "DUI",
       "medianBail": 5000,
       "meanBail": 20536.81,
@@ -451,6 +451,12 @@
       "medianBail": 5000,
       "meanBail": 4133.33,
       "count": 30
+    },
+    {
+      "category": "Obstruction",
+      "medianBail": 5000,
+      "meanBail": 5409.09,
+      "count": 33
     },
     {
       "category": "Malicious Mischief",
@@ -495,16 +501,16 @@
       "count": 4
     },
     {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4400,
-      "count": 105
-    },
-    {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 14980.42,
+      "meanBail": 14983.64,
       "count": 691
+    },
+    {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 4402.14,
+      "count": 105
     },
     {
       "category": "Drug Offense",
@@ -539,18 +545,18 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 3531.58,
-      "count": 95
+      "meanBail": 1909.57,
+      "count": 94
     }
   ],
   "chargesByRace": {
     "Black": {
+      "Failure to Appear": 90,
+      "Domestic Violence": 40,
       "Other": 20,
       "Driving While License Suspended": 31,
-      "Domestic Violence": 39,
       "DUI": 24,
       "Failure to Comply (Sentence)": 10,
-      "Failure to Appear": 89,
       "Drug Offense": 20,
       "Criminal Trespass": 16,
       "Community Custody Violation": 4,
@@ -775,16 +781,16 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 665,
+      "Domestic Violence": 209,
       "Other": 99,
       "Driving While License Suspended": 171,
-      "Failure to Appear": 664,
       "Motor Vehicle Theft": 18,
       "Drug Offense": 160,
       "Hit and Run": 29,
       "Protection Order Violation": 117,
       "Obstruction": 81,
       "Resisting Arrest": 41,
-      "Domestic Violence": 208,
       "Interference with DV Reporting": 19,
       "Weapons": 42,
       "Child Sex Offense": 19,
@@ -1332,6 +1338,27 @@
         ]
       },
       {
+        "name": "GREEN, DEXTER EMMANUEL",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003741",
+            "firstSeen": "08/21/2026, 09:37:27",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003664",
+            "firstSeen": "08/16/2026, 10:21:40",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026000730",
+            "firstSeen": "03/25/2026, 18:52:14",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "LEE, BERNARD",
         "count": 3,
         "bookings": [
@@ -1477,27 +1504,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "WARSALLA, ELIZABETH MARIE",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003620",
-            "firstSeen": "08/12/2026, 19:11:31",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026002849",
-            "firstSeen": "06/24/2026, 10:58:39",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001568",
-            "firstSeen": "04/04/2026, 20:00:21",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1524,13 +1530,13 @@
     },
     {
       "month": "2026-08",
-      "count": 260
+      "count": 261
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1109,
+      "count": 1110,
       "pct": 30.5
     },
     {
@@ -1540,7 +1546,7 @@
     },
     {
       "label": "Violent",
-      "count": 538,
+      "count": 539,
       "pct": 14.8
     },
     {
@@ -1582,7 +1588,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3278,
+      "count": 3280,
       "pct": 59.8
     },
     {
@@ -1728,12 +1734,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1661,
+      "count": 1663,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 458
+          "count": 459
         },
         {
           "label": "Criminal Trespass",
@@ -1741,7 +1747,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 116
+          "count": 117
         },
         {
           "label": "Drug Offense",
@@ -2151,11 +2157,11 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 330
+          "count": 331
         },
         {
           "label": "Domestic Violence",
-          "count": 91
+          "count": 92
         },
         {
           "label": "Drug Offense",
@@ -2163,7 +2169,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 72
+          "count": 71
         },
         {
           "label": "DUI",
@@ -2254,14 +2260,14 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 658
+        "n": 659
       },
       {
         "charge": "Domestic Violence",
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 200
+        "n": 201
       },
       {
         "charge": "DUI",
@@ -2893,7 +2899,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2472
+      "count": 2473
     }
   ]
 }

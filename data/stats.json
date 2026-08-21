@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:32:03.537Z",
+  "generatedAt": "2026-08-21T11:58:57.902Z",
   "bookingCounts": {
     "total": 2475,
     "inCustody": 270,
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 227
+      "count": 228
     },
     {
       "label": "Drug Offense",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Other",
-      "count": 144
+      "count": 145
     },
     {
       "label": "DOC Warrant",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1659
+      "count": 1661
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34762.22,
+    "mean": 34729.66,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1826
+    "count": 1828
   },
   "stay": {
     "mean": 22.1,
@@ -411,6 +411,12 @@
       "count": 13
     },
     {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 16435.61,
+      "count": 66
+    },
+    {
       "category": "Hit and Run",
       "medianBail": 5000,
       "meanBail": 26526.32,
@@ -421,12 +427,6 @@
       "medianBail": 5000,
       "meanBail": 5323.53,
       "count": 34
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 16611.54,
-      "count": 65
     },
     {
       "category": "DUI",
@@ -497,8 +497,8 @@
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
-      "meanBail": 4400,
-      "count": 105
+      "meanBail": 4405.66,
+      "count": 106
     },
     {
       "category": "Failure to Appear",
@@ -545,9 +545,10 @@
   ],
   "chargesByRace": {
     "Black": {
+      "Other": 20,
+      "Driving While License Suspended": 31,
       "Domestic Violence": 39,
       "DUI": 24,
-      "Driving While License Suspended": 30,
       "Failure to Comply (Sentence)": 10,
       "Failure to Appear": 89,
       "Drug Offense": 20,
@@ -555,7 +556,6 @@
       "Community Custody Violation": 4,
       "DOC Warrant": 20,
       "Ignition Interlock Violation": 5,
-      "Other": 19,
       "Arson": 1,
       "Harassment": 21,
       "Assault": 30,
@@ -775,8 +775,8 @@
   },
   "chargesBySex": {
     "Male": {
-      "Other": 98,
-      "Driving While License Suspended": 170,
+      "Other": 99,
+      "Driving While License Suspended": 171,
       "Failure to Appear": 664,
       "Motor Vehicle Theft": 18,
       "Drug Offense": 160,
@@ -1535,7 +1535,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 560,
+      "count": 561,
       "pct": 15.4
     },
     {
@@ -1550,7 +1550,7 @@
     },
     {
       "label": "Other",
-      "count": 329,
+      "count": 330,
       "pct": 9.1
     },
     {
@@ -1582,12 +1582,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3276,
+      "count": 3277,
       "pct": 59.8
     },
     {
       "label": "Unknown",
-      "count": 945,
+      "count": 946,
       "pct": 17.3
     },
     {
@@ -1728,7 +1728,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1659,
+      "count": 1661,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1749,7 +1749,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 96
+          "count": 97
         }
       ]
     },
@@ -2163,7 +2163,7 @@
         },
         {
           "label": "Driving While License Suspended",
-          "count": 71
+          "count": 72
         },
         {
           "label": "DUI",
@@ -2275,7 +2275,7 @@
         "avgWeight": 178,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 165
+        "n": 166
       },
       {
         "charge": "Drug Offense",
@@ -2317,7 +2317,7 @@
         "avgWeight": 182,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 96
+        "n": 97
       },
       {
         "charge": "Obstruction",

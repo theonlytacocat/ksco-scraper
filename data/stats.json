@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-22T13:36:08.623Z",
+  "generatedAt": "2026-08-22T14:27:14.745Z",
   "bookingCounts": {
-    "total": 2492,
-    "inCustody": 277,
+    "total": 2493,
+    "inCustody": 278,
     "released": 2215
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1698,
-      "pct": 68.1
+      "count": 1699,
+      "pct": 68.2
     },
     {
       "label": "Female",
@@ -19,13 +19,13 @@
     {
       "label": "Unknown",
       "count": 238,
-      "pct": 9.6
+      "pct": 9.5
     }
   ],
   "race": [
     {
       "label": "White",
-      "count": 1767,
+      "count": 1768,
       "pct": 70.9
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 354
+        "count": 355
       },
       {
         "label": "26–35",
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 928
+      "count": 929
     },
     {
       "label": "Domestic Violence",
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 345
+      "count": 346
     },
     {
       "label": "Driving While License Suspended",
@@ -120,7 +120,7 @@
     },
     {
       "label": "DOC Warrant",
-      "count": 144
+      "count": 145
     },
     {
       "label": "Obstruction",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1685
+      "count": 1687
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -166,7 +166,7 @@
     },
     {
       "label": "GIG HARBOR POLICE DEPARTMENT",
-      "count": 84
+      "count": 86
     },
     {
       "label": "SUQUAMISH TRIBAL POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34611.53,
+    "mean": 34555.91,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1828
+    "count": 1831
   },
   "stay": {
     "mean": 22.1,
@@ -339,16 +339,16 @@
       "count": 1
     },
     {
-      "category": "Weapons",
-      "medianBail": 27500,
-      "meanBail": 30100,
-      "count": 10
-    },
-    {
       "category": "Possession of Stolen Vehicle",
       "medianBail": 27500,
       "meanBail": 35833.33,
       "count": 6
+    },
+    {
+      "category": "Weapons",
+      "medianBail": 20000,
+      "meanBail": 27409.09,
+      "count": 11
     },
     {
       "category": "Fugitive from Justice",
@@ -419,8 +419,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 21082.32,
-      "count": 164
+      "meanBail": 20960.61,
+      "count": 165
     },
     {
       "category": "Vehicle Prowling",
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 15034.24,
-      "count": 695
+      "meanBail": 15013.35,
+      "count": 696
     },
     {
       "category": "Driving While License Suspended",
@@ -551,16 +551,17 @@
   ],
   "chargesByRace": {
     "White": {
+      "DUI": 228,
+      "Weapons": 33,
+      "DOC Warrant": 115,
+      "Failure to Appear": 729,
       "Domestic Violence": 240,
       "Vehicle Prowling": 12,
       "Possession of Stolen Property": 15,
       "Identity Theft": 5,
-      "Failure to Appear": 728,
       "Drug Offense": 175,
       "Theft (3rd Degree)": 54,
-      "DOC Warrant": 114,
       "Making False Statements": 34,
-      "DUI": 227,
       "Protection Order Violation": 116,
       "Harassment": 53,
       "Motor Vehicle Theft": 20,
@@ -570,7 +571,6 @@
       "Obstruction": 81,
       "Resisting Arrest": 38,
       "Interference with DV Reporting": 22,
-      "Weapons": 32,
       "Child Sex Offense": 19,
       "Community Custody Violation": 11,
       "Criminal Trespass": 137,
@@ -781,19 +781,19 @@
   },
   "chargesBySex": {
     "Male": {
+      "DUI": 211,
+      "Weapons": 44,
+      "DOC Warrant": 118,
+      "Failure to Appear": 670,
       "Domestic Violence": 212,
       "Assault": 124,
       "Obstruction": 82,
-      "Weapons": 43,
       "Vehicle Prowling": 14,
       "Possession of Stolen Property": 16,
       "Identity Theft": 6,
-      "Failure to Appear": 669,
       "Drug Offense": 163,
       "Theft (3rd Degree)": 51,
-      "DOC Warrant": 117,
       "Making False Statements": 35,
-      "DUI": 210,
       "Other": 100,
       "PR / Bail Revocation": 19,
       "Protection Order Violation": 118,
@@ -988,7 +988,7 @@
   "recidivism": {
     "rate": 12.5,
     "repeatBookerCount": 269,
-    "totalIndividuals": 2145,
+    "totalIndividuals": 2146,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1530,18 +1530,18 @@
     },
     {
       "month": "2026-08",
-      "count": 277
+      "count": 278
     }
   ],
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1117,
+      "count": 1118,
       "pct": 30.5
     },
     {
       "label": "Traffic / DUI",
-      "count": 564,
+      "count": 565,
       "pct": 15.4
     },
     {
@@ -1552,17 +1552,17 @@
     {
       "label": "Property",
       "count": 431,
-      "pct": 11.8
+      "pct": 11.7
     },
     {
       "label": "Other",
       "count": 332,
-      "pct": 9.1
+      "pct": 9
     },
     {
       "label": "Order Violations",
       "count": 266,
-      "pct": 7.3
+      "pct": 7.2
     },
     {
       "label": "Drug",
@@ -1581,24 +1581,24 @@
     },
     {
       "label": "Weapons",
-      "count": 50,
+      "count": 51,
       "pct": 1.4
     }
   ],
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3299,
+      "count": 3301,
       "pct": 59.6
     },
     {
       "label": "Unknown",
-      "count": 971,
-      "pct": 17.5
+      "count": 972,
+      "pct": 17.6
     },
     {
       "label": "Felony",
-      "count": 837,
+      "count": 838,
       "pct": 15.1
     },
     {
@@ -1734,12 +1734,12 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1685,
+      "count": 1687,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 462
+          "count": 463
         },
         {
           "label": "Criminal Trespass",
@@ -1842,7 +1842,7 @@
     },
     {
       "name": "Gig Harbor PD",
-      "count": 84,
+      "count": 86,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1855,7 +1855,7 @@
         },
         {
           "label": "DUI",
-          "count": 7
+          "count": 8
         },
         {
           "label": "Driving While License Suspended",
@@ -2111,7 +2111,7 @@
         },
         {
           "label": "DUI",
-          "count": 84
+          "count": 85
         },
         {
           "label": "Domestic Violence",
@@ -2132,7 +2132,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 279
+          "count": 280
         },
         {
           "label": "Domestic Violence",
@@ -2260,7 +2260,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 663
+        "n": 664
       },
       {
         "charge": "Domestic Violence",
@@ -2274,7 +2274,7 @@
         "avgWeight": 185,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 194
+        "n": 195
       },
       {
         "charge": "Driving While License Suspended",
@@ -2316,7 +2316,7 @@
         "avgWeight": 182,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 116
+        "n": 117
       },
       {
         "charge": "Other",
@@ -2361,18 +2361,18 @@
         "n": 49
       },
       {
-        "charge": "Failure to Comply (Sentence)",
-        "avgWeight": 192,
+        "charge": "Weapons",
+        "avgWeight": 184,
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 43
       },
       {
-        "charge": "Weapons",
-        "avgWeight": 183,
+        "charge": "Failure to Comply (Sentence)",
+        "avgWeight": 192,
         "avgHeight": "5'11\"",
         "topRace": "White",
-        "n": 42
+        "n": 43
       },
       {
         "charge": "Resisting Arrest",
@@ -2899,7 +2899,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2489
+      "count": 2490
     }
   ]
 }

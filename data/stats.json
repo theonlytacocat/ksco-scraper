@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:43:05.547Z",
+  "generatedAt": "2026-08-24T17:36:15.725Z",
   "bookingCounts": {
     "total": 2517,
     "inCustody": 282,
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 934
+      "count": 936
     },
     {
       "label": "Domestic Violence",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2180
+      "count": 2181
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -154,7 +154,7 @@
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
-      "count": 286
+      "count": 287
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34394.41,
+    "mean": 34394.25,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1848
+    "count": 1850
   },
   "stay": {
     "mean": 22.1,
@@ -267,16 +267,16 @@
       "count": 18
     },
     {
-      "category": "Arson",
-      "medianBail": 150000,
-      "meanBail": 158333.33,
-      "count": 3
-    },
-    {
       "category": "Child Exploitation / CSAM",
       "medianBail": 150000,
       "meanBail": 195833.33,
       "count": 6
+    },
+    {
+      "category": "Arson",
+      "medianBail": 125000,
+      "meanBail": 143750,
+      "count": 4
     },
     {
       "category": "Stalking",
@@ -395,7 +395,7 @@
     {
       "category": "Domestic Violence",
       "medianBail": 10000,
-      "meanBail": 104083.33,
+      "meanBail": 103401.52,
       "count": 66
     },
     {
@@ -419,8 +419,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 20051.52,
-      "count": 165
+      "meanBail": 19990.96,
+      "count": 166
     },
     {
       "category": "Obstruction",
@@ -443,8 +443,8 @@
     {
       "category": "Other",
       "medianBail": 5000,
-      "meanBail": 16339.55,
-      "count": 67
+      "meanBail": 16435.61,
+      "count": 66
     },
     {
       "category": "Reckless Driving",
@@ -503,8 +503,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 14876.84,
-      "count": 704
+      "meanBail": 14874.89,
+      "count": 705
     },
     {
       "category": "Drug Offense",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "Failure to Appear": 40,
       "Child Sex Offense": 3,
       "Domestic Violence": 65,
       "Protection Order Violation": 8,
@@ -559,7 +560,6 @@
       "Assault": 23,
       "Other": 29,
       "Drug Offense": 21,
-      "Failure to Appear": 39,
       "Making False Statements": 8,
       "Ignition Interlock Violation": 9,
       "DOC Warrant": 5,
@@ -605,7 +605,7 @@
       "Driving While License Suspended": 148,
       "Reckless Driving": 24,
       "Attempt to Elude": 16,
-      "Failure to Appear": 733,
+      "Failure to Appear": 734,
       "Burglary (2nd Degree)": 40,
       "Arson": 7,
       "Criminal Trespass": 138,
@@ -781,6 +781,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Failure to Appear": 674,
       "DUI": 212,
       "Homicide": 20,
       "Other": 101,
@@ -789,7 +790,6 @@
       "Driving While License Suspended": 174,
       "Reckless Driving": 21,
       "Attempt to Elude": 21,
-      "Failure to Appear": 673,
       "Burglary (2nd Degree)": 38,
       "Arson": 7,
       "Criminal Trespass": 131,
@@ -886,7 +886,7 @@
     "Female": {
       "DOC Warrant": 23,
       "Obstruction": 21,
-      "Failure to Appear": 235,
+      "Failure to Appear": 236,
       "DUI": 75,
       "Drug Offense": 46,
       "Domestic Violence": 99,
@@ -1546,7 +1546,7 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1124,
+      "count": 1126,
       "pct": 30.4
     },
     {
@@ -1598,8 +1598,8 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3325,
-      "pct": 59.6
+      "count": 3327,
+      "pct": 59.7
     },
     {
       "label": "Unknown",
@@ -1717,12 +1717,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2191,
+      "count": 2192,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 716
+          "count": 717
         },
         {
           "label": "Domestic Violence",
@@ -1771,12 +1771,12 @@
     },
     {
       "name": "Port Orchard PD",
-      "count": 287,
+      "count": 288,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 75
+          "count": 76
         },
         {
           "label": "Domestic Violence",
@@ -2117,7 +2117,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 91
+          "count": 92
         },
         {
           "label": "DUI",
@@ -2249,11 +2249,11 @@
           "count": 16
         },
         {
-          "label": "Criminal Trespass",
-          "count": 8
+          "label": "Failure to Appear",
+          "count": 9
         },
         {
-          "label": "Failure to Appear",
+          "label": "Criminal Trespass",
           "count": 8
         },
         {
@@ -2270,7 +2270,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 667
+        "n": 668
       },
       {
         "charge": "Domestic Violence",
@@ -2685,7 +2685,7 @@
         "avgWeight": 153,
         "avgHeight": "5'4\"",
         "topRace": "White",
-        "n": 234
+        "n": 235
       },
       {
         "charge": "Domestic Violence",

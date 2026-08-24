@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:59:05.432Z",
+  "generatedAt": "2026-08-24T13:57:14.674Z",
   "bookingCounts": {
     "total": 2516,
     "inCustody": 288,
@@ -88,7 +88,7 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 363
+      "count": 362
     },
     {
       "label": "DUI",
@@ -441,12 +441,6 @@
       "count": 5
     },
     {
-      "category": "Making False Statements",
-      "medianBail": 5000,
-      "meanBail": 4076.92,
-      "count": 13
-    },
-    {
       "category": "Other",
       "medianBail": 5000,
       "meanBail": 16339.55,
@@ -469,6 +463,12 @@
       "medianBail": 5000,
       "meanBail": 9229.17,
       "count": 24
+    },
+    {
+      "category": "Making False Statements",
+      "medianBail": 5000,
+      "meanBail": 3583.33,
+      "count": 12
     },
     {
       "category": "Public Order",
@@ -514,9 +514,9 @@
     },
     {
       "category": "Drug Offense",
-      "medianBail": 2250,
-      "meanBail": 5723.04,
-      "count": 102
+      "medianBail": 2500,
+      "meanBail": 5764.56,
+      "count": 103
     },
     {
       "category": "Resisting Arrest",
@@ -552,7 +552,7 @@
   "chargesByRace": {
     "White": {
       "DUI": 231,
-      "Domestic Violence": 241,
+      "Homicide": 16,
       "Harassment": 54,
       "DOC Warrant": 116,
       "Obstruction": 82,
@@ -566,6 +566,7 @@
       "Drug Offense": 177,
       "Ignition Interlock Violation": 58,
       "Weapons": 33,
+      "Domestic Violence": 240,
       "Vehicle Prowling": 12,
       "Possession of Stolen Property": 15,
       "Identity Theft": 5,
@@ -601,7 +602,6 @@
       "Child Exploitation / CSAM": 16,
       "Burglary (1st Degree)": 7,
       "PR / Bail Revocation": 18,
-      "Homicide": 15,
       "Assault (Child)": 5,
       "Stalking": 9,
       "Attempt to Elude": 15,
@@ -782,7 +782,7 @@
   "chargesBySex": {
     "Male": {
       "DUI": 212,
-      "Domestic Violence": 214,
+      "Homicide": 20,
       "Harassment": 69,
       "Protection Order Violation": 120,
       "Possession of Stolen Vehicle": 20,
@@ -793,6 +793,7 @@
       "Arson": 7,
       "Drug Offense": 164,
       "Ignition Interlock Violation": 63,
+      "Domestic Violence": 213,
       "Weapons": 44,
       "DOC Warrant": 118,
       "Assault": 124,
@@ -832,7 +833,6 @@
       "Tampering with Evidence": 3,
       "Child Exploitation / CSAM": 17,
       "Burglary (1st Degree)": 12,
-      "Homicide": 19,
       "Assault (Child)": 4,
       "Attempt to Elude": 20,
       "Burglary Tools": 7,
@@ -1757,7 +1757,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 123
+          "count": 122
         },
         {
           "label": "Drug Offense",
@@ -2146,7 +2146,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 111
+          "count": 110
         },
         {
           "label": "DUI",
@@ -2277,7 +2277,7 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 206
+        "n": 205
       },
       {
         "charge": "DUI",
@@ -2434,6 +2434,13 @@
         "n": 21
       },
       {
+        "charge": "Homicide",
+        "avgWeight": 166,
+        "avgHeight": "5'9\"",
+        "topRace": "White",
+        "n": 20
+      },
+      {
         "charge": "Attempt to Elude",
         "avgWeight": 196,
         "avgHeight": "5'11\"",
@@ -2478,13 +2485,6 @@
       {
         "charge": "Sex Offense",
         "avgWeight": 187,
-        "avgHeight": "5'9\"",
-        "topRace": "White",
-        "n": 19
-      },
-      {
-        "charge": "Homicide",
-        "avgWeight": 166,
         "avgHeight": "5'9\"",
         "topRace": "White",
         "n": 19

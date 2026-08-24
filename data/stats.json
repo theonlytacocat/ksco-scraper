@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T19:35:08.621Z",
+  "generatedAt": "2026-08-24T20:36:13.365Z",
   "bookingCounts": {
     "total": 2519,
     "inCustody": 281,
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 349
+      "count": 350
     },
     {
       "label": "Driving While License Suspended",
@@ -116,7 +116,7 @@
     },
     {
       "label": "Other",
-      "count": 148
+      "count": 149
     },
     {
       "label": "DOC Warrant",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2186
+      "count": 2187
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -158,7 +158,7 @@
     },
     {
       "label": "POULSBO POLICE DEPARTMENT",
-      "count": 220
+      "count": 221
     },
     {
       "label": "WASHINGTON STATE PATROL",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34283.02,
+    "mean": 34267.21,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1851
+    "count": 1852
   },
   "stay": {
     "mean": 22,
@@ -299,8 +299,8 @@
     {
       "category": "Burglary (2nd Degree)",
       "medianBail": 50000,
-      "meanBail": 57043.48,
-      "count": 23
+      "meanBail": 52818.18,
+      "count": 22
     },
     {
       "category": "PR / Bail Revocation",
@@ -419,14 +419,20 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 19931.14,
-      "count": 167
+      "meanBail": 19842.26,
+      "count": 168
     },
     {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5397.06,
       "count": 34
+    },
+    {
+      "category": "Other",
+      "medianBail": 5000,
+      "meanBail": 18429.1,
+      "count": 67
     },
     {
       "category": "Ignition Interlock Violation",
@@ -439,12 +445,6 @@
       "medianBail": 5000,
       "meanBail": 34200,
       "count": 5
-    },
-    {
-      "category": "Other",
-      "medianBail": 5000,
-      "meanBail": 16435.61,
-      "count": 66
     },
     {
       "category": "Reckless Driving",
@@ -551,12 +551,12 @@
   ],
   "chargesByRace": {
     "Unknown": {
+      "DUI": 78,
       "Failure to Appear": 40,
       "Child Sex Offense": 3,
       "Domestic Violence": 65,
       "Protection Order Violation": 8,
       "Driving While License Suspended": 34,
-      "DUI": 77,
       "Assault": 23,
       "Other": 29,
       "Drug Offense": 21,
@@ -595,7 +595,7 @@
       "Public Order": 1
     },
     "White": {
-      "Other": 94,
+      "Other": 95,
       "Domestic Violence": 241,
       "DUI": 231,
       "Homicide": 16,
@@ -781,10 +781,10 @@
   },
   "chargesBySex": {
     "Unknown": {
+      "DUI": 63,
       "Child Sex Offense": 3,
       "Domestic Violence": 50,
       "Protection Order Violation": 8,
-      "DUI": 62,
       "Assault": 17,
       "Driving While License Suspended": 22,
       "Drug Offense": 18,
@@ -820,7 +820,7 @@
       "Theft (1st Degree)": 1
     },
     "Male": {
-      "Other": 102,
+      "Other": 103,
       "Domestic Violence": 215,
       "Failure to Appear": 675,
       "DUI": 212,
@@ -1551,7 +1551,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 571,
+      "count": 572,
       "pct": 15.4
     },
     {
@@ -1566,8 +1566,8 @@
     },
     {
       "label": "Other",
-      "count": 335,
-      "pct": 9
+      "count": 336,
+      "pct": 9.1
     },
     {
       "label": "Order Violations",
@@ -1598,12 +1598,12 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3331,
+      "count": 3332,
       "pct": 59.7
     },
     {
       "label": "Unknown",
-      "count": 977,
+      "count": 978,
       "pct": 17.5
     },
     {
@@ -1717,7 +1717,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2197,
+      "count": 2198,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1730,7 +1730,7 @@
         },
         {
           "label": "DUI",
-          "count": 141
+          "count": 142
         },
         {
           "label": "Assault",
@@ -1798,7 +1798,7 @@
     },
     {
       "name": "Poulsbo PD",
-      "count": 225,
+      "count": 226,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2221,7 +2221,7 @@
         },
         {
           "label": "DUI",
-          "count": 28
+          "count": 29
         },
         {
           "label": "Domestic Violence",
@@ -2333,7 +2333,7 @@
         "avgWeight": 181,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 99
+        "n": 100
       },
       {
         "charge": "Obstruction",

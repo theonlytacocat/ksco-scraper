@@ -7,9 +7,9 @@
     "charges": [
       {
         "violation": "46.61.502(5) - DUI -GM- DRIVING UNDER THE INFLUENCE",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "DUI",
-        "clearance": null,
+        "clearance": "POST",
         "bondBailType": "C/B",
         "bondAmount": 5000,
         "cashAmount": null,
@@ -42,7 +42,7 @@
       {
         "violation": "9A.32.050(2) - MURDER-2",
         "cleared": false,
-        "addDesc": "ASLT 2 DV",
+        "addDesc": "ATT MURDER 2 DV",
         "clearance": null,
         "bondBailType": "NOBD",
         "bondAmount": null,
@@ -54,9 +54,9 @@
         "courtType": "SC"
       },
       {
-        "violation": "9A.46.020(2)(B) - HARASSMENT PREV CONV OR THREAT TO KILL",
+        "violation": "9A.32.060(2) - MANSLAUGHTER-1",
         "cleared": false,
-        "addDesc": "FEL HRMSNT",
+        "addDesc": "ATT MANSLAUGHTER 1 DV",
         "clearance": null,
         "bondBailType": "NOBD",
         "bondAmount": null,
@@ -233,31 +233,45 @@
       },
       {
         "violation": "46.20.342(1)(B) - DWLS 2 - DRIVE W/LICENSE SUSP OR REVOKED-2",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
-        "bondBailType": "C/B",
-        "bondAmount": 10000,
+        "clearance": "RF",
+        "bondBailType": "RF",
+        "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "08/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/23/2026",
-        "courtType": "BM"
+        "courtType": null
       },
       {
         "violation": "46.61.500(1) - RECKLESS DRIVING",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "RF",
         "bondBailType": "C/B",
         "bondAmount": null,
         "cashAmount": null,
         "courtCase": null,
-        "nextCourtDate": "08/24/2026",
+        "nextCourtDate": null,
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/23/2026",
-        "courtType": "BM"
+        "courtType": null
+      },
+      {
+        "violation": "46.61.024(1) - ATTEMPT TO ELUDE",
+        "cleared": false,
+        "addDesc": null,
+        "clearance": null,
+        "bondBailType": "C/B",
+        "bondAmount": 50000,
+        "cashAmount": null,
+        "courtCase": null,
+        "nextCourtDate": "08/24/2026",
+        "arrestAgency": "KITSAP COUNTY SHERIFFS OFFICE",
+        "arrestDate": "08/23/2026",
+        "courtType": "SC"
       }
     ],
     "age": "49",
@@ -561,7 +575,7 @@
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "51727201",
         "nextCourtDate": "08/24/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/23/2026",
@@ -2045,7 +2059,7 @@
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
-        "courtCase": null,
+        "courtCase": "50178730",
         "nextCourtDate": "08/24/2026",
         "arrestAgency": "BREMERTON POLICE DEPARTMENT",
         "arrestDate": "08/21/2026",
@@ -6965,9 +6979,9 @@
     "charges": [
       {
         "violation": "NONE - FAILURE TO COMPLY -  W/TERMS OF SENTENCE - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": null,
-        "clearance": null,
+        "clearance": "PR",
         "bondBailType": "C/B",
         "bondAmount": 50000,
         "cashAmount": null,
@@ -8383,9 +8397,9 @@
     "charges": [
       {
         "violation": "9A.76.190(3)(A) - FAILURE TO APPEAR / CONTEMPT OF COURT - FELONY",
-        "cleared": false,
+        "cleared": true,
         "addDesc": "FTA ID THEFT 2/THEFT 2",
-        "clearance": null,
+        "clearance": "COOP",
         "bondBailType": "NOBD",
         "bondAmount": null,
         "cashAmount": null,
@@ -8448,8 +8462,8 @@
     "inmateId": "40067901",
     "schedRelease": "08/17/2026",
     "firstSeen": "08/10/2026, 20:49:40",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "08/24/2026, 07:45:07",
+    "status": "released"
   },
   {
     "type": "BOOKED",
@@ -11623,8 +11637,8 @@
     "inmateId": "40771006",
     "schedRelease": "08/24/2026",
     "firstSeen": "08/04/2026, 19:44:56",
-    "releasedAt": null,
-    "status": "in_custody"
+    "releasedAt": "08/24/2026, 07:45:06",
+    "status": "released"
   },
   {
     "type": "BOOKED",

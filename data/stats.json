@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-24T11:58:34.068Z",
+  "generatedAt": "2026-08-24T12:59:05.432Z",
   "bookingCounts": {
-    "total": 2515,
-    "inCustody": 287,
+    "total": 2516,
+    "inCustody": 288,
     "released": 2228
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1711,
+      "count": 1712,
       "pct": 68
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1783,
+      "count": 1784,
       "pct": 70.9
     },
     {
@@ -57,7 +57,7 @@
     "histogram": [
       {
         "label": "18–25",
-        "count": 356
+        "count": 357
       },
       {
         "label": "26–35",
@@ -88,11 +88,11 @@
     },
     {
       "label": "Domestic Violence",
-      "count": 362
+      "count": 363
     },
     {
       "label": "DUI",
-      "count": 348
+      "count": 349
     },
     {
       "label": "Driving While License Suspended",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Assault",
-      "count": 182
+      "count": 181
     },
     {
       "label": "Criminal Trespass",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2177
+      "count": 2178
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,7 +186,7 @@
     }
   ],
   "bail": {
-    "mean": 34370.6,
+    "mean": 34367.9,
     "median": 5000,
     "min": 50,
     "max": 4000000,
@@ -417,6 +417,12 @@
       "count": 13
     },
     {
+      "category": "DUI",
+      "medianBail": 5000,
+      "meanBail": 20051.52,
+      "count": 165
+    },
+    {
       "category": "Obstruction",
       "medianBail": 5000,
       "meanBail": 5397.06,
@@ -427,12 +433,6 @@
       "medianBail": 5000,
       "meanBail": 5764.71,
       "count": 17
-    },
-    {
-      "category": "DUI",
-      "medianBail": 5000,
-      "meanBail": 20143.29,
-      "count": 164
     },
     {
       "category": "Vehicle Prowling",
@@ -449,7 +449,7 @@
     {
       "category": "Other",
       "medianBail": 5000,
-      "meanBail": 16414.18,
+      "meanBail": 16339.55,
       "count": 67
     },
     {
@@ -503,8 +503,8 @@
     {
       "category": "Driving While License Suspended",
       "medianBail": 2500,
-      "meanBail": 4454.95,
-      "count": 106
+      "meanBail": 4449.76,
+      "count": 105
     },
     {
       "category": "Failure to Appear",
@@ -551,7 +551,8 @@
   ],
   "chargesByRace": {
     "White": {
-      "Assault": 116,
+      "DUI": 231,
+      "Domestic Violence": 241,
       "Harassment": 54,
       "DOC Warrant": 116,
       "Obstruction": 82,
@@ -563,10 +564,8 @@
       "Burglary (2nd Degree)": 40,
       "Arson": 7,
       "Drug Offense": 177,
-      "DUI": 230,
       "Ignition Interlock Violation": 58,
       "Weapons": 33,
-      "Domestic Violence": 240,
       "Vehicle Prowling": 12,
       "Possession of Stolen Property": 15,
       "Identity Theft": 5,
@@ -586,6 +585,7 @@
       "Failure to Register (Sex Offender)": 9,
       "Fugitive from Justice": 16,
       "Robbery": 13,
+      "Assault": 115,
       "Sex Offense": 18,
       "Theft (1st Degree)": 11,
       "Failure to Comply (Sentence)": 35,
@@ -781,7 +781,8 @@
   },
   "chargesBySex": {
     "Male": {
-      "Assault": 125,
+      "DUI": 212,
+      "Domestic Violence": 214,
       "Harassment": 69,
       "Protection Order Violation": 120,
       "Possession of Stolen Vehicle": 20,
@@ -792,10 +793,9 @@
       "Arson": 7,
       "Drug Offense": 164,
       "Ignition Interlock Violation": 63,
-      "Domestic Violence": 213,
-      "DUI": 211,
       "Weapons": 44,
       "DOC Warrant": 118,
+      "Assault": 124,
       "Obstruction": 82,
       "Vehicle Prowling": 14,
       "Possession of Stolen Property": 16,
@@ -988,7 +988,7 @@
   "recidivism": {
     "rate": 12.5,
     "repeatBookerCount": 270,
-    "totalIndividuals": 2165,
+    "totalIndividuals": 2166,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1540,7 +1540,7 @@
     },
     {
       "month": "2026-08",
-      "count": 300
+      "count": 301
     }
   ],
   "crimeTypes": [
@@ -1551,7 +1551,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 570,
+      "count": 571,
       "pct": 15.4
     },
     {
@@ -1587,7 +1587,7 @@
     {
       "label": "Fraud / Identity",
       "count": 61,
-      "pct": 1.7
+      "pct": 1.6
     },
     {
       "label": "Weapons",
@@ -1598,7 +1598,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3323,
+      "count": 3324,
       "pct": 59.6
     },
     {
@@ -1717,7 +1717,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2188,
+      "count": 2189,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1730,7 +1730,7 @@
         },
         {
           "label": "DUI",
-          "count": 140
+          "count": 141
         },
         {
           "label": "Assault",
@@ -1757,7 +1757,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 122
+          "count": 123
         },
         {
           "label": "Drug Offense",
@@ -2121,7 +2121,7 @@
         },
         {
           "label": "DUI",
-          "count": 85
+          "count": 86
         },
         {
           "label": "Domestic Violence",
@@ -2146,7 +2146,7 @@
         },
         {
           "label": "Domestic Violence",
-          "count": 110
+          "count": 111
         },
         {
           "label": "DUI",
@@ -2277,14 +2277,14 @@
         "avgWeight": 188,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 205
+        "n": 206
       },
       {
         "charge": "DUI",
         "avgWeight": 185,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 195
+        "n": 196
       },
       {
         "charge": "Driving While License Suspended",
@@ -2312,7 +2312,7 @@
         "avgWeight": 187,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 122
+        "n": 121
       },
       {
         "charge": "Protection Order Violation",
@@ -2909,7 +2909,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2512
+      "count": 2513
     }
   ]
 }

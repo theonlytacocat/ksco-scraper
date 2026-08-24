@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:51:37.076Z",
+  "generatedAt": "2026-08-24T03:59:35.225Z",
   "bookingCounts": {
     "total": 2511,
     "inCustody": 283,
@@ -96,7 +96,7 @@
     },
     {
       "label": "Driving While License Suspended",
-      "count": 231
+      "count": 232
     },
     {
       "label": "Drug Offense",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2174
+      "count": 2177
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34393.64,
+    "mean": 34370.26,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1844
+    "count": 1847
   },
   "stay": {
     "mean": 22,
@@ -291,6 +291,12 @@
       "count": 5
     },
     {
+      "category": "Possession of Stolen Vehicle",
+      "medianBail": 50000,
+      "meanBail": 37857.14,
+      "count": 7
+    },
+    {
       "category": "Burglary (2nd Degree)",
       "medianBail": 50000,
       "meanBail": 57043.48,
@@ -337,12 +343,6 @@
       "medianBail": 30000,
       "meanBail": 30000,
       "count": 1
-    },
-    {
-      "category": "Possession of Stolen Vehicle",
-      "medianBail": 27500,
-      "meanBail": 35833.33,
-      "count": 6
     },
     {
       "category": "Weapons",
@@ -417,6 +417,12 @@
       "count": 13
     },
     {
+      "category": "Reckless Driving",
+      "medianBail": 5000,
+      "meanBail": 5375,
+      "count": 12
+    },
+    {
       "category": "Ignition Interlock Violation",
       "medianBail": 5000,
       "meanBail": 5764.71,
@@ -445,12 +451,6 @@
       "medianBail": 5000,
       "meanBail": 16414.18,
       "count": 67
-    },
-    {
-      "category": "Reckless Driving",
-      "medianBail": 5000,
-      "meanBail": 5409.09,
-      "count": 11
     },
     {
       "category": "Theft (3rd Degree)",
@@ -501,16 +501,16 @@
       "count": 4
     },
     {
+      "category": "Driving While License Suspended",
+      "medianBail": 2500,
+      "meanBail": 4407.78,
+      "count": 106
+    },
+    {
       "category": "Failure to Appear",
       "medianBail": 2500,
       "meanBail": 14857.16,
       "count": 705
-    },
-    {
-      "category": "Driving While License Suspended",
-      "medianBail": 2500,
-      "meanBail": 4402.14,
-      "count": 105
     },
     {
       "category": "Drug Offense",
@@ -551,6 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Possession of Stolen Vehicle": 20,
+      "Driving While License Suspended": 148,
+      "Reckless Driving": 24,
       "Protection Order Violation": 117,
       "Failure to Appear": 733,
       "Burglary (2nd Degree)": 40,
@@ -558,7 +561,6 @@
       "Drug Offense": 177,
       "DUI": 230,
       "Ignition Interlock Violation": 58,
-      "Driving While License Suspended": 147,
       "Weapons": 33,
       "DOC Warrant": 115,
       "Domestic Violence": 240,
@@ -587,7 +589,6 @@
       "Sex Offense": 18,
       "Theft (1st Degree)": 11,
       "Failure to Comply (Sentence)": 35,
-      "Reckless Driving": 23,
       "Trafficking Stolen Property": 7,
       "Traffic / Obstruction": 8,
       "Witness Tampering": 3,
@@ -602,7 +603,6 @@
       "PR / Bail Revocation": 18,
       "Homicide": 15,
       "Assault (Child)": 5,
-      "Possession of Stolen Vehicle": 19,
       "Stalking": 9,
       "Attempt to Elude": 15,
       "Public Order": 5,
@@ -781,12 +781,14 @@
   },
   "chargesBySex": {
     "Male": {
+      "Possession of Stolen Vehicle": 20,
+      "Driving While License Suspended": 174,
+      "Reckless Driving": 21,
       "Protection Order Violation": 119,
       "Failure to Appear": 673,
       "Burglary (2nd Degree)": 38,
       "Arson": 7,
       "Drug Offense": 164,
-      "Driving While License Suspended": 173,
       "Ignition Interlock Violation": 63,
       "Domestic Violence": 213,
       "DUI": 211,
@@ -819,7 +821,6 @@
       "Sex Offense": 21,
       "Theft (1st Degree)": 12,
       "Theft (2nd Degree)": 32,
-      "Reckless Driving": 20,
       "Trafficking Stolen Property": 5,
       "Traffic / Obstruction": 8,
       "Witness Tampering": 4,
@@ -833,7 +834,6 @@
       "Burglary (1st Degree)": 12,
       "Homicide": 19,
       "Assault (Child)": 4,
-      "Possession of Stolen Vehicle": 19,
       "Attempt to Elude": 20,
       "Burglary Tools": 7,
       "Public Order": 4,
@@ -1547,11 +1547,11 @@
     {
       "label": "Court / Supervision",
       "count": 1123,
-      "pct": 30.5
+      "pct": 30.4
     },
     {
       "label": "Traffic / DUI",
-      "count": 569,
+      "count": 570,
       "pct": 15.4
     },
     {
@@ -1561,7 +1561,7 @@
     },
     {
       "label": "Property",
-      "count": 432,
+      "count": 433,
       "pct": 11.7
     },
     {
@@ -1598,7 +1598,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3319,
+      "count": 3321,
       "pct": 59.7
     },
     {
@@ -1608,7 +1608,7 @@
     },
     {
       "label": "Felony",
-      "count": 840,
+      "count": 841,
       "pct": 15.1
     },
     {
@@ -1717,7 +1717,7 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2185,
+      "count": 2188,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2291,7 +2291,7 @@
         "avgWeight": 178,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 167
+        "n": 168
       },
       {
         "charge": "Drug Offense",
@@ -2428,10 +2428,10 @@
       },
       {
         "charge": "Reckless Driving",
-        "avgWeight": 196,
+        "avgWeight": 195,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 20
+        "n": 21
       },
       {
         "charge": "Attempt to Elude",
@@ -2439,6 +2439,13 @@
         "avgHeight": "5'11\"",
         "topRace": "White",
         "n": 20
+      },
+      {
+        "charge": "Possession of Stolen Vehicle",
+        "avgWeight": 175,
+        "avgHeight": "5'10\"",
+        "topRace": "White",
+        "n": 19
       },
       {
         "charge": "PR / Bail Revocation",
@@ -2485,13 +2492,6 @@
       {
         "charge": "Robbery",
         "avgWeight": 176,
-        "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 18
-      },
-      {
-        "charge": "Possession of Stolen Vehicle",
-        "avgWeight": 175,
         "avgHeight": "5'10\"",
         "topRace": "White",
         "n": 18

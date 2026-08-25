@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T13:55:16.907Z",
+  "generatedAt": "2026-08-25T14:52:17.190Z",
   "bookingCounts": {
-    "total": 2526,
+    "total": 2527,
     "inCustody": 279,
-    "released": 2247
+    "released": 2248
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1718,
+      "count": 1719,
       "pct": 68
     },
     {
@@ -25,13 +25,13 @@
   "race": [
     {
       "label": "White",
-      "count": 1789,
+      "count": 1790,
       "pct": 70.8
     },
     {
       "label": "Unknown",
       "count": 312,
-      "pct": 12.4
+      "pct": 12.3
     },
     {
       "label": "Black",
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 378
+        "count": 379
       },
       {
         "label": "56–65",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 34129.9,
+    "mean": 34147.7,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1862
+    "count": 1861
   },
   "stay": {
     "mean": 22,
     "median": 1.8,
     "min": 0,
     "max": 1233.4,
-    "count": 2226,
+    "count": 2227,
     "histogram": [
       {
         "label": "< 1 day",
@@ -221,7 +221,7 @@
       },
       {
         "label": "1–3 months",
-        "count": 283
+        "count": 284
       },
       {
         "label": "3+ months",
@@ -539,8 +539,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2025.77,
-      "count": 97
+      "meanBail": 2036.46,
+      "count": 96
     },
     {
       "category": "Local / Tribal Code",
@@ -550,50 +550,6 @@
     }
   ],
   "chargesByRace": {
-    "Unknown": {
-      "Failure to Appear": 41,
-      "DOC Warrant": 6,
-      "Possession of Stolen Vehicle": 2,
-      "Obstruction": 13,
-      "Driving While License Suspended": 35,
-      "Domestic Violence": 66,
-      "DUI": 79,
-      "Child Sex Offense": 3,
-      "Protection Order Violation": 8,
-      "Assault": 23,
-      "Other": 29,
-      "Drug Offense": 21,
-      "Making False Statements": 8,
-      "Ignition Interlock Violation": 9,
-      "Sex Offense": 6,
-      "Fugitive from Justice": 2,
-      "Harassment": 9,
-      "Local / Tribal Code": 5,
-      "Criminal Trespass": 13,
-      "Malicious Mischief": 5,
-      "Resisting Arrest": 5,
-      "Hit and Run": 9,
-      "Homicide": 2,
-      "Criminal Impersonation": 1,
-      "Attempt to Elude": 6,
-      "Burglary (1st Degree)": 1,
-      "Kidnapping / Unlawful Imprisonment": 2,
-      "Theft (3rd Degree)": 8,
-      "Residential Burglary": 1,
-      "Interference with DV Reporting": 3,
-      "Weapons": 4,
-      "Child Exploitation / CSAM": 3,
-      "Theft (2nd Degree)": 5,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 2,
-      "Stalking": 1,
-      "Indecent Exposure": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Public Order": 1
-    },
     "White": {
       "Failure to Appear": 736,
       "Criminal Trespass": 140,
@@ -658,6 +614,50 @@
       "Incest": 1,
       "Theft": 1,
       "Bribery": 1
+    },
+    "Unknown": {
+      "Failure to Appear": 41,
+      "DOC Warrant": 6,
+      "Possession of Stolen Vehicle": 2,
+      "Obstruction": 13,
+      "Driving While License Suspended": 35,
+      "Domestic Violence": 66,
+      "DUI": 79,
+      "Child Sex Offense": 3,
+      "Protection Order Violation": 8,
+      "Assault": 23,
+      "Other": 29,
+      "Drug Offense": 21,
+      "Making False Statements": 8,
+      "Ignition Interlock Violation": 9,
+      "Sex Offense": 6,
+      "Fugitive from Justice": 2,
+      "Harassment": 9,
+      "Local / Tribal Code": 5,
+      "Criminal Trespass": 13,
+      "Malicious Mischief": 5,
+      "Resisting Arrest": 5,
+      "Hit and Run": 9,
+      "Homicide": 2,
+      "Criminal Impersonation": 1,
+      "Attempt to Elude": 6,
+      "Burglary (1st Degree)": 1,
+      "Kidnapping / Unlawful Imprisonment": 2,
+      "Theft (3rd Degree)": 8,
+      "Residential Burglary": 1,
+      "Interference with DV Reporting": 3,
+      "Weapons": 4,
+      "Child Exploitation / CSAM": 3,
+      "Theft (2nd Degree)": 5,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 2,
+      "Stalking": 1,
+      "Indecent Exposure": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Public Order": 1
     },
     "Black": {
       "Failure to Appear": 93,
@@ -780,46 +780,6 @@
     }
   },
   "chargesBySex": {
-    "Unknown": {
-      "Failure to Appear": 27,
-      "DOC Warrant": 6,
-      "Possession of Stolen Vehicle": 1,
-      "Obstruction": 13,
-      "Driving While License Suspended": 23,
-      "Domestic Violence": 51,
-      "DUI": 64,
-      "Child Sex Offense": 3,
-      "Protection Order Violation": 8,
-      "Assault": 17,
-      "Drug Offense": 18,
-      "Other": 24,
-      "Sex Offense": 3,
-      "Fugitive from Justice": 2,
-      "Harassment": 8,
-      "Local / Tribal Code": 4,
-      "Criminal Trespass": 8,
-      "Malicious Mischief": 3,
-      "Hit and Run": 8,
-      "Ignition Interlock Violation": 5,
-      "Homicide": 1,
-      "Resisting Arrest": 4,
-      "Criminal Impersonation": 1,
-      "Making False Statements": 6,
-      "Theft (3rd Degree)": 8,
-      "Interference with DV Reporting": 3,
-      "Weapons": 3,
-      "Child Exploitation / CSAM": 2,
-      "Attempt to Elude": 5,
-      "Theft (2nd Degree)": 5,
-      "Traffic / Obstruction": 3,
-      "Motor Vehicle Theft": 2,
-      "Burglary (2nd Degree)": 2,
-      "PR / Bail Revocation": 1,
-      "Reckless Driving": 2,
-      "Failure to Comply (Sentence)": 1,
-      "Residential Burglary": 1,
-      "Theft (1st Degree)": 1
-    },
     "Male": {
       "Failure to Appear": 676,
       "Criminal Trespass": 133,
@@ -884,6 +844,46 @@
       "Incest": 1,
       "Theft": 1
     },
+    "Unknown": {
+      "Failure to Appear": 27,
+      "DOC Warrant": 6,
+      "Possession of Stolen Vehicle": 1,
+      "Obstruction": 13,
+      "Driving While License Suspended": 23,
+      "Domestic Violence": 51,
+      "DUI": 64,
+      "Child Sex Offense": 3,
+      "Protection Order Violation": 8,
+      "Assault": 17,
+      "Drug Offense": 18,
+      "Other": 24,
+      "Sex Offense": 3,
+      "Fugitive from Justice": 2,
+      "Harassment": 8,
+      "Local / Tribal Code": 4,
+      "Criminal Trespass": 8,
+      "Malicious Mischief": 3,
+      "Hit and Run": 8,
+      "Ignition Interlock Violation": 5,
+      "Homicide": 1,
+      "Resisting Arrest": 4,
+      "Criminal Impersonation": 1,
+      "Making False Statements": 6,
+      "Theft (3rd Degree)": 8,
+      "Interference with DV Reporting": 3,
+      "Weapons": 3,
+      "Child Exploitation / CSAM": 2,
+      "Attempt to Elude": 5,
+      "Theft (2nd Degree)": 5,
+      "Traffic / Obstruction": 3,
+      "Motor Vehicle Theft": 2,
+      "Burglary (2nd Degree)": 2,
+      "PR / Bail Revocation": 1,
+      "Reckless Driving": 2,
+      "Failure to Comply (Sentence)": 1,
+      "Residential Burglary": 1,
+      "Theft (1st Degree)": 1
+    },
     "Female": {
       "DOC Warrant": 23,
       "Obstruction": 21,
@@ -943,7 +943,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 756
+      "count": 757
     },
     {
       "label": "Released (Unknown Reason)",
@@ -1183,6 +1183,32 @@
           {
             "bookingNumber": "2026002078",
             "firstSeen": "05/05/2026, 09:26:37",
+            "status": "released"
+          }
+        ]
+      },
+      {
+        "name": "BLANCHARD, KERRY BRIAN",
+        "count": 4,
+        "bookings": [
+          {
+            "bookingNumber": "2026003796",
+            "firstSeen": "08/25/2026, 07:49:08",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026003407",
+            "firstSeen": "07/29/2026, 09:23:47",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002961",
+            "firstSeen": "07/02/2026, 01:13:08",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026002438",
+            "firstSeen": "05/28/2026, 01:44:12",
             "status": "released"
           }
         ]
@@ -1494,27 +1520,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "CHILDS, DANYEL CAROLINE",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003665",
-            "firstSeen": "08/16/2026, 14:46:17",
-            "status": "in_custody"
-          },
-          {
-            "bookingNumber": "2026001959",
-            "firstSeen": "04/27/2026, 15:00:26",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001307",
-            "firstSeen": "03/25/2026, 18:49:15",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1541,7 +1546,7 @@
     },
     {
       "month": "2026-08",
-      "count": 311
+      "count": 312
     }
   ],
   "crimeTypes": [
@@ -2108,7 +2113,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2247,
+    "total": 2248,
     "withBail": 1076,
     "pct": 47.9
   },
@@ -2910,7 +2915,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2523
+      "count": 2524
     }
   ]
 }

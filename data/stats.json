@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T03:53:16.423Z",
+  "generatedAt": "2026-08-25T04:44:39.365Z",
   "bookingCounts": {
-    "total": 2521,
-    "inCustody": 274,
+    "total": 2522,
+    "inCustody": 275,
     "released": 2247
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1716,
+      "count": 1717,
       "pct": 68.1
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1787,
+      "count": 1788,
       "pct": 70.9
     },
     {
@@ -69,7 +69,7 @@
       },
       {
         "label": "46–55",
-        "count": 377
+        "count": 378
       },
       {
         "label": "56–65",
@@ -104,7 +104,7 @@
     },
     {
       "label": "Criminal Trespass",
-      "count": 182
+      "count": 183
     },
     {
       "label": "Assault",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1704
+      "count": 1706
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34220.95,
+    "mean": 34203.05,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1855
+    "count": 1856
   },
   "stay": {
     "mean": 22,
@@ -539,8 +539,8 @@
     {
       "category": "Criminal Trespass",
       "medianBail": 1000,
-      "meanBail": 2036.46,
-      "count": 96
+      "meanBail": 2025.77,
+      "count": 97
     },
     {
       "category": "Local / Tribal Code",
@@ -551,8 +551,9 @@
   ],
   "chargesByRace": {
     "White": {
+      "Criminal Trespass": 140,
+      "Failure to Register (Sex Offender)": 10,
       "Harassment": 55,
-      "Criminal Trespass": 139,
       "Resisting Arrest": 39,
       "Other": 95,
       "Domestic Violence": 241,
@@ -584,7 +585,6 @@
       "Probation Violation": 3,
       "Theft (2nd Degree)": 38,
       "Local / Tribal Code": 14,
-      "Failure to Register (Sex Offender)": 9,
       "Fugitive from Justice": 16,
       "Robbery": 13,
       "Assault": 115,
@@ -781,8 +781,9 @@
   },
   "chargesBySex": {
     "Male": {
+      "Criminal Trespass": 133,
+      "Failure to Register (Sex Offender)": 13,
       "Harassment": 69,
-      "Criminal Trespass": 132,
       "Resisting Arrest": 42,
       "Other": 103,
       "Domestic Violence": 215,
@@ -818,7 +819,6 @@
       "Probation Violation": 3,
       "Community Custody Violation": 12,
       "Fugitive from Justice": 13,
-      "Failure to Register (Sex Offender)": 12,
       "Robbery": 18,
       "Sex Offense": 21,
       "Theft (1st Degree)": 12,
@@ -1369,6 +1369,27 @@
         ]
       },
       {
+        "name": "REYNOLDS, BRADLEY LEWIS",
+        "count": 3,
+        "bookings": [
+          {
+            "bookingNumber": "2026003791",
+            "firstSeen": "08/24/2026, 21:41:43",
+            "status": "in_custody"
+          },
+          {
+            "bookingNumber": "2026001977",
+            "firstSeen": "04/28/2026, 13:48:10",
+            "status": "released"
+          },
+          {
+            "bookingNumber": "2026001396",
+            "firstSeen": "03/25/2026, 18:48:33",
+            "status": "released"
+          }
+        ]
+      },
+      {
         "name": "DUKET, JEFFREY RYAN",
         "count": 3,
         "bookings": [
@@ -1493,27 +1514,6 @@
             "status": "released"
           }
         ]
-      },
-      {
-        "name": "MOONEY, ZACHARY JAMES",
-        "count": 3,
-        "bookings": [
-          {
-            "bookingNumber": "2026003663",
-            "firstSeen": "08/16/2026, 10:21:41",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001751",
-            "firstSeen": "04/15/2026, 13:00:23",
-            "status": "released"
-          },
-          {
-            "bookingNumber": "2026001703",
-            "firstSeen": "04/12/2026, 05:00:19",
-            "status": "released"
-          }
-        ]
       }
     ]
   },
@@ -1540,7 +1540,7 @@
     },
     {
       "month": "2026-08",
-      "count": 306
+      "count": 307
     }
   ],
   "crimeTypes": [
@@ -1561,7 +1561,7 @@
     },
     {
       "label": "Property",
-      "count": 434,
+      "count": 435,
       "pct": 11.7
     },
     {
@@ -1577,11 +1577,11 @@
     {
       "label": "Drug",
       "count": 228,
-      "pct": 6.2
+      "pct": 6.1
     },
     {
       "label": "Sex Offense",
-      "count": 76,
+      "count": 77,
       "pct": 2.1
     },
     {
@@ -1603,7 +1603,7 @@
     },
     {
       "label": "Unknown",
-      "count": 978,
+      "count": 979,
       "pct": 17.5
     },
     {
@@ -1613,7 +1613,7 @@
     },
     {
       "label": "Misdemeanor",
-      "count": 429,
+      "count": 430,
       "pct": 7.7
     }
   ],
@@ -1744,7 +1744,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1704,
+      "count": 1706,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -1753,7 +1753,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 128
+          "count": 129
         },
         {
           "label": "Domestic Violence",
@@ -2208,7 +2208,7 @@
         },
         {
           "label": "Criminal Trespass",
-          "count": 37
+          "count": 38
         }
       ]
     },
@@ -2305,7 +2305,7 @@
         "avgWeight": 180,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 130
+        "n": 131
       },
       {
         "charge": "Assault",
@@ -2525,6 +2525,13 @@
         "n": 14
       },
       {
+        "charge": "Failure to Register (Sex Offender)",
+        "avgWeight": 203,
+        "avgHeight": "5'12\"",
+        "topRace": "White",
+        "n": 13
+      },
+      {
         "charge": "Fugitive from Justice",
         "avgWeight": 200,
         "avgHeight": "5'11\"",
@@ -2535,13 +2542,6 @@
         "charge": "Community Custody Violation",
         "avgWeight": 191,
         "avgHeight": "5'10\"",
-        "topRace": "White",
-        "n": 12
-      },
-      {
-        "charge": "Failure to Register (Sex Offender)",
-        "avgWeight": 206,
-        "avgHeight": "5'12\"",
         "topRace": "White",
         "n": 12
       },
@@ -2909,7 +2909,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2518
+      "count": 2519
     }
   ]
 }

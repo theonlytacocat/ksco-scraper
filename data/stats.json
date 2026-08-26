@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-26T08:50:23.557Z",
+  "generatedAt": "2026-08-26T09:47:26.815Z",
   "bookingCounts": {
-    "total": 2542,
-    "inCustody": 273,
+    "total": 2544,
+    "inCustody": 275,
     "released": 2269
   },
   "gender": [
     {
       "label": "Male",
-      "count": 1729,
+      "count": 1731,
       "pct": 68
     },
     {
@@ -25,7 +25,7 @@
   "race": [
     {
       "label": "White",
-      "count": 1800,
+      "count": 1802,
       "pct": 70.8
     },
     {
@@ -46,7 +46,7 @@
     {
       "label": "Native American",
       "count": 75,
-      "pct": 3
+      "pct": 2.9
     }
   ],
   "age": {
@@ -65,7 +65,7 @@
       },
       {
         "label": "36–45",
-        "count": 748
+        "count": 750
       },
       {
         "label": "46–55",
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1725
+      "count": 1727
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,11 +186,11 @@
     }
   ],
   "bail": {
-    "mean": 34365.57,
+    "mean": 34382.44,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1851
+    "count": 1853
   },
   "stay": {
     "mean": 22,
@@ -291,6 +291,12 @@
       "count": 5
     },
     {
+      "category": "Burglary (2nd Degree)",
+      "medianBail": 50000,
+      "meanBail": 50708.33,
+      "count": 24
+    },
+    {
       "category": "Possession of Stolen Vehicle",
       "medianBail": 50000,
       "meanBail": 39285.71,
@@ -319,12 +325,6 @@
       "medianBail": 50000,
       "meanBail": 50000,
       "count": 1
-    },
-    {
-      "category": "Burglary (2nd Degree)",
-      "medianBail": 35000,
-      "meanBail": 50772.73,
-      "count": 22
     },
     {
       "category": "Sex Offense",
@@ -551,6 +551,7 @@
   ],
   "chargesByRace": {
     "White": {
+      "Burglary (2nd Degree)": 42,
       "Domestic Violence": 245,
       "Driving While License Suspended": 149,
       "Ignition Interlock Violation": 59,
@@ -570,7 +571,6 @@
       "Possession of Stolen Vehicle": 20,
       "Reckless Driving": 24,
       "Attempt to Elude": 16,
-      "Burglary (2nd Degree)": 40,
       "Arson": 7,
       "Weapons": 33,
       "Vehicle Prowling": 12,
@@ -781,6 +781,7 @@
   },
   "chargesBySex": {
     "Male": {
+      "Burglary (2nd Degree)": 40,
       "Domestic Violence": 219,
       "Driving While License Suspended": 175,
       "Ignition Interlock Violation": 64,
@@ -798,7 +799,6 @@
       "Possession of Stolen Vehicle": 20,
       "Reckless Driving": 21,
       "Attempt to Elude": 21,
-      "Burglary (2nd Degree)": 38,
       "Arson": 7,
       "Weapons": 44,
       "DOC Warrant": 118,
@@ -989,7 +989,7 @@
   "recidivism": {
     "rate": 12.5,
     "repeatBookerCount": 274,
-    "totalIndividuals": 2185,
+    "totalIndividuals": 2187,
     "repeatBookers": [
       {
         "name": "SCHWEITZER, BRIAN A",
@@ -1546,7 +1546,7 @@
     },
     {
       "month": "2026-08",
-      "count": 327
+      "count": 329
     }
   ],
   "crimeTypes": [
@@ -1567,7 +1567,7 @@
     },
     {
       "label": "Property",
-      "count": 437,
+      "count": 439,
       "pct": 11.7
     },
     {
@@ -1610,11 +1610,11 @@
     {
       "label": "Unknown",
       "count": 983,
-      "pct": 17.5
+      "pct": 17.4
     },
     {
       "label": "Felony",
-      "count": 851,
+      "count": 853,
       "pct": 15.1
     },
     {
@@ -1750,7 +1750,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1725,
+      "count": 1727,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2399,10 +2399,10 @@
       },
       {
         "charge": "Burglary (2nd Degree)",
-        "avgWeight": 169,
+        "avgWeight": 168,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 38
+        "n": 40
       },
       {
         "charge": "Making False Statements",
@@ -2915,7 +2915,7 @@
   "bookingsByYear": [
     {
       "year": "2026",
-      "count": 2539
+      "count": 2541
     }
   ]
 }

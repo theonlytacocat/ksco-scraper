@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-01T12:28:48.806Z",
+  "generatedAt": "2026-09-01T16:53:15.664Z",
   "bookingCounts": {
     "total": 2625,
-    "inCustody": 264,
-    "released": 2361
+    "inCustody": 258,
+    "released": 2367
   },
   "gender": [
     {
@@ -92,7 +92,7 @@
     },
     {
       "label": "DUI",
-      "count": 364
+      "count": 365
     },
     {
       "label": "Driving While License Suspended",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2287
+      "count": 2290
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 33298.74,
+    "mean": 33469.27,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1894
+    "count": 1893
   },
   "stay": {
-    "mean": 21.7,
-    "median": 1.8,
+    "mean": 21.9,
+    "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2331,
+    "count": 2337,
     "histogram": [
       {
         "label": "< 1 day",
@@ -213,7 +213,7 @@
       },
       {
         "label": "1–2 weeks",
-        "count": 111
+        "count": 112
       },
       {
         "label": "2–4 weeks",
@@ -221,11 +221,11 @@
       },
       {
         "label": "1–3 months",
-        "count": 299
+        "count": 301
       },
       {
         "label": "3+ months",
-        "count": 137
+        "count": 140
       }
     ]
   },
@@ -381,6 +381,12 @@
       "count": 76
     },
     {
+      "category": "Protection Order Violation",
+      "medianBail": 10000,
+      "meanBail": 33900,
+      "count": 40
+    },
+    {
       "category": "Assault (Child)",
       "medianBail": 10000,
       "meanBail": 10000,
@@ -391,12 +397,6 @@
       "medianBail": 10000,
       "meanBail": 35589.29,
       "count": 28
-    },
-    {
-      "category": "Protection Order Violation",
-      "medianBail": 10000,
-      "meanBail": 34512.82,
-      "count": 39
     },
     {
       "category": "Attempt to Elude",
@@ -425,8 +425,8 @@
     {
       "category": "DUI",
       "medianBail": 5000,
-      "meanBail": 19728.81,
-      "count": 177
+      "meanBail": 20179.78,
+      "count": 178
     },
     {
       "category": "Obstruction",
@@ -509,8 +509,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 14724.99,
-      "count": 711
+      "meanBail": 15040.92,
+      "count": 708
     },
     {
       "category": "Driving While License Suspended",
@@ -617,7 +617,7 @@
       "Driving While License Suspended": 153,
       "Hit and Run": 35,
       "Community Custody Violation": 12,
-      "DUI": 237,
+      "DUI": 238,
       "Obstruction": 86,
       "Assault (Child)": 6,
       "Residential Burglary": 15,
@@ -797,7 +797,7 @@
       "Failure to Appear": 705,
       "Driving While License Suspended": 181,
       "Hit and Run": 31,
-      "DUI": 220,
+      "DUI": 221,
       "Community Custody Violation": 13,
       "Assault": 126,
       "Obstruction": 85,
@@ -952,7 +952,7 @@
   "releaseReasons": [
     {
       "label": "FTA / Contempt Resolved",
-      "count": 804
+      "count": 807
     },
     {
       "label": "Released (Unknown Reason)",
@@ -964,11 +964,11 @@
     },
     {
       "label": "Scheduled Release / Time Served",
-      "count": 150
+      "count": 151
     },
     {
       "label": "DOC Transfer / Detainer",
-      "count": 99
+      "count": 100
     },
     {
       "label": "Failure to Comply",
@@ -992,7 +992,7 @@
     },
     {
       "label": "Probation Revocation",
-      "count": 1
+      "count": 2
     }
   ],
   "recidivism": {
@@ -1575,7 +1575,7 @@
     },
     {
       "label": "Traffic / DUI",
-      "count": 596,
+      "count": 597,
       "pct": 15.5
     },
     {
@@ -1622,7 +1622,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3478,
+      "count": 3481,
       "pct": 59.8
     },
     {
@@ -1741,12 +1741,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2298,
+      "count": 2301,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 756
+          "count": 758
         },
         {
           "label": "Domestic Violence",
@@ -1754,7 +1754,7 @@
         },
         {
           "label": "DUI",
-          "count": 148
+          "count": 149
         },
         {
           "label": "Assault",
@@ -2131,9 +2131,9 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2361,
-    "withBail": 1123,
-    "pct": 47.6
+    "total": 2367,
+    "withBail": 1125,
+    "pct": 47.5
   },
   "chargesByAgeGroup": [
     {
@@ -2145,7 +2145,7 @@
         },
         {
           "label": "DUI",
-          "count": 87
+          "count": 88
         },
         {
           "label": "Domestic Violence",
@@ -2308,7 +2308,7 @@
         "avgWeight": 185,
         "avgHeight": "5'9\"",
         "topRace": "White",
-        "n": 204
+        "n": 205
       },
       {
         "charge": "Driving While License Suspended",

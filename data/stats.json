@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-01T22:50:24.459Z",
+  "generatedAt": "2026-09-02T00:30:04.264Z",
   "bookingCounts": {
     "total": 2632,
-    "inCustody": 261,
-    "released": 2371
+    "inCustody": 260,
+    "released": 2372
   },
   "gender": [
     {
@@ -150,7 +150,7 @@
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
-      "count": 1786
+      "count": 1787
     },
     {
       "label": "PORT ORCHARD POLICE DEPARTMENT",
@@ -186,18 +186,18 @@
     }
   ],
   "bail": {
-    "mean": 33528.71,
+    "mean": 33537.41,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1892
+    "count": 1893
   },
   "stay": {
     "mean": 21.9,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2341,
+    "count": 2342,
     "histogram": [
       {
         "label": "< 1 day",
@@ -205,7 +205,7 @@
       },
       {
         "label": "1–3 days",
-        "count": 510
+        "count": 511
       },
       {
         "label": "4–7 days",
@@ -339,16 +339,16 @@
       "count": 1
     },
     {
+      "category": "Weapons",
+      "medianBail": 27500,
+      "meanBail": 29291.67,
+      "count": 12
+    },
+    {
       "category": "PR / Bail Revocation",
       "medianBail": 25000,
       "meanBail": 49062.5,
       "count": 16
-    },
-    {
-      "category": "Weapons",
-      "medianBail": 20000,
-      "meanBail": 27409.09,
-      "count": 11
     },
     {
       "category": "Fugitive from Justice",
@@ -564,6 +564,7 @@
       "Residential Burglary": 16,
       "Indecent Exposure": 8,
       "Fugitive from Justice": 17,
+      "Weapons": 35,
       "DOC Warrant": 118,
       "PR / Bail Revocation": 21,
       "Domestic Violence": 256,
@@ -583,7 +584,6 @@
       "Local / Tribal Code": 15,
       "Drug Offense": 183,
       "Assault": 116,
-      "Weapons": 34,
       "Interference with DV Reporting": 23,
       "Making False Statements": 35,
       "Malicious Mischief": 43,
@@ -855,6 +855,7 @@
     "Unknown": {
       "Resisting Arrest": 5,
       "Fugitive from Justice": 3,
+      "Weapons": 4,
       "DUI": 66,
       "Assault (Child)": 1,
       "Domestic Violence": 55,
@@ -880,7 +881,6 @@
       "Making False Statements": 6,
       "Theft (3rd Degree)": 8,
       "Interference with DV Reporting": 3,
-      "Weapons": 3,
       "Child Exploitation / CSAM": 2,
       "Attempt to Elude": 5,
       "Theft (2nd Degree)": 5,
@@ -956,7 +956,7 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 632
+      "count": 633
     },
     {
       "label": "Released",
@@ -1581,7 +1581,7 @@
     {
       "label": "Traffic / DUI",
       "count": 597,
-      "pct": 15.5
+      "pct": 15.4
     },
     {
       "label": "Violent",
@@ -1620,8 +1620,8 @@
     },
     {
       "label": "Weapons",
-      "count": 52,
-      "pct": 1.3
+      "count": 53,
+      "pct": 1.4
     }
   ],
   "severity": [
@@ -1637,7 +1637,7 @@
     },
     {
       "label": "Felony",
-      "count": 869,
+      "count": 870,
       "pct": 14.9
     },
     {
@@ -1773,7 +1773,7 @@
     },
     {
       "name": "Bremerton PD",
-      "count": 1786,
+      "count": 1787,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
@@ -2136,7 +2136,7 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2371,
+    "total": 2372,
     "withBail": 1125,
     "pct": 47.4
   },

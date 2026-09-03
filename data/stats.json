@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-03T19:24:58.888Z",
+  "generatedAt": "2026-09-03T21:52:27.361Z",
   "bookingCounts": {
     "total": 2658,
-    "inCustody": 255,
-    "released": 2403
+    "inCustody": 252,
+    "released": 2406
   },
   "gender": [
     {
@@ -84,7 +84,7 @@
   "topCharges": [
     {
       "label": "Failure to Appear",
-      "count": 999
+      "count": 1000
     },
     {
       "label": "Domestic Violence",
@@ -146,7 +146,7 @@
   "topAgencies": [
     {
       "label": "KITSAP COUNTY SHERIFFS OFFICE",
-      "count": 2329
+      "count": 2330
     },
     {
       "label": "BREMERTON POLICE DEPARTMENT",
@@ -186,22 +186,22 @@
     }
   ],
   "bail": {
-    "mean": 32786.85,
+    "mean": 32755.56,
     "median": 5000,
     "min": 50,
     "max": 4000000,
-    "count": 1918
+    "count": 1920
   },
   "stay": {
     "mean": 22,
     "median": 1.9,
     "min": 0,
     "max": 1233.4,
-    "count": 2371,
+    "count": 2374,
     "histogram": [
       {
         "label": "< 1 day",
-        "count": 865
+        "count": 868
       },
       {
         "label": "1–3 days",
@@ -509,8 +509,8 @@
     {
       "category": "Failure to Appear",
       "medianBail": 2500,
-      "meanBail": 14301.07,
-      "count": 721
+      "meanBail": 14269.11,
+      "count": 723
     },
     {
       "category": "Driving While License Suspended",
@@ -561,8 +561,8 @@
       "Resisting Arrest": 44,
       "Harassment": 60,
       "DOC Warrant": 119,
+      "Failure to Appear": 790,
       "Court Hold": 8,
-      "Failure to Appear": 789,
       "Protection Order Violation": 125,
       "PR / Bail Revocation": 23,
       "DUI": 239,
@@ -792,8 +792,8 @@
       "Criminal Trespass": 143,
       "Resisting Arrest": 45,
       "Harassment": 73,
+      "Failure to Appear": 718,
       "Court Hold": 9,
-      "Failure to Appear": 717,
       "Drug Offense": 170,
       "PR / Bail Revocation": 23,
       "Other": 110,
@@ -956,11 +956,11 @@
     },
     {
       "label": "Released (Unknown Reason)",
-      "count": 639
+      "count": 641
     },
     {
       "label": "Released",
-      "count": 585
+      "count": 586
     },
     {
       "label": "Scheduled Release / Time Served",
@@ -1494,7 +1494,7 @@
           {
             "bookingNumber": "2026003942",
             "firstSeen": "09/03/2026, 04:34:05",
-            "status": "in_custody"
+            "status": "released"
           },
           {
             "bookingNumber": "2026003481",
@@ -1585,8 +1585,8 @@
   "crimeTypes": [
     {
       "label": "Court / Supervision",
-      "count": 1196,
-      "pct": 30.6
+      "count": 1197,
+      "pct": 30.7
     },
     {
       "label": "Traffic / DUI",
@@ -1637,7 +1637,7 @@
   "severity": [
     {
       "label": "Gross Misdemeanor",
-      "count": 3531,
+      "count": 3532,
       "pct": 59.9
     },
     {
@@ -1718,9 +1718,9 @@
     },
     {
       "category": "Protection Order Violation",
-      "avgDays": 16.4,
-      "medianDays": 2,
-      "count": 46
+      "avgDays": 16.1,
+      "medianDays": 1.6,
+      "count": 47
     },
     {
       "category": "Failure to Comply (Sentence)",
@@ -1756,12 +1756,12 @@
   "agencyBreakdown": [
     {
       "name": "Kitsap County Sheriff",
-      "count": 2340,
+      "count": 2341,
       "topCharge": "Failure to Appear",
       "chargeBreakdown": [
         {
           "label": "Failure to Appear",
-          "count": 777
+          "count": 778
         },
         {
           "label": "Domestic Violence",
@@ -2157,8 +2157,8 @@
     }
   ],
   "bailOnRelease": {
-    "total": 2403,
-    "withBail": 1137,
+    "total": 2406,
+    "withBail": 1138,
     "pct": 47.3
   },
   "chargesByAgeGroup": [
@@ -2192,7 +2192,7 @@
       "topCharges": [
         {
           "label": "Failure to Appear",
-          "count": 299
+          "count": 300
         },
         {
           "label": "Domestic Violence",
@@ -2320,7 +2320,7 @@
         "avgWeight": 184,
         "avgHeight": "5'10\"",
         "topRace": "White",
-        "n": 711
+        "n": 712
       },
       {
         "charge": "Domestic Violence",
